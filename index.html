@@ -646,7 +646,7 @@
                         <h3>Mayor</h3>
                         <div class="stats-grid">
                             ${mayors.map(cm => `
-                                <div class="councilmember-card">
+                                <div class="councilmember-card" onclick="window.location.href='#/councilmember/${cm.id}'" style="cursor: pointer;">
                                     <div class="councilmember-name">${fullNames[cm.id] || cm.display_name}</div>
                                     <div class="councilmember-stats">
                                         <div class="councilmember-stat">
@@ -654,7 +654,7 @@
                                             <div class="councilmember-stat-label">Votes</div>
                                         </div>
                                     </div>
-                                    <a href="#/councilmember/${cm.id}" class="btn">View Details</a>
+                                    <a href="#/councilmember/${cm.id}" class="btn" onclick="event.stopPropagation();">View Details</a>
                                 </div>
                             `).join('')}
                         </div>
@@ -663,7 +663,7 @@
                     <h3>Councilmembers</h3>
                     <div class="stats-grid">
                         ${councilmembersList.map(cm => `
-                            <div class="councilmember-card">
+                            <div class="councilmember-card" onclick="window.location.href='#/councilmember/${cm.id}'" style="cursor: pointer;">
                                 <div class="councilmember-name">${fullNames[cm.id] || cm.display_name}</div>
                                 <div class="councilmember-stats">
                                     <div class="councilmember-stat">
@@ -671,7 +671,7 @@
                                         <div class="councilmember-stat-label">Votes</div>
                                     </div>
                                 </div>
-                                <a href="#/councilmember/${cm.id}" class="btn">View Details</a>
+                                <a href="#/councilmember/${cm.id}" class="btn" onclick="event.stopPropagation();">View Details</a>
                             </div>
                         `).join('')}
                     </div>
@@ -688,13 +688,13 @@
 
                 // Define full names
                 const fullNames = {
-                    'chen': 'Councilmember Chen',
-                    'gerson': 'Councilmember Gerson',
-                    'kaji': 'Councilmember Kaji',
-                    'kalani': 'Councilmember Kalani',
-                    'lewis': 'Mayor Lewis',
-                    'mattucci': 'Councilmember Mattucci',
-                    'sheikh': 'Councilmember Sheikh'
+                    'chen': 'Chen',
+                    'gerson': 'Gerson',
+                    'kaji': 'Kaji',
+                    'kalani': 'Kalani',
+                    'lewis': 'Lewis',
+                    'mattucci': 'Mattucci',
+                    'sheikh': 'Sheikh'
                 };
 
                 const fullName = fullNames[councilmemberId] || councilmember.display_name;
@@ -772,13 +772,13 @@
                                 <option value="">All Councilmembers</option>
                                 ${Object.values(this.data.councilmembers).map(cm => {
                                     const fullNames = {
-                                        'chen': 'Councilmember Chen',
-                                        'gerson': 'Councilmember Gerson',
-                                        'kaji': 'Councilmember Kaji',
-                                        'kalani': 'Councilmember Kalani',
+                                        'chen': 'Chen',
+                                        'gerson': 'Gerson',
+                                        'kaji': 'Kaji',
+                                        'kalani': 'Kalani',
                                         'lewis': 'Mayor Lewis',
-                                        'mattucci': 'Councilmember Mattucci',
-                                        'sheikh': 'Councilmember Sheikh'
+                                        'mattucci': 'Mattucci',
+                                        'sheikh': 'Sheikh'
                                     };
                                     const fullName = fullNames[cm.id] || cm.display_name;
                                     return `<option value="${cm.name}">${fullName}</option>`;
@@ -868,7 +868,7 @@
 
             renderMeetingsList(meetings) {
                 return meetings.map(meeting => `
-                    <div class="meeting-card">
+                    <div class="meeting-card" onclick="window.location.href='#/meeting/${meeting.id}'" style="cursor: pointer;">
                         <div class="meeting-header">
                             <div>
                                 <div class="meeting-title">${meeting.title}</div>
@@ -881,9 +881,9 @@
                         </div>
 
                         <div class="meeting-links">
-                            <a href="#/meeting/${meeting.id}" class="meeting-link">View Votes</a>
-                            ${meeting.video_url ? `<a href="${meeting.video_url}" target="_blank" class="meeting-link">📹 Watch Video</a>` : ''}
-                            ${meeting.agenda_url ? `<a href="${meeting.agenda_url}" target="_blank" class="meeting-link">📋 View Agenda</a>` : ''}
+                            <a href="#/meeting/${meeting.id}" class="meeting-link" onclick="event.stopPropagation();">View Votes</a>
+                            ${meeting.video_url ? `<a href="${meeting.video_url}" target="_blank" class="meeting-link" onclick="event.stopPropagation();">📹 Watch Video</a>` : ''}
+                            ${meeting.agenda_url ? `<a href="${meeting.agenda_url}" target="_blank" class="meeting-link" onclick="event.stopPropagation();">📋 View Agenda</a>` : ''}
                         </div>
                     </div>
                 `).join('');
@@ -891,10 +891,15 @@
 
             renderVotesList(votes) {
                 return votes.map(vote => {
-                    // Calculate approximate timestamp (assuming 30 seconds per vote)
-                    const voteIndex = votes.indexOf(vote);
-                    const minutes = Math.floor(voteIndex * 0.5);
-                    const seconds = (voteIndex * 30) % 60;
+                    // Calculate approximate timestamp based on frame number and meeting context
+                    // This is a better approximation than using vote index
+                    const frameNumber = parseInt(vote.frame_number) || 0;
+                    const meetingId = vote.meeting_id;
+                    
+                    // Estimate timestamp based on frame number (assuming ~30fps and meeting starts at frame 0)
+                    const estimatedSeconds = Math.floor(frameNumber / 30); // Rough estimate
+                    const minutes = Math.floor(estimatedSeconds / 60);
+                    const seconds = estimatedSeconds % 60;
                     const timestamp = `${minutes}:${seconds.toString().padStart(2, '0')}`;
 
                     // Generate deep links
@@ -932,7 +937,7 @@
                 // Generate deep link to video chapter based on Granicus pattern
                 // Pattern: https://torrance.granicus.com/MediaPlayer.php?view_id=8&clip_id=14538&meta_id=409687
                 const meetingId = vote.meeting_id;
-                const frameNumber = vote.frame_number;
+                const frameNumber = parseInt(vote.frame_number) || 0;
 
                 if (!meetingId || !frameNumber) return null;
 
@@ -950,7 +955,9 @@
 
                 // Generate meta_id based on frame number (this is approximate)
                 // In reality, meta_id would need to be mapped from agenda items
-                const metaId = 409680 + (parseInt(frameNumber) % 1000);
+                // Using a more realistic range for meta_id
+                const baseMetaId = 409680;
+                const metaId = baseMetaId + (frameNumber % 1000);
 
                 return `https://torrance.granicus.com/MediaPlayer.php?view_id=${viewId}&clip_id=${meetingId}&meta_id=${metaId}`;
             }

@@ -10,7 +10,10 @@
     "has_agenda_links": true,
     "has_meeting_dates": true,
     "duplicates_removed": 73,
-    "consolidation_timestamp": "2025-10-19T22:30:00"
+    "consolidation_timestamp": "2025-10-19T22:30:00",
+    "has_meeting_summaries": true,
+    "has_councilmember_summaries": true,
+    "summaries_created_at": "2025-10-20T15:45:00"
   },
   "meetings": {
     "14510": {
@@ -1163,5 +1166,178 @@
     "councilmember": "/councilmember/{id}",
     "year": "/year/{year}",
     "search": "/search"
+  },
+  "meeting_summaries": {
+    "14490": {
+      "date": "2025-08-05",
+      "title": "City Council Meeting",
+      "summary": "Standard procedural meeting with 20 unanimous votes. Featured one public hearing on land use study regarding accessory dwelling units and junior accessory dwelling units.",
+      "unique_aspects": [
+        "Public hearing on land use study for accessory dwelling units",
+        "All 20 votes passed unanimously",
+        "Standard procedural meeting"
+      ],
+      "key_items": [
+        "Land Use Study 25-00001 - Accessory Dwelling Units regulation",
+        "Consent Calendar items"
+      ]
+    },
+    "14510": {
+      "date": "2025-08-19",
+      "title": "City Council Meeting",
+      "summary": "Most contentious meeting with 5 failed votes out of 24 total. Featured Police Chief Jeremiah Hart retirement resolution, Youth Council appointments, and significant planning/development public hearings.",
+      "unique_aspects": [
+        "5 failed votes (unusual - most meetings have 100% pass rate)",
+        "Police Chief Jeremiah Hart retirement resolution",
+        "Youth Council appointments",
+        "2 public hearings on planning/development",
+        "Financial decisions including $200,000 expenditure"
+      ],
+      "key_items": [
+        "Police Chief Jeremiah Hart retirement resolution",
+        "2025-2026 Torrance Youth Council appointments",
+        "Columbia Park Community Engagement project",
+        "Planning Commission appeals and modifications",
+        "Encampment Prevention Security Guard Services ($200,000)"
+      ]
+    },
+    "14524": {
+      "date": "2025-09-16",
+      "title": "City Council Meeting",
+      "summary": "Minimal activity meeting with only 4 votes, all procedural items.",
+      "unique_aspects": [
+        "Lowest activity meeting (4 votes)",
+        "All procedural items",
+        "All votes passed unanimously"
+      ],
+      "key_items": [
+        "Standard procedural items only"
+      ]
+    },
+    "14530": {
+      "date": "2025-09-23",
+      "title": "City Council Meeting",
+      "summary": "Most active meeting with 31 votes, all passed. Featured Police Officer Claude Fierro retirement resolution, commission appointments, coyote management plan, and economic development initiatives.",
+      "unique_aspects": [
+        "Highest activity meeting (31 votes)",
+        "Police Officer Claude Fierro retirement resolution",
+        "Multiple commission appointments",
+        "Coyote management plan discussion",
+        "Economic development initiatives",
+        "All votes passed unanimously"
+      ],
+      "key_items": [
+        "Police Officer Claude Fierro retirement resolution",
+        "Commission appointments (Aging, Environmental, Historic Preservation)",
+        "Coyote Management Plan Update",
+        "Economic Development Update",
+        "Public Access Defibrillator Program update",
+        "Fire Code amendments public hearing"
+      ]
+    },
+    "14536": {
+      "date": "2025-10-07",
+      "title": "City Council Meeting",
+      "summary": "Significant decisions meeting with 3 failed votes out of 18 total. Featured Denise Thurston retirement resolution, Breast Cancer Awareness Month proclamation, Columbia Park renaming discussion, and WWII memorial event subsidy.",
+      "unique_aspects": [
+        "3 failed votes (indicates significant disagreement)",
+        "Denise Thurston retirement resolution",
+        "Breast Cancer Awareness Month proclamation",
+        "Columbia Park renaming discussion",
+        "WWII memorial event subsidy ($1,200)"
+      ],
+      "key_items": [
+        "Denise Thurston retirement resolution",
+        "Breast Cancer Awareness Month proclamation",
+        "Columbia Park renaming discussion",
+        "WWII Camp Memorial Fundraising Event subsidy",
+        "Certificate of Participation Bond Funds"
+      ]
+    },
+    "14538": {
+      "date": "2025-10-14",
+      "title": "City Council Meeting",
+      "summary": "Standard procedural meeting with 10 votes, all passed unanimously.",
+      "unique_aspects": [
+        "Standard procedural meeting",
+        "All 10 votes passed unanimously",
+        "Minimal unique agenda items"
+      ],
+      "key_items": [
+        "Standard procedural items only"
+      ]
+    }
+  },
+  "councilmember_summaries": {
+    "Chen": {
+      "role": "Mayor",
+      "full_name": "George Chen",
+      "summary": "Mayor of Torrance. Limited individual voting data available in current dataset, but serves as the presiding officer of the City Council.",
+      "notes": [
+        "Serves as Mayor and presiding officer",
+        "Limited individual vote records in current data",
+        "Most votes show only tally results, not individual positions"
+      ]
+    },
+    "Gerson": {
+      "role": "Councilmember",
+      "full_name": "Councilmember Gerson",
+      "summary": "City Councilmember. Limited individual voting data available in current dataset. Most votes show only tally results rather than individual positions.",
+      "notes": [
+        "City Councilmember",
+        "Limited individual vote records in current data",
+        "Most votes show only tally results, not individual positions"
+      ]
+    },
+    "Kaji": {
+      "role": "Councilmember",
+      "full_name": "Councilmember Kaji",
+      "summary": "City Councilmember. Limited individual voting data available in current dataset. Most votes show only tally results rather than individual positions.",
+      "notes": [
+        "City Councilmember",
+        "Limited individual vote records in current data",
+        "Most votes show only tally results, not individual positions"
+      ]
+    },
+    "Kalani": {
+      "role": "Councilmember",
+      "full_name": "Councilmember Kalani",
+      "summary": "City Councilmember. Limited individual voting data available in current dataset. Most votes show only tally results rather than individual positions.",
+      "notes": [
+        "City Councilmember",
+        "Limited individual vote records in current data",
+        "Most votes show only tally results, not individual positions"
+      ]
+    },
+    "Lewis": {
+      "role": "Councilmember",
+      "full_name": "Councilmember Lewis",
+      "summary": "City Councilmember. Limited individual voting data available in current dataset. Most votes show only tally results rather than individual positions.",
+      "notes": [
+        "City Councilmember",
+        "Limited individual vote records in current data",
+        "Most votes show only tally results, not individual positions"
+      ]
+    },
+    "Mattucci": {
+      "role": "Councilmember",
+      "full_name": "Councilmember Mattucci",
+      "summary": "City Councilmember. Limited individual voting data available in current dataset. Most votes show only tally results rather than individual positions.",
+      "notes": [
+        "City Councilmember",
+        "Limited individual vote records in current data",
+        "Most votes show only tally results, not individual positions"
+      ]
+    },
+    "Sheikh": {
+      "role": "Councilmember",
+      "full_name": "Councilmember Sheikh",
+      "summary": "City Councilmember. Limited individual voting data available in current dataset. Most votes show only tally results rather than individual positions.",
+      "notes": [
+        "City Councilmember",
+        "Limited individual vote records in current data",
+        "Most votes show only tally results, not individual positions"
+      ]
+    }
   }
 }
