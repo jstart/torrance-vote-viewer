@@ -555,3 +555,295 @@ details[open] summary::marker {
         font-size: 1rem;
     }
 }
+
+/* Additional utility classes for inline styles */
+.meeting-stats-grid {
+    margin-top: 1rem;
+}
+
+.meeting-summary-card {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+    border-left: 4px solid #1976d2;
+}
+
+.meeting-summary-text {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.meeting-summary-highlight {
+    margin-bottom: 0.5rem;
+    color: #1976d2;
+}
+
+.meeting-summary-list {
+    margin-left: 1.5rem;
+}
+
+.meeting-summary-item {
+    margin-bottom: 0.5rem;
+}
+
+.councilmember-card-clickable {
+    cursor: pointer;
+}
+
+.councilmember-summary-card {
+    background: #f8f9fa;
+    padding: 0.8rem;
+    border-radius: 6px;
+    margin: 0.8rem 0;
+    border-left: 3px solid #1976d2;
+    font-size: 0.85rem;
+}
+
+.councilmember-summary-card-large {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+    border-left: 4px solid #1976d2;
+}
+
+.councilmember-profile-title {
+    font-weight: bold;
+    color: #1976d2;
+    margin-bottom: 0.3rem;
+}
+
+.councilmember-profile-title-large {
+    font-weight: bold;
+    color: #1976d2;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.councilmember-summary-preview {
+    line-height: 1.3;
+    margin-bottom: 0.6rem;
+}
+
+.councilmember-summary-preview-large {
+    line-height: 1.4;
+    font-size: 0.9rem;
+    margin-bottom: 0.8rem;
+}
+
+.councilmember-summary-full {
+    line-height: 1.3;
+    margin-bottom: 0.6rem;
+}
+
+.councilmember-summary-full-large {
+    line-height: 1.4;
+    font-size: 0.9rem;
+    margin-bottom: 0.8rem;
+}
+
+.councilmember-summary-details {
+    font-size: 0.8rem;
+    color: #1976d2;
+    cursor: pointer;
+    margin-bottom: 0.6rem;
+}
+
+.councilmember-summary-details-large {
+    font-size: 0.85rem;
+    color: #1976d2;
+    cursor: pointer;
+    margin-bottom: 0.8rem;
+}
+
+.councilmember-bio-link {
+    margin-bottom: 0.6rem;
+}
+
+.councilmember-bio-link-large {
+    margin-bottom: 0.8rem;
+}
+
+.councilmember-bio-link a {
+    color: #1976d2;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.councilmember-bio-link-large a {
+    color: #1976d2;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.85rem;
+}
+
+.councilmember-policy-focus {
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.councilmember-policy-focus-large {
+    margin-bottom: 0.8rem;
+}
+
+.councilmember-policy-focus-title {
+    font-weight: bold;
+    color: #1976d2;
+    margin-bottom: 0.3rem;
+    font-size: 0.85rem;
+}
+
+.councilmember-policy-focus-text {
+    font-size: 0.85rem;
+    color: #666;
+}
+
+.councilmember-notes-title {
+    font-weight: bold;
+    color: #1976d2;
+    margin-bottom: 0.3rem;
+    font-size: 0.85rem;
+}
+
+.councilmember-notes-list {
+    margin-left: 1rem;
+    font-size: 0.85rem;
+}
+
+.councilmember-notes-item {
+    margin-bottom: 0.2rem;
+}
+
+.councilmember-summary-placeholder {
+    background: #f5f5f5;
+    padding: 1.2rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+    border-left: 4px solid #ccc;
+    color: #666;
+    font-style: italic;
+}
+
+.councilmember-profile-section {
+    line-height: 1.6;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.councilmember-profile-section-large {
+    line-height: 1.6;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.councilmember-profile-bio {
+    margin-bottom: 1rem;
+}
+
+.councilmember-profile-bio a {
+    color: #1976d2;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.councilmember-profile-focus {
+    margin-bottom: 1rem;
+}
+
+.councilmember-profile-focus-title {
+    margin-bottom: 0.5rem;
+    color: #1976d2;
+}
+
+.councilmember-profile-focus-text {
+    font-size: 1rem;
+    color: #666;
+}
+
+.councilmember-profile-initiatives {
+    margin-bottom: 1rem;
+}
+
+.councilmember-profile-initiatives-title {
+    margin-bottom: 0.5rem;
+    color: #1976d2;
+}
+
+.councilmember-profile-initiatives-list {
+    margin-left: 1.5rem;
+}
+
+.councilmember-profile-initiatives-item {
+    margin-bottom: 0.5rem;
+}
+
+.councilmember-profile-notes-title {
+    margin-bottom: 0.5rem;
+    color: #1976d2;
+}
+
+.councilmember-profile-notes-list {
+    margin-left: 1.5rem;
+}
+
+.councilmember-profile-notes-item {
+    margin-bottom: 0.5rem;
+}
+
+.meeting-summary-preview {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 6px;
+    margin: 1rem 0;
+    border-left: 3px solid #1976d2;
+    font-size: 0.9rem;
+}
+
+.meeting-summary-preview-title {
+    font-weight: bold;
+    color: #1976d2;
+    margin-bottom: 0.5rem;
+}
+
+.meeting-summary-preview-text {
+    line-height: 1.4;
+}
+
+.meeting-summary-preview-key {
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: #666;
+}
+
+.vote-agenda-item {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.vote-timestamp {
+    margin-top: 0.5rem;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.vote-motion-text {
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+.vote-links {
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.link-style {
+    color: #1976d2;
+    text-decoration: none;
+    font-weight: bold;
+}
