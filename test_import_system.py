@@ -24,7 +24,7 @@ def create_test_data():
                 "individual_votes": {
                     "GEORGE CHEN": "YES",
                     "MIKE GERSON": "YES",
-                    "JONATHAN KANG": "YES",
+                    "JON KAJI": "YES",
                     "SHARON KALANI": "YES",
                     "ASAM SHAIKH": "YES"
                 }
@@ -38,7 +38,7 @@ def create_test_data():
                 "individual_votes": {
                     "GEORGE CHEN": "YES",
                     "MIKE GERSON": "YES",
-                    "JONATHAN KANG": "YES",
+                    "JON KAJI": "YES",
                     "SHARON KALANI": "YES",
                     "ASAM SHAIKH": "YES"
                 }
@@ -52,7 +52,7 @@ def create_test_data():
                 "individual_votes": {
                     "GEORGE CHEN": "YES",
                     "MIKE GERSON": "YES",
-                    "JONATHAN KANG": "YES",
+                    "JON KAJI": "YES",
                     "SHARON KALANI": "YES",
                     "ASAM SHAIKH": "YES"
                 },
@@ -69,7 +69,7 @@ def create_test_data():
                 "individual_votes": {
                     "GEORGE CHEN": "NO",
                     "MIKE GERSON": "NO",
-                    "JONATHAN KANG": "YES",
+                    "JON KAJI": "YES",
                     "SHARON KALANI": "YES",
                     "ASAM SHAIKH": "NO"
                 }
@@ -83,7 +83,7 @@ def create_test_data():
                 "individual_votes": {
                     "GEORGE CHEN": "YES",
                     "MIKE GERSON": "ABSTAIN",
-                    "JONATHAN KANG": "YES",
+                    "JON KAJI": "YES",
                     "SHARON KALANI": "ABSTAIN",
                     "ASAM SHAIKH": "YES"
                 }

@@ -369,7 +369,7 @@ class TorranceVoteViewer {
             'mike_gerson': 'Mike Gerson',
           'jon_kaji': 'Jon Kaji',
             'sharon_kalani': 'Sharon Kalani',
-          'asam_shaikh': 'Asam Shaikh',
+          'asam_sheikh': 'Asam Sheikh',
           'mattucci': 'Mattucci'
         };
 
@@ -384,21 +384,21 @@ class TorranceVoteViewer {
                 <h3>Mayor</h3>
                 <div class="stats-grid">
                     ${mayors.map(cm => {
-                        const councilmemberSummary = this.data.councilmember_summaries && this.data.councilmember_summaries[fullNames[cm.id]];
+                      const councilmemberSummary = this.data.councilmember_summaries && this.data.councilmember_summaries[cm.display_name];
                         return `
                             <div class="councilmember-card" onclick="app.navigateTo('councilmember/${cm.id}')" style="cursor: pointer;">
                                 <div class="councilmember-name">${fullNames[cm.id] || cm.display_name}</div>
                                 <div class="councilmember-stats-horizontal">
                                     <div class="councilmember-stat">
-                                        <div class="councilmember-stat-number">${this.data.councilmember_stats?.[fullNames[cm.id]]?.total_votes || 0}</div>
+                                        <div class="councilmember-stat-number">${cm.total_votes}</div>
                                         <div class="councilmember-stat-label">Total Votes</div>
                                     </div>
                                     <div class="councilmember-stat">
-                                        <div class="councilmember-stat-number">${this.data.councilmember_stats?.[fullNames[cm.id]]?.yes_votes || 0}</div>
+                                        <div class="councilmember-stat-number">${cm.yes_votes}</div>
                                         <div class="councilmember-stat-label">Yes Votes</div>
                                     </div>
                                     <div class="councilmember-stat">
-                                        <div class="councilmember-stat-number">${this.data.councilmember_stats?.[fullNames[cm.id]]?.no_votes || 0}</div>
+                                        <div class="councilmember-stat-number">${cm.no_votes}</div>
                                         <div class="councilmember-stat-label">No Votes</div>
                                     </div>
                                 </div>
@@ -454,22 +454,22 @@ class TorranceVoteViewer {
             <h3>Councilmembers</h3>
             <div class="councilmembers-list">
                 ${councilmembersList.map(cm => {
-                    const councilmemberSummary = this.data.councilmember_summaries && this.data.councilmember_summaries[fullNames[cm.id]];
+                  const councilmemberSummary = this.data.councilmember_summaries && this.data.councilmember_summaries[cm.display_name];
                     return `
                         <div class="councilmember-row" onclick="app.navigateTo('councilmember/${cm.id}')" style="cursor: pointer;">
                             <div class="councilmember-info">
                                 <div class="councilmember-name-large">${fullNames[cm.id] || cm.display_name}</div>
                                 <div class="councilmember-stats-horizontal">
                                     <div class="councilmember-stat">
-                                        <div class="councilmember-stat-number">${this.data.councilmember_stats?.[fullNames[cm.id]]?.total_votes || 0}</div>
+                                        <div class="councilmember-stat-number">${cm.total_votes}</div>
                                         <div class="councilmember-stat-label">Total Votes</div>
                                     </div>
                                     <div class="councilmember-stat">
-                                        <div class="councilmember-stat-number">${this.data.councilmember_stats?.[fullNames[cm.id]]?.yes_votes || 0}</div>
+                                        <div class="councilmember-stat-number">${cm.yes_votes}</div>
                                         <div class="councilmember-stat-label">Yes Votes</div>
                                     </div>
                                     <div class="councilmember-stat">
-                                        <div class="councilmember-stat-number">${this.data.councilmember_stats?.[fullNames[cm.id]]?.no_votes || 0}</div>
+                                        <div class="councilmember-stat-number">${cm.no_votes}</div>
                                         <div class="councilmember-stat-label">No Votes</div>
                                     </div>
                                 </div>
@@ -752,8 +752,8 @@ class TorranceVoteViewer {
         if (councilmember) {
             votes = votes.filter(vote =>
                 vote.individual_votes &&
-                vote.individual_votes.some(vote_detail =>
-                    (vote_detail.name || '').toLowerCase().includes(councilmember.toLowerCase())
+              Object.keys(vote.individual_votes).some(councilmemberName =>
+                councilmemberName.toLowerCase().includes(councilmember.toLowerCase())
                 )
             );
         }
@@ -774,8 +774,8 @@ class TorranceVoteViewer {
         // Apply text search
         if (searchTerm) {
             votes = votes.filter(vote =>
-                (vote.agenda_item && vote.agenda_item.toLowerCase().includes(searchTerm.toLowerCase())) ||
-                (vote.motion_text && vote.motion_text.toLowerCase().includes(searchTerm.toLowerCase()))
+              (vote.agenda_item && typeof vote.agenda_item === 'string' && vote.agenda_item.toLowerCase().includes(searchTerm.toLowerCase())) ||
+              (vote.motion_text && typeof vote.motion_text === 'string' && vote.motion_text.toLowerCase().includes(searchTerm.toLowerCase()))
             );
         }
 

@@ -10,16 +10,16 @@ def fix_lewis_data():
     # Load the data
     with open('data/torrance_votes_smart_consolidated.json', 'r') as f:
         data = json.load(f)
-    
+
     print("Current councilmembers:", data['councilmembers'])
     print("Current councilmember_stats keys:", list(data['councilmember_stats'].keys()))
     print("Current councilmember_summaries keys:", list(data['councilmember_summaries'].keys()))
-    
+
     # Add Bridget Lewis to councilmembers array
     if "BRIDGET LEWIS" not in data['councilmembers']:
         data['councilmembers'].append("BRIDGET LEWIS")
         print("Added BRIDGET LEWIS to councilmembers array")
-    
+
     # Create Lewis stats (we'll need to calculate these from the votes)
     # For now, let's add placeholder stats
     if "BRIDGET LEWIS" not in data['councilmember_stats']:
@@ -30,7 +30,7 @@ def fix_lewis_data():
             "abstentions": 0
         }
         print("Added BRIDGET LEWIS to councilmember_stats")
-    
+
     # Move Lewis summary from Sharon Kalani to Bridget Lewis
     if "SHARON KALANI" in data['councilmember_summaries']:
         kalani_summary = data['councilmember_summaries']["SHARON KALANI"]
@@ -38,7 +38,7 @@ def fix_lewis_data():
             # This is actually Lewis's summary, move it
             data['councilmember_summaries']["BRIDGET LEWIS"] = kalani_summary.copy()
             print("Moved Lewis summary from Sharon Kalani to Bridget Lewis")
-            
+
             # Create a proper Sharon Kalani summary
             data['councilmember_summaries']["SHARON KALANI"] = {
                 "summary": "Kalani serves as councilmember of the Torrance City Council. Councilmember Sharon Kalani brings community-focused leadership and dedication to serving Torrance residents. Demonstrates strong consensus-building skills and commitment to municipal priorities. Primary policy focus areas include Community Services, Public Safety, and Budget & Finance, reflecting commitment to these key municipal priorities. Key initiatives include Community service programs, Public safety initiatives, and Budget oversight, demonstrating proactive leadership in city governance.",
@@ -68,12 +68,12 @@ def fix_lewis_data():
                 "bio_note": "Official bio page"
             }
             print("Created proper Sharon Kalani summary")
-    
+
     # Calculate Lewis stats from votes (if any exist)
     lewis_votes = 0
     lewis_yes = 0
     lewis_no = 0
-    
+
     for vote in data['votes']:
         if 'individual_votes' in vote:
             # Check for various Lewis name formats
@@ -84,7 +84,7 @@ def fix_lewis_data():
                         lewis_yes += 1
                     elif vote_result.upper() in ['NO', 'N']:
                         lewis_no += 1
-    
+
     if lewis_votes > 0:
         data['councilmember_stats']["BRIDGET LEWIS"] = {
             "total_votes": lewis_votes,
@@ -93,11 +93,11 @@ def fix_lewis_data():
             "abstentions": 0
         }
         print(f"Calculated Lewis stats: {lewis_votes} total, {lewis_yes} yes, {lewis_no} no")
-    
+
     # Save the corrected data
     with open('data/torrance_votes_smart_consolidated.json', 'w') as f:
         json.dump(data, f, indent=2)
-    
+
     print("✅ Fixed Bridget Lewis data corruption!")
     print("Updated councilmembers:", data['councilmembers'])
     print("Updated councilmember_stats keys:", list(data['councilmember_stats'].keys()))

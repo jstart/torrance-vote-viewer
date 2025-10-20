@@ -18,7 +18,7 @@ def infer_individual_votes(vote_data: Dict) -> Dict[str, str]:
     councilmembers = [
         "GEORGE CHEN",
         "MIKE GERSON",
-        "JONATHAN KANG",
+        "JON KAJI",
         "SHARON KALANI",
         "ASAM SHAIKH"
     ]

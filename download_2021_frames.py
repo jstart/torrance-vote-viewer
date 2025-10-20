@@ -102,46 +102,133 @@ class Torrance2021FrameDownloader:
         logger.info(f"🎬 Extracting frames with ffmpeg for meeting {meeting_id}...")
 
         try:
-            # Create a temporary video file
-            temp_video = os.path.join(meeting_dir, f"temp_{meeting_id}.mp4")
-
-            # Download video (this might not work for all Granicus videos)
-            response = self.session.get(video_url, timeout=30)
-            if response.status_code == 200:
-                with open(temp_video, 'wb') as f:
-                    f.write(response.content)
-
-                # Extract frames
-                frame_pattern = os.path.join(meeting_dir, "frame_%06d.jpg")
-                cmd = [
-                    'ffmpeg', '-i', temp_video,
-                    '-vf', 'fps=1/30',  # Extract 1 frame every 30 seconds
-                    '-q:v', '2',  # High quality
-                    frame_pattern,
-                    '-y'  # Overwrite existing files
-                ]
-
-                result = subprocess.run(cmd, capture_output=True, text=True)
-
-                if result.returncode == 0:
-                    # Clean up temp file
-                    os.remove(temp_video)
-
-                    # Count extracted frames
-                    frame_files = [f for f in os.listdir(meeting_dir) if f.endswith('.jpg')]
-                    logger.info(f"📊 Extracted {len(frame_files)} frames")
-                    return len(frame_files) > 0
-                else:
-                    logger.warning(f"ffmpeg failed: {result.stderr}")
-                    if os.path.exists(temp_video):
-                        os.remove(temp_video)
-                    return False
-            else:
-                logger.warning(f"Could not download video: HTTP {response.status_code}")
+            # First, get the actual video stream URL from the Granicus player page
+            hls_url = self._get_hls_stream_url(video_url, meeting_id)
+            if not hls_url:
+                logger.warning(f"Could not find HLS stream URL for meeting {meeting_id}")
                 return False
 
+            logger.info(f"📺 Found HLS stream: {hls_url}")
+
+            # Extract frames directly from HLS stream with optimized settings
+            frame_pattern = os.path.join(meeting_dir, "frame_%06d.jpg")
+            cmd = [
+                'ffmpeg',
+                '-protocol_whitelist', 'file,http,https,tcp,tls,crypto',
+                '-i', hls_url,
+                '-vf', 'fps=1/120',  # Extract 1 frame every 2 minutes
+                '-q:v', '5',  # Lower quality for speed
+                '-t', '600',  # Limit to 10 minutes max
+                '-threads', '1',  # Single thread
+                '-avoid_negative_ts', 'make_zero',
+                '-fflags', '+genpts',
+                frame_pattern,
+                '-y'  # Overwrite existing files
+            ]
+
+            result = subprocess.run(cmd, capture_output=True, text=True, timeout=300)
+
+            if result.returncode == 0:
+                # Count extracted frames
+                frame_files = [f for f in os.listdir(meeting_dir) if f.endswith('.jpg')]
+                logger.info(f"📊 Extracted {len(frame_files)} frames from HLS stream")
+                return len(frame_files) > 0
+            else:
+                logger.warning(f"ffmpeg failed: {result.stderr}")
+                return False
+
+        except subprocess.TimeoutExpired:
+            logger.warning(f"ffmpeg timed out for meeting {meeting_id}")
+            return False
         except Exception as e:
             logger.warning(f"ffmpeg extraction failed: {e}")
+            return False
+
+    def _get_hls_stream_url(self, player_url: str, meeting_id: str) -> Optional[str]:
+        """Extract HLS stream URL from Granicus player page"""
+        try:
+            response = self.session.get(player_url, timeout=30)
+            if response.status_code != 200:
+                return None
+
+            # Look for HLS stream URL in the page content
+            content = response.text
+
+            # Search for HLS stream patterns
+            import re
+            patterns = [
+                r'"([^"]*\.m3u8[^"]*)"',
+                r'"(https://archive-stream\.granicus\.com[^"]*)"',
+                r'source:\s*["\']([^"\']*\.m3u8[^"\']*)["\']'
+            ]
+
+            for pattern in patterns:
+                matches = re.findall(pattern, content)
+                for match in matches:
+                    if '.m3u8' in match:
+                        # Ensure it's a full URL
+                        if match.startswith('http'):
+                            return match
+                        elif match.startswith('//'):
+                            return 'https:' + match
+                        elif match.startswith('/'):
+                            return 'https://archive-stream.granicus.com' + match
+
+            return None
+
+        except Exception as e:
+            logger.warning(f"Error extracting HLS URL: {e}")
+            return None
+
+    def _convert_hls_to_mp4_url(self, hls_url: str) -> Optional[str]:
+        """Convert HLS URL to direct MP4 URL"""
+        try:
+            # Extract the MP4 filename from the HLS URL
+            # HLS URL format: https://archive-stream.granicus.com/OnDemand/_definst_/mp4:archive/torrance/torrance_UUID.mp4/playlist.m3u8
+            # Direct MP4 URL format: https://archive-stream.granicus.com/OnDemand/_definst_/mp4:archive/torrance/torrance_UUID.mp4
+
+            if '/playlist.m3u8' in hls_url:
+                # Remove the playlist.m3u8 part to get the direct MP4 URL
+                mp4_url = hls_url.replace('/playlist.m3u8', '')
+                logger.info(f"🔄 Converted HLS to MP4: {mp4_url}")
+                return mp4_url
+            else:
+                logger.warning(f"Unexpected HLS URL format: {hls_url}")
+                return None
+
+        except Exception as e:
+            logger.warning(f"Error converting HLS to MP4 URL: {e}")
+            return None
+
+    def _download_video_with_ytdlp(self, video_url: str, output_path: str, meeting_id: str) -> bool:
+        """Download video using yt-dlp"""
+        try:
+            logger.info(f"📥 Downloading video with yt-dlp for meeting {meeting_id}...")
+
+            cmd = [
+                'yt-dlp',
+                '--output', output_path,
+                '--format', 'best[height<=720]',  # Limit to 720p max
+                '--max-downloads', '1',
+                '--no-playlist',
+                video_url
+            ]
+
+            result = subprocess.run(cmd, capture_output=True, text=True, timeout=600)
+
+            if result.returncode == 0 and os.path.exists(output_path):
+                file_size = os.path.getsize(output_path)
+                logger.info(f"✅ Downloaded video: {file_size:,} bytes")
+                return True
+            else:
+                logger.warning(f"yt-dlp failed: {result.stderr}")
+                return False
+
+        except subprocess.TimeoutExpired:
+            logger.warning(f"yt-dlp timed out for meeting {meeting_id}")
+            return False
+        except Exception as e:
+            logger.warning(f"yt-dlp download failed: {e}")
             return False
 
     def _download_frames_from_player(self, video_url: str, meeting_dir: str, meeting_id: str) -> bool:

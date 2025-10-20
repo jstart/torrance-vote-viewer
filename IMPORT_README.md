@@ -116,7 +116,7 @@ importer.run_import()
       "individual_votes": {
         "GEORGE CHEN": "YES",
         "MIKE GERSON": "YES",
-        "JONATHAN KANG": "YES",
+        "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHAIKH": "YES"
       }

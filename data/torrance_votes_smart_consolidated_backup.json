@@ -914,12 +914,8 @@
       "frame_number": 5828,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {
-        "ayes": 5,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
+      "vote_tally": {},
+      "result": "",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -941,12 +937,8 @@
       "frame_number": 6380,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {
-        "ayes": 5,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
+      "vote_tally": {},
+      "result": "",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -968,12 +960,8 @@
       "frame_number": 7471,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {
-        "ayes": 5,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
+      "vote_tally": {},
+      "result": "",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -995,12 +983,8 @@
       "frame_number": 8986,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {
-        "ayes": 5,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
+      "vote_tally": {},
+      "result": "",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1022,12 +1006,8 @@
       "frame_number": 9230,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {
-        "ayes": 5,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
+      "vote_tally": {},
+      "result": "",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1049,12 +1029,8 @@
       "frame_number": 2845,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {
-        "ayes": 5,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
+      "vote_tally": {},
+      "result": "",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1076,12 +1052,8 @@
       "frame_number": 10854,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {
-        "ayes": 5,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
+      "vote_tally": {},
+      "result": "",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1103,12 +1075,8 @@
       "frame_number": 15590,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {
-        "ayes": 5,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
+      "vote_tally": {},
+      "result": "",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1130,12 +1098,8 @@
       "frame_number": 17405,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {
-        "ayes": 5,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
+      "vote_tally": {},
+      "result": "",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1157,12 +1121,8 @@
       "frame_number": 19087,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {
-        "ayes": 5,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
+      "vote_tally": {},
+      "result": "",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1184,12 +1144,8 @@
       "frame_number": 3593,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {
-        "ayes": 5,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
+      "vote_tally": {},
+      "result": "",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1211,12 +1167,8 @@
       "frame_number": 21772,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {
-        "ayes": 5,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
+      "vote_tally": {},
+      "result": "",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1238,12 +1190,8 @@
       "frame_number": 486,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {
-        "ayes": 5,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
+      "vote_tally": {},
+      "result": "",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1265,12 +1213,8 @@
       "frame_number": 6761,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {
-        "ayes": 5,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
+      "vote_tally": {},
+      "result": "",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1292,12 +1236,8 @@
       "frame_number": 2843,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {
-        "ayes": 5,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
+      "vote_tally": {},
+      "result": "",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1319,12 +1259,8 @@
       "frame_number": 2847,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {
-        "ayes": 5,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
+      "vote_tally": {},
+      "result": "",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1346,12 +1282,8 @@
       "frame_number": 3832,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {
-        "ayes": 5,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
+      "vote_tally": {},
+      "result": "",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1373,12 +1305,8 @@
       "frame_number": 11885,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {
-        "ayes": 5,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
+      "vote_tally": {},
+      "result": "",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1400,12 +1328,8 @@
       "frame_number": 4320,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {
-        "ayes": 5,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
+      "vote_tally": {},
+      "result": "",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1427,12 +1351,8 @@
       "frame_number": 7316,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {
-        "ayes": 5,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
+      "vote_tally": {},
+      "result": "",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1454,12 +1374,8 @@
       "frame_number": 7842,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {
-        "ayes": 5,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
+      "vote_tally": {},
+      "result": "",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1481,12 +1397,8 @@
       "frame_number": 8991,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {
-        "ayes": 5,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
+      "vote_tally": {},
+      "result": "",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1508,12 +1420,8 @@
       "frame_number": 9352,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {
-        "ayes": 5,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
+      "vote_tally": {},
+      "result": "",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1535,12 +1443,8 @@
       "frame_number": 9425,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {
-        "ayes": 5,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
+      "vote_tally": {},
+      "result": "",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1562,12 +1466,8 @@
       "frame_number": 10387,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {
-        "ayes": 5,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
+      "vote_tally": {},
+      "result": "",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1589,12 +1489,8 @@
       "frame_number": 18512,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {
-        "ayes": 5,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
+      "vote_tally": {},
+      "result": "",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1616,12 +1512,8 @@
       "frame_number": 18634,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {
-        "ayes": 5,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
+      "vote_tally": {},
+      "result": "",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1643,12 +1535,8 @@
       "frame_number": 19064,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {
-        "ayes": 5,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
+      "vote_tally": {},
+      "result": "",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1670,12 +1558,8 @@
       "frame_number": 6721,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {
-        "ayes": 5,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
+      "vote_tally": {},
+      "result": "",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1697,12 +1581,8 @@
       "frame_number": 6763,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {
-        "ayes": 5,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
+      "vote_tally": {},
+      "result": "",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1724,12 +1604,8 @@
       "frame_number": 9136,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {
-        "ayes": 5,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
+      "vote_tally": {},
+      "result": "",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1751,12 +1627,8 @@
       "frame_number": 9910,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {
-        "ayes": 5,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
+      "vote_tally": {},
+      "result": "",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1778,12 +1650,8 @@
       "frame_number": 12190,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {
-        "ayes": 5,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
+      "vote_tally": {},
+      "result": "",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1805,12 +1673,8 @@
       "frame_number": 18874,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {
-        "ayes": 5,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
+      "vote_tally": {},
+      "result": "",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1848,8 +1712,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142430005",
-      "video_timestamp": 450,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -1875,8 +1739,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142430005",
-      "video_timestamp": 450,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -1902,8 +1766,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142430005",
-      "video_timestamp": 450,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -1929,8 +1793,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142430005",
-      "video_timestamp": 450,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -1961,8 +1825,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142430008",
-      "video_timestamp": 1140,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -1989,8 +1853,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142430008",
-      "video_timestamp": 1140,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -2021,8 +1885,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142620002",
-      "video_timestamp": 960,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -2052,8 +1916,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142620002",
-      "video_timestamp": 60,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -2080,8 +1944,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142620005",
-      "video_timestamp": 1050,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -2107,8 +1971,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142620005",
-      "video_timestamp": 1050,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -2134,8 +1998,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142620006",
-      "video_timestamp": 1080,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -2161,8 +2025,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142620006",
-      "video_timestamp": 1080,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -2188,8 +2052,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142620006",
-      "video_timestamp": 1080,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -2215,8 +2079,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142620007",
-      "video_timestamp": 1110,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -2242,8 +2106,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142620007",
-      "video_timestamp": 1110,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -2269,8 +2133,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142620007",
-      "video_timestamp": 1110,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -2296,8 +2160,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142620008",
-      "video_timestamp": 1140,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -2323,8 +2187,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142620008",
-      "video_timestamp": 1140,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -2350,8 +2214,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142620008",
-      "video_timestamp": 1140,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -2378,8 +2242,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142620009",
-      "video_timestamp": 1170,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -2405,8 +2269,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142620009",
-      "video_timestamp": 1170,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -2432,8 +2296,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142620009",
-      "video_timestamp": 1170,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -2459,8 +2323,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142620009",
-      "video_timestamp": 1170,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -2486,8 +2350,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142620009",
-      "video_timestamp": 1170,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -2513,8 +2377,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142620010",
-      "video_timestamp": 1200,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -2540,8 +2404,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142620010",
-      "video_timestamp": 1200,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -2567,8 +2431,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142620011",
-      "video_timestamp": 1230,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -2594,8 +2458,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142620011",
-      "video_timestamp": 1230,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -2621,8 +2485,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142620011",
-      "video_timestamp": 1230,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -2648,8 +2512,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142620012",
-      "video_timestamp": 1260,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -2675,8 +2539,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142620012",
-      "video_timestamp": 1260,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -2702,8 +2566,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142620013",
-      "video_timestamp": 1290,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -2729,8 +2593,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142620013",
-      "video_timestamp": 1290,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -2756,8 +2620,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142620013",
-      "video_timestamp": 1290,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -2783,8 +2647,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142620013",
-      "video_timestamp": 1290,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -2810,8 +2674,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142620013",
-      "video_timestamp": 1290,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -2837,8 +2701,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142620014",
-      "video_timestamp": 1320,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -2864,8 +2728,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142620016",
-      "video_timestamp": 1380,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -2891,8 +2755,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142620016",
-      "video_timestamp": 1380,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -2918,8 +2782,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142620016",
-      "video_timestamp": 1380,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -2945,8 +2809,8 @@
         "ASAM SHEIKH": "NO"
       },
       "year": 2024,
-      "meta_id": "142620016",
-      "video_timestamp": 2280,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -2972,8 +2836,8 @@
         "ASAM SHEIKH": "NO"
       },
       "year": 2024,
-      "meta_id": "142620016",
-      "video_timestamp": 2280,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -2999,8 +2863,8 @@
         "ASAM SHEIKH": "NO"
       },
       "year": 2024,
-      "meta_id": "142620016",
-      "video_timestamp": 1380,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -3026,8 +2890,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142620016",
-      "video_timestamp": 2280,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -3053,8 +2917,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142620016",
-      "video_timestamp": 2280,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -3080,8 +2944,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142620018",
-      "video_timestamp": 1440,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -3107,8 +2971,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142620018",
-      "video_timestamp": 1440,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -3134,8 +2998,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142620019",
-      "video_timestamp": 1470,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -3161,8 +3025,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142730003",
-      "video_timestamp": 990,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -3188,8 +3052,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142730003",
-      "video_timestamp": 990,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -3215,8 +3079,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142730004",
-      "video_timestamp": 1020,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -3242,8 +3106,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142730004",
-      "video_timestamp": 1020,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -3269,8 +3133,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142730005",
-      "video_timestamp": 450,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -3296,8 +3160,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142730005",
-      "video_timestamp": 450,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -3323,8 +3187,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142730005",
-      "video_timestamp": 450,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -3350,8 +3214,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142730009",
-      "video_timestamp": 1170,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -3377,8 +3241,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142730010",
-      "video_timestamp": 300,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -3404,8 +3268,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142860003",
-      "video_timestamp": 390,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -3431,8 +3295,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142860003",
-      "video_timestamp": 390,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -3458,8 +3322,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142860004",
-      "video_timestamp": 420,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -3485,8 +3349,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142860004",
-      "video_timestamp": 420,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -3512,8 +3376,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "142860004",
-      "video_timestamp": 420,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -3544,8 +3408,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143050001",
-      "video_timestamp": 30,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -3571,8 +3435,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143050005",
-      "video_timestamp": 150,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -3598,8 +3462,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143050005",
-      "video_timestamp": 150,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -3625,8 +3489,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143120001",
-      "video_timestamp": 30,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -3658,8 +3522,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143120002",
-      "video_timestamp": 60,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -3685,8 +3549,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143120002",
-      "video_timestamp": 60,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -3712,8 +3576,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143140001",
-      "video_timestamp": 30,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -3739,8 +3603,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143140004",
-      "video_timestamp": 420,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -3766,8 +3630,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143140004",
-      "video_timestamp": 420,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -3793,8 +3657,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143140005",
-      "video_timestamp": 1950,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -3820,8 +3684,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143140005",
-      "video_timestamp": 1050,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -3847,8 +3711,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143140005",
-      "video_timestamp": 1950,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -3875,8 +3739,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143140005",
-      "video_timestamp": 1050,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -3902,8 +3766,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143140005",
-      "video_timestamp": 1050,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -3929,8 +3793,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143140005",
-      "video_timestamp": 1950,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -3956,8 +3820,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143140005",
-      "video_timestamp": 1950,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -3983,8 +3847,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143140005",
-      "video_timestamp": 1950,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -4010,8 +3874,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143140005",
-      "video_timestamp": 1050,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -4037,8 +3901,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143140005",
-      "video_timestamp": 1950,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -4064,8 +3928,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143140005",
-      "video_timestamp": 1050,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -4091,8 +3955,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143140005",
-      "video_timestamp": 1050,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -4118,8 +3982,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143140005",
-      "video_timestamp": 1950,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -4145,8 +4009,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143140005",
-      "video_timestamp": 1050,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -4172,8 +4036,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143140005",
-      "video_timestamp": 1950,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -4199,8 +4063,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143140006",
-      "video_timestamp": 1080,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -4226,8 +4090,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143190005",
-      "video_timestamp": 1050,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -4253,8 +4117,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143190005",
-      "video_timestamp": 1950,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -4280,8 +4144,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143190005",
-      "video_timestamp": 1050,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -4307,8 +4171,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143190005",
-      "video_timestamp": 1950,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -4334,8 +4198,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143190005",
-      "video_timestamp": 1050,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -4361,8 +4225,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143190005",
-      "video_timestamp": 1950,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -4388,8 +4252,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143190005",
-      "video_timestamp": 1050,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -4415,8 +4279,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143190005",
-      "video_timestamp": 1950,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -4442,8 +4306,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143190006",
-      "video_timestamp": 1980,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -4469,8 +4333,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143190006",
-      "video_timestamp": 1980,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -4496,8 +4360,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143190006",
-      "video_timestamp": 1980,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -4523,8 +4387,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143190006",
-      "video_timestamp": 1080,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -4550,8 +4414,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143190006",
-      "video_timestamp": 1980,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -4577,8 +4441,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143190006",
-      "video_timestamp": 1980,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -4604,8 +4468,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143190006",
-      "video_timestamp": 1980,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -4631,8 +4495,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143190006",
-      "video_timestamp": 1980,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -4659,8 +4523,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143190007",
-      "video_timestamp": 2010,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -4686,8 +4550,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143190007",
-      "video_timestamp": 1110,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -4718,8 +4582,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143190007",
-      "video_timestamp": 2010,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -4745,8 +4609,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143190007",
-      "video_timestamp": 2010,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -4772,8 +4636,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143190007",
-      "video_timestamp": 2010,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -4799,8 +4663,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143190008",
-      "video_timestamp": 2040,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -4826,8 +4690,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143190008",
-      "video_timestamp": 2040,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -4853,8 +4717,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143190008",
-      "video_timestamp": 1140,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -4880,8 +4744,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143190008",
-      "video_timestamp": 1140,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -4907,8 +4771,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143190008",
-      "video_timestamp": 2040,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -4934,8 +4798,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143190009",
-      "video_timestamp": 1170,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -4961,8 +4825,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143190009",
-      "video_timestamp": 1170,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -4988,8 +4852,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143190010",
-      "video_timestamp": 1200,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -5015,8 +4879,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143190010",
-      "video_timestamp": 1200,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -5042,8 +4906,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143500002",
-      "video_timestamp": 960,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -5069,8 +4933,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143500002",
-      "video_timestamp": 960,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -5096,8 +4960,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143500003",
-      "video_timestamp": 390,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -5123,8 +4987,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143500003",
-      "video_timestamp": 90,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -5150,8 +5014,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143500004",
-      "video_timestamp": 420,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -5177,8 +5041,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143500004",
-      "video_timestamp": 1020,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -5204,8 +5068,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143500004",
-      "video_timestamp": 420,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -5231,8 +5095,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143500004",
-      "video_timestamp": 420,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -5258,8 +5122,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143500004",
-      "video_timestamp": 420,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -5284,8 +5148,8 @@
       "motion_text": "Community Development - Conduct Public Hearing, Determine Environmental Qualification (CEQA) Exemption, and Adopt ORDINANCE Amending the Torrance Municipal Code by Establishing a Mobile Home Space Rent Stabilization Ordinance",
       "individual_votes": {},
       "year": 2024,
-      "meta_id": "143500006",
-      "video_timestamp": 180,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -5311,8 +5175,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143500006",
-      "video_timestamp": 1080,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -5338,8 +5202,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143500006",
-      "video_timestamp": 1080,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -5365,8 +5229,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143500006",
-      "video_timestamp": 1080,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -5392,8 +5256,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143500008",
-      "video_timestamp": 2040,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -5424,8 +5288,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143500008",
-      "video_timestamp": 1140,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -5451,8 +5315,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143500009",
-      "video_timestamp": 1170,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -5483,8 +5347,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143500010",
-      "video_timestamp": 300,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -5510,8 +5374,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143500010",
-      "video_timestamp": 300,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     },
     {
@@ -5542,8 +5406,8 @@
         "ASAM SHEIKH": "YES"
       },
       "year": 2024,
-      "meta_id": "143500013",
-      "video_timestamp": 1290,
+      "meta_id": null,
+      "video_timestamp": null,
       "timestamp_estimated": true
     }
   ],
@@ -5605,7 +5469,7 @@
     "14243": {
       "id": "14243",
       "title": "City Council Meeting 14243",
-      "date": "2024-01-09",
+      "date": "2024-01-28",
       "time": "19:00",
       "video_url": "https://torrance.granicus.com/player/clip/14243",
       "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14243",
@@ -5614,7 +5478,7 @@
     "14262": {
       "id": "14262",
       "title": "City Council Meeting 14262",
-      "date": "2024-01-23",
+      "date": "2024-01-28",
       "time": "19:00",
       "video_url": "https://torrance.granicus.com/player/clip/14262",
       "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14262",
@@ -5623,7 +5487,7 @@
     "14273": {
       "id": "14273",
       "title": "City Council Meeting 14273",
-      "date": "2024-02-06",
+      "date": "2024-01-28",
       "time": "19:00",
       "video_url": "https://torrance.granicus.com/player/clip/14273",
       "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14273",
@@ -5632,7 +5496,7 @@
     "14286": {
       "id": "14286",
       "title": "City Council Meeting 14286",
-      "date": "2024-02-20",
+      "date": "2024-01-28",
       "time": "19:00",
       "video_url": "https://torrance.granicus.com/player/clip/14286",
       "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14286",
@@ -5641,7 +5505,7 @@
     "14305": {
       "id": "14305",
       "title": "City Council Meeting 14305",
-      "date": "2024-03-05",
+      "date": "2024-01-28",
       "time": "19:00",
       "video_url": "https://torrance.granicus.com/player/clip/14305",
       "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14305",
@@ -5650,7 +5514,7 @@
     "14312": {
       "id": "14312",
       "title": "City Council Meeting 14312",
-      "date": "2024-03-19",
+      "date": "2024-01-28",
       "time": "19:00",
       "video_url": "https://torrance.granicus.com/player/clip/14312",
       "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14312",
@@ -5659,7 +5523,7 @@
     "14314": {
       "id": "14314",
       "title": "City Council Meeting 14314",
-      "date": "2024-03-26",
+      "date": "2024-01-28",
       "time": "19:00",
       "video_url": "https://torrance.granicus.com/player/clip/14314",
       "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14314",
@@ -5668,7 +5532,7 @@
     "14319": {
       "id": "14319",
       "title": "City Council Meeting 14319",
-      "date": "2024-04-09",
+      "date": "2024-01-28",
       "time": "19:00",
       "video_url": "https://torrance.granicus.com/player/clip/14319",
       "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14319",
@@ -5677,7 +5541,7 @@
     "14350": {
       "id": "14350",
       "title": "City Council Meeting 14350",
-      "date": "2024-12-10",
+      "date": "2024-01-28",
       "time": "19:00",
       "video_url": "https://torrance.granicus.com/player/clip/14350",
       "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14350",
@@ -5690,8 +5554,7 @@
     "SHARON KALANI",
     "ASAM SHEIKH",
     "JON KAJI",
-    "Aurelio Mattucci",
-    "Bridget Lewis"
+    "MATTUCCI"
   ],
   "councilmember_stats": {
     "GEORGE CHEN": {
@@ -5718,22 +5581,16 @@
       "no_votes": 1,
       "abstentions": 0
     },
+    "MATTUCCI": {
+      "total_votes": 0,
+      "yes_votes": 0,
+      "no_votes": 0,
+      "abstentions": 0
+    },
     "ASAM SHEIKH": {
       "total_votes": 199,
       "yes_votes": 195,
       "no_votes": 4,
-      "abstentions": 0
-    },
-    "Bridget Lewis": {
-      "total_votes": 0,
-      "yes_votes": 0,
-      "no_votes": 0,
-      "abstentions": 0
-    },
-    "Aurelio Mattucci": {
-      "total_votes": 0,
-      "yes_votes": 0,
-      "no_votes": 0,
       "abstentions": 0
     }
   },
@@ -5851,78 +5708,6 @@
       "bio_note": "Official bio page"
     },
     "SHARON KALANI": {
-      "summary": "Kalani serves as councilmember of the Torrance City Council. Councilmember Sharon Kalani brings community-focused leadership and dedication to serving Torrance residents. Demonstrates strong consensus-building skills and commitment to municipal priorities. Primary policy focus areas include Community Services, Public Safety, and Budget & Finance, reflecting commitment to these key municipal priorities. Key initiatives include Community service programs, Public safety initiatives, and Budget oversight, demonstrating proactive leadership in city governance.",
-      "role": "Councilmember",
-      "notes": [
-        "Participated in recorded votes",
-        "Active in community service and public safety",
-        "Bio: https://www.torranceca.gov/government/city-council-and-elected-officials/kalani"
-      ],
-      "stats": {
-        "total_votes": 199,
-        "yes_votes": 195,
-        "no_votes": 4
-      },
-      "bio_url": "https://www.torranceca.gov/government/city-council-and-elected-officials/kalani",
-      "policy_focus": [
-        "Community Services",
-        "Public Safety",
-        "Budget & Finance"
-      ],
-      "notable_initiatives": [
-        "Community service programs",
-        "Public safety initiatives",
-        "Budget oversight"
-      ],
-      "policy_votes": {
-        "Planning & Development": 0,
-        "Public Safety": 0,
-        "Budget & Finance": 0,
-        "Infrastructure": 0,
-        "Community Services": 0,
-        "Environmental": 0,
-        "Housing": 0
-      },
-      "bio_note": "Official bio page"
-    },
-    "ASAM SHEIKH": {
-      "summary": "Sheikh serves as councilmember of the Torrance City Council. Councilmember Mohammed Noor Sheikh brings diverse perspectives and commitment to inclusive governance. Demonstrates strong consensus-building skills, voting unanimously in favor of all 14 recorded motions. Primary policy focus areas include Planning & Development, reflecting commitment to these key municipal priorities. Key initiatives include Community outreach, Public safety initiatives, demonstrating proactive leadership in city governance. Learn more about Sheikh's background and priorities at the [official bio page](https://www.torranceca.gov/government/city-council-and-elected-officials/sheikh).",
-      "role": "Councilmember",
-      "notes": [
-        "Participated in 14 recorded votes",
-        "Voted Yes on 14 motions",
-        "Voted No on 0 motions",
-        "Active in 1 policy areas",
-        "Bio: https://www.torranceca.gov/government/city-council-and-elected-officials/sheikh"
-      ],
-      "stats": {
-        "total_votes": 14,
-        "yes_votes": 14,
-        "no_votes": 0
-      },
-      "bio_url": "https://www.torranceca.gov/government/city-council-and-elected-officials/sheikh",
-      "policy_focus": [
-        "Community Services",
-        "Public Safety",
-        "Planning & Development"
-      ],
-      "notable_initiatives": [
-        "Community outreach",
-        "Public safety initiatives",
-        "Development oversight"
-      ],
-      "policy_votes": {
-        "Planning & Development": 14,
-        "Public Safety": 0,
-        "Budget & Finance": 0,
-        "Infrastructure": 0,
-        "Community Services": 0,
-        "Environmental": 0,
-        "Housing": 0
-      },
-      "bio_note": "Official bio page"
-    },
-    "Bridget Lewis": {
       "summary": "Lewis serves as councilmember of the Torrance City Council. Councilmember Asam Ashraf brings fresh perspective and community-focused approach to city governance. Demonstrates strong consensus-building skills, voting unanimously in favor of all 14 recorded motions. Primary policy focus areas include Planning & Development, reflecting commitment to these key municipal priorities. Key initiatives include Community engagement, Development oversight, demonstrating proactive leadership in city governance. Learn more about Lewis's background and priorities at the [official bio page](https://www.torranceca.gov/government/city-council-and-elected-officials/lewis).",
       "role": "Councilmember",
       "notes": [
@@ -5959,7 +5744,7 @@
       },
       "bio_note": "Official bio page"
     },
-    "Aurelio Mattucci": {
+    "MATTUCCI": {
       "summary": "Mattucci serves as councilmember of the Torrance City Council. Councilmember Mike Mattucci is dedicated to maintaining Torrance's character while supporting responsible growth. Demonstrates strong consensus-building skills, voting unanimously in favor of all 14 recorded motions. Primary policy focus areas include Planning & Development, reflecting commitment to these key municipal priorities. Key initiatives include Development planning, Infrastructure improvements, demonstrating proactive leadership in city governance. Learn more about Mattucci's background and priorities at the [official bio page](https://www.torranceca.gov/government/city-council-and-elected-officials/mattucci).",
       "role": "Councilmember",
       "notes": [
@@ -5984,6 +5769,43 @@
         "Development planning",
         "Infrastructure improvements",
         "Community programs"
+      ],
+      "policy_votes": {
+        "Planning & Development": 14,
+        "Public Safety": 0,
+        "Budget & Finance": 0,
+        "Infrastructure": 0,
+        "Community Services": 0,
+        "Environmental": 0,
+        "Housing": 0
+      },
+      "bio_note": "Official bio page"
+    },
+    "ASAM SHEIKH": {
+      "summary": "Sheikh serves as councilmember of the Torrance City Council. Councilmember Mohammed Noor Sheikh brings diverse perspectives and commitment to inclusive governance. Demonstrates strong consensus-building skills, voting unanimously in favor of all 14 recorded motions. Primary policy focus areas include Planning & Development, reflecting commitment to these key municipal priorities. Key initiatives include Community outreach, Public safety initiatives, demonstrating proactive leadership in city governance. Learn more about Sheikh's background and priorities at the [official bio page](https://www.torranceca.gov/government/city-council-and-elected-officials/sheikh).",
+      "role": "Councilmember",
+      "notes": [
+        "Participated in 14 recorded votes",
+        "Voted Yes on 14 motions",
+        "Voted No on 0 motions",
+        "Active in 1 policy areas",
+        "Bio: https://www.torranceca.gov/government/city-council-and-elected-officials/sheikh"
+      ],
+      "stats": {
+        "total_votes": 14,
+        "yes_votes": 14,
+        "no_votes": 0
+      },
+      "bio_url": "https://www.torranceca.gov/government/city-council-and-elected-officials/sheikh",
+      "policy_focus": [
+        "Community Services",
+        "Public Safety",
+        "Planning & Development"
+      ],
+      "notable_initiatives": [
+        "Community outreach",
+        "Public safety initiatives",
+        "Development oversight"
       ],
       "policy_votes": {
         "Planning & Development": 14,

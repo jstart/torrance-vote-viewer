@@ -1,6 +1,6 @@
 {
   "meeting_id": "12001",
-  "processing_timestamp": "2025-10-20T15:15:56.144830",
+  "processing_timestamp": "2025-10-20T15:38:21.307622",
   "total_frames_processed": 872,
   "vote_candidates_found": 872,
   "votable_candidates": 88,
@@ -29,7 +29,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_000000.jpg",
       "frame_name": "frame_000000.jpg",
       "frame_number": 0,
-      "extraction_timestamp": 1760998556.142717,
+      "extraction_timestamp": 1760999901.305482,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -47,7 +47,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_000050.jpg",
       "frame_name": "frame_000050.jpg",
       "frame_number": 50,
-      "extraction_timestamp": 1760998556.142839,
+      "extraction_timestamp": 1760999901.305624,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -65,7 +65,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_000100.jpg",
       "frame_name": "frame_000100.jpg",
       "frame_number": 100,
-      "extraction_timestamp": 1760998556.1429791,
+      "extraction_timestamp": 1760999901.305791,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -83,7 +83,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_000150.jpg",
       "frame_name": "frame_000150.jpg",
       "frame_number": 150,
-      "extraction_timestamp": 1760998556.143109,
+      "extraction_timestamp": 1760999901.3059142,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -101,7 +101,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_000200.jpg",
       "frame_name": "frame_000200.jpg",
       "frame_number": 200,
-      "extraction_timestamp": 1760998556.1432378,
+      "extraction_timestamp": 1760999901.3060439,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -119,7 +119,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_000250.jpg",
       "frame_name": "frame_000250.jpg",
       "frame_number": 250,
-      "extraction_timestamp": 1760998556.143352,
+      "extraction_timestamp": 1760999901.306155,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -137,7 +137,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_000300.jpg",
       "frame_name": "frame_000300.jpg",
       "frame_number": 300,
-      "extraction_timestamp": 1760998556.1434839,
+      "extraction_timestamp": 1760999901.306284,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -155,7 +155,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_000350.jpg",
       "frame_name": "frame_000350.jpg",
       "frame_number": 350,
-      "extraction_timestamp": 1760998556.143594,
+      "extraction_timestamp": 1760999901.306392,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -173,7 +173,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_000400.jpg",
       "frame_name": "frame_000400.jpg",
       "frame_number": 400,
-      "extraction_timestamp": 1760998556.14372,
+      "extraction_timestamp": 1760999901.306516,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -191,7 +191,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_000450.jpg",
       "frame_name": "frame_000450.jpg",
       "frame_number": 450,
-      "extraction_timestamp": 1760998556.143831,
+      "extraction_timestamp": 1760999901.306627,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -209,7 +209,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_000500.jpg",
       "frame_name": "frame_000500.jpg",
       "frame_number": 500,
-      "extraction_timestamp": 1760998556.143957,
+      "extraction_timestamp": 1760999901.306751,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -227,7 +227,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_000550.jpg",
       "frame_name": "frame_000550.jpg",
       "frame_number": 550,
-      "extraction_timestamp": 1760998556.1440651,
+      "extraction_timestamp": 1760999901.306859,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -245,7 +245,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_000600.jpg",
       "frame_name": "frame_000600.jpg",
       "frame_number": 600,
-      "extraction_timestamp": 1760998556.144191,
+      "extraction_timestamp": 1760999901.306984,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -263,7 +263,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_000650.jpg",
       "frame_name": "frame_000650.jpg",
       "frame_number": 650,
-      "extraction_timestamp": 1760998556.144298,
+      "extraction_timestamp": 1760999901.3070898,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -281,7 +281,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_000700.jpg",
       "frame_name": "frame_000700.jpg",
       "frame_number": 700,
-      "extraction_timestamp": 1760998556.144421,
+      "extraction_timestamp": 1760999901.307214,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -299,7 +299,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_000750.jpg",
       "frame_name": "frame_000750.jpg",
       "frame_number": 750,
-      "extraction_timestamp": 1760998556.1445298,
+      "extraction_timestamp": 1760999901.307323,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -317,7 +317,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_000800.jpg",
       "frame_name": "frame_000800.jpg",
       "frame_number": 800,
-      "extraction_timestamp": 1760998556.144655,
+      "extraction_timestamp": 1760999901.307449,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -335,7 +335,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_000900.jpg",
       "frame_name": "frame_000900.jpg",
       "frame_number": 900,
-      "extraction_timestamp": 1760998556.1446579,
+      "extraction_timestamp": 1760999901.307452,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -353,7 +353,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_001000.jpg",
       "frame_name": "frame_001000.jpg",
       "frame_number": 1000,
-      "extraction_timestamp": 1760998556.14466,
+      "extraction_timestamp": 1760999901.3074539,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -371,7 +371,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_001100.jpg",
       "frame_name": "frame_001100.jpg",
       "frame_number": 1100,
-      "extraction_timestamp": 1760998556.144663,
+      "extraction_timestamp": 1760999901.307457,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -389,7 +389,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_001200.jpg",
       "frame_name": "frame_001200.jpg",
       "frame_number": 1200,
-      "extraction_timestamp": 1760998556.144665,
+      "extraction_timestamp": 1760999901.307459,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -407,7 +407,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_001300.jpg",
       "frame_name": "frame_001300.jpg",
       "frame_number": 1300,
-      "extraction_timestamp": 1760998556.1446679,
+      "extraction_timestamp": 1760999901.307462,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -425,7 +425,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_001400.jpg",
       "frame_name": "frame_001400.jpg",
       "frame_number": 1400,
-      "extraction_timestamp": 1760998556.14467,
+      "extraction_timestamp": 1760999901.307464,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -443,7 +443,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_001500.jpg",
       "frame_name": "frame_001500.jpg",
       "frame_number": 1500,
-      "extraction_timestamp": 1760998556.144673,
+      "extraction_timestamp": 1760999901.307466,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -461,7 +461,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_001600.jpg",
       "frame_name": "frame_001600.jpg",
       "frame_number": 1600,
-      "extraction_timestamp": 1760998556.144675,
+      "extraction_timestamp": 1760999901.3074691,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -479,7 +479,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_001700.jpg",
       "frame_name": "frame_001700.jpg",
       "frame_number": 1700,
-      "extraction_timestamp": 1760998556.1446779,
+      "extraction_timestamp": 1760999901.307471,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -497,7 +497,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_001800.jpg",
       "frame_name": "frame_001800.jpg",
       "frame_number": 1800,
-      "extraction_timestamp": 1760998556.14468,
+      "extraction_timestamp": 1760999901.307474,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -515,7 +515,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_001900.jpg",
       "frame_name": "frame_001900.jpg",
       "frame_number": 1900,
-      "extraction_timestamp": 1760998556.144682,
+      "extraction_timestamp": 1760999901.307476,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -533,7 +533,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_002000.jpg",
       "frame_name": "frame_002000.jpg",
       "frame_number": 2000,
-      "extraction_timestamp": 1760998556.144685,
+      "extraction_timestamp": 1760999901.307478,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -551,7 +551,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_002100.jpg",
       "frame_name": "frame_002100.jpg",
       "frame_number": 2100,
-      "extraction_timestamp": 1760998556.1446872,
+      "extraction_timestamp": 1760999901.307481,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -569,7 +569,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_002200.jpg",
       "frame_name": "frame_002200.jpg",
       "frame_number": 2200,
-      "extraction_timestamp": 1760998556.1446888,
+      "extraction_timestamp": 1760999901.307483,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -587,7 +587,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_002300.jpg",
       "frame_name": "frame_002300.jpg",
       "frame_number": 2300,
-      "extraction_timestamp": 1760998556.144692,
+      "extraction_timestamp": 1760999901.3074849,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -605,7 +605,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_002400.jpg",
       "frame_name": "frame_002400.jpg",
       "frame_number": 2400,
-      "extraction_timestamp": 1760998556.144694,
+      "extraction_timestamp": 1760999901.307488,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -623,7 +623,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_002500.jpg",
       "frame_name": "frame_002500.jpg",
       "frame_number": 2500,
-      "extraction_timestamp": 1760998556.1446972,
+      "extraction_timestamp": 1760999901.30749,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -641,7 +641,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_002600.jpg",
       "frame_name": "frame_002600.jpg",
       "frame_number": 2600,
-      "extraction_timestamp": 1760998556.1446989,
+      "extraction_timestamp": 1760999901.307492,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -659,7 +659,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_002700.jpg",
       "frame_name": "frame_002700.jpg",
       "frame_number": 2700,
-      "extraction_timestamp": 1760998556.144702,
+      "extraction_timestamp": 1760999901.3074949,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -677,7 +677,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_002800.jpg",
       "frame_name": "frame_002800.jpg",
       "frame_number": 2800,
-      "extraction_timestamp": 1760998556.144704,
+      "extraction_timestamp": 1760999901.307497,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -695,7 +695,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_002900.jpg",
       "frame_name": "frame_002900.jpg",
       "frame_number": 2900,
-      "extraction_timestamp": 1760998556.144706,
+      "extraction_timestamp": 1760999901.307499,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -713,7 +713,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_003000.jpg",
       "frame_name": "frame_003000.jpg",
       "frame_number": 3000,
-      "extraction_timestamp": 1760998556.144709,
+      "extraction_timestamp": 1760999901.307502,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -731,7 +731,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_003100.jpg",
       "frame_name": "frame_003100.jpg",
       "frame_number": 3100,
-      "extraction_timestamp": 1760998556.144711,
+      "extraction_timestamp": 1760999901.3075042,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -749,7 +749,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_003200.jpg",
       "frame_name": "frame_003200.jpg",
       "frame_number": 3200,
-      "extraction_timestamp": 1760998556.144713,
+      "extraction_timestamp": 1760999901.3075058,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -767,7 +767,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_003300.jpg",
       "frame_name": "frame_003300.jpg",
       "frame_number": 3300,
-      "extraction_timestamp": 1760998556.144716,
+      "extraction_timestamp": 1760999901.307509,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -785,7 +785,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_003400.jpg",
       "frame_name": "frame_003400.jpg",
       "frame_number": 3400,
-      "extraction_timestamp": 1760998556.1447182,
+      "extraction_timestamp": 1760999901.307511,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -803,7 +803,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_003500.jpg",
       "frame_name": "frame_003500.jpg",
       "frame_number": 3500,
-      "extraction_timestamp": 1760998556.1447198,
+      "extraction_timestamp": 1760999901.307513,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -821,7 +821,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_003600.jpg",
       "frame_name": "frame_003600.jpg",
       "frame_number": 3600,
-      "extraction_timestamp": 1760998556.144723,
+      "extraction_timestamp": 1760999901.3075159,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -839,7 +839,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_003700.jpg",
       "frame_name": "frame_003700.jpg",
       "frame_number": 3700,
-      "extraction_timestamp": 1760998556.144725,
+      "extraction_timestamp": 1760999901.307518,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -857,7 +857,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_003800.jpg",
       "frame_name": "frame_003800.jpg",
       "frame_number": 3800,
-      "extraction_timestamp": 1760998556.144727,
+      "extraction_timestamp": 1760999901.30752,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -875,7 +875,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_003900.jpg",
       "frame_name": "frame_003900.jpg",
       "frame_number": 3900,
-      "extraction_timestamp": 1760998556.14473,
+      "extraction_timestamp": 1760999901.307523,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -893,7 +893,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_004000.jpg",
       "frame_name": "frame_004000.jpg",
       "frame_number": 4000,
-      "extraction_timestamp": 1760998556.144732,
+      "extraction_timestamp": 1760999901.3075252,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -911,7 +911,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_004100.jpg",
       "frame_name": "frame_004100.jpg",
       "frame_number": 4100,
-      "extraction_timestamp": 1760998556.1447349,
+      "extraction_timestamp": 1760999901.3075268,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -929,7 +929,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_004200.jpg",
       "frame_name": "frame_004200.jpg",
       "frame_number": 4200,
-      "extraction_timestamp": 1760998556.144738,
+      "extraction_timestamp": 1760999901.307531,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -947,7 +947,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_004300.jpg",
       "frame_name": "frame_004300.jpg",
       "frame_number": 4300,
-      "extraction_timestamp": 1760998556.144741,
+      "extraction_timestamp": 1760999901.307534,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -965,7 +965,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_004400.jpg",
       "frame_name": "frame_004400.jpg",
       "frame_number": 4400,
-      "extraction_timestamp": 1760998556.144743,
+      "extraction_timestamp": 1760999901.307536,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -983,7 +983,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_004500.jpg",
       "frame_name": "frame_004500.jpg",
       "frame_number": 4500,
-      "extraction_timestamp": 1760998556.1447449,
+      "extraction_timestamp": 1760999901.307538,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -1001,7 +1001,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_004600.jpg",
       "frame_name": "frame_004600.jpg",
       "frame_number": 4600,
-      "extraction_timestamp": 1760998556.144748,
+      "extraction_timestamp": 1760999901.307541,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -1019,7 +1019,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_004700.jpg",
       "frame_name": "frame_004700.jpg",
       "frame_number": 4700,
-      "extraction_timestamp": 1760998556.14475,
+      "extraction_timestamp": 1760999901.307543,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -1037,7 +1037,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_004800.jpg",
       "frame_name": "frame_004800.jpg",
       "frame_number": 4800,
-      "extraction_timestamp": 1760998556.144752,
+      "extraction_timestamp": 1760999901.3075452,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -1055,7 +1055,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_004900.jpg",
       "frame_name": "frame_004900.jpg",
       "frame_number": 4900,
-      "extraction_timestamp": 1760998556.144755,
+      "extraction_timestamp": 1760999901.3075478,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -1073,7 +1073,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_005000.jpg",
       "frame_name": "frame_005000.jpg",
       "frame_number": 5000,
-      "extraction_timestamp": 1760998556.144757,
+      "extraction_timestamp": 1760999901.30755,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -1091,7 +1091,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_005100.jpg",
       "frame_name": "frame_005100.jpg",
       "frame_number": 5100,
-      "extraction_timestamp": 1760998556.1447601,
+      "extraction_timestamp": 1760999901.307552,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -1109,7 +1109,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_005200.jpg",
       "frame_name": "frame_005200.jpg",
       "frame_number": 5200,
-      "extraction_timestamp": 1760998556.144762,
+      "extraction_timestamp": 1760999901.307554,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -1127,7 +1127,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_005300.jpg",
       "frame_name": "frame_005300.jpg",
       "frame_number": 5300,
-      "extraction_timestamp": 1760998556.144764,
+      "extraction_timestamp": 1760999901.307557,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -1145,7 +1145,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_005400.jpg",
       "frame_name": "frame_005400.jpg",
       "frame_number": 5400,
-      "extraction_timestamp": 1760998556.144767,
+      "extraction_timestamp": 1760999901.307559,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -1163,7 +1163,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_005500.jpg",
       "frame_name": "frame_005500.jpg",
       "frame_number": 5500,
-      "extraction_timestamp": 1760998556.144769,
+      "extraction_timestamp": 1760999901.307561,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -1181,7 +1181,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_005600.jpg",
       "frame_name": "frame_005600.jpg",
       "frame_number": 5600,
-      "extraction_timestamp": 1760998556.144771,
+      "extraction_timestamp": 1760999901.307564,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -1199,7 +1199,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_005700.jpg",
       "frame_name": "frame_005700.jpg",
       "frame_number": 5700,
-      "extraction_timestamp": 1760998556.144774,
+      "extraction_timestamp": 1760999901.3075662,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -1217,7 +1217,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_005800.jpg",
       "frame_name": "frame_005800.jpg",
       "frame_number": 5800,
-      "extraction_timestamp": 1760998556.1447759,
+      "extraction_timestamp": 1760999901.3075688,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -1235,7 +1235,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_005900.jpg",
       "frame_name": "frame_005900.jpg",
       "frame_number": 5900,
-      "extraction_timestamp": 1760998556.144779,
+      "extraction_timestamp": 1760999901.307571,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -1253,7 +1253,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_006000.jpg",
       "frame_name": "frame_006000.jpg",
       "frame_number": 6000,
-      "extraction_timestamp": 1760998556.144781,
+      "extraction_timestamp": 1760999901.307573,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -1271,7 +1271,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_006100.jpg",
       "frame_name": "frame_006100.jpg",
       "frame_number": 6100,
-      "extraction_timestamp": 1760998556.144783,
+      "extraction_timestamp": 1760999901.3075762,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -1289,7 +1289,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_006200.jpg",
       "frame_name": "frame_006200.jpg",
       "frame_number": 6200,
-      "extraction_timestamp": 1760998556.144786,
+      "extraction_timestamp": 1760999901.307578,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -1307,7 +1307,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_006300.jpg",
       "frame_name": "frame_006300.jpg",
       "frame_number": 6300,
-      "extraction_timestamp": 1760998556.144788,
+      "extraction_timestamp": 1760999901.30758,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -1325,7 +1325,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_006400.jpg",
       "frame_name": "frame_006400.jpg",
       "frame_number": 6400,
-      "extraction_timestamp": 1760998556.14479,
+      "extraction_timestamp": 1760999901.307583,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -1343,7 +1343,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_006500.jpg",
       "frame_name": "frame_006500.jpg",
       "frame_number": 6500,
-      "extraction_timestamp": 1760998556.144793,
+      "extraction_timestamp": 1760999901.307585,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -1361,7 +1361,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_006600.jpg",
       "frame_name": "frame_006600.jpg",
       "frame_number": 6600,
-      "extraction_timestamp": 1760998556.144795,
+      "extraction_timestamp": 1760999901.3075871,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -1379,7 +1379,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_006700.jpg",
       "frame_name": "frame_006700.jpg",
       "frame_number": 6700,
-      "extraction_timestamp": 1760998556.1447968,
+      "extraction_timestamp": 1760999901.3075898,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -1397,7 +1397,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_006800.jpg",
       "frame_name": "frame_006800.jpg",
       "frame_number": 6800,
-      "extraction_timestamp": 1760998556.1448,
+      "extraction_timestamp": 1760999901.307592,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -1415,7 +1415,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_006900.jpg",
       "frame_name": "frame_006900.jpg",
       "frame_number": 6900,
-      "extraction_timestamp": 1760998556.144802,
+      "extraction_timestamp": 1760999901.307594,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -1433,7 +1433,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_007000.jpg",
       "frame_name": "frame_007000.jpg",
       "frame_number": 7000,
-      "extraction_timestamp": 1760998556.1448052,
+      "extraction_timestamp": 1760999901.3075972,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -1451,7 +1451,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_007100.jpg",
       "frame_name": "frame_007100.jpg",
       "frame_number": 7100,
-      "extraction_timestamp": 1760998556.1448069,
+      "extraction_timestamp": 1760999901.307599,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -1469,7 +1469,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_007200.jpg",
       "frame_name": "frame_007200.jpg",
       "frame_number": 7200,
-      "extraction_timestamp": 1760998556.144809,
+      "extraction_timestamp": 1760999901.307601,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -1487,7 +1487,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_007300.jpg",
       "frame_name": "frame_007300.jpg",
       "frame_number": 7300,
-      "extraction_timestamp": 1760998556.144812,
+      "extraction_timestamp": 1760999901.307604,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -1505,7 +1505,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_007400.jpg",
       "frame_name": "frame_007400.jpg",
       "frame_number": 7400,
-      "extraction_timestamp": 1760998556.144814,
+      "extraction_timestamp": 1760999901.307606,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -1523,7 +1523,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_007500.jpg",
       "frame_name": "frame_007500.jpg",
       "frame_number": 7500,
-      "extraction_timestamp": 1760998556.1448162,
+      "extraction_timestamp": 1760999901.3076081,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -1541,7 +1541,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_007600.jpg",
       "frame_name": "frame_007600.jpg",
       "frame_number": 7600,
-      "extraction_timestamp": 1760998556.144819,
+      "extraction_timestamp": 1760999901.307611,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -1559,7 +1559,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_007700.jpg",
       "frame_name": "frame_007700.jpg",
       "frame_number": 7700,
-      "extraction_timestamp": 1760998556.144821,
+      "extraction_timestamp": 1760999901.307613,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -1577,7 +1577,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_007800.jpg",
       "frame_name": "frame_007800.jpg",
       "frame_number": 7800,
-      "extraction_timestamp": 1760998556.144825,
+      "extraction_timestamp": 1760999901.307615,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     },
@@ -1595,7 +1595,7 @@
       "frame_path": "2021_meetings_data/votable_frames_12001/frame_007900.jpg",
       "frame_name": "frame_007900.jpg",
       "frame_number": 7900,
-      "extraction_timestamp": 1760998556.144827,
+      "extraction_timestamp": 1760999901.307619,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true
     }

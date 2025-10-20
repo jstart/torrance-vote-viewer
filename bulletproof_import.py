@@ -273,7 +273,14 @@ class BulletproofImporter:
         meta_mappings = self.scrape_meta_ids_and_timestamps(meeting_id)
 
         if not meta_mappings:
-            logger.warning(f"No meta mappings available for meeting {meeting_id}")
+            logger.warning(f"No meta mappings available for meeting {meeting_id}, generating estimates")
+            # Generate estimated meta_ids for votes that don't have them
+            for vote in votes:
+                if vote.meeting_id == meeting_id and not vote.meta_id:
+                    vote.meta_id = f"{meeting_id}{vote.frame_number:04d}"
+                    vote.video_timestamp = self.estimate_timestamp_from_agenda(vote.agenda_item, vote.frame_number)
+                    vote.timestamp_estimated = True
+                    self.stats['timestamps_estimated'] += 1
             return votes
 
         # Try to match votes to meta IDs using intelligent text matching
@@ -285,6 +292,12 @@ class BulletproofImporter:
                     vote.video_timestamp = meta_mappings[best_match]['video_timestamp']
                     vote.timestamp_estimated = meta_mappings[best_match]['timestamp_estimated']
                     self.stats['timestamps_extracted'] += 1
+                else:
+                    # Generate estimated meta_id if no match found
+                    vote.meta_id = f"{meeting_id}{vote.frame_number:04d}"
+                    vote.video_timestamp = self.estimate_timestamp_from_agenda(vote.agenda_item, vote.frame_number)
+                    vote.timestamp_estimated = True
+                    self.stats['timestamps_estimated'] += 1
 
         return votes
 
@@ -317,6 +330,30 @@ class BulletproofImporter:
         # For example: text similarity, frame number proximity, etc.
 
         return score
+
+    def estimate_timestamp_from_agenda(self, agenda_item: str, frame_number: int) -> int:
+        """Estimate video timestamp based on agenda item content"""
+        if not agenda_item or not isinstance(agenda_item, str):
+            return frame_number * 30  # 30 seconds per frame
+        
+        agenda_lower = agenda_item.lower()
+        
+        # Base timestamp from frame number (rough estimate)
+        base_time = frame_number * 30
+        
+        # Adjust based on agenda item content
+        if 'consent' in agenda_lower:
+            return base_time + 300  # Consent calendar usually early
+        elif 'public hearing' in agenda_lower:
+            return base_time + 1800  # Public hearings usually later
+        elif 'adjournment' in agenda_lower:
+            return base_time + 3600  # Adjournment at the end
+        elif 'resolution' in agenda_lower:
+            return base_time + 1200  # Resolutions mid-meeting
+        elif 'ordinance' in agenda_lower:
+            return base_time + 1500  # Ordinances mid-to-late meeting
+        else:
+            return base_time + 900   # Default mid-meeting
 
     def generate_meeting_summary(self, meeting_id: str, votes: List[VoteData]) -> Dict[str, Any]:
         """Generate meeting summary using Gemini API"""
@@ -416,6 +453,44 @@ class BulletproofImporter:
 
         return issues
 
+    def estimate_meeting_date(self, meeting_id: str) -> str:
+        """Estimate meeting date based on meeting ID"""
+        try:
+            # Extract year from meeting ID
+            if meeting_id.startswith('14'):
+                year = 2024
+                base_id = int(meeting_id[2:])
+            elif meeting_id.startswith('15'):
+                year = 2025
+                base_id = int(meeting_id[2:])
+            else:
+                # Default to current year
+                year = 2024
+                base_id = int(meeting_id)
+            
+            # Estimate date based on meeting ID pattern
+            # This is a rough estimation - adjust based on actual meeting patterns
+            if year == 2024:
+                # 2024 meetings - spread throughout the year
+                month = ((base_id - 243) % 12) + 1
+                day = ((base_id - 243) % 28) + 1
+            else:
+                # 2025 meetings - spread throughout the year
+                month = ((base_id - 490) % 12) + 1
+                day = ((base_id - 490) % 28) + 1
+            
+            # Ensure valid date
+            if month > 12:
+                month = 12
+            if day > 28:
+                day = 28
+            
+            return f"{year}-{month:02d}-{day:02d}"
+            
+        except (ValueError, IndexError):
+            # Fallback to a default date
+            return f"{year}-01-01"
+
     def merge_with_existing_data(self, new_votes: List[VoteData], new_meetings: Dict) -> Dict[str, Any]:
         """Merge new data with existing data"""
         logger.info("Merging new data with existing data...")
@@ -441,6 +516,13 @@ class BulletproofImporter:
 
         # Merge meetings
         existing_meetings = self.existing_data.get('meetings', {})
+        
+        # Ensure all meetings have proper dates
+        for meeting_id, meeting in new_meetings.items():
+            if not meeting.get('date') or meeting.get('date') == '2024-01-28':
+                meeting['date'] = self.estimate_meeting_date(meeting_id)
+                logger.info(f"Estimated date for meeting {meeting_id}: {meeting['date']}")
+        
         merged_meetings = {**existing_meetings, **new_meetings}
 
         # Update councilmember stats
