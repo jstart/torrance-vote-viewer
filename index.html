@@ -515,8 +515,17 @@
                     if (e.target.matches('[data-route]')) {
                         e.preventDefault();
                         const route = e.target.getAttribute('data-route');
-                        console.log('Data route clicked:', route);
-                        this.navigateTo(route);
+                        const href = e.target.getAttribute('href');
+                        
+                        // If href exists and contains more than just the route, use it
+                        if (href && href.includes('/') && href.split('/').length > 2) {
+                            console.log('Data route with href clicked:', href);
+                            window.location.hash = href; // href already includes #
+                            this.handleRoute();
+                        } else {
+                            console.log('Data route clicked:', route);
+                            this.navigateTo(route);
+                        }
                     } else if (e.target.matches('a[href^="#/"]')) {
                         // Handle hash-based navigation links
                         e.preventDefault();
