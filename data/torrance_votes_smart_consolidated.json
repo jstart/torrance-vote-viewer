@@ -914,8 +914,12 @@
       "frame_number": 5828,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {},
-      "result": "",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -937,8 +941,12 @@
       "frame_number": 6380,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {},
-      "result": "",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -960,8 +968,12 @@
       "frame_number": 7471,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {},
-      "result": "",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -983,8 +995,12 @@
       "frame_number": 8986,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {},
-      "result": "",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1006,8 +1022,12 @@
       "frame_number": 9230,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {},
-      "result": "",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1029,8 +1049,12 @@
       "frame_number": 2845,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {},
-      "result": "",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1052,8 +1076,12 @@
       "frame_number": 10854,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {},
-      "result": "",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1075,8 +1103,12 @@
       "frame_number": 15590,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {},
-      "result": "",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1098,8 +1130,12 @@
       "frame_number": 17405,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {},
-      "result": "",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1121,8 +1157,12 @@
       "frame_number": 19087,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {},
-      "result": "",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1144,8 +1184,12 @@
       "frame_number": 3593,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {},
-      "result": "",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1167,8 +1211,12 @@
       "frame_number": 21772,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {},
-      "result": "",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1190,8 +1238,12 @@
       "frame_number": 486,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {},
-      "result": "",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1213,8 +1265,12 @@
       "frame_number": 6761,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {},
-      "result": "",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1236,8 +1292,12 @@
       "frame_number": 2843,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {},
-      "result": "",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1259,8 +1319,12 @@
       "frame_number": 2847,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {},
-      "result": "",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1282,8 +1346,12 @@
       "frame_number": 3832,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {},
-      "result": "",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1305,8 +1373,12 @@
       "frame_number": 11885,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {},
-      "result": "",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1328,8 +1400,12 @@
       "frame_number": 4320,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {},
-      "result": "",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1351,8 +1427,12 @@
       "frame_number": 7316,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {},
-      "result": "",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1374,8 +1454,12 @@
       "frame_number": 7842,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {},
-      "result": "",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1397,8 +1481,12 @@
       "frame_number": 8991,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {},
-      "result": "",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1420,8 +1508,12 @@
       "frame_number": 9352,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {},
-      "result": "",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1443,8 +1535,12 @@
       "frame_number": 9425,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {},
-      "result": "",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1466,8 +1562,12 @@
       "frame_number": 10387,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {},
-      "result": "",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1489,8 +1589,12 @@
       "frame_number": 18512,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {},
-      "result": "",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1512,8 +1616,12 @@
       "frame_number": 18634,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {},
-      "result": "",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1535,8 +1643,12 @@
       "frame_number": 19064,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {},
-      "result": "",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1558,8 +1670,12 @@
       "frame_number": 6721,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {},
-      "result": "",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1581,8 +1697,12 @@
       "frame_number": 6763,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {},
-      "result": "",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1604,8 +1724,12 @@
       "frame_number": 9136,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {},
-      "result": "",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1627,8 +1751,12 @@
       "frame_number": 9910,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {},
-      "result": "",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1650,8 +1778,12 @@
       "frame_number": 12190,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {},
-      "result": "",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
@@ -1673,8 +1805,12 @@
       "frame_number": 18874,
       "frame_path": "",
       "timestamp": 0,
-      "vote_tally": {},
-      "result": "",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
       "confidence": "",
       "motion_text": null,
       "individual_votes": {
