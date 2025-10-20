@@ -2888,176 +2888,204 @@
     "year": "/year/2025"
   },
   "meeting_summaries": {
-    "14490": {
-      "date": "2025-08-05",
-      "title": "City Council Meeting",
-      "summary": "Standard procedural meeting with 20 unanimous votes. Featured one public hearing on land use study regarding accessory dwelling units and junior accessory dwelling units.",
-      "unique_aspects": [
-        "Public hearing on land use study for accessory dwelling units",
-        "All 20 votes passed unanimously",
-        "Standard procedural meeting"
-      ],
-      "key_items": [
-        "Land Use Study 25-00001 - Accessory Dwelling Units regulation",
-        "Consent Calendar items"
-      ]
-    },
     "14510": {
-      "date": "2025-08-19",
-      "title": "City Council Meeting",
-      "summary": "Most contentious meeting with 5 failed votes out of 24 total. Featured Police Chief Jeremiah Hart retirement resolution, Youth Council appointments, and significant planning/development public hearings.",
+      "summary": "City Council meeting with 24 votes recorded. 0 votes passed. Key highlights: Featured 2 public hearing(s), Planning and development focus, Budget and financial matters. Notable agenda items included 9C. Planning Commission and Community Development \u2013 Conduct a Public Hearing and Consider Adoption of RESOLUTION for the Denial of a Modification (MOD23-00010) of a Previously Approved Division of Lot (DIV14-00006) to Amend an Open Space Easement (Note A. (and 4 more items)",
       "unique_aspects": [
-        "5 failed votes (unusual - most meetings have 100% pass rate)",
-        "Police Chief Jeremiah Hart retirement resolution",
-        "Youth Council appointments",
-        "2 public hearings on planning/development",
-        "Financial decisions including $200,000 expenditure"
+        "Featured 2 public hearing(s)",
+        "Planning and development focus",
+        "Budget and financial matters"
       ],
       "key_items": [
-        "Police Chief Jeremiah Hart retirement resolution",
-        "2025-2026 Torrance Youth Council appointments",
-        "Columbia Park Community Engagement project",
-        "Planning Commission appeals and modifications",
-        "Encampment Prevention Security Guard Services ($200,000)"
-      ]
+        "9C. Planning Commission and Community Development \u2013 Conduct a Public Hearing and Consider Adoption of RESOLUTION for the Denial of a Modification (MOD23-00010) of a Previously Approved Division of Lot (DIV14-00006) to Amend an Open Space Easement (Note A",
+        "9B. Planning Commission and Community Development \u2013 Conduct Public Hearing and Consider Adoption of RESOLUTION for Denial of an Appeal of Planning Commission\u2019s Approval of Conditional Use Permit (CUP24-00028) and Development Permit (DVP24-00004) on Pro",
+        "9C. Planning Commission and Community Development \u2013 Conduct a Public Hearing and Consider Adoption of RESOLUTION for the Denial of a Modification (MOD23-00010) of a Previously Approved Division of Lot (DIV14-00006) to Amend an Open Space Easement (Note A",
+        "9B. Planning Commission and Community Development \u2013 Conduct Public Hearing and Consider Adoption of RESOLUTION for Denial of an Appeal of Planning Commission\u2019s Approval of Conditional Use Permit (CUP24-00028) and Development Permit (DVP24-00004) on Pro",
+        "8D. Community Services \u2014 Approve Second Amendment to Contract Services Agreement for Encampment Prevention Overnight Security Guard Services. Expenditure: Not-to-Exceed $200,000 (General Fund-Measure SST Fund)."
+      ],
+      "total_votes": 24,
+      "passed_votes": 0,
+      "failed_votes": 0
     },
-    "14524": {
-      "date": "2025-09-16",
-      "title": "City Council Meeting",
-      "summary": "Minimal activity meeting with only 4 votes, all procedural items.",
+    "14490": {
+      "summary": "City Council meeting with 20 votes recorded. 0 votes passed. Key highlights: Featured 1 public hearing(s), Planning and development focus, Consent calendar items. Notable agenda items included 9A. Planning Commission and Community Development \u2013 Conduct a Public Hearing on Land Use Study 25-00001 Regarding Proposed Amendments to the Torrance Municipal Code Pertaining to the Regulation of Accessory Dwelling Units and Junior Accessory Dwelling Un. (and 2 more items)",
       "unique_aspects": [
-        "Lowest activity meeting (4 votes)",
-        "All procedural items",
-        "All votes passed unanimously"
+        "Featured 1 public hearing(s)",
+        "Planning and development focus",
+        "Consent calendar items"
       ],
       "key_items": [
-        "Standard procedural items only"
-      ]
-    },
-    "14530": {
-      "date": "2025-09-23",
-      "title": "City Council Meeting",
-      "summary": "Most active meeting with 31 votes, all passed. Featured Police Officer Claude Fierro retirement resolution, commission appointments, coyote management plan, and economic development initiatives.",
-      "unique_aspects": [
-        "Highest activity meeting (31 votes)",
-        "Police Officer Claude Fierro retirement resolution",
-        "Multiple commission appointments",
-        "Coyote management plan discussion",
-        "Economic development initiatives",
-        "All votes passed unanimously"
+        "9A. Planning Commission and Community Development \u2013 Conduct a Public Hearing on Land Use Study 25-00001 Regarding Proposed Amendments to the Torrance Municipal Code Pertaining to the Regulation of Accessory Dwelling Units and Junior Accessory Dwelling Un",
+        "9A. Planning Commission and Community Development \u2013 Conduct a Public Hearing on Land Use Study 25-00001 Regarding Proposed Amendments to the Torrance Municipal Code Pertaining to the Regulation of Accessory Dwelling Units and Junior Accessory Dwelling Un",
+        "8. CONSENT CALENDAR Matters listed under the Consent Calendar are considered routine and will be enacted by one motion and one vote. There will be no separate discussion of these items. If discussion is desired, that item will be pulled by a Councilmember"
       ],
-      "key_items": [
-        "Police Officer Claude Fierro retirement resolution",
-        "Commission appointments (Aging, Environmental, Historic Preservation)",
-        "Coyote Management Plan Update",
-        "Economic Development Update",
-        "Public Access Defibrillator Program update",
-        "Fire Code amendments public hearing"
-      ]
-    },
-    "14536": {
-      "date": "2025-10-07",
-      "title": "City Council Meeting",
-      "summary": "Significant decisions meeting with 3 failed votes out of 18 total. Featured Denise Thurston retirement resolution, Breast Cancer Awareness Month proclamation, Columbia Park renaming discussion, and WWII memorial event subsidy.",
-      "unique_aspects": [
-        "3 failed votes (indicates significant disagreement)",
-        "Denise Thurston retirement resolution",
-        "Breast Cancer Awareness Month proclamation",
-        "Columbia Park renaming discussion",
-        "WWII memorial event subsidy ($1,200)"
-      ],
-      "key_items": [
-        "Denise Thurston retirement resolution",
-        "Breast Cancer Awareness Month proclamation",
-        "Columbia Park renaming discussion",
-        "WWII Camp Memorial Fundraising Event subsidy",
-        "Certificate of Participation Bond Funds"
-      ]
+      "total_votes": 20,
+      "passed_votes": 0,
+      "failed_votes": 0
     },
     "14538": {
-      "date": "2025-10-14",
-      "title": "City Council Meeting",
-      "summary": "Standard procedural meeting with 10 votes, all passed unanimously.",
+      "summary": "City Council meeting with 7 votes recorded. 0 votes passed. Key highlights: Standard procedural meeting. ",
       "unique_aspects": [
-        "Standard procedural meeting",
-        "All 10 votes passed unanimously",
-        "Minimal unique agenda items"
+        "Standard procedural meeting"
+      ],
+      "key_items": [],
+      "total_votes": 7,
+      "passed_votes": 0,
+      "failed_votes": 0
+    },
+    "14524": {
+      "summary": "City Council meeting with 2 votes recorded. 0 votes passed. Key highlights: Standard procedural meeting. ",
+      "unique_aspects": [
+        "Standard procedural meeting"
+      ],
+      "key_items": [],
+      "total_votes": 2,
+      "passed_votes": 0,
+      "failed_votes": 0
+    },
+    "14530": {
+      "summary": "City Council meeting with 31 votes recorded. 0 votes passed. Key highlights: Featured 1 public hearing(s), Planning and development focus. Notable agenda items included 10B. Fire \u2013 Set Date of October 21, 2025 for a Public Hearing on the Proposed Local Amendments to the 2025 California Fire Code. Expenditure: None.. (and 1 more items)",
+      "unique_aspects": [
+        "Featured 1 public hearing(s)",
+        "Planning and development focus"
       ],
       "key_items": [
-        "Standard procedural items only"
-      ]
+        "10B. Fire \u2013 Set Date of October 21, 2025 for a Public Hearing on the Proposed Local Amendments to the 2025 California Fire Code. Expenditure: None.",
+        "10D. City Manager \u2013 Accept and File Economic Development Update and Consider and Provide Direction on Proposed Economic Development Initiatives. Expenditure: None."
+      ],
+      "total_votes": 31,
+      "passed_votes": 0,
+      "failed_votes": 0
+    },
+    "14536": {
+      "summary": "City Council meeting with 18 votes recorded. 1 votes passed. Key highlights: Standard procedural meeting. ",
+      "unique_aspects": [
+        "Standard procedural meeting"
+      ],
+      "key_items": [],
+      "total_votes": 18,
+      "passed_votes": 1,
+      "failed_votes": 0
     }
   },
   "councilmember_summaries": {
     "Chen": {
+      "summary": "Chen serves as mayor of the Torrance City Council. Shows a consistently supportive approach, voting Yes on all 14 recorded votes. Key areas of focus include 9C. Planning Commission and Community Development \u2013 Conduct a Public Hearing and Consider Adoption of RESOLUTION for the Denial of a Modification (MOD23-00010) of a Previously Approved Division of Lot (DIV14-00006) to Amend an Open Space Easement (Note A, 10D. City Manager \u2013 Accept and File Economic Development Update and Consider and Provide Direction on Proposed Economic Development Initiatives. Expenditure: None..",
       "role": "Mayor",
-      "full_name": "George Chen",
-      "summary": "Mayor of Torrance. Limited individual voting data available in current dataset, but serves as the presiding officer of the City Council.",
       "notes": [
-        "Serves as Mayor and presiding officer",
-        "Limited individual vote records in current data",
-        "Most votes show only tally results, not individual positions"
-      ]
+        "Participated in 14 recorded votes",
+        "Voted Yes on 14 motions",
+        "Voted No on 0 motions",
+        "Abstained on 0 motions",
+        "Voted on 2 different agenda items",
+        "Consistently supportive voting record"
+      ],
+      "stats": {
+        "total_votes": 14,
+        "yes_votes": 14,
+        "no_votes": 0
+      }
     },
     "Gerson": {
+      "summary": "Gerson serves as councilmember of the Torrance City Council. Shows a consistently supportive approach, voting Yes on all 14 recorded votes. Key areas of focus include 9C. Planning Commission and Community Development \u2013 Conduct a Public Hearing and Consider Adoption of RESOLUTION for the Denial of a Modification (MOD23-00010) of a Previously Approved Division of Lot (DIV14-00006) to Amend an Open Space Easement (Note A, 10D. City Manager \u2013 Accept and File Economic Development Update and Consider and Provide Direction on Proposed Economic Development Initiatives. Expenditure: None..",
       "role": "Councilmember",
-      "full_name": "Councilmember Gerson",
-      "summary": "City Councilmember. Limited individual voting data available in current dataset. Most votes show only tally results rather than individual positions.",
       "notes": [
-        "City Councilmember",
-        "Limited individual vote records in current data",
-        "Most votes show only tally results, not individual positions"
-      ]
+        "Participated in 14 recorded votes",
+        "Voted Yes on 14 motions",
+        "Voted No on 0 motions",
+        "Abstained on 0 motions",
+        "Voted on 2 different agenda items",
+        "Consistently supportive voting record"
+      ],
+      "stats": {
+        "total_votes": 14,
+        "yes_votes": 14,
+        "no_votes": 0
+      }
     },
     "Kaji": {
+      "summary": "Kaji serves as councilmember of the Torrance City Council. Shows a consistently supportive approach, voting Yes on all 14 recorded votes. Key areas of focus include 9C. Planning Commission and Community Development \u2013 Conduct a Public Hearing and Consider Adoption of RESOLUTION for the Denial of a Modification (MOD23-00010) of a Previously Approved Division of Lot (DIV14-00006) to Amend an Open Space Easement (Note A, 10D. City Manager \u2013 Accept and File Economic Development Update and Consider and Provide Direction on Proposed Economic Development Initiatives. Expenditure: None..",
       "role": "Councilmember",
-      "full_name": "Councilmember Kaji",
-      "summary": "City Councilmember. Limited individual voting data available in current dataset. Most votes show only tally results rather than individual positions.",
       "notes": [
-        "City Councilmember",
-        "Limited individual vote records in current data",
-        "Most votes show only tally results, not individual positions"
-      ]
+        "Participated in 14 recorded votes",
+        "Voted Yes on 14 motions",
+        "Voted No on 0 motions",
+        "Abstained on 0 motions",
+        "Voted on 2 different agenda items",
+        "Consistently supportive voting record"
+      ],
+      "stats": {
+        "total_votes": 14,
+        "yes_votes": 14,
+        "no_votes": 0
+      }
     },
     "Kalani": {
+      "summary": "Kalani serves as councilmember of the Torrance City Council. Shows a consistently supportive approach, voting Yes on all 14 recorded votes. Key areas of focus include 9C. Planning Commission and Community Development \u2013 Conduct a Public Hearing and Consider Adoption of RESOLUTION for the Denial of a Modification (MOD23-00010) of a Previously Approved Division of Lot (DIV14-00006) to Amend an Open Space Easement (Note A, 10D. City Manager \u2013 Accept and File Economic Development Update and Consider and Provide Direction on Proposed Economic Development Initiatives. Expenditure: None..",
       "role": "Councilmember",
-      "full_name": "Councilmember Kalani",
-      "summary": "City Councilmember. Limited individual voting data available in current dataset. Most votes show only tally results rather than individual positions.",
       "notes": [
-        "City Councilmember",
-        "Limited individual vote records in current data",
-        "Most votes show only tally results, not individual positions"
-      ]
+        "Participated in 14 recorded votes",
+        "Voted Yes on 14 motions",
+        "Voted No on 0 motions",
+        "Abstained on 0 motions",
+        "Voted on 2 different agenda items",
+        "Consistently supportive voting record"
+      ],
+      "stats": {
+        "total_votes": 14,
+        "yes_votes": 14,
+        "no_votes": 0
+      }
     },
     "Lewis": {
+      "summary": "Lewis serves as councilmember of the Torrance City Council. Shows a consistently supportive approach, voting Yes on all 14 recorded votes. Key areas of focus include 9C. Planning Commission and Community Development \u2013 Conduct a Public Hearing and Consider Adoption of RESOLUTION for the Denial of a Modification (MOD23-00010) of a Previously Approved Division of Lot (DIV14-00006) to Amend an Open Space Easement (Note A, 10D. City Manager \u2013 Accept and File Economic Development Update and Consider and Provide Direction on Proposed Economic Development Initiatives. Expenditure: None..",
       "role": "Councilmember",
-      "full_name": "Councilmember Lewis",
-      "summary": "City Councilmember. Limited individual voting data available in current dataset. Most votes show only tally results rather than individual positions.",
       "notes": [
-        "City Councilmember",
-        "Limited individual vote records in current data",
-        "Most votes show only tally results, not individual positions"
-      ]
+        "Participated in 14 recorded votes",
+        "Voted Yes on 14 motions",
+        "Voted No on 0 motions",
+        "Abstained on 0 motions",
+        "Voted on 2 different agenda items",
+        "Consistently supportive voting record"
+      ],
+      "stats": {
+        "total_votes": 14,
+        "yes_votes": 14,
+        "no_votes": 0
+      }
     },
     "Mattucci": {
+      "summary": "Mattucci serves as councilmember of the Torrance City Council. Shows a consistently supportive approach, voting Yes on all 14 recorded votes. Key areas of focus include 9C. Planning Commission and Community Development \u2013 Conduct a Public Hearing and Consider Adoption of RESOLUTION for the Denial of a Modification (MOD23-00010) of a Previously Approved Division of Lot (DIV14-00006) to Amend an Open Space Easement (Note A, 10D. City Manager \u2013 Accept and File Economic Development Update and Consider and Provide Direction on Proposed Economic Development Initiatives. Expenditure: None..",
       "role": "Councilmember",
-      "full_name": "Councilmember Mattucci",
-      "summary": "City Councilmember. Limited individual voting data available in current dataset. Most votes show only tally results rather than individual positions.",
       "notes": [
-        "City Councilmember",
-        "Limited individual vote records in current data",
-        "Most votes show only tally results, not individual positions"
-      ]
+        "Participated in 14 recorded votes",
+        "Voted Yes on 14 motions",
+        "Voted No on 0 motions",
+        "Abstained on 0 motions",
+        "Voted on 2 different agenda items",
+        "Consistently supportive voting record"
+      ],
+      "stats": {
+        "total_votes": 14,
+        "yes_votes": 14,
+        "no_votes": 0
+      }
     },
     "Sheikh": {
+      "summary": "Sheikh serves as councilmember of the Torrance City Council. Shows a consistently supportive approach, voting Yes on all 14 recorded votes. Key areas of focus include 9C. Planning Commission and Community Development \u2013 Conduct a Public Hearing and Consider Adoption of RESOLUTION for the Denial of a Modification (MOD23-00010) of a Previously Approved Division of Lot (DIV14-00006) to Amend an Open Space Easement (Note A, 10D. City Manager \u2013 Accept and File Economic Development Update and Consider and Provide Direction on Proposed Economic Development Initiatives. Expenditure: None..",
       "role": "Councilmember",
-      "full_name": "Councilmember Sheikh",
-      "summary": "City Councilmember. Limited individual voting data available in current dataset. Most votes show only tally results rather than individual positions.",
       "notes": [
-        "City Councilmember",
-        "Limited individual vote records in current data",
-        "Most votes show only tally results, not individual positions"
-      ]
+        "Participated in 14 recorded votes",
+        "Voted Yes on 14 motions",
+        "Voted No on 0 motions",
+        "Abstained on 0 motions",
+        "Voted on 2 different agenda items",
+        "Consistently supportive voting record"
+      ],
+      "stats": {
+        "total_votes": 14,
+        "yes_votes": 14,
+        "no_votes": 0
+      }
     }
   }
 }
