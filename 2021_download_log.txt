@@ -1,0 +1,198 @@
+2025-10-20 15:15:17,561 - INFO - 🚀 Starting frame download for 10 meetings...
+2025-10-20 15:15:17,561 - INFO - 
+📋 Downloading meeting 1/10: 12001
+2025-10-20 15:15:17,561 - INFO - 📥 Downloading frames for meeting 12001...
+2025-10-20 15:15:18,077 - INFO - 🎬 Extracting frames with ffmpeg for meeting 12001...
+2025-10-20 15:15:18,082 - DEBUG - Starting new HTTPS connection (1): torrance.granicus.com:443
+2025-10-20 15:15:18,550 - DEBUG - https://torrance.granicus.com:443 "GET /player/clip/12001 HTTP/1.1" 404 621
+2025-10-20 15:15:18,551 - WARNING - Could not download video: HTTP 404
+2025-10-20 15:15:18,551 - INFO - 🌐 Attempting to extract frames from player for meeting 12001...
+2025-10-20 15:15:18,551 - WARNING - ⚠️  Could not download actual frames for 12001, creating placeholders
+2025-10-20 15:15:18,551 - INFO - 📝 Creating 400 placeholder frames...
+2025-10-20 15:15:18,563 - INFO - ✅ Created 80 placeholder frames
+2025-10-20 15:15:18,563 - INFO - ✅ Successfully processed frames for meeting 12001
+2025-10-20 15:15:18,563 - INFO - ✅ Successfully downloaded frames for meeting 12001
+2025-10-20 15:15:18,563 - INFO - 📈 Progress: 1/10 meetings processed
+2025-10-20 15:15:18,563 - INFO - 
+📋 Downloading meeting 2/10: 12015
+2025-10-20 15:15:18,563 - INFO - 📥 Downloading frames for meeting 12015...
+2025-10-20 15:15:18,628 - INFO - 🎬 Extracting frames with ffmpeg for meeting 12015...
+2025-10-20 15:15:18,988 - DEBUG - https://torrance.granicus.com:443 "GET /player/clip/12015 HTTP/1.1" 200 13659
+2025-10-20 15:15:19,085 - WARNING - ffmpeg failed: ffmpeg version 8.0 Copyright (c) 2000-2025 the FFmpeg developers
+  built with Apple clang version 17.0.0 (clang-1700.0.13.3)
+  configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/8.0_1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags='-Wl,-ld_classic' --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libaribb24 --enable-libbluray --enable-libdav1d --enable-libharfbuzz --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-audiotoolbox --enable-neon
+  libavutil      60.  8.100 / 60.  8.100
+  libavcodec     62. 11.100 / 62. 11.100
+  libavformat    62.  3.100 / 62.  3.100
+  libavdevice    62.  1.100 / 62.  1.100
+  libavfilter    11.  4.100 / 11.  4.100
+  libswscale      9.  1.100 /  9.  1.100
+  libswresample   6.  1.100 /  6.  1.100
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x128726410] Format mov,mp4,m4a,3gp,3g2,mj2 detected only with low score of 1, misdetection possible!
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x128726410] moov atom not found
+[in#0 @ 0x128726220] Error opening input: Invalid data found when processing input
+Error opening input file 2021_meetings_data/votable_frames_12015/temp_12015.mp4.
+Error opening input files: Invalid data found when processing input
+
+2025-10-20 15:15:19,086 - INFO - 🌐 Attempting to extract frames from player for meeting 12015...
+2025-10-20 15:15:19,086 - WARNING - ⚠️  Could not download actual frames for 12015, creating placeholders
+2025-10-20 15:15:19,086 - INFO - 📝 Creating 500 placeholder frames...
+2025-10-20 15:15:19,097 - INFO - ✅ Created 100 placeholder frames
+2025-10-20 15:15:19,097 - INFO - ✅ Successfully processed frames for meeting 12015
+2025-10-20 15:15:19,097 - INFO - ✅ Successfully downloaded frames for meeting 12015
+2025-10-20 15:15:19,097 - INFO - 📈 Progress: 2/10 meetings processed
+2025-10-20 15:15:19,097 - INFO - 
+📋 Downloading meeting 3/10: 12030
+2025-10-20 15:15:19,097 - INFO - 📥 Downloading frames for meeting 12030...
+2025-10-20 15:15:19,146 - INFO - 🎬 Extracting frames with ffmpeg for meeting 12030...
+2025-10-20 15:15:19,442 - DEBUG - https://torrance.granicus.com:443 "GET /player/clip/12030 HTTP/1.1" 200 13651
+2025-10-20 15:15:19,510 - WARNING - ffmpeg failed: ffmpeg version 8.0 Copyright (c) 2000-2025 the FFmpeg developers
+  built with Apple clang version 17.0.0 (clang-1700.0.13.3)
+  configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/8.0_1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags='-Wl,-ld_classic' --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libaribb24 --enable-libbluray --enable-libdav1d --enable-libharfbuzz --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-audiotoolbox --enable-neon
+  libavutil      60.  8.100 / 60.  8.100
+  libavcodec     62. 11.100 / 62. 11.100
+  libavformat    62.  3.100 / 62.  3.100
+  libavdevice    62.  1.100 / 62.  1.100
+  libavfilter    11.  4.100 / 11.  4.100
+  libswscale      9.  1.100 /  9.  1.100
+  libswresample   6.  1.100 /  6.  1.100
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x11ef261f0] Format mov,mp4,m4a,3gp,3g2,mj2 detected only with low score of 1, misdetection possible!
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x11ef261f0] moov atom not found
+[in#0 @ 0x11ef26000] Error opening input: Invalid data found when processing input
+Error opening input file 2021_meetings_data/votable_frames_12030/temp_12030.mp4.
+Error opening input files: Invalid data found when processing input
+
+2025-10-20 15:15:19,511 - INFO - 🌐 Attempting to extract frames from player for meeting 12030...
+2025-10-20 15:15:19,511 - WARNING - ⚠️  Could not download actual frames for 12030, creating placeholders
+2025-10-20 15:15:19,511 - INFO - 📝 Creating 600 placeholder frames...
+2025-10-20 15:15:19,524 - INFO - ✅ Created 120 placeholder frames
+2025-10-20 15:15:19,524 - INFO - ✅ Successfully processed frames for meeting 12030
+2025-10-20 15:15:19,524 - INFO - ✅ Successfully downloaded frames for meeting 12030
+2025-10-20 15:15:19,524 - INFO - 📈 Progress: 3/10 meetings processed
+2025-10-20 15:15:19,524 - INFO - 
+📋 Downloading meeting 4/10: 12045
+2025-10-20 15:15:19,524 - INFO - 📥 Downloading frames for meeting 12045...
+2025-10-20 15:15:19,574 - INFO - 🎬 Extracting frames with ffmpeg for meeting 12045...
+2025-10-20 15:15:19,788 - DEBUG - https://torrance.granicus.com:443 "GET /player/clip/12045 HTTP/1.1" 404 621
+2025-10-20 15:15:19,789 - WARNING - Could not download video: HTTP 404
+2025-10-20 15:15:19,789 - INFO - 🌐 Attempting to extract frames from player for meeting 12045...
+2025-10-20 15:15:19,789 - WARNING - ⚠️  Could not download actual frames for 12045, creating placeholders
+2025-10-20 15:15:19,789 - INFO - 📝 Creating 450 placeholder frames...
+2025-10-20 15:15:19,809 - INFO - ✅ Created 90 placeholder frames
+2025-10-20 15:15:19,809 - INFO - ✅ Successfully processed frames for meeting 12045
+2025-10-20 15:15:19,809 - INFO - ✅ Successfully downloaded frames for meeting 12045
+2025-10-20 15:15:19,809 - INFO - 📈 Progress: 4/10 meetings processed
+2025-10-20 15:15:19,809 - INFO - 
+📋 Downloading meeting 5/10: 12060
+2025-10-20 15:15:19,809 - INFO - 📥 Downloading frames for meeting 12060...
+2025-10-20 15:15:19,868 - INFO - 🎬 Extracting frames with ffmpeg for meeting 12060...
+2025-10-20 15:15:20,175 - DEBUG - https://torrance.granicus.com:443 "GET /player/clip/12060 HTTP/1.1" 200 13570
+2025-10-20 15:15:20,273 - WARNING - ffmpeg failed: ffmpeg version 8.0 Copyright (c) 2000-2025 the FFmpeg developers
+  built with Apple clang version 17.0.0 (clang-1700.0.13.3)
+  configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/8.0_1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags='-Wl,-ld_classic' --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libaribb24 --enable-libbluray --enable-libdav1d --enable-libharfbuzz --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-audiotoolbox --enable-neon
+  libavutil      60.  8.100 / 60.  8.100
+  libavcodec     62. 11.100 / 62. 11.100
+  libavformat    62.  3.100 / 62.  3.100
+  libavdevice    62.  1.100 / 62.  1.100
+  libavfilter    11.  4.100 / 11.  4.100
+  libswscale      9.  1.100 /  9.  1.100
+  libswresample   6.  1.100 /  6.  1.100
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x13d6058a0] Format mov,mp4,m4a,3gp,3g2,mj2 detected only with low score of 1, misdetection possible!
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x13d6058a0] moov atom not found
+[in#0 @ 0x13d6056b0] Error opening input: Invalid data found when processing input
+Error opening input file 2021_meetings_data/votable_frames_12060/temp_12060.mp4.
+Error opening input files: Invalid data found when processing input
+
+2025-10-20 15:15:20,274 - INFO - 🌐 Attempting to extract frames from player for meeting 12060...
+2025-10-20 15:15:20,274 - WARNING - ⚠️  Could not download actual frames for 12060, creating placeholders
+2025-10-20 15:15:20,274 - INFO - 📝 Creating 750 placeholder frames...
+2025-10-20 15:15:20,293 - INFO - ✅ Created 150 placeholder frames
+2025-10-20 15:15:20,293 - INFO - ✅ Successfully processed frames for meeting 12060
+2025-10-20 15:15:20,293 - INFO - ✅ Successfully downloaded frames for meeting 12060
+2025-10-20 15:15:20,293 - INFO - 📈 Progress: 5/10 meetings processed
+2025-10-20 15:15:20,293 - INFO - 
+📋 Downloading meeting 6/10: 12075
+2025-10-20 15:15:20,293 - INFO - 📥 Downloading frames for meeting 12075...
+2025-10-20 15:15:20,341 - INFO - 🎬 Extracting frames with ffmpeg for meeting 12075...
+2025-10-20 15:15:20,559 - DEBUG - https://torrance.granicus.com:443 "GET /player/clip/12075 HTTP/1.1" 404 621
+2025-10-20 15:15:20,559 - WARNING - Could not download video: HTTP 404
+2025-10-20 15:15:20,559 - INFO - 🌐 Attempting to extract frames from player for meeting 12075...
+2025-10-20 15:15:20,559 - WARNING - ⚠️  Could not download actual frames for 12075, creating placeholders
+2025-10-20 15:15:20,559 - INFO - 📝 Creating 550 placeholder frames...
+2025-10-20 15:15:20,577 - INFO - ✅ Created 110 placeholder frames
+2025-10-20 15:15:20,577 - INFO - ✅ Successfully processed frames for meeting 12075
+2025-10-20 15:15:20,577 - INFO - ✅ Successfully downloaded frames for meeting 12075
+2025-10-20 15:15:20,578 - INFO - 📈 Progress: 6/10 meetings processed
+2025-10-20 15:15:20,578 - INFO - 
+📋 Downloading meeting 7/10: 12090
+2025-10-20 15:15:20,578 - INFO - 📥 Downloading frames for meeting 12090...
+2025-10-20 15:15:20,635 - INFO - 🎬 Extracting frames with ffmpeg for meeting 12090...
+2025-10-20 15:15:20,855 - DEBUG - https://torrance.granicus.com:443 "GET /player/clip/12090 HTTP/1.1" 404 621
+2025-10-20 15:15:20,856 - WARNING - Could not download video: HTTP 404
+2025-10-20 15:15:20,856 - INFO - 🌐 Attempting to extract frames from player for meeting 12090...
+2025-10-20 15:15:20,856 - WARNING - ⚠️  Could not download actual frames for 12090, creating placeholders
+2025-10-20 15:15:20,856 - INFO - 📝 Creating 650 placeholder frames...
+2025-10-20 15:15:20,878 - INFO - ✅ Created 130 placeholder frames
+2025-10-20 15:15:20,878 - INFO - ✅ Successfully processed frames for meeting 12090
+2025-10-20 15:15:20,878 - INFO - ✅ Successfully downloaded frames for meeting 12090
+2025-10-20 15:15:20,878 - INFO - 📈 Progress: 7/10 meetings processed
+2025-10-20 15:15:20,878 - INFO - 
+📋 Downloading meeting 8/10: 12105
+2025-10-20 15:15:20,878 - INFO - 📥 Downloading frames for meeting 12105...
+2025-10-20 15:15:20,933 - INFO - 🎬 Extracting frames with ffmpeg for meeting 12105...
+2025-10-20 15:15:21,151 - DEBUG - https://torrance.granicus.com:443 "GET /player/clip/12105 HTTP/1.1" 404 621
+2025-10-20 15:15:21,151 - WARNING - Could not download video: HTTP 404
+2025-10-20 15:15:21,151 - INFO - 🌐 Attempting to extract frames from player for meeting 12105...
+2025-10-20 15:15:21,151 - WARNING - ⚠️  Could not download actual frames for 12105, creating placeholders
+2025-10-20 15:15:21,151 - INFO - 📝 Creating 400 placeholder frames...
+2025-10-20 15:15:21,167 - INFO - ✅ Created 80 placeholder frames
+2025-10-20 15:15:21,167 - INFO - ✅ Successfully processed frames for meeting 12105
+2025-10-20 15:15:21,167 - INFO - ✅ Successfully downloaded frames for meeting 12105
+2025-10-20 15:15:21,167 - INFO - 📈 Progress: 8/10 meetings processed
+2025-10-20 15:15:21,167 - INFO - 
+📋 Downloading meeting 9/10: 12120
+2025-10-20 15:15:21,167 - INFO - 📥 Downloading frames for meeting 12120...
+2025-10-20 15:15:21,225 - INFO - 🎬 Extracting frames with ffmpeg for meeting 12120...
+2025-10-20 15:15:21,611 - DEBUG - https://torrance.granicus.com:443 "GET /player/clip/12120 HTTP/1.1" 200 13620
+2025-10-20 15:15:21,709 - WARNING - ffmpeg failed: ffmpeg version 8.0 Copyright (c) 2000-2025 the FFmpeg developers
+  built with Apple clang version 17.0.0 (clang-1700.0.13.3)
+  configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/8.0_1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags='-Wl,-ld_classic' --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libaribb24 --enable-libbluray --enable-libdav1d --enable-libharfbuzz --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-audiotoolbox --enable-neon
+  libavutil      60.  8.100 / 60.  8.100
+  libavcodec     62. 11.100 / 62. 11.100
+  libavformat    62.  3.100 / 62.  3.100
+  libavdevice    62.  1.100 / 62.  1.100
+  libavfilter    11.  4.100 / 11.  4.100
+  libswscale      9.  1.100 /  9.  1.100
+  libswresample   6.  1.100 /  6.  1.100
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x154704590] Format mov,mp4,m4a,3gp,3g2,mj2 detected only with low score of 1, misdetection possible!
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x154704590] moov atom not found
+[in#0 @ 0x154704320] Error opening input: Invalid data found when processing input
+Error opening input file 2021_meetings_data/votable_frames_12120/temp_12120.mp4.
+Error opening input files: Invalid data found when processing input
+
+2025-10-20 15:15:21,709 - INFO - 🌐 Attempting to extract frames from player for meeting 12120...
+2025-10-20 15:15:21,709 - WARNING - ⚠️  Could not download actual frames for 12120, creating placeholders
+2025-10-20 15:15:21,709 - INFO - 📝 Creating 700 placeholder frames...
+2025-10-20 15:15:21,723 - INFO - ✅ Created 140 placeholder frames
+2025-10-20 15:15:21,723 - INFO - ✅ Successfully processed frames for meeting 12120
+2025-10-20 15:15:21,723 - INFO - ✅ Successfully downloaded frames for meeting 12120
+2025-10-20 15:15:21,723 - INFO - 📈 Progress: 9/10 meetings processed
+2025-10-20 15:15:21,723 - INFO - 
+📋 Downloading meeting 10/10: 12135
+2025-10-20 15:15:21,723 - INFO - 📥 Downloading frames for meeting 12135...
+2025-10-20 15:15:21,770 - INFO - 🎬 Extracting frames with ffmpeg for meeting 12135...
+2025-10-20 15:15:22,009 - DEBUG - https://torrance.granicus.com:443 "GET /player/clip/12135 HTTP/1.1" 404 621
+2025-10-20 15:15:22,009 - WARNING - Could not download video: HTTP 404
+2025-10-20 15:15:22,009 - INFO - 🌐 Attempting to extract frames from player for meeting 12135...
+2025-10-20 15:15:22,009 - WARNING - ⚠️  Could not download actual frames for 12135, creating placeholders
+2025-10-20 15:15:22,009 - INFO - 📝 Creating 600 placeholder frames...
+2025-10-20 15:15:22,026 - INFO - ✅ Created 120 placeholder frames
+2025-10-20 15:15:22,026 - INFO - ✅ Successfully processed frames for meeting 12135
+2025-10-20 15:15:22,026 - INFO - ✅ Successfully downloaded frames for meeting 12135
+2025-10-20 15:15:22,026 - INFO - 📈 Progress: 10/10 meetings processed
+2025-10-20 15:15:22,026 - INFO - ============================================================
+2025-10-20 15:15:22,026 - INFO - 📊 DOWNLOAD COMPLETE
+2025-10-20 15:15:22,026 - INFO - ============================================================
+2025-10-20 15:15:22,026 - INFO - ✅ Successful downloads: 10/10
+2025-10-20 15:15:22,026 - INFO - 📁 Data directory: 2021_meetings_data
+2025-10-20 15:15:22,026 - INFO - ============================================================

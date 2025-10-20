@@ -200,9 +200,10 @@ class VoteViewerUtils {
         return {
             'george_chen': 'George Chen',
             'mike_gerson': 'Mike Gerson',
-            'jonathan_kang': 'Jonathan Kang',
+            'jon_kaji': 'Jon Kaji',
             'sharon_kalani': 'Sharon Kalani',
-            'asam_shaikh': 'Asam Shaikh'
+            'asam_shaikh': 'Asam Shaikh',
+            'mattucci': 'Mattucci'
         };
     }
 
