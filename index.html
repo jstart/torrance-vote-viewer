@@ -1359,15 +1359,25 @@
             renderVotesList(votes) {
                 return votes.map(vote => {
                     // Calculate approximate timestamp based on frame number and meeting context
-                    // This is a better approximation than using vote index
-                    const frameNumber = parseInt(vote.frame_number) || 0;
-                    const meetingId = vote.meeting_id;
-
-                    // Estimate timestamp based on frame number (assuming ~30fps and meeting starts at frame 0)
-                    const estimatedSeconds = Math.floor(frameNumber / 30); // Rough estimate
-                    const minutes = Math.floor(estimatedSeconds / 60);
-                    const seconds = estimatedSeconds % 60;
-                    const timestamp = `${minutes}:${seconds.toString().padStart(2, '0')}`;
+                    // Calculate timestamp - use actual video timestamp if available, otherwise estimate from frame
+                    let timestamp;
+                    let timestampSource;
+                    
+                    if (vote.video_timestamp !== undefined) {
+                        // Use actual video timestamp (in seconds)
+                        const minutes = Math.floor(vote.video_timestamp / 60);
+                        const seconds = vote.video_timestamp % 60;
+                        timestamp = `${minutes}:${seconds.toString().padStart(2, '0')}`;
+                        timestampSource = vote.timestamp_estimated ? 'estimated' : 'actual';
+                    } else {
+                        // Fallback to frame-based estimation
+                        const frameNumber = parseInt(vote.frame_number) || 0;
+                        const estimatedSeconds = Math.floor(frameNumber / 30);
+                        const minutes = Math.floor(estimatedSeconds / 60);
+                        const seconds = estimatedSeconds % 60;
+                        timestamp = `${minutes}:${seconds.toString().padStart(2, '0')}`;
+                        timestampSource = 'estimated';
+                    }
 
                     // Generate deep links
                     const videoDeepLink = this.generateVideoDeepLink(vote);
@@ -1387,7 +1397,8 @@
                                 Abstentions: ${vote.vote_tally.abstentions}
                             </div>
                             <div style="margin-top: 0.5rem; color: #666; font-size: 0.9rem;">
-                                Vote occurred at approximately ${timestamp} in meeting video
+                                Vote occurred at ${timestampSource === 'actual' ? '' : 'approximately '}${timestamp} in meeting video
+                                ${timestampSource === 'estimated' ? ' (estimated from frame data)' : ''}
                             </div>
                             ${vote.motion_text ? `<div style="margin-top: 0.5rem; font-style: italic;">${vote.motion_text}</div>` : ''}
                             <div style="margin-top: 0.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
