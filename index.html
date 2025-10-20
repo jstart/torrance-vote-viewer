@@ -980,31 +980,20 @@
             }
 
             generateVideoDeepLink(vote) {
-                // Generate deep link to video based on Granicus player pattern
+                // Generate deep link to video using scraped meta_ids
                 // Pattern: https://torrance.granicus.com/player/clip/{meeting_id}?view_id=8&meta_id={meta_id}&redirect=true
                 const meetingId = vote.meeting_id;
-                const frameNumber = parseInt(vote.frame_number) || 0;
+                const metaId = vote.meta_id;
 
                 if (!meetingId) return null;
 
-                // Map meeting IDs to view_ids (based on Granicus data)
-                const viewIdMap = {
-                    '14510': '8',
-                    '14490': '8',
-                    '14538': '8',
-                    '14524': '8',
-                    '14530': '8',
-                    '14536': '8'
-                };
-
-                const viewId = viewIdMap[meetingId] || '8';
-
-                // Generate meta_id based on frame number
-                // Using a more realistic range based on the actual Granicus meta_ids
-                const baseMetaId = 400950; // Base meta_id for meeting 14490
-                const metaId = baseMetaId + (frameNumber % 1000);
-
-                return `https://torrance.granicus.com/player/clip/${meetingId}?view_id=${viewId}&meta_id=${metaId}&redirect=true`;
+                // If we have a scraped meta_id, use it for precise timestamp linking
+                if (metaId) {
+                    return `https://torrance.granicus.com/player/clip/${meetingId}?view_id=8&meta_id=${metaId}&redirect=true`;
+                } else {
+                    // Fallback to simple URL if no meta_id available
+                    return `https://torrance.granicus.com/player/clip/${meetingId}`;
+                }
             }
 
             generateAgendaDeepLink(vote) {
