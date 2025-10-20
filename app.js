@@ -239,7 +239,8 @@ class TorranceVoteViewer {
     showMeetingDetail(meetingId, meeting) {
         console.log('showMeetingDetail called for:', meetingId);
         console.log('Found meeting:', meeting);
-        const votes = this.data.votes.filter(vote => vote.meeting_id === meetingId);
+        const votes = this.data.votes.filter(vote => vote.meeting_id === meetingId)
+            .sort((a, b) => (a.frame_number || 0) - (b.frame_number || 0));
 
         // Get meeting summary if available
         const meetingSummary = this.data.meeting_summaries && this.data.meeting_summaries[meetingId];

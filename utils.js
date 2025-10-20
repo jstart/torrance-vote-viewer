@@ -18,6 +18,51 @@ class VoteViewerUtils {
         return `${minutes}:${remainingSeconds.toString().padStart(2, '0')}`;
     }
 
+    // Format date and time in human-readable format with PST timezone
+    static formatMeetingDateTime(dateStr, timeStr) {
+        if (!dateStr) return 'Date not available';
+        
+        try {
+            // Parse the date string (YYYY-MM-DD format)
+            const date = new Date(dateStr + 'T00:00:00');
+            
+            // Format the date
+            const monthNames = ['January', 'February', 'March', 'April', 'May', 'June',
+                              'July', 'August', 'September', 'October', 'November', 'December'];
+            const month = monthNames[date.getMonth()];
+            const day = date.getDate();
+            const year = date.getFullYear();
+            
+            let formattedDate = `${month} ${day}, ${year}`;
+            
+            // Add time if available
+            if (timeStr) {
+                // Parse time string (HH:MM format)
+                const [hours, minutes] = timeStr.split(':').map(Number);
+                
+                // Convert to 12-hour format
+                let displayHours = hours;
+                let ampm = 'AM';
+                
+                if (hours === 0) {
+                    displayHours = 12;
+                } else if (hours === 12) {
+                    ampm = 'PM';
+                } else if (hours > 12) {
+                    displayHours = hours - 12;
+                    ampm = 'PM';
+                }
+                
+                formattedDate += ` at ${displayHours}:${minutes.toString().padStart(2, '0')} ${ampm} PST`;
+            }
+            
+            return formattedDate;
+        } catch (error) {
+            console.error('Error formatting date:', error);
+            return dateStr + (timeStr ? ` at ${timeStr}` : '');
+        }
+    }
+
     // Calculate vote statistics
     static calculateVoteStats(votes) {
         const passed = votes.filter(v => v.result && v.result.toLowerCase().includes('pass')).length;
