@@ -931,14 +931,14 @@ class TorranceVoteViewer {
         document.body.appendChild(textArea);
         textArea.focus();
         textArea.select();
-        
+
         try {
             document.execCommand('copy');
             VoteViewerUtils.showNotification('Link copied to clipboard!', 'success');
         } catch (err) {
             VoteViewerUtils.showNotification('Failed to copy link', 'error');
         }
-        
+
         document.body.removeChild(textArea);
     }
 
@@ -979,18 +979,18 @@ class TorranceVoteViewer {
     // Add visual feedback for touch interactions
     addTouchFeedback() {
         const touchElements = document.querySelectorAll('.btn, .nav-link, .meeting-link, .vote-item, .meeting-card, .councilmember-card, .councilmember-row');
-        
+
         touchElements.forEach(element => {
             element.addEventListener('touchstart', function() {
                 this.style.transform = 'scale(0.98)';
                 this.style.opacity = '0.8';
             });
-            
+
             element.addEventListener('touchend', function() {
                 this.style.transform = '';
                 this.style.opacity = '';
             });
-            
+
             element.addEventListener('touchcancel', function() {
                 this.style.transform = '';
                 this.style.opacity = '';
@@ -1002,22 +1002,22 @@ class TorranceVoteViewer {
     optimizeScrolling() {
         // Add smooth scrolling behavior
         document.documentElement.style.scrollBehavior = 'smooth';
-        
+
         // Optimize scroll performance on mobile
         let ticking = false;
-        
+
         function updateScrollPosition() {
             // Add any scroll-based optimizations here
             ticking = false;
         }
-        
+
         function requestTick() {
             if (!ticking) {
                 requestAnimationFrame(updateScrollPosition);
                 ticking = true;
             }
         }
-        
+
         window.addEventListener('scroll', requestTick, { passive: true });
     }
 }
