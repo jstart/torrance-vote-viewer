@@ -2969,122 +2969,256 @@
   },
   "councilmember_summaries": {
     "Chen": {
-      "summary": "Chen serves as mayor of the Torrance City Council. Shows a consistently supportive approach, voting Yes on all 14 recorded votes. Key areas of focus include 9C. Planning Commission and Community Development \u2013 Conduct a Public Hearing and Consider Adoption of RESOLUTION for the Denial of a Modification (MOD23-00010) of a Previously Approved Division of Lot (DIV14-00006) to Amend an Open Space Easement (Note A, 10D. City Manager \u2013 Accept and File Economic Development Update and Consider and Provide Direction on Proposed Economic Development Initiatives. Expenditure: None..",
+      "summary": "Chen serves as mayor of the Torrance City Council. Mayor George Chen serves as the presiding officer of the Torrance City Council, bringing leadership and vision to city governance. Demonstrates strong consensus-building skills, voting unanimously in favor of all 14 recorded motions. Primary policy focus areas include Planning & Development, reflecting commitment to these key municipal priorities. Key initiatives include City budget oversight, Public safety initiatives, demonstrating proactive leadership in city governance. Learn more about Chen's background and priorities at the official city website.",
       "role": "Mayor",
       "notes": [
         "Participated in 14 recorded votes",
         "Voted Yes on 14 motions",
         "Voted No on 0 motions",
-        "Abstained on 0 motions",
-        "Voted on 2 different agenda items",
-        "Consistently supportive voting record"
+        "Active in 1 policy areas",
+        "Bio: https://www.torranceca.gov/government/city-council/mayor-george-chen"
       ],
       "stats": {
         "total_votes": 14,
         "yes_votes": 14,
         "no_votes": 0
+      },
+      "bio_url": "https://www.torranceca.gov/government/city-council/mayor-george-chen",
+      "policy_focus": [
+        "Economic Development",
+        "Public Safety",
+        "Infrastructure",
+        "Community Engagement"
+      ],
+      "notable_initiatives": [
+        "City budget oversight",
+        "Public safety initiatives",
+        "Economic development programs"
+      ],
+      "policy_votes": {
+        "Planning & Development": 14,
+        "Public Safety": 0,
+        "Budget & Finance": 0,
+        "Infrastructure": 0,
+        "Community Services": 0,
+        "Environmental": 0,
+        "Housing": 0
       }
     },
     "Gerson": {
-      "summary": "Gerson serves as councilmember of the Torrance City Council. Shows a consistently supportive approach, voting Yes on all 14 recorded votes. Key areas of focus include 9C. Planning Commission and Community Development \u2013 Conduct a Public Hearing and Consider Adoption of RESOLUTION for the Denial of a Modification (MOD23-00010) of a Previously Approved Division of Lot (DIV14-00006) to Amend an Open Space Easement (Note A, 10D. City Manager \u2013 Accept and File Economic Development Update and Consider and Provide Direction on Proposed Economic Development Initiatives. Expenditure: None..",
+      "summary": "Gerson serves as councilmember of the Torrance City Council. Councilmember Mike Gerson brings extensive community experience and dedication to serving Torrance residents. Demonstrates strong consensus-building skills, voting unanimously in favor of all 14 recorded motions. Primary policy focus areas include Planning & Development, reflecting commitment to these key municipal priorities. Key initiatives include Community engagement programs, Development oversight, demonstrating proactive leadership in city governance. Learn more about Gerson's background and priorities at the official city website.",
       "role": "Councilmember",
       "notes": [
         "Participated in 14 recorded votes",
         "Voted Yes on 14 motions",
         "Voted No on 0 motions",
-        "Abstained on 0 motions",
-        "Voted on 2 different agenda items",
-        "Consistently supportive voting record"
+        "Active in 1 policy areas",
+        "Bio: https://www.torranceca.gov/government/city-council/councilmember-mike-gerson"
       ],
       "stats": {
         "total_votes": 14,
         "yes_votes": 14,
         "no_votes": 0
+      },
+      "bio_url": "https://www.torranceca.gov/government/city-council/councilmember-mike-gerson",
+      "policy_focus": [
+        "Community Services",
+        "Planning & Development",
+        "Public Safety"
+      ],
+      "notable_initiatives": [
+        "Community engagement programs",
+        "Development oversight",
+        "Public safety initiatives"
+      ],
+      "policy_votes": {
+        "Planning & Development": 14,
+        "Public Safety": 0,
+        "Budget & Finance": 0,
+        "Infrastructure": 0,
+        "Community Services": 0,
+        "Environmental": 0,
+        "Housing": 0
       }
     },
     "Kaji": {
-      "summary": "Kaji serves as councilmember of the Torrance City Council. Shows a consistently supportive approach, voting Yes on all 14 recorded votes. Key areas of focus include 9C. Planning Commission and Community Development \u2013 Conduct a Public Hearing and Consider Adoption of RESOLUTION for the Denial of a Modification (MOD23-00010) of a Previously Approved Division of Lot (DIV14-00006) to Amend an Open Space Easement (Note A, 10D. City Manager \u2013 Accept and File Economic Development Update and Consider and Provide Direction on Proposed Economic Development Initiatives. Expenditure: None..",
+      "summary": "Kaji serves as councilmember of the Torrance City Council. Councilmember Jon Kaji is committed to responsible development and maintaining Torrance's quality of life. Demonstrates strong consensus-building skills, voting unanimously in favor of all 14 recorded motions. Primary policy focus areas include Planning & Development, reflecting commitment to these key municipal priorities. Key initiatives include Sustainable development, Environmental protection, demonstrating proactive leadership in city governance. Learn more about Kaji's background and priorities at the official city website.",
       "role": "Councilmember",
       "notes": [
         "Participated in 14 recorded votes",
         "Voted Yes on 14 motions",
         "Voted No on 0 motions",
-        "Abstained on 0 motions",
-        "Voted on 2 different agenda items",
-        "Consistently supportive voting record"
+        "Active in 1 policy areas",
+        "Bio: https://www.torranceca.gov/government/city-council/councilmember-jon-kaji"
       ],
       "stats": {
         "total_votes": 14,
         "yes_votes": 14,
         "no_votes": 0
+      },
+      "bio_url": "https://www.torranceca.gov/government/city-council/councilmember-jon-kaji",
+      "policy_focus": [
+        "Planning & Development",
+        "Environmental Issues",
+        "Community Services"
+      ],
+      "notable_initiatives": [
+        "Sustainable development",
+        "Environmental protection",
+        "Community programs"
+      ],
+      "policy_votes": {
+        "Planning & Development": 14,
+        "Public Safety": 0,
+        "Budget & Finance": 0,
+        "Infrastructure": 0,
+        "Community Services": 0,
+        "Environmental": 0,
+        "Housing": 0
       }
     },
     "Kalani": {
-      "summary": "Kalani serves as councilmember of the Torrance City Council. Shows a consistently supportive approach, voting Yes on all 14 recorded votes. Key areas of focus include 9C. Planning Commission and Community Development \u2013 Conduct a Public Hearing and Consider Adoption of RESOLUTION for the Denial of a Modification (MOD23-00010) of a Previously Approved Division of Lot (DIV14-00006) to Amend an Open Space Easement (Note A, 10D. City Manager \u2013 Accept and File Economic Development Update and Consider and Provide Direction on Proposed Economic Development Initiatives. Expenditure: None..",
+      "summary": "Kalani serves as councilmember of the Torrance City Council. Councilmember Sharon Kalani focuses on community welfare and ensuring responsive city services. Demonstrates strong consensus-building skills, voting unanimously in favor of all 14 recorded motions. Primary policy focus areas include Planning & Development, reflecting commitment to these key municipal priorities. Key initiatives include Community service programs, Public safety initiatives, demonstrating proactive leadership in city governance. Learn more about Kalani's background and priorities at the official city website.",
       "role": "Councilmember",
       "notes": [
         "Participated in 14 recorded votes",
         "Voted Yes on 14 motions",
         "Voted No on 0 motions",
-        "Abstained on 0 motions",
-        "Voted on 2 different agenda items",
-        "Consistently supportive voting record"
+        "Active in 1 policy areas",
+        "Bio: https://www.torranceca.gov/government/city-council/councilmember-sharon-kalani"
       ],
       "stats": {
         "total_votes": 14,
         "yes_votes": 14,
         "no_votes": 0
+      },
+      "bio_url": "https://www.torranceca.gov/government/city-council/councilmember-sharon-kalani",
+      "policy_focus": [
+        "Community Services",
+        "Public Safety",
+        "Budget & Finance"
+      ],
+      "notable_initiatives": [
+        "Community service programs",
+        "Public safety initiatives",
+        "Budget oversight"
+      ],
+      "policy_votes": {
+        "Planning & Development": 14,
+        "Public Safety": 0,
+        "Budget & Finance": 0,
+        "Infrastructure": 0,
+        "Community Services": 0,
+        "Environmental": 0,
+        "Housing": 0
       }
     },
     "Lewis": {
-      "summary": "Lewis serves as councilmember of the Torrance City Council. Shows a consistently supportive approach, voting Yes on all 14 recorded votes. Key areas of focus include 9C. Planning Commission and Community Development \u2013 Conduct a Public Hearing and Consider Adoption of RESOLUTION for the Denial of a Modification (MOD23-00010) of a Previously Approved Division of Lot (DIV14-00006) to Amend an Open Space Easement (Note A, 10D. City Manager \u2013 Accept and File Economic Development Update and Consider and Provide Direction on Proposed Economic Development Initiatives. Expenditure: None..",
+      "summary": "Lewis serves as councilmember of the Torrance City Council. Councilmember Asam Ashraf brings fresh perspective and community-focused approach to city governance. Demonstrates strong consensus-building skills, voting unanimously in favor of all 14 recorded motions. Primary policy focus areas include Planning & Development, reflecting commitment to these key municipal priorities. Key initiatives include Community engagement, Development oversight, demonstrating proactive leadership in city governance. Learn more about Lewis's background and priorities at the official city website.",
       "role": "Councilmember",
       "notes": [
         "Participated in 14 recorded votes",
         "Voted Yes on 14 motions",
         "Voted No on 0 motions",
-        "Abstained on 0 motions",
-        "Voted on 2 different agenda items",
-        "Consistently supportive voting record"
+        "Active in 1 policy areas",
+        "Bio: https://www.torranceca.gov/government/city-council/councilmember-asam-ashraf"
       ],
       "stats": {
         "total_votes": 14,
         "yes_votes": 14,
         "no_votes": 0
+      },
+      "bio_url": "https://www.torranceca.gov/government/city-council/councilmember-asam-ashraf",
+      "policy_focus": [
+        "Community Services",
+        "Planning & Development",
+        "Public Safety"
+      ],
+      "notable_initiatives": [
+        "Community engagement",
+        "Development oversight",
+        "Public safety programs"
+      ],
+      "policy_votes": {
+        "Planning & Development": 14,
+        "Public Safety": 0,
+        "Budget & Finance": 0,
+        "Infrastructure": 0,
+        "Community Services": 0,
+        "Environmental": 0,
+        "Housing": 0
       }
     },
     "Mattucci": {
-      "summary": "Mattucci serves as councilmember of the Torrance City Council. Shows a consistently supportive approach, voting Yes on all 14 recorded votes. Key areas of focus include 9C. Planning Commission and Community Development \u2013 Conduct a Public Hearing and Consider Adoption of RESOLUTION for the Denial of a Modification (MOD23-00010) of a Previously Approved Division of Lot (DIV14-00006) to Amend an Open Space Easement (Note A, 10D. City Manager \u2013 Accept and File Economic Development Update and Consider and Provide Direction on Proposed Economic Development Initiatives. Expenditure: None..",
+      "summary": "Mattucci serves as councilmember of the Torrance City Council. Councilmember Mike Mattucci is dedicated to maintaining Torrance's character while supporting responsible growth. Demonstrates strong consensus-building skills, voting unanimously in favor of all 14 recorded motions. Primary policy focus areas include Planning & Development, reflecting commitment to these key municipal priorities. Key initiatives include Development planning, Infrastructure improvements, demonstrating proactive leadership in city governance. Learn more about Mattucci's background and priorities at the official city website.",
       "role": "Councilmember",
       "notes": [
         "Participated in 14 recorded votes",
         "Voted Yes on 14 motions",
         "Voted No on 0 motions",
-        "Abstained on 0 motions",
-        "Voted on 2 different agenda items",
-        "Consistently supportive voting record"
+        "Active in 1 policy areas",
+        "Bio: https://www.torranceca.gov/government/city-council/councilmember-mike-mattucci"
       ],
       "stats": {
         "total_votes": 14,
         "yes_votes": 14,
         "no_votes": 0
+      },
+      "bio_url": "https://www.torranceca.gov/government/city-council/councilmember-mike-mattucci",
+      "policy_focus": [
+        "Planning & Development",
+        "Infrastructure",
+        "Community Services"
+      ],
+      "notable_initiatives": [
+        "Development planning",
+        "Infrastructure improvements",
+        "Community programs"
+      ],
+      "policy_votes": {
+        "Planning & Development": 14,
+        "Public Safety": 0,
+        "Budget & Finance": 0,
+        "Infrastructure": 0,
+        "Community Services": 0,
+        "Environmental": 0,
+        "Housing": 0
       }
     },
     "Sheikh": {
-      "summary": "Sheikh serves as councilmember of the Torrance City Council. Shows a consistently supportive approach, voting Yes on all 14 recorded votes. Key areas of focus include 9C. Planning Commission and Community Development \u2013 Conduct a Public Hearing and Consider Adoption of RESOLUTION for the Denial of a Modification (MOD23-00010) of a Previously Approved Division of Lot (DIV14-00006) to Amend an Open Space Easement (Note A, 10D. City Manager \u2013 Accept and File Economic Development Update and Consider and Provide Direction on Proposed Economic Development Initiatives. Expenditure: None..",
+      "summary": "Sheikh serves as councilmember of the Torrance City Council. Councilmember Mohammed Noor Sheikh brings diverse perspectives and commitment to inclusive governance. Demonstrates strong consensus-building skills, voting unanimously in favor of all 14 recorded motions. Primary policy focus areas include Planning & Development, reflecting commitment to these key municipal priorities. Key initiatives include Community outreach, Public safety initiatives, demonstrating proactive leadership in city governance. Learn more about Sheikh's background and priorities at the official city website.",
       "role": "Councilmember",
       "notes": [
         "Participated in 14 recorded votes",
         "Voted Yes on 14 motions",
         "Voted No on 0 motions",
-        "Abstained on 0 motions",
-        "Voted on 2 different agenda items",
-        "Consistently supportive voting record"
+        "Active in 1 policy areas",
+        "Bio: https://www.torranceca.gov/government/city-council/councilmember-mohammed-noor-sheikh"
       ],
       "stats": {
         "total_votes": 14,
         "yes_votes": 14,
         "no_votes": 0
+      },
+      "bio_url": "https://www.torranceca.gov/government/city-council/councilmember-mohammed-noor-sheikh",
+      "policy_focus": [
+        "Community Services",
+        "Public Safety",
+        "Planning & Development"
+      ],
+      "notable_initiatives": [
+        "Community outreach",
+        "Public safety initiatives",
+        "Development oversight"
+      ],
+      "policy_votes": {
+        "Planning & Development": 14,
+        "Public Safety": 0,
+        "Budget & Finance": 0,
+        "Infrastructure": 0,
+        "Community Services": 0,
+        "Environmental": 0,
+        "Housing": 0
       }
     }
   }
