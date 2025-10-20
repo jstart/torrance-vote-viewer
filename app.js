@@ -115,6 +115,8 @@ class TorranceVoteViewer {
         const hash = rawHash.replace(/^\/+/, '');
         const parts = hash.split('/');
         console.log('handleRoute called with hash:', hash, 'parts:', parts);
+        console.log('Data loaded:', !!this.data);
+        console.log('Meetings available:', this.data ? Object.keys(this.data.meetings) : 'No data');
 
         // Update active nav link
         document.querySelectorAll('.nav-link').forEach(link => {
