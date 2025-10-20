@@ -37,6 +37,7 @@ error.log
 # Temporary files
 *.tmp
 *.temp
+*.jpg
 
 # Video frame data (large files)
 *_meetings_data/
