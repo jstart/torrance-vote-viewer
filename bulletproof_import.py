@@ -462,7 +462,7 @@ class BulletproofImporter:
     def update_councilmember_stats(self, votes: List[Dict]) -> Dict[str, Dict]:
         """Update councilmember statistics"""
         stats = {}
-        
+
         for vote in votes:
             # Handle both VoteData objects and dictionaries
             if hasattr(vote, 'individual_votes'):
@@ -471,11 +471,11 @@ class BulletproofImporter:
             else:
                 # Dictionary
                 individual_votes = vote.get('individual_votes', {}) or {}
-            
+
             # Ensure individual_votes is a dictionary, not a list
             if isinstance(individual_votes, list):
                 individual_votes = {}
-            
+
             for councilmember, vote_choice in individual_votes.items():
                 if councilmember not in stats:
                     stats[councilmember] = {
@@ -484,16 +484,16 @@ class BulletproofImporter:
                         'no_votes': 0,
                         'abstentions': 0
                     }
-                
+
                 stats[councilmember]['total_votes'] += 1
-                
+
                 if vote_choice.upper() == 'YES':
                     stats[councilmember]['yes_votes'] += 1
                 elif vote_choice.upper() == 'NO':
                     stats[councilmember]['no_votes'] += 1
                 elif vote_choice.upper() == 'ABSTAIN':
                     stats[councilmember]['abstentions'] += 1
-        
+
         return stats
 
     def save_data(self, data: Dict[str, Any]):

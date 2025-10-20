@@ -172,23 +172,27 @@ class TorranceVoteViewer {
     }
 
     showHome() {
-        const stats = this.data.metadata;
+        // Calculate stats from actual data
+        const totalVotes = this.data.votes ? this.data.votes.length : 0;
+        const totalMeetings = this.data.meetings ? Object.keys(this.data.meetings).length : 0;
+        const totalCouncilmembers = this.data.councilmember_stats ? Object.keys(this.data.councilmember_stats).length : 0;
+        
         const content = `
             <div class="stats-grid">
                 <div class="stat-card">
-                    <div class="stat-number">${stats.total_votes}</div>
+                    <div class="stat-number">${totalVotes}</div>
                     <div class="stat-label">Total Votes</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-number">${stats.total_meetings}</div>
+                    <div class="stat-number">${totalMeetings}</div>
                     <div class="stat-label">Meetings</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-number">${stats.total_councilmembers}</div>
+                    <div class="stat-number">${totalCouncilmembers}</div>
                     <div class="stat-label">Councilmembers</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-number">${stats.total_agenda_items}</div>
+                    <div class="stat-number">${totalVotes}</div>
                     <div class="stat-label">Agenda Items</div>
                 </div>
             </div>
