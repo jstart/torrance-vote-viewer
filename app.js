@@ -215,14 +215,29 @@ class TorranceVoteViewer {
     }
 
     showMeeting(meetingId) {
-        console.log('showMeeting called with ID:', meetingId);
+        console.log('showMeeting called with ID:', meetingId, 'type:', typeof meetingId);
+        console.log('Available meetings:', Object.keys(this.data.meetings));
+        
         const meeting = this.data.meetings[meetingId];
         if (!meeting) {
             console.log('Meeting not found:', meetingId);
-            this.showError('Meeting not found');
+            console.log('Trying with string conversion...');
+            const meetingStr = String(meetingId);
+            const meetingStrCheck = this.data.meetings[meetingStr];
+            if (meetingStrCheck) {
+                console.log('Found meeting with string conversion:', meetingStr);
+                this.showMeetingDetail(meetingStr, meetingStrCheck);
+                return;
+            }
+            this.showError(`Meeting not found: ${meetingId}`);
             return;
         }
 
+        this.showMeetingDetail(meetingId, meeting);
+    }
+
+    showMeetingDetail(meetingId, meeting) {
+        console.log('showMeetingDetail called for:', meetingId);
         console.log('Found meeting:', meeting);
         const votes = this.data.votes.filter(vote => vote.meeting_id === meetingId);
 
