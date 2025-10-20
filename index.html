@@ -684,14 +684,14 @@
                                                 <div class="councilmember-stat-label">Votes</div>
                                             </div>
                                         </div>
-                                        
+
                                         ${councilmemberSummary ? `
                                             <div class="councilmember-summary-preview" style="background: #f8f9fa; padding: 0.8rem; border-radius: 6px; margin: 0.8rem 0; border-left: 3px solid #1976d2; font-size: 0.85rem;">
                                                 <div style="font-weight: bold; color: #1976d2; margin-bottom: 0.3rem;">👤 Profile</div>
                                                 <div style="line-height: 1.3;">${councilmemberSummary.summary}</div>
                                             </div>
                                         ` : ''}
-                                        
+
                                         <a href="#/councilmember/${cm.id}" class="btn" onclick="event.stopPropagation();">View Details</a>
                                     </div>
                                 `;
@@ -712,14 +712,14 @@
                                             <div class="councilmember-stat-label">Votes</div>
                                         </div>
                                     </div>
-                                    
+
                                     ${councilmemberSummary ? `
                                         <div class="councilmember-summary-preview" style="background: #f8f9fa; padding: 0.8rem; border-radius: 6px; margin: 0.8rem 0; border-left: 3px solid #1976d2; font-size: 0.85rem;">
                                             <div style="font-weight: bold; color: #1976d2; margin-bottom: 0.3rem;">👤 Profile</div>
                                             <div style="line-height: 1.3;">${councilmemberSummary.summary}</div>
                                         </div>
                                     ` : ''}
-                                    
+
                                     <a href="#/councilmember/${cm.id}" class="btn" onclick="event.stopPropagation();">View Details</a>
                                 </div>
                             `;
@@ -938,7 +938,7 @@
                 return meetings.map(meeting => {
                     // Get meeting summary if available
                     const meetingSummary = this.data.meeting_summaries && this.data.meeting_summaries[meeting.id];
-                    
+
                     return `
                         <div class="meeting-card" onclick="window.location.href='#/meeting/${meeting.id}'" style="cursor: pointer;">
                             <div class="meeting-header">
