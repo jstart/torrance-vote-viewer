@@ -418,20 +418,22 @@
             }
 
             async loadData() {
-                console.log('Loading data from torrance_votes_consolidated_final.json...');
+                console.log('Loading data from torrance_votes_smart_consolidated.json...');
                 // Use absolute path to avoid issues with different base paths
                 const dataPath = window.location.pathname.includes('/') && !window.location.pathname.endsWith('/')
-                    ? '/data/torrance_votes_consolidated_final.json'
-                    : 'data/torrance_votes_consolidated_final.json';
+                    ? '/data/torrance_votes_smart_consolidated.json'
+                    : 'data/torrance_votes_smart_consolidated.json';
                 console.log('Using data path:', dataPath);
 
-                const response = await fetch(dataPath);
+                // Add cache-busting parameter
+                const cacheBuster = '?v=' + Date.now();
+                const response = await fetch(dataPath + cacheBuster);
                 console.log('Response status:', response.status);
                 if (!response.ok) {
                     throw new Error(`Failed to load data: ${response.status} ${response.statusText}`);
                 }
                 this.data = await response.json();
-                console.log('Data loaded successfully:', this.data.metadata);
+                console.log('Data loaded successfully. Votes:', this.data.votes?.length, 'Meetings:', Object.keys(this.data.meetings || {}).length);
             }
 
             setupRouting() {
@@ -532,24 +534,17 @@
             }
 
             showHome() {
-                const stats = this.data.metadata;
+                const totalVotes = this.data.votes ? this.data.votes.length : 0;
+                const totalMeetings = this.data.meetings ? Object.keys(this.data.meetings).length : 0;
                 const content = `
                     <div class="stats-grid">
                         <div class="stat-card">
-                            <div class="stat-number">${stats.total_votes}</div>
+                            <div class="stat-number">${totalVotes}</div>
                             <div class="stat-label">Total Votes</div>
                         </div>
                         <div class="stat-card">
-                            <div class="stat-number">${stats.total_meetings}</div>
+                            <div class="stat-number">${totalMeetings}</div>
                             <div class="stat-label">Meetings</div>
-                        </div>
-                        <div class="stat-card">
-                            <div class="stat-number">${stats.total_councilmembers}</div>
-                            <div class="stat-label">Councilmembers</div>
-                        </div>
-                        <div class="stat-card">
-                            <div class="stat-number">${stats.total_agenda_items}</div>
-                            <div class="stat-label">Agenda Items</div>
                         </div>
                     </div>
 
