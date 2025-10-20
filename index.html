@@ -714,7 +714,17 @@
             }
 
             showCouncilmembers() {
-                const councilmembers = Object.values(this.data.councilmembers);
+                // Get councilmembers from the new data structure
+                const councilmemberNames = this.data.councilmembers || [];
+                
+                // Create councilmember objects with stats
+                const councilmembers = councilmemberNames.map(name => ({
+                    id: name.toLowerCase(),
+                    display_name: name,
+                    total_votes: this.data.councilmember_stats?.[name]?.total_votes || 0,
+                    yes_votes: this.data.councilmember_stats?.[name]?.yes_votes || 0,
+                    no_votes: this.data.councilmember_stats?.[name]?.no_votes || 0
+                }));
 
                 // Define full names and identify mayors
                 const fullNames = {
