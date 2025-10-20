@@ -11,11 +11,17 @@ class VoteViewerUtils {
         return text.replace(/(https?:\/\/[^\s]+)/g, '<a href="$1" target="_blank" class="link-style">$1</a>');
     }
 
-    // Format timestamp from seconds to MM:SS
+    // Format timestamp from seconds to H:MM:SS (matching video player format)
     static formatTimestamp(seconds) {
-        const minutes = Math.floor(seconds / 60);
+        const hours = Math.floor(seconds / 3600);
+        const minutes = Math.floor((seconds % 3600) / 60);
         const remainingSeconds = seconds % 60;
-        return `${minutes}:${remainingSeconds.toString().padStart(2, '0')}`;
+        
+        if (hours > 0) {
+            return `${hours}:${minutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
+        } else {
+            return `${minutes}:${remainingSeconds.toString().padStart(2, '0')}`;
+        }
     }
 
   // Format date and time in human-readable format with PST timezone
