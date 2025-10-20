@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torrance Vote Viewer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #1976d2, #1565c0);
+            color: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .nav {
+            background: white;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .nav-link {
+            color: #1976d2;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: background-color 0.2s;
+        }
+
+        .nav-link:hover {
+            background-color: #e3f2fd;
+        }
+
+        .nav-link.active {
+            background-color: #1976d2;
+            color: white;
+        }
+
+        .content {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            min-height: 400px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 2rem;
+            color: #666;
+        }
+
+        .error {
+            background: #ffebee;
+            color: #c62828;
+            padding: 1rem;
+            border-radius: 4px;
+            margin: 1rem 0;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .stat-card {
+            background: #e3f2fd;
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #1976d2;
+        }
+
+        .stat-label {
+            color: #666;
+            margin-top: 0.5rem;
+        }
+
+        .meeting-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            background: white;
+        }
+
+        .meeting-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .meeting-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #1976d2;
+        }
+
+        .meeting-date {
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        .meeting-links {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .meeting-link {
+            color: #1976d2;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border: 1px solid #1976d2;
+            border-radius: 4px;
+            transition: all 0.2s;
+        }
+
+        .meeting-link:hover {
+            background-color: #1976d2;
+            color: white;
+        }
+
+        .vote-item {
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            padding: 1rem;
+            margin-bottom: 0.5rem;
+            background: white;
+        }
+
+        .vote-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+
+        .vote-id {
+            font-weight: bold;
+            color: #1976d2;
+        }
+
+        .vote-result {
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: bold;
+        }
+
+        .result-passed {
+            background: #c8e6c9;
+            color: #2e7d32;
+        }
+
+        .result-failed {
+            background: #ffcdd2;
+            color: #c62828;
+        }
+
+        .agenda-item {
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .vote-tally {
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        .search-section {
+            margin-bottom: 2rem;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .filter-row {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .filter-select {
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            min-width: 150px;
+        }
+
+        .btn {
+            background: #1976d2;
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background-color 0.2s;
+        }
+
+        .btn:hover {
+            background: #1565c0;
+        }
+
+        .btn-secondary {
+            background: #666;
+        }
+
+        .btn-secondary:hover {
+            background: #555;
+        }
+
+        .councilmember-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            background: white;
+        }
+
+        .councilmember-name {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #1976d2;
+            margin-bottom: 1rem;
+        }
+
+        .councilmember-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .councilmember-stat {
+            text-align: center;
+            padding: 1rem;
+            background: #f5f5f5;
+            border-radius: 4px;
+        }
+
+        .councilmember-stat-number {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #1976d2;
+        }
+
+        .councilmember-stat-label {
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        .breadcrumb {
+            background: #f5f5f5;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+        }
+
+        .breadcrumb a {
+            color: #1976d2;
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .nav-links {
+                flex-direction: column;
+            }
+
+            .meeting-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .meeting-links {
+                flex-direction: column;
+            }
+
+            .filter-row {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Torrance Vote Viewer</h1>
+            <p>Browse and analyze Torrance City Council votes with advanced filtering and search capabilities.</p>
+        </div>
+
+        <nav class="nav">
+            <div class="nav-links">
+                <a href="#/" class="nav-link" data-route="home">Home</a>
+                <a href="#/meetings" class="nav-link" data-route="meetings">Meetings</a>
+                <a href="#/councilmembers" class="nav-link" data-route="councilmembers">Councilmembers</a>
+                <a href="#/year/2025" class="nav-link" data-route="year">2025</a>
+                <a href="#/search" class="nav-link" data-route="search">Search</a>
+            </div>
+        </nav>
+
+        <div class="content" id="content">
+            <div class="loading">Loading...</div>
+        </div>
+    </div>
+
+    <script>
+        class TorranceVoteViewer {
+            constructor() {
+                this.data = null;
+                this.currentRoute = null;
+                this.init();
+            }
+
+            async init() {
+                try {
+                    console.log('Initializing app...');
+                    await this.loadData();
+                    this.setupRouting();
+
+                    // Handle server-side routes by converting them to hash routes
+                    this.handleServerSideRoute();
+
+                    // Always handle the initial route after setup
+                    console.log('Handling initial route...');
+                    this.handleRoute();
+                } catch (error) {
+                    console.error('Error initializing app:', error);
+                    this.showError('Failed to load data. Please refresh the page.');
+                }
+            }
+
+            handleServerSideRoute() {
+                const pathname = window.location.pathname;
+                const hash = window.location.hash;
+
+                // If we have a server-side route but no hash, convert it
+                if (pathname !== '/' && pathname !== '/index.html' && !hash) {
+                    console.log('Converting server-side route to hash route:', pathname);
+                    const newHash = '#' + pathname;
+                    window.history.replaceState({}, '', window.location.origin + newHash);
+                }
+            }
+
+            async loadData() {
+                console.log('Loading data from torrance_votes_consolidated_final.json...');
+                // Use absolute path to avoid issues with different base paths
+                const dataPath = window.location.pathname.includes('/') && !window.location.pathname.endsWith('/')
+                    ? '/data/torrance_votes_consolidated_final.json'
+                    : 'data/torrance_votes_consolidated_final.json';
+                console.log('Using data path:', dataPath);
+
+                const response = await fetch(dataPath);
+                console.log('Response status:', response.status);
+                if (!response.ok) {
+                    throw new Error(`Failed to load data: ${response.status} ${response.statusText}`);
+                }
+                this.data = await response.json();
+                console.log('Data loaded successfully:', this.data.metadata);
+            }
+
+            setupRouting() {
+                console.log('Setting up routing...');
+
+                // Handle browser back/forward
+                window.addEventListener('popstate', () => {
+                    console.log('popstate event triggered');
+                    this.handleRoute();
+                });
+
+                // Handle hash changes
+                window.addEventListener('hashchange', () => {
+                    console.log('hashchange event triggered, hash:', window.location.hash);
+                    this.handleRoute();
+                });
+
+                // Handle navigation clicks
+                document.addEventListener('click', (e) => {
+                    if (e.target.matches('[data-route]')) {
+                        e.preventDefault();
+                        const route = e.target.getAttribute('data-route');
+                        console.log('Data route clicked:', route);
+                        this.navigateTo(route);
+                    } else if (e.target.matches('a[href^="#/"]')) {
+                        // Handle hash-based navigation links
+                        e.preventDefault();
+                        const href = e.target.getAttribute('href');
+                        console.log('Hash link clicked:', href);
+                        window.location.hash = href; // href already includes #
+                        this.handleRoute();
+                    }
+                });
+            }
+
+            navigateTo(route) {
+                window.history.pushState({}, '', `#/${route}`);
+                this.handleRoute();
+            }
+
+            handleRoute() {
+                const rawHash = window.location.hash.slice(1);
+                // Normalize leading slashes so '#/meeting/14490' -> 'meeting/14490'
+                const hash = rawHash.replace(/^\/+/, '');
+                const parts = hash.split('/');
+                console.log('handleRoute called with hash:', hash, 'parts:', parts);
+
+                // Update active nav link
+                document.querySelectorAll('.nav-link').forEach(link => {
+                    link.classList.remove('active');
+                });
+
+                let activeLink = document.querySelector(`[data-route="${parts[0] || 'home'}"]`);
+                if (activeLink) {
+                    activeLink.classList.add('active');
+                }
+
+                // Route handling
+                console.log('Routing to:', parts[0]);
+                switch (parts[0]) {
+                    case '':
+                    case 'home':
+                        this.showHome();
+                        break;
+                    case 'meetings':
+                        this.showMeetings();
+                        break;
+                    case 'meeting':
+                        if (parts[1]) {
+                            this.showMeeting(parts[1]);
+                        } else {
+                            this.showMeetings();
+                        }
+                        break;
+                    case 'councilmembers':
+                        this.showCouncilmembers();
+                        break;
+                    case 'councilmember':
+                        if (parts[1]) {
+                            this.showCouncilmember(parts[1]);
+                        } else {
+                            this.showCouncilmembers();
+                        }
+                        break;
+                    case 'year':
+                        if (parts[1]) {
+                            this.showYear(parts[1]);
+                        } else {
+                            this.showHome();
+                        }
+                        break;
+                    case 'search':
+                        this.showSearch();
+                        break;
+                    default:
+                        this.showHome();
+                }
+            }
+
+            showHome() {
+                const stats = this.data.metadata;
+                const content = `
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-number">${stats.total_votes}</div>
+                            <div class="stat-label">Total Votes</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">${stats.total_meetings}</div>
+                            <div class="stat-label">Meetings</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">${stats.total_councilmembers}</div>
+                            <div class="stat-label">Councilmembers</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">${stats.total_agenda_items}</div>
+                            <div class="stat-label">Agenda Items</div>
+                        </div>
+                    </div>
+
+                    <h2>Recent Meetings</h2>
+                    ${this.renderMeetingsList(Object.values(this.data.meetings).slice(0, 3))}
+
+                    <h2>Quick Links</h2>
+                    <div class="nav-links">
+                        <a href="#/meetings" class="nav-link">View All Meetings</a>
+                        <a href="#/councilmembers" class="nav-link">View Councilmembers</a>
+                        <a href="#/search" class="nav-link">Search Votes</a>
+                    </div>
+                `;
+                this.renderContent(content);
+            }
+
+            showMeetings() {
+                const meetings = Object.values(this.data.meetings);
+                const content = `
+                    <h2>All Meetings</h2>
+                    ${this.renderMeetingsList(meetings)}
+                `;
+                this.renderContent(content);
+            }
+
+            showMeeting(meetingId) {
+                console.log('showMeeting called with ID:', meetingId);
+                const meeting = this.data.meetings[meetingId];
+                if (!meeting) {
+                    console.log('Meeting not found:', meetingId);
+                    this.showError('Meeting not found');
+                    return;
+                }
+
+                console.log('Found meeting:', meeting);
+                const votes = this.data.votes.filter(vote => vote.meeting_id === meetingId);
+                const content = `
+                    <div class="breadcrumb">
+                        <a href="#/meetings">Meetings</a> > ${meeting.title}
+                    </div>
+
+                    <div class="meeting-card">
+                        <div class="meeting-header">
+                            <div>
+                                <div class="meeting-title">${meeting.title}</div>
+                                <div class="meeting-date">${meeting.date}</div>
+                            </div>
+                            <div>
+                                <div class="stat-number">${meeting.total_votes}</div>
+                                <div class="stat-label">Votes</div>
+                            </div>
+                        </div>
+
+                        <div class="meeting-links">
+                            ${meeting.video_url ? `<a href="${meeting.video_url}" target="_blank" class="meeting-link">📹 Watch Video</a>` : ''}
+                            ${meeting.agenda_url ? `<a href="${meeting.agenda_url}" target="_blank" class="meeting-link">📋 View Agenda</a>` : ''}
+                        </div>
+
+                        <div class="stats-grid" style="margin-top: 1rem;">
+                            <div class="stat-card">
+                                <div class="stat-number">${meeting.vote_results.passed}</div>
+                                <div class="stat-label">Passed</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-number">${meeting.vote_results.failed}</div>
+                                <div class="stat-label">Failed</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3>Votes (${votes.length})</h3>
+                    ${this.renderVotesList(votes)}
+                `;
+                this.renderContent(content);
+            }
+
+            showCouncilmembers() {
+                const councilmembers = Object.values(this.data.councilmembers);
+
+                // Define full names and identify mayors
+                const fullNames = {
+                    'chen': 'Chen',
+                    'gerson': 'Gerson',
+                    'kaji': 'Kaji',
+                    'kalani': 'Kalani',
+                    'lewis': 'Lewis',
+                    'mattucci': 'Mattucci',
+                    'sheikh': 'Sheikh'
+                };
+
+                // Separate mayors
+                const mayors = councilmembers.filter(cm => cm.id === 'chen');
+                const councilmembersList = councilmembers.filter(cm => cm.id !== 'chen');
+
+                const content = `
+                    <h2>City Council</h2>
+
+                    ${mayors.length > 0 ? `
+                        <h3>Mayor</h3>
+                        <div class="stats-grid">
+                            ${mayors.map(cm => `
+                                <div class="councilmember-card">
+                                    <div class="councilmember-name">${fullNames[cm.id] || cm.display_name}</div>
+                                    <div class="councilmember-stats">
+                                        <div class="councilmember-stat">
+                                            <div class="councilmember-stat-number">${cm.total_votes}</div>
+                                            <div class="councilmember-stat-label">Votes</div>
+                                        </div>
+                                    </div>
+                                    <a href="#/councilmember/${cm.id}" class="btn">View Details</a>
+                                </div>
+                            `).join('')}
+                        </div>
+                    ` : ''}
+
+                    <h3>Councilmembers</h3>
+                    <div class="stats-grid">
+                        ${councilmembersList.map(cm => `
+                            <div class="councilmember-card">
+                                <div class="councilmember-name">${fullNames[cm.id] || cm.display_name}</div>
+                                <div class="councilmember-stats">
+                                    <div class="councilmember-stat">
+                                        <div class="councilmember-stat-number">${cm.total_votes}</div>
+                                        <div class="councilmember-stat-label">Votes</div>
+                                    </div>
+                                </div>
+                                <a href="#/councilmember/${cm.id}" class="btn">View Details</a>
+                            </div>
+                        `).join('')}
+                    </div>
+                `;
+                this.renderContent(content);
+            }
+
+            showCouncilmember(councilmemberId) {
+                const councilmember = Object.values(this.data.councilmembers).find(cm => cm.id === councilmemberId);
+                if (!councilmember) {
+                    this.showError('Councilmember not found');
+                    return;
+                }
+
+                // Define full names
+                const fullNames = {
+                    'chen': 'Councilmember Chen',
+                    'gerson': 'Councilmember Gerson',
+                    'kaji': 'Councilmember Kaji',
+                    'kalani': 'Councilmember Kalani',
+                    'lewis': 'Mayor Lewis',
+                    'mattucci': 'Councilmember Mattucci',
+                    'sheikh': 'Councilmember Sheikh'
+                };
+
+                const fullName = fullNames[councilmemberId] || councilmember.display_name;
+                const votes = this.data.votes.filter(vote =>
+                    vote.individual_votes &&
+                    vote.individual_votes.some(vote_detail =>
+                        (vote_detail.name || '').toLowerCase().includes(councilmember.name.toLowerCase())
+                    )
+                );
+
+                const content = `
+                    <div class="breadcrumb">
+                        <a href="#/councilmembers">Councilmembers</a> > ${fullName}
+                    </div>
+
+                    <div class="councilmember-card">
+                        <div class="councilmember-name">${fullName}</div>
+                        <div class="councilmember-stats">
+                            <div class="councilmember-stat">
+                                <div class="councilmember-stat-number">${votes.length}</div>
+                                <div class="councilmember-stat-label">Total Votes</div>
+                            </div>
+                            <div class="councilmember-stat">
+                                <div class="councilmember-stat-number">${votes.filter(v => (v.result || '').toLowerCase().includes('pass')).length}</div>
+                                <div class="councilmember-stat-label">Voted Yes</div>
+                            </div>
+                            <div class="councilmember-stat">
+                                <div class="councilmember-stat-number">${votes.filter(v => (v.result || '').toLowerCase().includes('fail')).length}</div>
+                                <div class="councilmember-stat-label">Voted No</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3>Voting Record</h3>
+                    ${this.renderVotesList(votes)}
+                `;
+                this.renderContent(content);
+            }
+
+            showYear(year) {
+                const meetings = Object.values(this.data.meetings).filter(meeting => meeting.year === year);
+                const votes = this.data.votes.filter(vote => vote.year === year);
+
+                const content = `
+                    <div class="breadcrumb">
+                        <a href="#/home">Home</a> > Year ${year}
+                    </div>
+
+                    <h2>${year} Meetings</h2>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-number">${meetings.length}</div>
+                            <div class="stat-label">Meetings</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">${votes.length}</div>
+                            <div class="stat-label">Total Votes</div>
+                        </div>
+                    </div>
+
+                    ${this.renderMeetingsList(meetings)}
+                `;
+                this.renderContent(content);
+            }
+
+            showSearch() {
+                const content = `
+                    <h2>Search Votes</h2>
+
+                    <div class="search-section">
+                        <input type="text" id="searchInput" class="search-input" placeholder="Search votes by agenda item or motion text...">
+
+                        <div class="filter-row">
+                            <select id="councilmemberFilter" class="filter-select">
+                                <option value="">All Councilmembers</option>
+                                ${Object.values(this.data.councilmembers).map(cm => {
+                                    const fullNames = {
+                                        'chen': 'Councilmember Chen',
+                                        'gerson': 'Councilmember Gerson',
+                                        'kaji': 'Councilmember Kaji',
+                                        'kalani': 'Councilmember Kalani',
+                                        'lewis': 'Mayor Lewis',
+                                        'mattucci': 'Councilmember Mattucci',
+                                        'sheikh': 'Councilmember Sheikh'
+                                    };
+                                    const fullName = fullNames[cm.id] || cm.display_name;
+                                    return `<option value="${cm.name}">${fullName}</option>`;
+                                }).join('')}
+                            </select>
+
+                            <select id="meetingFilter" class="filter-select">
+                                <option value="">All Meetings</option>
+                                ${Object.values(this.data.meetings).map(meeting =>
+                                    `<option value="${meeting.id}">${meeting.title} (${meeting.date})</option>`
+                                ).join('')}
+                            </select>
+
+                            <select id="resultFilter" class="filter-select">
+                                <option value="">All Results</option>
+                                <option value="passed">Passed</option>
+                                <option value="failed">Failed</option>
+                            </select>
+
+                            <button class="btn" onclick="app.searchVotes()">Search</button>
+                            <button class="btn btn-secondary" onclick="app.clearSearch()">Clear</button>
+                        </div>
+                    </div>
+
+                    <div id="searchResults"></div>
+                `;
+                this.renderContent(content);
+            }
+
+            searchVotes() {
+                const searchTerm = document.getElementById('searchInput').value;
+                const councilmember = document.getElementById('councilmemberFilter').value;
+                const meeting = document.getElementById('meetingFilter').value;
+                const result = document.getElementById('resultFilter').value;
+
+                let votes = this.data.votes;
+
+                // Apply filters
+                if (councilmember) {
+                    votes = votes.filter(vote =>
+                        vote.individual_votes &&
+                        vote.individual_votes.some(vote_detail =>
+                            (vote_detail.name || '').toLowerCase().includes(councilmember.toLowerCase())
+                        )
+                    );
+                }
+
+                if (meeting) {
+                    votes = votes.filter(vote => vote.meeting_id === meeting);
+                }
+
+                if (result) {
+                    const res = (vote) => (vote.result || '').toLowerCase();
+                    if (result === 'passed') {
+                        votes = votes.filter(vote => res(vote).includes('pass'));
+                    } else if (result === 'failed') {
+                        votes = votes.filter(vote => res(vote).includes('fail'));
+                    }
+                }
+
+                // Apply text search
+                if (searchTerm) {
+                    votes = votes.filter(vote =>
+                        (vote.agenda_item && vote.agenda_item.toLowerCase().includes(searchTerm.toLowerCase())) ||
+                        (vote.motion_text && vote.motion_text.toLowerCase().includes(searchTerm.toLowerCase()))
+                    );
+                }
+
+                const resultsDiv = document.getElementById('searchResults');
+                if (votes.length === 0) {
+                    resultsDiv.innerHTML = '<div class="loading">No votes found matching your criteria.</div>';
+                } else {
+                    resultsDiv.innerHTML = `
+                        <h3>Found ${votes.length} votes</h3>
+                        ${this.renderVotesList(votes)}
+                    `;
+                }
+            }
+
+            clearSearch() {
+                document.getElementById('searchInput').value = '';
+                document.getElementById('councilmemberFilter').value = '';
+                document.getElementById('meetingFilter').value = '';
+                document.getElementById('resultFilter').value = '';
+                document.getElementById('searchResults').innerHTML = '';
+            }
+
+            renderMeetingsList(meetings) {
+                return meetings.map(meeting => `
+                    <div class="meeting-card">
+                        <div class="meeting-header">
+                            <div>
+                                <div class="meeting-title">${meeting.title}</div>
+                                <div class="meeting-date">${meeting.date}</div>
+                            </div>
+                            <div>
+                                <div class="stat-number">${meeting.total_votes}</div>
+                                <div class="stat-label">Votes</div>
+                            </div>
+                        </div>
+
+                        <div class="meeting-links">
+                            <a href="#/meeting/${meeting.id}" class="meeting-link">View Votes</a>
+                            ${meeting.video_url ? `<a href="${meeting.video_url}" target="_blank" class="meeting-link">📹 Watch Video</a>` : ''}
+                            ${meeting.agenda_url ? `<a href="${meeting.agenda_url}" target="_blank" class="meeting-link">📋 View Agenda</a>` : ''}
+                        </div>
+                    </div>
+                `).join('');
+            }
+
+            renderVotesList(votes) {
+                return votes.map(vote => {
+                    // Calculate approximate timestamp (assuming 30 seconds per vote)
+                    const voteIndex = votes.indexOf(vote);
+                    const minutes = Math.floor(voteIndex * 0.5);
+                    const seconds = (voteIndex * 30) % 60;
+                    const timestamp = `${minutes}:${seconds.toString().padStart(2, '0')}`;
+
+                    // Generate deep links
+                    const videoDeepLink = this.generateVideoDeepLink(vote);
+                    const agendaDeepLink = this.generateAgendaDeepLink(vote);
+
+                    return `
+                        <div class="vote-item">
+                            <div class="vote-header">
+                                <span class="agenda-item" style="font-weight: bold; font-size: 1.1rem;">${vote.agenda_item || 'No agenda item available'}</span>
+                                <span class="vote-result ${vote.result.toLowerCase().includes('pass') ? 'result-passed' : 'result-failed'}">
+                                    ${vote.result.toLowerCase().includes('pass') ? 'PASSED' : 'FAILED'}
+                                </span>
+                            </div>
+                            <div class="vote-tally">
+                                Ayes: ${vote.vote_tally.ayes} |
+                                Noes: ${vote.vote_tally.noes} |
+                                Abstentions: ${vote.vote_tally.abstentions}
+                            </div>
+                            <div style="margin-top: 0.5rem; color: #666; font-size: 0.9rem;">
+                                Vote occurred at approximately ${timestamp} in meeting video
+                            </div>
+                            ${vote.motion_text ? `<div style="margin-top: 0.5rem; font-style: italic;">${vote.motion_text}</div>` : ''}
+                            <div style="margin-top: 0.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+                                ${videoDeepLink ? `<a href="${videoDeepLink}" target="_blank" class="meeting-link">📹 Watch at ${timestamp}</a>` : ''}
+                                ${agendaDeepLink ? `<a href="${agendaDeepLink}" target="_blank" class="meeting-link">📋 View Agenda Item</a>` : ''}
+                                ${vote.video_url ? `<a href="${vote.video_url}" target="_blank" class="meeting-link">📺 Full Video</a>` : ''}
+                            </div>
+                        </div>
+                    `;
+                }).join('');
+            }
+
+            generateVideoDeepLink(vote) {
+                // Generate deep link to video chapter based on Granicus pattern
+                // Pattern: https://torrance.granicus.com/MediaPlayer.php?view_id=8&clip_id=14538&meta_id=409687
+                const meetingId = vote.meeting_id;
+                const frameNumber = vote.frame_number;
+
+                if (!meetingId || !frameNumber) return null;
+
+                // Map meeting IDs to view_ids (this would need to be updated based on actual data)
+                const viewIdMap = {
+                    '14510': '8',
+                    '14490': '8',
+                    '14538': '8',
+                    '14524': '8',
+                    '14530': '8',
+                    '14536': '8'
+                };
+
+                const viewId = viewIdMap[meetingId] || '8';
+
+                // Generate meta_id based on frame number (this is approximate)
+                // In reality, meta_id would need to be mapped from agenda items
+                const metaId = 409680 + (parseInt(frameNumber) % 1000);
+
+                return `https://torrance.granicus.com/MediaPlayer.php?view_id=${viewId}&clip_id=${meetingId}&meta_id=${metaId}`;
+            }
+
+            generateAgendaDeepLink(vote) {
+                // Generate deep link to agenda item
+                // Pattern: https://torrance.granicus.com/GeneratedAgendaViewer.php?view_id=8&clip_id=14538
+                const meetingId = vote.meeting_id;
+
+                if (!meetingId) return null;
+
+                const viewIdMap = {
+                    '14510': '8',
+                    '14490': '8',
+                    '14538': '8',
+                    '14524': '8',
+                    '14530': '8',
+                    '14536': '8'
+                };
+
+                const viewId = viewIdMap[meetingId] || '8';
+
+                return `https://torrance.granicus.com/GeneratedAgendaViewer.php?view_id=${viewId}&clip_id=${meetingId}`;
+            }
+
+            renderContent(content) {
+                document.getElementById('content').innerHTML = content;
+            }
+
+            showError(message) {
+                this.renderContent(`<div class="error">${message}</div>`);
+            }
+        }
+
+        // Initialize the app
+        function initializeApp() {
+            console.log('Initializing TorranceVoteViewer...');
+            try {
+                const app = new TorranceVoteViewer();
+                window.app = app;
+                console.log('TorranceVoteViewer initialized successfully');
+                return true;
+            } catch (error) {
+                console.error('Error initializing TorranceVoteViewer:', error);
+                document.getElementById('content').innerHTML = `
+                    <div class="error">
+                        <h3>Error Loading Application</h3>
+                        <p>There was an error loading the vote viewer. Please refresh the page.</p>
+                        <p>Error: ${error.message}</p>
+                    </div>
+                `;
+                return false;
+            }
+        }
+
+        // Try multiple initialization strategies
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initializeApp);
+        } else {
+            initializeApp();
+        }
+
+        // Fallback initialization after a short delay
+        setTimeout(() => {
+            if (!window.app) {
+                console.log('Fallback initialization...');
+                initializeApp();
+            }
+        }, 100);
+    </script>
+</body>
+</html>

@@ -79,11 +79,11 @@ The application automatically detects the environment and adjusts paths accordin
 
 ## 🌐 Features
 
-✅ **Client-side routing** - Hash-based navigation works without server  
-✅ **Static data loading** - JSON files served as static assets  
-✅ **Search functionality** - Pure JavaScript filtering  
-✅ **Deep linking** - Direct links to video chapters and agenda items  
-✅ **Responsive design** - Works on all devices  
+✅ **Client-side routing** - Hash-based navigation works without server
+✅ **Static data loading** - JSON files served as static assets
+✅ **Search functionality** - Pure JavaScript filtering
+✅ **Deep linking** - Direct links to video chapters and agenda items
+✅ **Responsive design** - Works on all devices
 
 ## 📊 Data Structure
 
