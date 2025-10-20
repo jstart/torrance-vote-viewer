@@ -798,7 +798,6 @@
                     <div class="councilmembers-list">
                         ${councilmembersList.map(cm => {
                             const councilmemberSummary = this.data.councilmember_summaries && this.data.councilmember_summaries[fullNames[cm.id]];
-                            console.log('Councilmember summary for', cm.id, '->', fullNames[cm.id], ':', councilmemberSummary);
                             return `
                                 <div class="councilmember-row" onclick="window.location.href='#/councilmember/${cm.id}'" style="cursor: pointer;">
                                     <div class="councilmember-info">
@@ -1060,7 +1059,6 @@
                 return meetings.map(meeting => {
                     // Get meeting summary if available
                     const meetingSummary = this.data.meeting_summaries && this.data.meeting_summaries[meeting.id];
-                    console.log('Meeting summary for', meeting.id, ':', meetingSummary);
 
                     return `
                         <div class="meeting-card" onclick="window.location.href='#/meeting/${meeting.id}'" style="cursor: pointer;">
