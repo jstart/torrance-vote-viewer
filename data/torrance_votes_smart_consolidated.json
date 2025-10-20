@@ -160,7 +160,9 @@
       "agenda_url": "https://torrance.granicus.com/AgendaViewer.php?view_id=2&clip_id=14510",
       "year": "2025",
       "agenda_item_id": "9b_planning_commission_and_community_development_\u2013_conduct_public_hearing_and_consider_adoption_of_resolution_for_denial_of_an_appeal_of_planning_commission\u2019s_approval_of_conditional_use_permit_(cup24-00028)_and_development_permit_(dvp24-00004)_on_pro_1",
-      "timestamp_estimated": true
+      "timestamp_estimated": false,
+      "meta_id": 404938,
+      "video_timestamp": 10988
     },
     {
       "id": "14510_15590",
@@ -241,7 +243,9 @@
       "agenda_url": "https://torrance.granicus.com/AgendaViewer.php?view_id=2&clip_id=14510",
       "year": "2025",
       "agenda_item_id": "9c_planning_commission_and_community_development_\u2013_conduct_a_public_hearing_and_consider_adoption_of_resolution_for_the_denial_of_a_modification_(mod23-00010)_of_a_previously_approved_division_of_lot_(div14-00006)_to_amend_an_open_space_easement_(note_a_1",
-      "timestamp_estimated": true
+      "timestamp_estimated": false,
+      "meta_id": 404928,
+      "video_timestamp": 9234
     },
     {
       "id": "14510_17405",
@@ -291,7 +295,9 @@
       "agenda_url": "https://torrance.granicus.com/AgendaViewer.php?view_id=2&clip_id=14510",
       "year": "2025",
       "agenda_item_id": "12_oral_communications_#2_(limited_up_to_a_15-minute_period)_this_portion_of_the_meeting_is_reserved_for_comments_on_items_that_are_not_on_the_agenda_under_the_ralph_m_brown_act_city_council_cannot_act_on_items_raised_during_public_comment_but_may_res_1",
-      "timestamp_estimated": true
+      "timestamp_estimated": false,
+      "meta_id": 404961,
+      "video_timestamp": 19086
     },
     {
       "id": "14510_21772",
@@ -316,8 +322,8 @@
       "year": "2025",
       "agenda_item_id": "14_adjournment_adjournment_of_city_council_meeting_to_tuesday_september_09_2025_at_5:00_pm_for_closed_session_with_regular_business_commencing_at_6:30_pm_in_the_leroy_j_jackson_council_chamber_tuesday_august_26_2025_and_tuesday_september_02_1",
       "timestamp_estimated": false,
-      "meta_id": "404843",
-      "video_timestamp": 34
+      "meta_id": 404964,
+      "video_timestamp": 21730
     },
     {
       "id": "14490_486",
