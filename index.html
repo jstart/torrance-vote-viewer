@@ -581,6 +581,10 @@
 
                 console.log('Found meeting:', meeting);
                 const votes = this.data.votes.filter(vote => vote.meeting_id === meetingId);
+                
+                // Get meeting summary if available
+                const meetingSummary = this.data.meeting_summaries && this.data.meeting_summaries[meetingId];
+                
                 const content = `
                     <div class="breadcrumb">
                         <a href="#/meetings">Meetings</a> > ${meeting.title}
@@ -614,6 +618,27 @@
                             </div>
                         </div>
                     </div>
+
+                    ${meetingSummary ? `
+                        <div class="meeting-summary" style="background: #f8f9fa; padding: 1.5rem; border-radius: 8px; margin: 1.5rem 0; border-left: 4px solid #1976d2;">
+                            <h3>📋 Meeting Summary</h3>
+                            <p style="margin-bottom: 1rem; font-size: 1.1rem; line-height: 1.6;">${meetingSummary.summary}</p>
+                            
+                            ${meetingSummary.unique_aspects && meetingSummary.unique_aspects.length > 0 ? `
+                                <h4 style="margin-bottom: 0.5rem; color: #1976d2;">Key Highlights:</h4>
+                                <ul style="margin-left: 1.5rem;">
+                                    ${meetingSummary.unique_aspects.map(aspect => `<li style="margin-bottom: 0.5rem;">${aspect}</li>`).join('')}
+                                </ul>
+                            ` : ''}
+                            
+                            ${meetingSummary.key_items && meetingSummary.key_items.length > 0 ? `
+                                <h4 style="margin-bottom: 0.5rem; color: #1976d2; margin-top: 1rem;">Key Agenda Items:</h4>
+                                <ul style="margin-left: 1.5rem;">
+                                    ${meetingSummary.key_items.map(item => `<li style="margin-bottom: 0.5rem;">${item}</li>`).join('')}
+                                </ul>
+                            ` : ''}
+                        </div>
+                    ` : ''}
 
                     <h3>Votes (${votes.length})</h3>
                     ${this.renderVotesList(votes)}
@@ -705,6 +730,9 @@
                     )
                 );
 
+                // Get councilmember summary if available
+                const councilmemberSummary = this.data.councilmember_summaries && this.data.councilmember_summaries[councilmemberId];
+
                 const content = `
                     <div class="breadcrumb">
                         <a href="#/councilmembers">Councilmembers</a> > ${fullName}
@@ -727,6 +755,20 @@
                             </div>
                         </div>
                     </div>
+
+                    ${councilmemberSummary ? `
+                        <div class="councilmember-summary" style="background: #f8f9fa; padding: 1.5rem; border-radius: 8px; margin: 1.5rem 0; border-left: 4px solid #1976d2;">
+                            <h3>👤 Councilmember Profile</h3>
+                            <p style="margin-bottom: 1rem; font-size: 1.1rem; line-height: 1.6;">${councilmemberSummary.summary}</p>
+                            
+                            ${councilmemberSummary.notes && councilmemberSummary.notes.length > 0 ? `
+                                <h4 style="margin-bottom: 0.5rem; color: #1976d2;">Additional Notes:</h4>
+                                <ul style="margin-left: 1.5rem;">
+                                    ${councilmemberSummary.notes.map(note => `<li style="margin-bottom: 0.5rem;">${note}</li>`).join('')}
+                                </ul>
+                            ` : ''}
+                        </div>
+                    ` : ''}
 
                     <h3>Voting Record</h3>
                     ${this.renderVotesList(votes)}
@@ -895,7 +937,7 @@
                     // This is a better approximation than using vote index
                     const frameNumber = parseInt(vote.frame_number) || 0;
                     const meetingId = vote.meeting_id;
-                    
+
                     // Estimate timestamp based on frame number (assuming ~30fps and meeting starts at frame 0)
                     const estimatedSeconds = Math.floor(frameNumber / 30); // Rough estimate
                     const minutes = Math.floor(estimatedSeconds / 60);
@@ -934,32 +976,14 @@
             }
 
             generateVideoDeepLink(vote) {
-                // Generate deep link to video chapter based on Granicus pattern
-                // Pattern: https://torrance.granicus.com/MediaPlayer.php?view_id=8&clip_id=14538&meta_id=409687
+                // Generate deep link to video based on Granicus player pattern
+                // Correct pattern: https://torrance.granicus.com/player/clip/{meeting_id}
                 const meetingId = vote.meeting_id;
-                const frameNumber = parseInt(vote.frame_number) || 0;
 
-                if (!meetingId || !frameNumber) return null;
+                if (!meetingId) return null;
 
-                // Map meeting IDs to view_ids (this would need to be updated based on actual data)
-                const viewIdMap = {
-                    '14510': '8',
-                    '14490': '8',
-                    '14538': '8',
-                    '14524': '8',
-                    '14530': '8',
-                    '14536': '8'
-                };
-
-                const viewId = viewIdMap[meetingId] || '8';
-
-                // Generate meta_id based on frame number (this is approximate)
-                // In reality, meta_id would need to be mapped from agenda items
-                // Using a more realistic range for meta_id
-                const baseMetaId = 409680;
-                const metaId = baseMetaId + (frameNumber % 1000);
-
-                return `https://torrance.granicus.com/MediaPlayer.php?view_id=${viewId}&clip_id=${meetingId}&meta_id=${metaId}`;
+                // Use the correct Granicus player URL pattern - no additional parameters needed
+                return `https://torrance.granicus.com/player/clip/${meetingId}`;
             }
 
             generateAgendaDeepLink(vote) {
