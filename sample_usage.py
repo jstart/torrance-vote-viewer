@@ -65,10 +65,10 @@ def create_sample_data():
             }
         }
     }
-    
+
     with open('sample_new_meeting.json', 'w') as f:
         json.dump(sample_data, f, indent=2)
-    
+
     print("Sample data created: sample_new_meeting.json")
 
 def run_dry_run_import():
@@ -78,7 +78,7 @@ def run_dry_run_import():
         dry_run=True,
         verbose=True
     )
-    
+
     importer = BulletproofImporter(config)
     importer.run_import()
 
@@ -90,7 +90,7 @@ def run_full_import():
         verbose=True,
         gemini_api_key=os.getenv('GEMINI_API_KEY')  # Set this environment variable
     )
-    
+
     importer = BulletproofImporter(config)
     importer.run_import()
 
@@ -101,7 +101,7 @@ def run_batch_import():
         'data/new_meeting_2.json',
         'data/new_meeting_3.json'
     ]
-    
+
     for input_file in input_files:
         if os.path.exists(input_file):
             print(f"Processing {input_file}...")
@@ -110,7 +110,7 @@ def run_batch_import():
                 dry_run=False,
                 verbose=False
             )
-            
+
             importer = BulletproofImporter(config)
             importer.run_import()
         else:
@@ -123,12 +123,12 @@ def validate_existing_data():
         dry_run=True,
         verbose=True
     )
-    
+
     importer = BulletproofImporter(config)
-    
+
     # Load and validate existing data
     issues = importer.validate_data_integrity(importer.existing_data)
-    
+
     if issues:
         print(f"Found {len(issues)} validation issues:")
         for issue in issues:
@@ -147,7 +147,7 @@ if __name__ == '__main__':
     print("4. run_batch_import() - Run import on multiple files")
     print("5. validate_existing_data() - Validate existing data")
     print()
-    
+
     # Uncomment the function you want to run:
     # create_sample_data()
     # run_dry_run_import()

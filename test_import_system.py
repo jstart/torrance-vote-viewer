@@ -100,63 +100,63 @@ def create_test_data():
             }
         }
     }
-    
+
     with open('test_meeting_data.json', 'w') as f:
         json.dump(test_data, f, indent=2)
-    
+
     print("✅ Test data created: test_meeting_data.json")
     return test_data
 
 def test_deduplication():
     """Test deduplication logic"""
     print("\n🧪 Testing Deduplication Logic...")
-    
+
     from bulletproof_import import BulletproofImporter, ImportConfig
-    
+
     # Create test data
     test_data = create_test_data()
-    
+
     # Create importer
     config = ImportConfig(
         input_file='test_meeting_data.json',
         dry_run=True,
         verbose=True
     )
-    
+
     importer = BulletproofImporter(config)
-    
+
     # Test deduplication
     votes = test_data['votes']
     consolidated_votes = importer.deduplicate_votes(votes)
-    
+
     print(f"📊 Original votes: {len(votes)}")
     print(f"📊 Consolidated votes: {len(consolidated_votes)}")
-    
+
     # Check for duplicate consolidation
     agenda_items = [vote.agenda_item for vote in consolidated_votes]
     unique_items = set(agenda_items)
-    
+
     if len(agenda_items) == len(unique_items):
         print("✅ No duplicate agenda items found")
     else:
         print("❌ Duplicate agenda items still present")
-    
+
     return consolidated_votes
 
 def test_meta_id_mapping():
     """Test meta ID mapping (mock test)"""
     print("\n🧪 Testing Meta ID Mapping...")
-    
+
     from bulletproof_import import BulletproofImporter, ImportConfig
-    
+
     config = ImportConfig(
         input_file='test_meeting_data.json',
         dry_run=True,
         verbose=True
     )
-    
+
     importer = BulletproofImporter(config)
-    
+
     # Mock meta mappings
     mock_mappings = {
         "12345": {
@@ -168,49 +168,49 @@ def test_meta_id_mapping():
             "timestamp_estimated": False
         }
     }
-    
+
     # Test mapping extraction
     test_html = '''
     <div class="chapter" time="120" data-id="12345">Chapter 1</div>
     <div class="chapter" time="180" data-id="12346">Chapter 2</div>
     '''
-    
+
     mappings = importer.extract_meta_mappings(test_html)
-    
+
     if mappings == mock_mappings:
         print("✅ Meta ID mapping extraction working correctly")
     else:
         print("❌ Meta ID mapping extraction failed")
         print(f"Expected: {mock_mappings}")
         print(f"Got: {mappings}")
-    
+
     return mappings
 
 def test_data_validation():
     """Test data validation"""
     print("\n🧪 Testing Data Validation...")
-    
+
     from bulletproof_import import BulletproofImporter, ImportConfig
-    
+
     config = ImportConfig(
         input_file='test_meeting_data.json',
         dry_run=True,
         verbose=True
     )
-    
+
     importer = BulletproofImporter(config)
-    
+
     # Test valid data
     test_data = create_test_data()
     issues = importer.validate_data_integrity(test_data)
-    
+
     if not issues:
         print("✅ Valid data passed validation")
     else:
         print("❌ Valid data failed validation:")
         for issue in issues:
             print(f"  - {issue}")
-    
+
     # Test invalid data
     invalid_data = {
         "votes": [
@@ -225,9 +225,9 @@ def test_data_validation():
             }
         }
     }
-    
+
     issues = importer.validate_data_integrity(invalid_data)
-    
+
     if issues:
         print("✅ Invalid data correctly flagged:")
         for issue in issues:
@@ -238,20 +238,20 @@ def test_data_validation():
 def test_summary_generation():
     """Test summary generation (mock test)"""
     print("\n🧪 Testing Summary Generation...")
-    
+
     from bulletproof_import import BulletproofImporter, ImportConfig
-    
+
     config = ImportConfig(
         input_file='test_meeting_data.json',
         dry_run=True,
         verbose=True
     )
-    
+
     importer = BulletproofImporter(config)
-    
+
     # Create test votes
     from bulletproof_import import VoteData
-    
+
     test_votes = [
         VoteData(
             meeting_id="14520",
@@ -266,10 +266,10 @@ def test_summary_generation():
             individual_votes={"GEORGE CHEN": "NO", "MIKE GERSON": "YES"}
         )
     ]
-    
+
     # Test summary generation (without API key)
     summary = importer.generate_meeting_summary("14520", test_votes)
-    
+
     if summary:
         print("✅ Summary generation working (basic mode)")
         print(f"Summary: {summary.get('summary', 'No summary')}")
@@ -280,28 +280,28 @@ def run_comprehensive_test():
     """Run all tests"""
     print("🚀 Running Comprehensive Import System Tests")
     print("=" * 50)
-    
+
     try:
         # Test 1: Deduplication
         consolidated_votes = test_deduplication()
-        
+
         # Test 2: Meta ID Mapping
         meta_mappings = test_meta_id_mapping()
-        
+
         # Test 3: Data Validation
         test_data_validation()
-        
+
         # Test 4: Summary Generation
         test_summary_generation()
-        
+
         print("\n" + "=" * 50)
         print("🎉 All tests completed!")
-        
+
         # Cleanup
         if os.path.exists('test_meeting_data.json'):
             os.remove('test_meeting_data.json')
             print("🧹 Cleaned up test files")
-        
+
     except Exception as e:
         print(f"\n❌ Test failed with error: {e}")
         import traceback
@@ -310,33 +310,33 @@ def run_comprehensive_test():
 def test_dry_run_import():
     """Test full dry-run import"""
     print("\n🧪 Testing Full Dry-Run Import...")
-    
+
     from bulletproof_import import BulletproofImporter, ImportConfig
-    
+
     # Create test data
     create_test_data()
-    
+
     # Run import
     config = ImportConfig(
         input_file='test_meeting_data.json',
         dry_run=True,
         verbose=True
     )
-    
+
     importer = BulletproofImporter(config)
-    
+
     try:
         importer.run_import()
         print("✅ Dry-run import completed successfully")
-        
+
         # Print statistics
         importer.print_stats()
-        
+
     except Exception as e:
         print(f"❌ Dry-run import failed: {e}")
         import traceback
         traceback.print_exc()
-    
+
     finally:
         # Cleanup
         if os.path.exists('test_meeting_data.json'):
@@ -345,10 +345,10 @@ def test_dry_run_import():
 if __name__ == '__main__':
     print("Bulletproof Import System - Test Suite")
     print("======================================")
-    
+
     if len(sys.argv) > 1:
         test_type = sys.argv[1]
-        
+
         if test_type == 'dedup':
             test_deduplication()
         elif test_type == 'meta':
@@ -364,6 +364,6 @@ if __name__ == '__main__':
     else:
         # Run all tests
         run_comprehensive_test()
-        
+
         # Also run dry-run test
         test_dry_run_import()
