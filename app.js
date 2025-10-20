@@ -930,14 +930,14 @@ class TorranceVoteViewer {
         document.body.appendChild(textArea);
         textArea.focus();
         textArea.select();
-        
+
         try {
             document.execCommand('copy');
             VoteViewerUtils.showNotification('Link copied to clipboard!', 'success');
         } catch (err) {
             VoteViewerUtils.showNotification('Failed to copy link', 'error');
         }
-        
+
         document.body.removeChild(textArea);
     }
 }
