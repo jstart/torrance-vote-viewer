@@ -752,10 +752,18 @@
                                 return `
                                     <div class="councilmember-card" onclick="window.location.href='#/councilmember/${cm.id}'" style="cursor: pointer;">
                                         <div class="councilmember-name">${fullNames[cm.id] || cm.display_name}</div>
-                                        <div class="councilmember-stats">
+                                        <div class="councilmember-stats-horizontal">
                                             <div class="councilmember-stat">
                                                 <div class="councilmember-stat-number">${this.data.councilmember_stats?.[fullNames[cm.id]]?.total_votes || 0}</div>
-                                                <div class="councilmember-stat-label">Votes</div>
+                                                <div class="councilmember-stat-label">Total Votes</div>
+                                            </div>
+                                            <div class="councilmember-stat">
+                                                <div class="councilmember-stat-number">${this.data.councilmember_stats?.[fullNames[cm.id]]?.yes_votes || 0}</div>
+                                                <div class="councilmember-stat-label">Yes Votes</div>
+                                            </div>
+                                            <div class="councilmember-stat">
+                                                <div class="councilmember-stat-number">${this.data.councilmember_stats?.[fullNames[cm.id]]?.no_votes || 0}</div>
+                                                <div class="councilmember-stat-label">No Votes</div>
                                             </div>
                                         </div>
 
