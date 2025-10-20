@@ -23,6 +23,16 @@ venv.bak/
 
 # Logs
 *.log
+*.log.*
+logs/
+log/
+import_log.txt
+processing_log.txt
+error_log.txt
+debug.log
+info.log
+warn.log
+error.log
 
 # Temporary files
 *.tmp
