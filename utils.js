@@ -167,12 +167,22 @@ class VoteViewerUtils {
     static generateVideoDeepLink(vote) {
         const meetingId = vote.meeting_id;
         const metaId = vote.meta_id;
+        const timestampEstimated = vote.timestamp_estimated;
 
         if (!meetingId) return null;
 
-        if (metaId) {
+        // If meta_id is estimated (fake), don't use it for deeplink
+        // Check if meta_id looks like our estimated format (meeting_id + frame_number)
+        if (metaId && timestampEstimated && metaId.match(/^\d{5}\d{4}$/)) {
+            // This is an estimated meta_id, just link to the base video
+            return `https://torrance.granicus.com/player/clip/${meetingId}`;
+        }
+
+        if (metaId && !timestampEstimated) {
+            // Real meta_id from scraping
             return `https://torrance.granicus.com/player/clip/${meetingId}?view_id=8&meta_id=${metaId}&redirect=true`;
         } else {
+            // No meta_id or estimated meta_id
             return `https://torrance.granicus.com/player/clip/${meetingId}`;
         }
     }

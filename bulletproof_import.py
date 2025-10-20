@@ -335,12 +335,12 @@ class BulletproofImporter:
         """Estimate video timestamp based on agenda item content"""
         if not agenda_item or not isinstance(agenda_item, str):
             return frame_number * 30  # 30 seconds per frame
-        
+
         agenda_lower = agenda_item.lower()
-        
+
         # Base timestamp from frame number (rough estimate)
         base_time = frame_number * 30
-        
+
         # Adjust based on agenda item content
         if 'consent' in agenda_lower:
             return base_time + 300  # Consent calendar usually early
@@ -467,7 +467,7 @@ class BulletproofImporter:
                 # Default to current year
                 year = 2024
                 base_id = int(meeting_id)
-            
+
             # Estimate date based on meeting ID pattern
             # This is a rough estimation - adjust based on actual meeting patterns
             if year == 2024:
@@ -478,15 +478,15 @@ class BulletproofImporter:
                 # 2025 meetings - spread throughout the year
                 month = ((base_id - 490) % 12) + 1
                 day = ((base_id - 490) % 28) + 1
-            
+
             # Ensure valid date
             if month > 12:
                 month = 12
             if day > 28:
                 day = 28
-            
+
             return f"{year}-{month:02d}-{day:02d}"
-            
+
         except (ValueError, IndexError):
             # Fallback to a default date
             return f"{year}-01-01"
@@ -516,13 +516,13 @@ class BulletproofImporter:
 
         # Merge meetings
         existing_meetings = self.existing_data.get('meetings', {})
-        
+
         # Ensure all meetings have proper dates
         for meeting_id, meeting in new_meetings.items():
             if not meeting.get('date') or meeting.get('date') == '2024-01-28':
                 meeting['date'] = self.estimate_meeting_date(meeting_id)
                 logger.info(f"Estimated date for meeting {meeting_id}: {meeting['date']}")
-        
+
         merged_meetings = {**existing_meetings, **new_meetings}
 
         # Update councilmember stats

@@ -143,7 +143,12 @@ class VoteViewerTemplates {
                 </div>
                 ${vote.motion_text ? `<div class="vote-motion-text">${vote.motion_text}</div>` : ''}
                 <div class="vote-links">
-                    ${videoDeepLink ? `<a href="${videoDeepLink}" target="_blank" class="meeting-link">📹 Watch at ${timestamp}</a>` : ''}
+                    ${videoDeepLink ? `
+                        ${timestampSource === 'actual' ? 
+                            `<a href="${videoDeepLink}" target="_blank" class="meeting-link">📹 Watch at ${timestamp}</a>` :
+                            `<a href="${videoDeepLink}" target="_blank" class="meeting-link">📹 Watch Video</a>`
+                        }
+                    ` : ''}
                     ${agendaDeepLink ? `<a href="${agendaDeepLink}" target="_blank" class="meeting-link">📋 View Agenda Item</a>` : ''}
                     ${vote.video_url ? `<a href="${vote.video_url}" target="_blank" class="meeting-link">📺 Full Video</a>` : ''}
                 </div>
