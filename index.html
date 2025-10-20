@@ -427,6 +427,8 @@
                 }
                 this.data = await response.json();
                 console.log('Data loaded successfully:', this.data.metadata);
+                console.log('Has meeting_summaries:', 'meeting_summaries' in this.data);
+                console.log('Has councilmember_summaries:', 'councilmember_summaries' in this.data);
             }
 
             setupRouting() {
@@ -581,10 +583,11 @@
 
                 console.log('Found meeting:', meeting);
                 const votes = this.data.votes.filter(vote => vote.meeting_id === meetingId);
-                
+
                 // Get meeting summary if available
                 const meetingSummary = this.data.meeting_summaries && this.data.meeting_summaries[meetingId];
-                
+                console.log('Meeting summary for', meetingId, ':', meetingSummary);
+
                 const content = `
                     <div class="breadcrumb">
                         <a href="#/meetings">Meetings</a> > ${meeting.title}
@@ -623,14 +626,14 @@
                         <div class="meeting-summary" style="background: #f8f9fa; padding: 1.5rem; border-radius: 8px; margin: 1.5rem 0; border-left: 4px solid #1976d2;">
                             <h3>📋 Meeting Summary</h3>
                             <p style="margin-bottom: 1rem; font-size: 1.1rem; line-height: 1.6;">${meetingSummary.summary}</p>
-                            
+
                             ${meetingSummary.unique_aspects && meetingSummary.unique_aspects.length > 0 ? `
                                 <h4 style="margin-bottom: 0.5rem; color: #1976d2;">Key Highlights:</h4>
                                 <ul style="margin-left: 1.5rem;">
                                     ${meetingSummary.unique_aspects.map(aspect => `<li style="margin-bottom: 0.5rem;">${aspect}</li>`).join('')}
                                 </ul>
                             ` : ''}
-                            
+
                             ${meetingSummary.key_items && meetingSummary.key_items.length > 0 ? `
                                 <h4 style="margin-bottom: 0.5rem; color: #1976d2; margin-top: 1rem;">Key Agenda Items:</h4>
                                 <ul style="margin-left: 1.5rem;">
@@ -732,6 +735,7 @@
 
                 // Get councilmember summary if available
                 const councilmemberSummary = this.data.councilmember_summaries && this.data.councilmember_summaries[councilmemberId];
+                console.log('Councilmember summary for', councilmemberId, ':', councilmemberSummary);
 
                 const content = `
                     <div class="breadcrumb">
@@ -760,7 +764,7 @@
                         <div class="councilmember-summary" style="background: #f8f9fa; padding: 1.5rem; border-radius: 8px; margin: 1.5rem 0; border-left: 4px solid #1976d2;">
                             <h3>👤 Councilmember Profile</h3>
                             <p style="margin-bottom: 1rem; font-size: 1.1rem; line-height: 1.6;">${councilmemberSummary.summary}</p>
-                            
+
                             ${councilmemberSummary.notes && councilmemberSummary.notes.length > 0 ? `
                                 <h4 style="margin-bottom: 0.5rem; color: #1976d2;">Additional Notes:</h4>
                                 <ul style="margin-left: 1.5rem;">
