@@ -475,11 +475,11 @@
             }
 
             async loadData() {
-                console.log('Loading data from torrance_votes_consolidated_final.json...');
+                console.log('Loading data from torrance_votes_with_individual_votes.json...');
                 // Use absolute path to avoid issues with different base paths
                 const dataPath = window.location.pathname.includes('/') && !window.location.pathname.endsWith('/')
-                    ? '/data/torrance_votes_consolidated_final.json'
-                    : 'data/torrance_votes_consolidated_final.json';
+                    ? '/data/torrance_votes_with_individual_votes.json'
+                    : 'data/torrance_votes_with_individual_votes.json';
                 console.log('Using data path:', dataPath);
 
                 const response = await fetch(dataPath);
@@ -491,6 +491,8 @@
                 console.log('Data loaded successfully:', this.data.metadata);
                 console.log('Has meeting_summaries:', 'meeting_summaries' in this.data);
                 console.log('Has councilmember_summaries:', 'councilmember_summaries' in this.data);
+                console.log('Has councilmember_stats:', 'councilmember_stats' in this.data);
+                console.log('Votes with individual data:', this.data.votes?.filter(v => v.individual_votes)?.length || 0);
             }
 
             setupRouting() {
@@ -742,7 +744,7 @@
                                         <div class="councilmember-name">${fullNames[cm.id] || cm.display_name}</div>
                                         <div class="councilmember-stats">
                                             <div class="councilmember-stat">
-                                                <div class="councilmember-stat-number">${cm.total_votes}</div>
+                                                <div class="councilmember-stat-number">${this.data.councilmember_stats?.[fullNames[cm.id]]?.total_votes || 0}</div>
                                                 <div class="councilmember-stat-label">Votes</div>
                                             </div>
                                         </div>
@@ -771,20 +773,20 @@
                                         <div class="councilmember-name-large">${fullNames[cm.id] || cm.display_name}</div>
                                         <div class="councilmember-stats-horizontal">
                                             <div class="councilmember-stat">
-                                                <div class="councilmember-stat-number">${cm.total_votes}</div>
+                                                <div class="councilmember-stat-number">${this.data.councilmember_stats?.[fullNames[cm.id]]?.total_votes || 0}</div>
                                                 <div class="councilmember-stat-label">Total Votes</div>
                                             </div>
                                             <div class="councilmember-stat">
-                                                <div class="councilmember-stat-number">${cm.yes_votes || 0}</div>
+                                                <div class="councilmember-stat-number">${this.data.councilmember_stats?.[fullNames[cm.id]]?.yes_votes || 0}</div>
                                                 <div class="councilmember-stat-label">Yes Votes</div>
                                             </div>
                                             <div class="councilmember-stat">
-                                                <div class="councilmember-stat-number">${cm.no_votes || 0}</div>
+                                                <div class="councilmember-stat-number">${this.data.councilmember_stats?.[fullNames[cm.id]]?.no_votes || 0}</div>
                                                 <div class="councilmember-stat-label">No Votes</div>
                                             </div>
                                         </div>
                                     </div>
-                                    
+
                                     <div class="councilmember-summary-section">
                                         ${councilmemberSummary ? `
                                             <div class="councilmember-summary-full" style="background: #f8f9fa; padding: 1.2rem; border-radius: 8px; margin: 1rem 0; border-left: 4px solid #1976d2;">
@@ -805,7 +807,7 @@
                                             </div>
                                         `}
                                     </div>
-                                    
+
                                     <div class="councilmember-actions">
                                         <a href="#/councilmember/${cm.id}" class="btn btn-primary" onclick="event.stopPropagation();">View Details</a>
                                     </div>
@@ -839,7 +841,7 @@
                 const votes = this.data.votes.filter(vote =>
                     vote.individual_votes &&
                     vote.individual_votes.some(vote_detail =>
-                        (vote_detail.name || '').toLowerCase().includes(councilmember.name.toLowerCase())
+                        (vote_detail.name || '').toLowerCase() === councilmember.name.toLowerCase()
                     )
                 );
 
