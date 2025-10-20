@@ -1,0 +1,1000 @@
+{
+  "metadata": {
+    "created_at": "2025-10-20T16:30:00Z",
+    "total_votes": 34,
+    "total_meetings": 6,
+    "total_councilmembers": 7,
+    "votes_with_individual_data": 2
+  },
+  "votes": [
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": "High",
+      "agenda_item": "4. MOTION TO WAIVE FURTHER READING OF RESOLUTIONS AND ORDINANCES AFTER NUMBER AND TITLE",
+      "meeting_id": "14510",
+      "frame_path": "2025_meetings_data/votable_frames_14510/frame_005828.jpg",
+      "frame_name": "frame_005828.jpg",
+      "frame_number": 5828,
+      "extraction_timestamp": 1760796029.998416,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true,
+      "agenda_timestamp": 5828,
+      "individual_votes": null
+    },
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Passes",
+      "confidence": 0.98,
+      "agenda_item": "6A. RESOLUTION NO. 2025-50 honoring Police Chief Jeremiah Hart upon his retirement from the City of Torrance after twenty-eight years of service (For Adoption Only).",
+      "meeting_id": "14510",
+      "frame_path": "2025_meetings_data/votable_frames_14510/frame_006380.jpg",
+      "frame_name": "frame_006380.jpg",
+      "frame_number": 6380,
+      "extraction_timestamp": 1760796037.658988,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true,
+      "agenda_timestamp": 6380,
+      "individual_votes": null
+    },
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": 1.0,
+      "agenda_item": "6C. Community Services \u2013 Appoint Members of the 2025-2026 Torrance Youth Council. Expenditure: None.",
+      "meeting_id": "14510",
+      "frame_path": "2025_meetings_data/votable_frames_14510/frame_007471.jpg",
+      "frame_name": "frame_007471.jpg",
+      "frame_number": 7471,
+      "extraction_timestamp": 1760796045.908868,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true,
+      "agenda_timestamp": 7471,
+      "individual_votes": null
+    },
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": 1.0,
+      "agenda_item": "8D. Community Services \u2014 Approve Second Amendment to Contract Services Agreement for Encampment Prevention Overnight Security Guard Services. Expenditure: Not-to-Exceed $200,000 (General Fund-Measure SST Fund).",
+      "meeting_id": "14510",
+      "frame_path": "2025_meetings_data/votable_frames_14510/frame_008986.jpg",
+      "frame_name": "frame_008986.jpg",
+      "frame_number": 8986,
+      "extraction_timestamp": 1760796053.8520231,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true,
+      "agenda_timestamp": 8986,
+      "individual_votes": null
+    },
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": "high",
+      "agenda_item": "9. HEARINGS",
+      "meeting_id": "14510",
+      "frame_path": "2025_meetings_data/votable_frames_14510/frame_009230.jpg",
+      "frame_name": "frame_009230.jpg",
+      "frame_number": 9230,
+      "extraction_timestamp": 1760796071.34739,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true,
+      "agenda_timestamp": 9230,
+      "individual_votes": null
+    },
+    {
+      "motion_text": "Not visible in image.",
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": 0.98,
+      "agenda_item": "9B. Planning Commission and Community Development \u2013 Conduct Public Hearing and Consider Adoption of RESOLUTION for Denial of an Appeal of Planning Commission\u2019s Approval of Conditional Use Permit (CUP24-00028) and Development Permit (DVP24-00004) on Pro",
+      "ordinance_numbers": "Not visible in image.",
+      "meeting_id": "14510",
+      "frame_path": "2025_meetings_data/votable_frames_14510/frame_010854.jpg",
+      "frame_name": "frame_010854.jpg",
+      "frame_number": 10854,
+      "extraction_timestamp": 1760796076.5116448,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true,
+      "agenda_timestamp": 10854,
+      "individual_votes": null
+    },
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": "High",
+      "agenda_item": "9C. Planning Commission and Community Development \u2013 Conduct a Public Hearing and Consider Adoption of RESOLUTION for the Denial of a Modification (MOD23-00010) of a Previously Approved Division of Lot (DIV14-00006) to Amend an Open Space Easement (Note A",
+      "meeting_id": "14510",
+      "frame_path": "2025_meetings_data/votable_frames_14510/frame_015590.jpg",
+      "frame_name": "frame_015590.jpg",
+      "frame_number": 15590,
+      "extraction_timestamp": 1760796089.999242,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true,
+      "agenda_timestamp": 15590,
+      "individual_votes": [
+        {
+          "name": "Gerson",
+          "result": "Y"
+        },
+        {
+          "name": "Kaji",
+          "result": "Y"
+        },
+        {
+          "name": "Kalani",
+          "result": "Y"
+        },
+        {
+          "name": "Lewis",
+          "result": "Y"
+        },
+        {
+          "name": "Mattucci",
+          "result": "Y"
+        },
+        {
+          "name": "Sheikh",
+          "result": "Y"
+        },
+        {
+          "name": "Chen",
+          "result": "Y"
+        }
+      ]
+    },
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": 1.0,
+      "agenda_item": "10B. Community Services \u2013 Accept and File Columbia Park Community Engagement and Concept Design Project Report. Expenditure: None.",
+      "meeting_id": "14510",
+      "frame_path": "2025_meetings_data/votable_frames_14510/frame_017405.jpg",
+      "frame_name": "frame_017405.jpg",
+      "frame_number": 17405,
+      "extraction_timestamp": 1760796146.593377,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true,
+      "agenda_timestamp": 17405,
+      "individual_votes": null
+    },
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Passes",
+      "confidence": 0.98,
+      "agenda_item": "12. ORAL COMMUNICATIONS #2 (Limited up to a 15-minute period) This portion of the meeting is reserved for comments on items that are not on the agenda. Under the Ralph M. Brown Act, City Council cannot act on items raised during public comment but may res",
+      "meeting_id": "14510",
+      "frame_path": "2025_meetings_data/votable_frames_14510/frame_019087.jpg",
+      "frame_name": "frame_019087.jpg",
+      "frame_number": 19087,
+      "extraction_timestamp": 1760796161.96322,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true,
+      "agenda_timestamp": 19087,
+      "individual_votes": null
+    },
+    {
+      "motion_text": "Not specified in image",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 1,
+        "abstentions": 0
+      },
+      "result": "Passes",
+      "confidence": 1.0,
+      "agenda_item": "14. ADJOURNMENT Adjournment of City Council meeting to Tuesday, September 09, 2025, at 5:00 p.m. for closed session with regular business commencing at 6:30 p.m. in the LeRoy J. Jackson Council Chamber. Tuesday, August 26, 2025 and Tuesday, September 02,",
+      "meeting_id": "14510",
+      "frame_path": "2025_meetings_data/votable_frames_14510/frame_021772.jpg",
+      "frame_name": "frame_021772.jpg",
+      "frame_number": 21772,
+      "extraction_timestamp": 1760796173.812203,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true,
+      "agenda_timestamp": 21772,
+      "individual_votes": null
+    },
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Passes",
+      "confidence": 0.98,
+      "agenda_item": "5. COUNCIL COMMITTEE MEETINGS AND ANNOUNCEMENTS",
+      "meeting_id": "14490",
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_000486.jpg",
+      "frame_name": "frame_000486.jpg",
+      "frame_number": 486,
+      "extraction_timestamp": 1760798938.366359,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true,
+      "agenda_timestamp": 486,
+      "individual_votes": null
+    },
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": "High",
+      "agenda_item": "8. CONSENT CALENDAR Matters listed under the Consent Calendar are considered routine and will be enacted by one motion and one vote. There will be no separate discussion of these items. If discussion is desired, that item will be pulled by a Councilmember",
+      "meeting_id": "14490",
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_002843.jpg",
+      "frame_name": "frame_002843.jpg",
+      "frame_number": 2843,
+      "extraction_timestamp": 1760798958.229037,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true,
+      "agenda_timestamp": 2843,
+      "individual_votes": null
+    },
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": 0.95,
+      "agenda_item": "9. HEARINGS",
+      "meeting_id": "14490",
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_002845.jpg",
+      "frame_name": "frame_002845.jpg",
+      "frame_number": 2845,
+      "extraction_timestamp": 1760798970.837879,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true,
+      "agenda_timestamp": 2845,
+      "individual_votes": null
+    },
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": 1.0,
+      "agenda_item": "9A. Planning Commission and Community Development \u2013 Conduct a Public Hearing on Land Use Study 25-00001 Regarding Proposed Amendments to the Torrance Municipal Code Pertaining to the Regulation of Accessory Dwelling Units and Junior Accessory Dwelling Un",
+      "meeting_id": "14490",
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_002847.jpg",
+      "frame_name": "frame_002847.jpg",
+      "frame_number": 2847,
+      "extraction_timestamp": 1760798985.029909,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true,
+      "agenda_timestamp": 2847,
+      "individual_votes": null
+    },
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": "High",
+      "agenda_item": "12. ORAL COMMUNICATIONS #2 (Limited up to a 15-minute period) This portion of the meeting is reserved for comments on items that are not on the agenda. Under the Ralph M. Brown Act, City Council cannot act on items raised during public comment but may res",
+      "meeting_id": "14490",
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_003593.jpg",
+      "frame_name": "frame_003593.jpg",
+      "frame_number": 3593,
+      "extraction_timestamp": 1760799046.963711,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true,
+      "agenda_timestamp": 3593,
+      "individual_votes": null
+    },
+    {
+      "motion_text": "Not visible in image",
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0,
+        "recused": 0
+      },
+      "result": "Motion Passes",
+      "confidence": "High",
+      "agenda_item": "14. ADJOURNMENT Adjournment of City Council meeting to Tuesday, August 12, 2025, at 5:00 p.m. for closed session in the LeRoy J. Jackson Council Chamber.",
+      "meeting_id": "14490",
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_003832.jpg",
+      "frame_name": "frame_003832.jpg",
+      "frame_number": 3832,
+      "extraction_timestamp": 1760799080.6523268,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true,
+      "agenda_timestamp": 3832,
+      "individual_votes": null
+    },
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 2,
+        "abstentions": 0
+      },
+      "result": "Passes",
+      "confidence": "High",
+      "agenda_item": "5. ADJOURNMENT Adjournment of City Council meeting to Tuesday, October 21, 2025, at 5:00 p.m. for closed session with regular business commencing at 6:30 p.m. in the LeRoy J. Jackson Council Chamber.",
+      "meeting_id": "14538",
+      "frame_path": "2025_meetings_data/votable_frames_14538/frame_011885.jpg",
+      "frame_name": "frame_011885.jpg",
+      "frame_number": 11885,
+      "extraction_timestamp": 1760823035.98535,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true,
+      "agenda_timestamp": 11885,
+      "individual_votes": null
+    },
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": {
+        "motion_text": "low",
+        "vote_tally": "high",
+        "result": "high",
+        "agenda_item": "low"
+      },
+      "agenda_item": "5. ADJOURNMENT Adjournment of Closed Session meeting to Tuesday, September 23, 2025, at 5:00 p.m. for closed session with regular business commencing at 6:30 p.m. in the LeRoy J. Jackson Council Chamber.",
+      "meeting_id": "14524",
+      "frame_path": "2025_meetings_data/votable_frames_14524/frame_004320.jpg",
+      "frame_name": "frame_004320.jpg",
+      "frame_number": 4320,
+      "extraction_timestamp": 1760828708.740204,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true,
+      "agenda_timestamp": 4320,
+      "individual_votes": null
+    },
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Passes",
+      "confidence": "High",
+      "agenda_item": "5. COUNCIL COMMITTEE MEETINGS AND ANNOUNCEMENTS",
+      "meeting_id": "14530",
+      "frame_path": "2025_meetings_data/votable_frames_14530/frame_006761.jpg",
+      "frame_name": "frame_006761.jpg",
+      "frame_number": 6761,
+      "extraction_timestamp": 1760791954.956088,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true,
+      "agenda_timestamp": 6761,
+      "individual_votes": null
+    },
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": 1.0,
+      "agenda_item": "6A. RESOLUTION NO. 2025-56 honoring Police Officer Claude Fierro upon his retirement from the City of Torrance after twenty-three years of service (For Adoption Only).",
+      "meeting_id": "14530",
+      "frame_path": "2025_meetings_data/votable_frames_14530/frame_007316.jpg",
+      "frame_name": "frame_007316.jpg",
+      "frame_number": 7316,
+      "extraction_timestamp": 1760791962.263295,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true,
+      "agenda_timestamp": 7316,
+      "individual_votes": null
+    },
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": 1.0,
+      "agenda_item": "6C. City Clerk \u2013 Appoint Members to Fill Commission Vacancies on Commission on Aging, Environmental Quality and Energy Conservation Commission, and Historic Preservation Commission. Expenditure: None.",
+      "meeting_id": "14530",
+      "frame_path": "2025_meetings_data/votable_frames_14530/frame_007842.jpg",
+      "frame_name": "frame_007842.jpg",
+      "frame_number": 7842,
+      "extraction_timestamp": 1760791971.620849,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true,
+      "agenda_timestamp": 7842,
+      "individual_votes": null
+    },
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": 1.0,
+      "agenda_item": "8B. SECOND AND FINAL READING OF ORDINANCE NO. 3952 and Determination that the Ordinance is Exempt from the California Environmental Quality Act (CEQA). Expenditure: None.",
+      "meeting_id": "14530",
+      "frame_path": "2025_meetings_data/votable_frames_14530/frame_008991.jpg",
+      "frame_name": "frame_008991.jpg",
+      "frame_number": 8991,
+      "extraction_timestamp": 1760792022.5399969,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true,
+      "agenda_timestamp": 8991,
+      "individual_votes": null
+    },
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0,
+        "recused": 0
+      },
+      "result": "Motion Passes",
+      "confidence": {
+        "overall": "high",
+        "motion_text": "low (not present in image)",
+        "vote_tally": "high",
+        "result": "high",
+        "agenda_item": "low (not present in image)"
+      },
+      "agenda_item": "10B. Fire \u2013 Set Date of October 21, 2025 for a Public Hearing on the Proposed Local Amendments to the 2025 California Fire Code. Expenditure: None.",
+      "meeting_id": "14530",
+      "frame_path": "2025_meetings_data/votable_frames_14530/frame_009352.jpg",
+      "frame_name": "frame_009352.jpg",
+      "frame_number": 9352,
+      "extraction_timestamp": 1760792054.730607,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true,
+      "agenda_timestamp": 9352,
+      "individual_votes": null
+    },
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": "High",
+      "agenda_item": "10C. Fire \u2013 Accept and File Update on the Public Access Defibrillator (PAD) Program. Expenditure: None.",
+      "meeting_id": "14530",
+      "frame_path": "2025_meetings_data/votable_frames_14530/frame_009425.jpg",
+      "frame_name": "frame_009425.jpg",
+      "frame_number": 9425,
+      "extraction_timestamp": 1760792066.723609,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true,
+      "agenda_timestamp": 9425,
+      "individual_votes": null
+    },
+    {
+      "motion_text": "Not specified in image, only vote outcome.",
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0,
+        "recusals": 0
+      },
+      "result": "Motion Passes",
+      "confidence": 0.95,
+      "agenda_item": "10D. City Manager \u2013 Accept and File Economic Development Update and Consider and Provide Direction on Proposed Economic Development Initiatives. Expenditure: None.",
+      "meeting_id": "14530",
+      "frame_path": "2025_meetings_data/votable_frames_14530/frame_010387.jpg",
+      "frame_name": "frame_010387.jpg",
+      "frame_number": 10387,
+      "extraction_timestamp": 1760792070.223414,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true,
+      "agenda_timestamp": 10387,
+      "individual_votes": [
+        {
+          "name": "Gerson",
+          "result": "Y"
+        },
+        {
+          "name": "Kaji",
+          "result": "Y"
+        },
+        {
+          "name": "Kalani",
+          "result": "Y"
+        },
+        {
+          "name": "Lewis",
+          "result": "Y"
+        },
+        {
+          "name": "Mattucci",
+          "result": "Y"
+        },
+        {
+          "name": "Sheikh",
+          "result": "Y"
+        },
+        {
+          "name": "Chen",
+          "result": "Y"
+        }
+      ]
+    },
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": 0.98,
+      "agenda_item": "10F. Community Services \u2014 Accept and File Coyote Management Plan Update and Provide Direction on Continuing Coyote Abatement Services. Expenditure: None.",
+      "ordinance_number": null,
+      "meeting_id": "14530",
+      "frame_path": "2025_meetings_data/votable_frames_14530/frame_018512.jpg",
+      "frame_name": "frame_018512.jpg",
+      "frame_number": 18512,
+      "extraction_timestamp": 1760792094.626219,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true,
+      "agenda_timestamp": 18512,
+      "individual_votes": null
+    },
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Passes",
+      "confidence": "High",
+      "agenda_item": "12. ORAL COMMUNICATIONS #2 (Limited up to a 15-minute period) This portion of the meeting is reserved for comments on items that are not on the agenda. Under the Ralph M. Brown Act, City Council cannot act on items raised during public comment but may resp",
+      "notes": "The exact motion text, agenda item, and ordinance numbers are not visible in the provided image. The 'Recuse' count is 0, which is distinct from 'Abstain' but not included in the standard ayes/noes/abstentions tally.",
+      "meeting_id": "14530",
+      "frame_path": "2025_meetings_data/votable_frames_14530/frame_018634.jpg",
+      "frame_name": "frame_018634.jpg",
+      "frame_number": 18634,
+      "extraction_timestamp": 1760792109.082398,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true,
+      "agenda_timestamp": 18634,
+      "individual_votes": null
+    },
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": 0.98,
+      "agenda_item": "14. ADJOURNMENT Adjournment of City Council meeting to Tuesday, October 07, 2025, at 5:00 p.m. for closed session with regular business commencing at 6:30 p.m. in the LeRoy J. Jackson Council Chamber. Tuesday, September 30, 2025 is a City Council Da",
+      "meeting_id": "14530",
+      "frame_path": "2025_meetings_data/votable_frames_14530/frame_019064.jpg",
+      "frame_name": "frame_019064.jpg",
+      "frame_number": 19064,
+      "extraction_timestamp": 1760792118.908916,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true,
+      "agenda_timestamp": 19064,
+      "individual_votes": null
+    },
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 6,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": "High",
+      "agenda_item": "6B. RESOLUTION NO. 2025-59 honoring Denise Thurston upon her retirement from the City of Torrance after twenty-six years of service (For Adoption Only).",
+      "meeting_id": "14536",
+      "frame_path": "2025_meetings_data/votable_frames_14536/frame_006721.jpg",
+      "frame_name": "frame_006721.jpg",
+      "frame_number": 6721,
+      "extraction_timestamp": 1760789411.63988,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true,
+      "agenda_timestamp": 6721,
+      "individual_votes": null
+    },
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 6,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": 1.0,
+      "agenda_item": "6C. PROCLAMATION declaring the month of October 2025 as Breast Cancer Awareness Month in the City of Torrance, California.",
+      "meeting_id": "14536",
+      "frame_path": "2025_meetings_data/votable_frames_14536/frame_006763.jpg",
+      "frame_name": "frame_006763.jpg",
+      "frame_number": 6763,
+      "extraction_timestamp": 1760789422.321332,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true,
+      "agenda_timestamp": 6763,
+      "individual_votes": null
+    },
+    {
+      "motion_text": "Approval of the Consent Calendar, including all matters listed therein, to be enacted by one motion and one vote.",
+      "vote_tally": {
+        "ayes": 6,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Passed",
+      "confidence": "High",
+      "agenda_item": "8F. Finance \u2013 Appropriate 2016 Certificate of Participation (COP) Bond Funds. Expenditure: None.",
+      "meeting_id": "14536",
+      "frame_path": "2025_meetings_data/votable_frames_14536/frame_009136.jpg",
+      "frame_name": "frame_009136.jpg",
+      "frame_number": 9136,
+      "extraction_timestamp": 1760789431.661338,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true,
+      "agenda_timestamp": 9136,
+      "individual_votes": null
+    },
+    {
+      "motion_text": "City Council Ad Hoc Naming of Public Facilities Committee and City Manager. Accept and File Ad Hoc Naming of Public Facilities Committee Meeting Minutes and Discuss and Provide Direction on Renaming Columbia Park.",
+      "vote_tally": {
+        "ayes": 2,
+        "noes": 4,
+        "abstentions": 0
+      },
+      "result": "Fails",
+      "confidence": 1.0,
+      "agenda_item": "10A. City Council Ad Hoc Naming of Public Facilities Committee and City Manager \u2013 Accept and File Ad Hoc Naming of Public Facilities Committee Meeting Minutes and Discuss and Provide Direction on Renaming Columbia Park. Expenditure: None.",
+      "meeting_id": "14536",
+      "frame_path": "2025_meetings_data/votable_frames_14536/frame_009910.jpg",
+      "frame_name": "frame_009910.jpg",
+      "frame_number": 9910,
+      "extraction_timestamp": 1760789458.749505,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true,
+      "agenda_timestamp": 9910,
+      "individual_votes": null
+    },
+    {
+      "motion_text": "City Manager - Discuss and Provide Direction on Request for Subsidy of Rental Fees for Use of the Toyota Meeting Hall and James Armstrong Theatre for World War II Camp Memorial Fundraising Event. Expenditure: $1,200 (General Fund)",
+      "vote_tally": {
+        "ayes": 6,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Passed",
+      "confidence": 0.98,
+      "agenda_item": "10B. City Manager \u2013 Discuss and Provide Direction on Request for Subsidy of Rental Fees for Use of the Toyota Meeting Hall and James Armstrong Theatre for World War II Camp Memorial Fundraising Event. Expenditure: $1,200 (General Fund).",
+      "meeting_id": "14536",
+      "frame_path": "2025_meetings_data/votable_frames_14536/frame_012190.jpg",
+      "frame_name": "frame_012190.jpg",
+      "frame_number": 12190,
+      "extraction_timestamp": 1760789487.573994,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true,
+      "agenda_timestamp": 12190,
+      "individual_votes": null
+    },
+    {
+      "motion_text": "Adjournment of City Council meeting to Tuesday, October 14, 2025, at 5:00 p.m. for closed session in the LeRoy J. Jackson Council Chamber",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Passed",
+      "confidence": "High",
+      "agenda_item": "14. ADJOURNMENT Adjournment of City Council meeting to Tuesday, October 14, 2025, at 5:00 p.m. for closed session in the LeRoy J. Jackson Council Chamber.",
+      "meeting_id": "14536",
+      "frame_path": "2025_meetings_data/votable_frames_14536/frame_018874.jpg",
+      "frame_name": "frame_018874.jpg",
+      "frame_number": 18874,
+      "extraction_timestamp": 1760789495.1692228,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true,
+      "agenda_timestamp": 18874,
+      "individual_votes": null
+    }
+  ],
+  "meetings": {
+    "14510": {
+      "id": "14510",
+      "title": "City Council Meeting",
+      "date": "2025-08-05",
+      "total_votes": 10,
+      "video_url": "https://torrance.granicus.com/player/clip/14510",
+      "agenda_url": "https://torrance.granicus.com/GeneratedAgendaViewer.php?view_id=8&clip_id=14510"
+    },
+    "14490": {
+      "id": "14490",
+      "title": "City Council Meeting",
+      "date": "2025-08-05",
+      "total_votes": 6,
+      "video_url": "https://torrance.granicus.com/player/clip/14490",
+      "agenda_url": "https://torrance.granicus.com/GeneratedAgendaViewer.php?view_id=8&clip_id=14490"
+    },
+    "14538": {
+      "id": "14538",
+      "title": "City Council Meeting",
+      "date": "2025-08-05",
+      "total_votes": 1,
+      "video_url": "https://torrance.granicus.com/player/clip/14538",
+      "agenda_url": "https://torrance.granicus.com/GeneratedAgendaViewer.php?view_id=8&clip_id=14538"
+    },
+    "14524": {
+      "id": "14524",
+      "title": "City Council Meeting",
+      "date": "2025-08-05",
+      "total_votes": 1,
+      "video_url": "https://torrance.granicus.com/player/clip/14524",
+      "agenda_url": "https://torrance.granicus.com/GeneratedAgendaViewer.php?view_id=8&clip_id=14524"
+    },
+    "14530": {
+      "id": "14530",
+      "title": "City Council Meeting",
+      "date": "2025-08-05",
+      "total_votes": 10,
+      "video_url": "https://torrance.granicus.com/player/clip/14530",
+      "agenda_url": "https://torrance.granicus.com/GeneratedAgendaViewer.php?view_id=8&clip_id=14530"
+    },
+    "14536": {
+      "id": "14536",
+      "title": "City Council Meeting",
+      "date": "2025-08-05",
+      "total_votes": 6,
+      "video_url": "https://torrance.granicus.com/player/clip/14536",
+      "agenda_url": "https://torrance.granicus.com/GeneratedAgendaViewer.php?view_id=8&clip_id=14536"
+    }
+  },
+  "councilmembers": [
+    "Chen",
+    "Gerson",
+    "Kaji",
+    "Kalani",
+    "Lewis",
+    "Mattucci",
+    "Sheikh"
+  ],
+  "councilmember_stats": {
+    "Gerson": {
+      "total_votes": 2,
+      "yes_votes": 2,
+      "no_votes": 0
+    },
+    "Kaji": {
+      "total_votes": 2,
+      "yes_votes": 2,
+      "no_votes": 0
+    },
+    "Kalani": {
+      "total_votes": 2,
+      "yes_votes": 2,
+      "no_votes": 0
+    },
+    "Lewis": {
+      "total_votes": 2,
+      "yes_votes": 2,
+      "no_votes": 0
+    },
+    "Mattucci": {
+      "total_votes": 2,
+      "yes_votes": 2,
+      "no_votes": 0
+    },
+    "Sheikh": {
+      "total_votes": 2,
+      "yes_votes": 2,
+      "no_votes": 0
+    },
+    "Chen": {
+      "total_votes": 2,
+      "yes_votes": 2,
+      "no_votes": 0
+    }
+  },
+  "agenda_items": [
+    "10A. City Council Ad Hoc Naming of Public Facilities Committee and City Manager \u2013 Accept and File Ad Hoc Naming of Public Facilities Committee Meeting Minutes and Discuss and Provide Direction on Renaming Columbia Park. Expenditure: None.",
+    "10B. City Manager \u2013 Discuss and Provide Direction on Request for Subsidy of Rental Fees for Use of the Toyota Meeting Hall and James Armstrong Theatre for World War II Camp Memorial Fundraising Event. Expenditure: $1,200 (General Fund).",
+    "10B. Community Services \u2013 Accept and File Columbia Park Community Engagement and Concept Design Project Report. Expenditure: None.",
+    "10B. Fire \u2013 Set Date of October 21, 2025 for a Public Hearing on the Proposed Local Amendments to the 2025 California Fire Code. Expenditure: None.",
+    "10C. Fire \u2013 Accept and File Update on the Public Access Defibrillator (PAD) Program. Expenditure: None.",
+    "10D. City Manager \u2013 Accept and File Economic Development Update and Consider and Provide Direction on Proposed Economic Development Initiatives. Expenditure: None.",
+    "10F. Community Services \u2014 Accept and File Coyote Management Plan Update and Provide Direction on Continuing Coyote Abatement Services. Expenditure: None.",
+    "12. ORAL COMMUNICATIONS #2 (Limited up to a 15-minute period) This portion of the meeting is reserved for comments on items that are not on the agenda. Under the Ralph M. Brown Act, City Council cannot act on items raised during public comment but may res",
+    "12. ORAL COMMUNICATIONS #2 (Limited up to a 15-minute period) This portion of the meeting is reserved for comments on items that are not on the agenda. Under the Ralph M. Brown Act, City Council cannot act on items raised during public comment but may resp",
+    "14. ADJOURNMENT Adjournment of City Council meeting to Tuesday, August 12, 2025, at 5:00 p.m. for closed session in the LeRoy J. Jackson Council Chamber.",
+    "14. ADJOURNMENT Adjournment of City Council meeting to Tuesday, October 07, 2025, at 5:00 p.m. for closed session with regular business commencing at 6:30 p.m. in the LeRoy J. Jackson Council Chamber. Tuesday, September 30, 2025 is a City Council Da",
+    "14. ADJOURNMENT Adjournment of City Council meeting to Tuesday, October 14, 2025, at 5:00 p.m. for closed session in the LeRoy J. Jackson Council Chamber.",
+    "14. ADJOURNMENT Adjournment of City Council meeting to Tuesday, September 09, 2025, at 5:00 p.m. for closed session with regular business commencing at 6:30 p.m. in the LeRoy J. Jackson Council Chamber. Tuesday, August 26, 2025 and Tuesday, September 02,",
+    "4. MOTION TO WAIVE FURTHER READING OF RESOLUTIONS AND ORDINANCES AFTER NUMBER AND TITLE",
+    "5. ADJOURNMENT Adjournment of City Council meeting to Tuesday, October 21, 2025, at 5:00 p.m. for closed session with regular business commencing at 6:30 p.m. in the LeRoy J. Jackson Council Chamber.",
+    "5. ADJOURNMENT Adjournment of Closed Session meeting to Tuesday, September 23, 2025, at 5:00 p.m. for closed session with regular business commencing at 6:30 p.m. in the LeRoy J. Jackson Council Chamber.",
+    "5. COUNCIL COMMITTEE MEETINGS AND ANNOUNCEMENTS",
+    "6A. RESOLUTION NO. 2025-50 honoring Police Chief Jeremiah Hart upon his retirement from the City of Torrance after twenty-eight years of service (For Adoption Only).",
+    "6A. RESOLUTION NO. 2025-56 honoring Police Officer Claude Fierro upon his retirement from the City of Torrance after twenty-three years of service (For Adoption Only).",
+    "6B. RESOLUTION NO. 2025-59 honoring Denise Thurston upon her retirement from the City of Torrance after twenty-six years of service (For Adoption Only).",
+    "6C. City Clerk \u2013 Appoint Members to Fill Commission Vacancies on Commission on Aging, Environmental Quality and Energy Conservation Commission, and Historic Preservation Commission. Expenditure: None.",
+    "6C. Community Services \u2013 Appoint Members of the 2025-2026 Torrance Youth Council. Expenditure: None.",
+    "6C. PROCLAMATION declaring the month of October 2025 as Breast Cancer Awareness Month in the City of Torrance, California.",
+    "8. CONSENT CALENDAR Matters listed under the Consent Calendar are considered routine and will be enacted by one motion and one vote. There will be no separate discussion of these items. If discussion is desired, that item will be pulled by a Councilmember",
+    "8B. SECOND AND FINAL READING OF ORDINANCE NO. 3952 and Determination that the Ordinance is Exempt from the California Environmental Quality Act (CEQA). Expenditure: None.",
+    "8D. Community Services \u2014 Approve Second Amendment to Contract Services Agreement for Encampment Prevention Overnight Security Guard Services. Expenditure: Not-to-Exceed $200,000 (General Fund-Measure SST Fund).",
+    "8F. Finance \u2013 Appropriate 2016 Certificate of Participation (COP) Bond Funds. Expenditure: None.",
+    "9. HEARINGS",
+    "9A. Planning Commission and Community Development \u2013 Conduct a Public Hearing on Land Use Study 25-00001 Regarding Proposed Amendments to the Torrance Municipal Code Pertaining to the Regulation of Accessory Dwelling Units and Junior Accessory Dwelling Un",
+    "9B. Planning Commission and Community Development \u2013 Conduct Public Hearing and Consider Adoption of RESOLUTION for Denial of an Appeal of Planning Commission\u2019s Approval of Conditional Use Permit (CUP24-00028) and Development Permit (DVP24-00004) on Pro",
+    "9C. Planning Commission and Community Development \u2013 Conduct a Public Hearing and Consider Adoption of RESOLUTION for the Denial of a Modification (MOD23-00010) of a Previously Approved Division of Lot (DIV14-00006) to Amend an Open Space Easement (Note A"
+  ],
+  "years": [
+    "2025"
+  ],
+  "routes": {
+    "home": "/",
+    "meetings": "/meetings",
+    "councilmembers": "/councilmembers",
+    "search": "/search",
+    "year": "/year/2025"
+  },
+  "meeting_summaries": {
+    "14510": {
+      "summary": "City Council meeting with 10 votes recorded.",
+      "unique_aspects": [
+        "Standard procedural meeting"
+      ],
+      "key_items": []
+    },
+    "14490": {
+      "summary": "City Council meeting with 6 votes recorded.",
+      "unique_aspects": [
+        "Standard procedural meeting"
+      ],
+      "key_items": []
+    },
+    "14538": {
+      "summary": "City Council meeting with 1 votes recorded.",
+      "unique_aspects": [
+        "Standard procedural meeting"
+      ],
+      "key_items": []
+    },
+    "14524": {
+      "summary": "City Council meeting with 1 votes recorded.",
+      "unique_aspects": [
+        "Standard procedural meeting"
+      ],
+      "key_items": []
+    },
+    "14530": {
+      "summary": "City Council meeting with 10 votes recorded.",
+      "unique_aspects": [
+        "Standard procedural meeting"
+      ],
+      "key_items": []
+    },
+    "14536": {
+      "summary": "City Council meeting with 6 votes recorded.",
+      "unique_aspects": [
+        "Standard procedural meeting"
+      ],
+      "key_items": []
+    }
+  },
+  "councilmember_summaries": {
+    "Kalani": {
+      "summary": "Kalani serves as councilmember of the Torrance City Council. Based on available voting records, Kalani has participated in 2 recorded votes.",
+      "role": "Councilmember",
+      "notes": [
+        "Participated in 2 recorded votes"
+      ]
+    },
+    "Chen": {
+      "summary": "Chen serves as mayor of the Torrance City Council. Based on available voting records, Chen has participated in 2 recorded votes.",
+      "role": "Mayor",
+      "notes": [
+        "Participated in 2 recorded votes"
+      ]
+    },
+    "Mattucci": {
+      "summary": "Mattucci serves as councilmember of the Torrance City Council. Based on available voting records, Mattucci has participated in 2 recorded votes.",
+      "role": "Councilmember",
+      "notes": [
+        "Participated in 2 recorded votes"
+      ]
+    },
+    "Gerson": {
+      "summary": "Gerson serves as councilmember of the Torrance City Council. Based on available voting records, Gerson has participated in 2 recorded votes.",
+      "role": "Councilmember",
+      "notes": [
+        "Participated in 2 recorded votes"
+      ]
+    },
+    "Sheikh": {
+      "summary": "Sheikh serves as councilmember of the Torrance City Council. Based on available voting records, Sheikh has participated in 2 recorded votes.",
+      "role": "Councilmember",
+      "notes": [
+        "Participated in 2 recorded votes"
+      ]
+    },
+    "Lewis": {
+      "summary": "Lewis serves as councilmember of the Torrance City Council. Based on available voting records, Lewis has participated in 2 recorded votes.",
+      "role": "Councilmember",
+      "notes": [
+        "Participated in 2 recorded votes"
+      ]
+    },
+    "Kaji": {
+      "summary": "Kaji serves as councilmember of the Torrance City Council. Based on available voting records, Kaji has participated in 2 recorded votes.",
+      "role": "Councilmember",
+      "notes": [
+        "Participated in 2 recorded votes"
+      ]
+    }
+  }
+}

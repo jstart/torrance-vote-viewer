@@ -475,11 +475,11 @@
             }
 
             async loadData() {
-                console.log('Loading data from torrance_votes_with_individual_votes.json...');
+                console.log('Loading data from torrance_votes_smart_consolidated.json...');
                 // Use absolute path to avoid issues with different base paths
                 const dataPath = window.location.pathname.includes('/') && !window.location.pathname.endsWith('/')
-                    ? '/data/torrance_votes_with_individual_votes.json'
-                    : 'data/torrance_votes_with_individual_votes.json';
+                    ? '/data/torrance_votes_smart_consolidated.json'
+                    : 'data/torrance_votes_smart_consolidated.json';
                 console.log('Using data path:', dataPath);
 
                 const response = await fetch(dataPath);
