@@ -627,7 +627,7 @@
             showCouncilmembers() {
                 // Get councilmembers from the new data structure
                 const councilmemberNames = this.data.councilmembers || [];
-                
+
                 // Create councilmember objects with stats
                 const councilmembers = councilmemberNames.map(name => ({
                     id: name.toLowerCase().replace(/\s+/g, '_'),
@@ -644,7 +644,7 @@
                     'jon_kaji': 'Jon Kaji',
                     'sharon_kalani': 'Sharon Kalani',
                     'lewis': 'Bridget Lewis',
-                    'mattucci': 'Mike Mattucci',
+                    'aurelio_mattucci': 'Aurelio Mattucci',
                     'asam_shaikh': 'Asam Shaikh'
                 };
 
@@ -679,8 +679,8 @@
                                         </div>
                                         ${councilmemberSummary ? `
                                             <div class="councilmember-summary" style="margin-top: 1rem; font-style: italic; color: #666;">
-                                                ${councilmemberSummary.summary.length > 120 ? 
-                                                    councilmemberSummary.summary.substring(0, 120) + '...' : 
+                                                ${councilmemberSummary.summary.length > 120 ?
+                                                    councilmemberSummary.summary.substring(0, 120) + '...' :
                                                     councilmemberSummary.summary
                                                 }
                                             </div>
@@ -715,8 +715,8 @@
                                     </div>
                                     ${councilmemberSummary ? `
                                         <div class="councilmember-summary" style="margin-top: 1rem; font-style: italic; color: #666;">
-                                            ${councilmemberSummary.summary.length > 120 ? 
-                                                councilmemberSummary.summary.substring(0, 120) + '...' : 
+                                            ${councilmemberSummary.summary.length > 120 ?
+                                                councilmemberSummary.summary.substring(0, 120) + '...' :
                                                 councilmemberSummary.summary
                                             }
                                         </div>
@@ -733,13 +733,13 @@
             showCouncilmember(councilmemberId) {
                 // Get councilmembers from the array and create objects with stats
                 const councilmemberNames = this.data.councilmembers || [];
-                
+
                 // Find the councilmember by converting names to IDs and matching
                 const councilmember = councilmemberNames.find(name => {
                     const id = name.toLowerCase().replace(/\s+/g, '_');
                     return id === councilmemberId;
                 });
-                
+
                 if (!councilmember) {
                     this.showError('Councilmember not found');
                     return;
@@ -768,7 +768,7 @@
                     'jon_kaji': 'Jon Kaji',
                     'sharon_kalani': 'Sharon Kalani',
                     'lewis': 'Bridget Lewis',
-                    'mattucci': 'Mike Mattucci',
+                    'aurelio_mattucci': 'Aurelio Mattucci',
                     'asam_shaikh': 'Asam Shaikh'
                 };
 

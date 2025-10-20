@@ -5554,8 +5554,8 @@
     "SHARON KALANI",
     "ASAM SHEIKH",
     "JON KAJI",
-    "MATTUCCI",
-    "BRIDGET LEWIS"
+    "Aurelio Mattucci",
+    "Bridget Lewis"
   ],
   "councilmember_stats": {
     "GEORGE CHEN": {
@@ -5582,19 +5582,19 @@
       "no_votes": 1,
       "abstentions": 0
     },
-    "MATTUCCI": {
-      "total_votes": 0,
-      "yes_votes": 0,
-      "no_votes": 0,
-      "abstentions": 0
-    },
     "ASAM SHEIKH": {
       "total_votes": 199,
       "yes_votes": 195,
       "no_votes": 4,
       "abstentions": 0
     },
-    "BRIDGET LEWIS": {
+    "Bridget Lewis": {
+      "total_votes": 0,
+      "yes_votes": 0,
+      "no_votes": 0,
+      "abstentions": 0
+    },
+    "Aurelio Mattucci": {
       "total_votes": 0,
       "yes_votes": 0,
       "no_votes": 0,
@@ -5749,43 +5749,6 @@
       },
       "bio_note": "Official bio page"
     },
-    "MATTUCCI": {
-      "summary": "Mattucci serves as councilmember of the Torrance City Council. Councilmember Mike Mattucci is dedicated to maintaining Torrance's character while supporting responsible growth. Demonstrates strong consensus-building skills, voting unanimously in favor of all 14 recorded motions. Primary policy focus areas include Planning & Development, reflecting commitment to these key municipal priorities. Key initiatives include Development planning, Infrastructure improvements, demonstrating proactive leadership in city governance. Learn more about Mattucci's background and priorities at the [official bio page](https://www.torranceca.gov/government/city-council-and-elected-officials/mattucci).",
-      "role": "Councilmember",
-      "notes": [
-        "Participated in 14 recorded votes",
-        "Voted Yes on 14 motions",
-        "Voted No on 0 motions",
-        "Active in 1 policy areas",
-        "Bio: https://www.torranceca.gov/government/city-council-and-elected-officials/mattucci"
-      ],
-      "stats": {
-        "total_votes": 14,
-        "yes_votes": 14,
-        "no_votes": 0
-      },
-      "bio_url": "https://www.torranceca.gov/government/city-council-and-elected-officials/mattucci",
-      "policy_focus": [
-        "Planning & Development",
-        "Infrastructure",
-        "Community Services"
-      ],
-      "notable_initiatives": [
-        "Development planning",
-        "Infrastructure improvements",
-        "Community programs"
-      ],
-      "policy_votes": {
-        "Planning & Development": 14,
-        "Public Safety": 0,
-        "Budget & Finance": 0,
-        "Infrastructure": 0,
-        "Community Services": 0,
-        "Environmental": 0,
-        "Housing": 0
-      },
-      "bio_note": "Official bio page"
-    },
     "ASAM SHEIKH": {
       "summary": "Sheikh serves as councilmember of the Torrance City Council. Councilmember Mohammed Noor Sheikh brings diverse perspectives and commitment to inclusive governance. Demonstrates strong consensus-building skills, voting unanimously in favor of all 14 recorded motions. Primary policy focus areas include Planning & Development, reflecting commitment to these key municipal priorities. Key initiatives include Community outreach, Public safety initiatives, demonstrating proactive leadership in city governance. Learn more about Sheikh's background and priorities at the [official bio page](https://www.torranceca.gov/government/city-council-and-elected-officials/sheikh).",
       "role": "Councilmember",
@@ -5823,7 +5786,7 @@
       },
       "bio_note": "Official bio page"
     },
-    "BRIDGET LEWIS": {
+    "Bridget Lewis": {
       "summary": "Lewis serves as councilmember of the Torrance City Council. Councilmember Asam Ashraf brings fresh perspective and community-focused approach to city governance. Demonstrates strong consensus-building skills, voting unanimously in favor of all 14 recorded motions. Primary policy focus areas include Planning & Development, reflecting commitment to these key municipal priorities. Key initiatives include Community engagement, Development oversight, demonstrating proactive leadership in city governance. Learn more about Lewis's background and priorities at the [official bio page](https://www.torranceca.gov/government/city-council-and-elected-officials/lewis).",
       "role": "Councilmember",
       "notes": [
@@ -5848,6 +5811,43 @@
         "Community engagement",
         "Development oversight",
         "Public safety programs"
+      ],
+      "policy_votes": {
+        "Planning & Development": 14,
+        "Public Safety": 0,
+        "Budget & Finance": 0,
+        "Infrastructure": 0,
+        "Community Services": 0,
+        "Environmental": 0,
+        "Housing": 0
+      },
+      "bio_note": "Official bio page"
+    },
+    "Aurelio Mattucci": {
+      "summary": "Mattucci serves as councilmember of the Torrance City Council. Councilmember Mike Mattucci is dedicated to maintaining Torrance's character while supporting responsible growth. Demonstrates strong consensus-building skills, voting unanimously in favor of all 14 recorded motions. Primary policy focus areas include Planning & Development, reflecting commitment to these key municipal priorities. Key initiatives include Development planning, Infrastructure improvements, demonstrating proactive leadership in city governance. Learn more about Mattucci's background and priorities at the [official bio page](https://www.torranceca.gov/government/city-council-and-elected-officials/mattucci).",
+      "role": "Councilmember",
+      "notes": [
+        "Participated in 14 recorded votes",
+        "Voted Yes on 14 motions",
+        "Voted No on 0 motions",
+        "Active in 1 policy areas",
+        "Bio: https://www.torranceca.gov/government/city-council-and-elected-officials/mattucci"
+      ],
+      "stats": {
+        "total_votes": 14,
+        "yes_votes": 14,
+        "no_votes": 0
+      },
+      "bio_url": "https://www.torranceca.gov/government/city-council-and-elected-officials/mattucci",
+      "policy_focus": [
+        "Planning & Development",
+        "Infrastructure",
+        "Community Services"
+      ],
+      "notable_initiatives": [
+        "Development planning",
+        "Infrastructure improvements",
+        "Community programs"
       ],
       "policy_votes": {
         "Planning & Development": 14,
