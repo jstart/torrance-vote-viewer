@@ -30,7 +30,7 @@ class VoteViewerUtils {
             'Frame Number',
             'Timestamp Estimated'
         ];
-        
+
         const csvContent = [
             headers.join(','),
             ...votes.map(vote => [
@@ -51,10 +51,10 @@ class VoteViewerUtils {
                 vote.timestamp_estimated ? 'Yes' : 'No'
             ].join(','))
         ].join('\n');
-        
+
         this.downloadFile(csvContent, filename, 'text/csv');
     }
-    
+
     // Export vote data to JSON format
     static exportToJSON(votes, filename = 'torrance_votes.json') {
         const exportData = {
@@ -76,11 +76,11 @@ class VoteViewerUtils {
                 timestamp_estimated: vote.timestamp_estimated
             }))
         };
-        
+
         const jsonContent = JSON.stringify(exportData, null, 2);
         this.downloadFile(jsonContent, filename, 'application/json');
     }
-    
+
     // Download file helper
     static downloadFile(content, filename, mimeType) {
         const blob = new Blob([content], { type: mimeType });
@@ -94,18 +94,18 @@ class VoteViewerUtils {
         document.body.removeChild(link);
         URL.revokeObjectURL(url);
     }
-    
+
     // Show notification
     static showNotification(message, type = 'info') {
         // Remove existing notifications
         const existingNotifications = document.querySelectorAll('.notification');
         existingNotifications.forEach(notification => notification.remove());
-        
+
         const notification = document.createElement('div');
         notification.className = `notification notification-${type}`;
         notification.textContent = message;
         document.body.appendChild(notification);
-        
+
         setTimeout(() => {
             notification.remove();
         }, 3000);

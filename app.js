@@ -218,6 +218,7 @@ class TorranceVoteViewer {
                 </div>
             </div>
 
+            <!-- Email subscription feature temporarily disabled
             <h2>Stay Updated</h2>
             <div class="subscription-section">
                 <p>Get notified when new meetings are added to the system.</p>
@@ -231,6 +232,7 @@ class TorranceVoteViewer {
                     <small>We'll send you a notification when new meeting data is available. Unsubscribe anytime.</small>
                 </div>
             </div>
+            -->
         `;
         this.renderContent(content);
     }
@@ -814,7 +816,7 @@ class TorranceVoteViewer {
         try {
             const votes = this.data.votes;
             const timestamp = new Date().toISOString().split('T')[0]; // YYYY-MM-DD format
-            
+
             if (format === 'csv') {
                 const filename = `torrance_votes_${timestamp}.csv`;
                 VoteViewerUtils.exportToCSV(votes, filename);
@@ -834,17 +836,17 @@ class TorranceVoteViewer {
     subscribeToUpdates() {
         const emailInput = document.getElementById('emailInput');
         const email = emailInput?.value?.trim();
-        
+
         if (!email) {
             VoteViewerUtils.showNotification('Please enter a valid email address.', 'error');
             return;
         }
-        
+
         if (!this.isValidEmail(email)) {
             VoteViewerUtils.showNotification('Please enter a valid email address.', 'error');
             return;
         }
-        
+
         // Store subscription in localStorage (in a real app, this would go to a server)
         try {
             const subscriptions = this.getStoredSubscriptions();
@@ -882,13 +884,13 @@ class TorranceVoteViewer {
     notifySubscribers(newMeetings) {
         const subscriptions = this.getStoredSubscriptions();
         if (subscriptions.length === 0) return;
-        
+
         // In a real implementation, this would send emails via a server
         console.log(`Notifying ${subscriptions.length} subscribers about ${newMeetings.length} new meetings`);
-        
+
         // For demo purposes, show a notification
         VoteViewerUtils.showNotification(
-            `New meetings detected! ${subscriptions.length} subscribers will be notified.`, 
+          `New meetings detected! ${subscriptions.length} subscribers will be notified.`,
             'info'
         );
     }
