@@ -558,7 +558,8 @@ details[open] summary::marker {
 
 /* Additional utility classes for inline styles */
 .meeting-stats-grid {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .meeting-summary-card {

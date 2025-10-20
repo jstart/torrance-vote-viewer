@@ -267,7 +267,7 @@ class TorranceVoteViewer {
                     ${meeting.agenda_url ? `<a href="${meeting.agenda_url}" target="_blank" class="meeting-link">📋 View Agenda</a>` : ''}
                 </div>
 
-                <div class="stats-grid" style="margin-top: 1rem;">
+                <div class="stats-grid meeting-stats-grid">
                     <div class="stat-card">
                         <div class="stat-number">${votes.filter(v => v.result && v.result.toLowerCase().includes('pass')).length}</div>
                         <div class="stat-label">Passed</div>
@@ -280,21 +280,21 @@ class TorranceVoteViewer {
             </div>
 
             ${meetingSummary ? `
-                <div class="meeting-summary" style="background: #f8f9fa; padding: 1.5rem; border-radius: 8px; margin: 1.5rem 0; border-left: 4px solid #1976d2;">
+                <div class="meeting-summary-card">
                     <h3>📋 Meeting Summary</h3>
-                    <p style="margin-bottom: 1rem; font-size: 1.1rem; line-height: 1.6;">${meetingSummary.summary}</p>
+                    <p class="meeting-summary-text">${meetingSummary.summary}</p>
 
                     ${meetingSummary.unique_aspects && meetingSummary.unique_aspects.length > 0 ? `
-                        <h4 style="margin-bottom: 0.5rem; color: #1976d2;">Key Highlights:</h4>
-                        <ul style="margin-left: 1.5rem;">
-                            ${meetingSummary.unique_aspects.map(aspect => `<li style="margin-bottom: 0.5rem;">${aspect}</li>`).join('')}
+                        <h4 class="meeting-summary-highlight">Key Highlights:</h4>
+                        <ul class="meeting-summary-list">
+                            ${meetingSummary.unique_aspects.map(aspect => `<li class="meeting-summary-item">${aspect}</li>`).join('')}
                         </ul>
                     ` : ''}
 
                     ${meetingSummary.key_items && meetingSummary.key_items.length > 0 ? `
-                        <h4 style="margin-bottom: 0.5rem; color: #1976d2; margin-top: 1rem;">Key Agenda Items:</h4>
-                        <ul style="margin-left: 1.5rem;">
-                            ${meetingSummary.key_items.map(item => `<li style="margin-bottom: 0.5rem;">${item}</li>`).join('')}
+                        <h4 class="meeting-summary-highlight" style="margin-top: 1rem;">Key Agenda Items:</h4>
+                        <ul class="meeting-summary-list">
+                            ${meetingSummary.key_items.map(item => `<li class="meeting-summary-item">${item}</li>`).join('')}
                         </ul>
                     ` : ''}
                 </div>
@@ -760,133 +760,14 @@ class TorranceVoteViewer {
         return meetings.map(meeting => {
             // Get meeting summary if available
             const meetingSummary = this.data.meeting_summaries && this.data.meeting_summaries[meeting.id];
-
-            return `
-                <div class="meeting-card" onclick="app.navigateTo('meeting/${meeting.id}')" style="cursor: pointer;">
-                    <div class="meeting-header">
-                        <div>
-                            <div class="meeting-title">${meeting.title}</div>
-                            <div class="meeting-date">${meeting.date}</div>
-                        </div>
-                        <div>
-                            <div class="stat-number">${meeting.total_votes}</div>
-                            <div class="stat-label">Votes</div>
-                        </div>
-                    </div>
-
-                    ${meetingSummary ? `
-                        <div class="meeting-summary-preview" style="background: #f8f9fa; padding: 1rem; border-radius: 6px; margin: 1rem 0; border-left: 3px solid #1976d2; font-size: 0.9rem;">
-                            <div style="font-weight: bold; color: #1976d2; margin-bottom: 0.5rem;">📋 Meeting Summary</div>
-                            <div style="line-height: 1.4;">${meetingSummary.summary}</div>
-                            ${meetingSummary.unique_aspects && meetingSummary.unique_aspects.length > 0 ? `
-                                <div style="margin-top: 0.5rem; font-size: 0.85rem; color: #666;">
-                                    <strong>Key:</strong> ${meetingSummary.unique_aspects.slice(0, 2).join(', ')}
-                                    ${meetingSummary.unique_aspects.length > 2 ? ` +${meetingSummary.unique_aspects.length - 2} more` : ''}
-                                </div>
-                            ` : ''}
-                        </div>
-                    ` : ''}
-
-                    <div class="meeting-links">
-                        <a href="#/meeting/${meeting.id}" class="meeting-link" onclick="event.stopPropagation();">View Votes</a>
-                        ${meeting.video_url ? `<a href="${meeting.video_url}" target="_blank" class="meeting-link" onclick="event.stopPropagation();">📹 Watch Video</a>` : ''}
-                        ${meeting.agenda_url ? `<a href="${meeting.agenda_url}" target="_blank" class="meeting-link" onclick="event.stopPropagation();">📋 View Agenda</a>` : ''}
-                    </div>
-                </div>
-            `;
+            
+            // Use the template function
+            return VoteViewerTemplates.meetingCard(meeting, meetingSummary, VoteViewerUtils);
         }).join('');
     }
 
     renderVotesList(votes) {
-        return votes.map(vote => {
-            // Calculate timestamp - use actual video timestamp if available, otherwise estimate from frame
-            let timestamp;
-            let timestampSource;
-
-            if (vote.video_timestamp !== undefined) {
-                // Use actual video timestamp (in seconds)
-                const minutes = Math.floor(vote.video_timestamp / 60);
-                const seconds = vote.video_timestamp % 60;
-                timestamp = `${minutes}:${seconds.toString().padStart(2, '0')}`;
-                timestampSource = vote.timestamp_estimated ? 'estimated' : 'actual';
-            } else {
-                // Fallback to frame-based estimation
-                const frameNumber = parseInt(vote.frame_number) || 0;
-                const estimatedSeconds = Math.floor(frameNumber / 30);
-                const minutes = Math.floor(estimatedSeconds / 60);
-                const seconds = estimatedSeconds % 60;
-                timestamp = `${minutes}:${seconds.toString().padStart(2, '0')}`;
-                timestampSource = 'estimated';
-            }
-
-            // Generate deep links
-            const videoDeepLink = this.generateVideoDeepLink(vote);
-            const agendaDeepLink = this.generateAgendaDeepLink(vote);
-
-            return `
-                <div class="vote-item">
-                    <div class="vote-header">
-                        <span class="agenda-item" style="font-weight: bold; font-size: 1.1rem;">${vote.agenda_item || 'No agenda item available'}</span>
-                        <span class="vote-result ${vote.result.toLowerCase().includes('pass') ? 'result-passed' : 'result-failed'}">
-                            ${vote.result.toLowerCase().includes('pass') ? 'PASSED' : 'FAILED'}
-                        </span>
-                    </div>
-                    <div class="vote-tally">
-                        Ayes: ${vote.vote_tally.ayes} |
-                        Noes: ${vote.vote_tally.noes} |
-                        Abstentions: ${vote.vote_tally.abstentions}
-                    </div>
-                    <div style="margin-top: 0.5rem; color: #666; font-size: 0.9rem;">
-                        Vote occurred at ${timestampSource === 'actual' ? '' : 'approximately '}${timestamp} in meeting video
-                        ${timestampSource === 'estimated' ? ' (estimated from frame data)' : ''}
-                    </div>
-                    ${vote.motion_text ? `<div style="margin-top: 0.5rem; font-style: italic;">${vote.motion_text}</div>` : ''}
-                    <div style="margin-top: 0.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
-                        ${videoDeepLink ? `<a href="${videoDeepLink}" target="_blank" class="meeting-link">📹 Watch at ${timestamp}</a>` : ''}
-                        ${agendaDeepLink ? `<a href="${agendaDeepLink}" target="_blank" class="meeting-link">📋 View Agenda Item</a>` : ''}
-                        ${vote.video_url ? `<a href="${vote.video_url}" target="_blank" class="meeting-link">📺 Full Video</a>` : ''}
-                    </div>
-                </div>
-            `;
-        }).join('');
-    }
-
-    generateVideoDeepLink(vote) {
-        // Generate deep link to video using scraped meta_ids
-        // Pattern: https://torrance.granicus.com/player/clip/{meeting_id}?view_id=8&meta_id={meta_id}&redirect=true
-        const meetingId = vote.meeting_id;
-        const metaId = vote.meta_id;
-
-        if (!meetingId) return null;
-
-        // If we have a scraped meta_id, use it for precise timestamp linking
-        if (metaId) {
-            return `https://torrance.granicus.com/player/clip/${meetingId}?view_id=8&meta_id=${metaId}&redirect=true`;
-        } else {
-            // Fallback to simple URL if no meta_id available
-            return `https://torrance.granicus.com/player/clip/${meetingId}`;
-        }
-    }
-
-    generateAgendaDeepLink(vote) {
-        // Generate deep link to agenda item
-        // Pattern: https://torrance.granicus.com/GeneratedAgendaViewer.php?view_id=8&clip_id={meeting_id}
-        const meetingId = vote.meeting_id;
-
-        if (!meetingId) return null;
-
-        const viewIdMap = {
-            '14510': '8',
-            '14490': '8',
-            '14538': '8',
-            '14524': '8',
-            '14530': '8',
-            '14536': '8'
-        };
-
-        const viewId = viewIdMap[meetingId] || '8';
-
-        return `https://torrance.granicus.com/GeneratedAgendaViewer.php?view_id=${viewId}&clip_id=${meetingId}`;
+        return VoteViewerTemplates.votesList(votes, VoteViewerUtils);
     }
 
     renderContent(content) {
