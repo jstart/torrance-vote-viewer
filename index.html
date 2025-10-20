@@ -934,8 +934,8 @@
 
                                                 <!-- Preview text (first ~120 characters) -->
                                                 <div style="line-height: 1.3; margin-bottom: 0.6rem;">
-                                                    ${councilmemberSummary.summary.length > 120 ? 
-                                                        councilmemberSummary.summary.substring(0, 120).replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href=\"$2\" target=\"_blank\" style=\"color: #1976d2; text-decoration: none; font-weight: bold;\">$1</a>') + '...' : 
+                                                    ${councilmemberSummary.summary.length > 120 ?
+                                                        councilmemberSummary.summary.substring(0, 120).replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href=\"$2\" target=\"_blank\" style=\"color: #1976d2; text-decoration: none; font-weight: bold;\">$1</a>') + '...' :
                                                         councilmemberSummary.summary.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href=\"$2\" target=\"_blank\" style=\"color: #1976d2; text-decoration: none; font-weight: bold;\">$1</a>')
                                                     }
                                                 </div>
@@ -1007,8 +1007,8 @@
 
                                                 <!-- Preview text (first ~150 characters) -->
                                                 <div style="line-height: 1.4; font-size: 0.9rem; margin-bottom: 0.8rem;">
-                                                    ${councilmemberSummary.summary.length > 150 ? 
-                                                        councilmemberSummary.summary.substring(0, 150).replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href=\"$2\" target=\"_blank\" style=\"color: #1976d2; text-decoration: none; font-weight: bold;\">$1</a>') + '...' : 
+                                                    ${councilmemberSummary.summary.length > 150 ?
+                                                        councilmemberSummary.summary.substring(0, 150).replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href=\"$2\" target=\"_blank\" style=\"color: #1976d2; text-decoration: none; font-weight: bold;\">$1</a>') + '...' :
                                                         councilmemberSummary.summary.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href=\"$2\" target=\"_blank\" style=\"color: #1976d2; text-decoration: none; font-weight: bold;\">$1</a>')
                                                     }
                                                 </div>
@@ -1045,7 +1045,7 @@
                                                             <div>
                                                                 <div style="font-weight: bold; color: #1976d2; margin-bottom: 0.3rem; font-size: 0.85rem;">Key Notes:</div>
                                                                 <ul style="margin-left: 1rem; font-size: 0.85rem;">
-                                                                    ${councilmemberSummary.notes.slice(0, 3).map(note => `<li style="margin-bottom: 0.2rem;">${note}</li>`).join('')}
+                                                                    ${councilmemberSummary.notes.slice(0, 3).map(note => `<li style="margin-bottom: 0.2rem;">${note.replace(/(https?:\/\/[^\s]+)/g, '<a href=\"$1\" target=\"_blank\" style=\"color: #1976d2; text-decoration: none; font-weight: bold;\">$1</a>')}</li>`).join('')}
                                                                 </ul>
                                                             </div>
                                                         ` : ''}
@@ -1169,7 +1169,7 @@
                                     <div>
                                         <h4 style="margin-bottom: 0.5rem; color: #1976d2;">Additional Notes:</h4>
                                         <ul style="margin-left: 1.5rem;">
-                                            ${councilmemberSummary.notes.map(note => `<li style="margin-bottom: 0.5rem;">${note}</li>`).join('')}
+                                            ${councilmemberSummary.notes.map(note => `<li style="margin-bottom: 0.5rem;">${note.replace(/(https?:\/\/[^\s]+)/g, '<a href=\"$1\" target=\"_blank\" style=\"color: #1976d2; text-decoration: none; font-weight: bold;\">$1</a>')}</li>`).join('')}
                                         </ul>
                                     </div>
                                 ` : ''}
