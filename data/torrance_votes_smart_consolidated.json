@@ -26,7 +26,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 5828,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -46,7 +47,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 6380,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -66,7 +68,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 7471,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -86,7 +89,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 8986,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -106,7 +110,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 8987,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -126,7 +131,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 9229,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -146,7 +152,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 9230,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": "Not visible in image.",
@@ -167,7 +174,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 10854,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -187,7 +195,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 10981,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -236,7 +245,8 @@
           "name": "Chen",
           "result": "Y"
         }
-      ]
+      ],
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -315,7 +325,8 @@
           "name": "Chen",
           "result": "Y"
         }
-      ]
+      ],
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -364,7 +375,8 @@
           "name": "Chen",
           "result": "Y"
         }
-      ]
+      ],
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -413,7 +425,8 @@
           "name": "Chen",
           "result": "Y"
         }
-      ]
+      ],
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -462,7 +475,8 @@
           "name": "Chen",
           "result": "Y"
         }
-      ]
+      ],
+      "year": "2025"
     },
     {
       "motion_text": "Not available (motion description not present on screen)",
@@ -511,7 +525,8 @@
           "name": "Chen",
           "result": "Y"
         }
-      ]
+      ],
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -560,7 +575,8 @@
           "name": "Chen",
           "result": "Y"
         }
-      ]
+      ],
+      "year": "2025"
     },
     {
       "motion_text": "N/A (motion text not specified in the image)",
@@ -609,7 +625,8 @@
           "name": "Chen",
           "result": "Y"
         }
-      ]
+      ],
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -688,7 +705,8 @@
           "name": "Chen",
           "result": "Y"
         }
-      ]
+      ],
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -708,7 +726,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 17405,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -728,7 +747,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 17406,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -748,7 +768,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 19087,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -769,7 +790,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 19088,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": "Not specified in image",
@@ -789,7 +811,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 21772,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": "The specific motion text is not visible in the provided image.",
@@ -809,7 +832,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 21773,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -829,7 +853,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 486,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -849,7 +874,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 487,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": "Not available in image",
@@ -869,7 +895,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 488,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -889,7 +916,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 2843,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -909,7 +937,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 2844,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -929,7 +958,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 2845,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -949,7 +979,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 2846,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -969,7 +1000,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 2847,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -989,7 +1021,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 3480,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -1009,7 +1042,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 3481,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -1029,7 +1063,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 3482,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -1049,7 +1084,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 3483,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -1069,7 +1105,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 3592,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -1089,7 +1126,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 3593,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": "Not discernible from the image.",
@@ -1141,7 +1179,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 3594,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -1161,7 +1200,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 3595,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -1184,7 +1224,8 @@
       "extraction_timestamp": 1760799075.0119948,
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
-      "agenda_timestamp": 3596
+      "agenda_timestamp": 3596,
+      "year": "2025"
     },
     {
       "motion_text": "Not visible in image",
@@ -1205,7 +1246,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 3832,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -1225,7 +1267,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 3833,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -1245,7 +1288,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 3834,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -1265,7 +1309,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 11885,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -1285,7 +1330,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 11886,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -1305,7 +1351,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 11887,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -1325,7 +1372,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 11888,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -1345,7 +1393,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 11889,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -1365,7 +1414,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 11885,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -1391,7 +1441,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 11889,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -1416,7 +1467,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 4320,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -1436,7 +1488,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 4321,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -1456,7 +1509,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 6761,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -1476,7 +1530,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 7316,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -1496,7 +1551,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 7317,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -1516,7 +1572,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 7842,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -1541,7 +1598,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 7843,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -1561,7 +1619,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 7844,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": "Not found in image",
@@ -1581,7 +1640,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 7986,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -1607,7 +1667,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 7987,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -1627,7 +1688,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 7988,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -1647,7 +1709,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 8132,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": "N/A - Motion text not visible in image.",
@@ -1667,7 +1730,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 8133,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -1701,7 +1765,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 8134,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -1721,7 +1786,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 8991,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": "Not available in image.",
@@ -1741,7 +1807,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 8992,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -1762,7 +1829,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 9086,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": "Not available in the image.",
@@ -1782,7 +1850,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 9087,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -1802,7 +1871,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 9088,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -1829,7 +1899,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 9352,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -1849,7 +1920,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 9353,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -1870,7 +1942,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 9354,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -1890,7 +1963,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 9425,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": "Not specified in image, only vote outcome.",
@@ -1940,7 +2014,8 @@
           "name": "Chen",
           "result": "Y"
         }
-      ]
+      ],
+      "year": "2025"
     },
     {
       "motion_text": "Not available in image",
@@ -1989,7 +2064,8 @@
           "name": "Chen",
           "result": "Y"
         }
-      ]
+      ],
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -2077,7 +2153,8 @@
           "name": "Chen",
           "result": "Y"
         }
-      ]
+      ],
+      "year": "2025"
     },
     {
       "motion_text": "Not specified in the image.",
@@ -2126,7 +2203,8 @@
           "name": "Chen",
           "result": "Y"
         }
-      ]
+      ],
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -2175,7 +2253,8 @@
           "name": "Chen",
           "result": "Y"
         }
-      ]
+      ],
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -2196,7 +2275,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 18512,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -2216,7 +2296,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 18513,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -2237,7 +2318,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 18634,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -2257,7 +2339,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 19064,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -2277,7 +2360,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 19065,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -2297,7 +2381,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 6721,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -2317,7 +2402,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 6722,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -2337,7 +2423,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 6763,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": null,
@@ -2357,7 +2444,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 6764,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": "Approval of the Consent Calendar, including all matters listed therein, to be enacted by one motion and one vote.",
@@ -2377,7 +2465,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 9136,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": "Consent Calendar",
@@ -2397,7 +2486,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 9137,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": "To approve all matters listed under the Consent Calendar.",
@@ -2417,7 +2507,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 9138,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": "Approval of the Consent Calendar.",
@@ -2437,7 +2528,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 9347,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": "City Council Ad Hoc Naming of Public Facilities Committee and City Manager. Accept and File Ad Hoc Naming of Public Facilities Committee Meeting Minutes and Discuss and Provide Direction on Renaming Columbia Park.",
@@ -2457,7 +2549,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 9910,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": "City Council Ad Hoc Naming of Public Facilities Committee and City Manager. Accept and File Ad Hoc Naming of Public Facilities Committee Meeting Minutes and Discuss and Provide Direction on Renaming Columbia Park.",
@@ -2477,7 +2570,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 9911,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": "City Council Ad Hoc Naming of Public Facilities Committee and City Manager. Accept and File Ad Hoc Naming of Public Facilities Committee Meeting Minutes and Discuss and Provide Direction on Renaming Columbia Park.",
@@ -2497,7 +2591,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 9912,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": "City Council Ad Hoc Naming of Public Facilities Committee and City Manager. Accept and File Ad Hoc Naming of Public Facilities Committee Meeting Minutes and Discuss and Provide Direction on Renaming Columbia Park.",
@@ -2517,7 +2612,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 10859,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": "City Council Ad Hoc Naming of Public Facilities Committee and City Manager. Accept and File Ad Hoc Naming of Public Facilities Committee Meeting Minutes and Discuss and Provide Direction on Renaming Columbia Park.",
@@ -2537,7 +2633,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 10860,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": "Accept and File Ad Hoc Naming of Public Facilities Committee Meeting Minutes and Discuss and Provide Direction on Renaming Columbia Park.",
@@ -2557,7 +2654,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 10861,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": "City Manager - Discuss and Provide Direction on Request for Subsidy of Rental Fees for Use of the Toyota Meeting Hall and James Armstrong Theatre for World War II Camp Memorial Fundraising Event. Expenditure: $1,200 (General Fund)",
@@ -2577,7 +2675,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 12190,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": "City Manager - Discuss and Provide Direction on Request for Subsidy of Rental Fees for Use of the Toyota Meeting Hall and James Armstrong Theatre for World War II Camp Memorial Fundraising Event. Expenditure: $1,200 (General Fund)",
@@ -2597,7 +2696,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 12191,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": "Adjournment of City Council meeting to Tuesday, October 14, 2025, at 5:00 p.m. for closed session in the LeRoy J. Jackson Council Chamber",
@@ -2617,7 +2717,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 18874,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     },
     {
       "motion_text": "Adjournment of City Council meeting to Tuesday, October 14, 2025, at 5:00 p.m. for closed session in the LeRoy J. Jackson Council Chamber",
@@ -2637,7 +2738,8 @@
       "ocr_confidence": 0.9,
       "has_votable_indicators": true,
       "agenda_timestamp": 18875,
-      "individual_votes": null
+      "individual_votes": null,
+      "year": "2025"
     }
   ],
   "meetings": {
@@ -2647,7 +2749,8 @@
       "date": "2025-08-05",
       "total_votes": 24,
       "video_url": "https://torrance.granicus.com/player/clip/14510",
-      "agenda_url": "https://torrance.granicus.com/GeneratedAgendaViewer.php?view_id=8&clip_id=14510"
+      "agenda_url": "https://torrance.granicus.com/GeneratedAgendaViewer.php?view_id=8&clip_id=14510",
+      "year": "2025"
     },
     "14490": {
       "id": "14490",
@@ -2655,7 +2758,8 @@
       "date": "2025-08-05",
       "total_votes": 20,
       "video_url": "https://torrance.granicus.com/player/clip/14490",
-      "agenda_url": "https://torrance.granicus.com/GeneratedAgendaViewer.php?view_id=8&clip_id=14490"
+      "agenda_url": "https://torrance.granicus.com/GeneratedAgendaViewer.php?view_id=8&clip_id=14490",
+      "year": "2025"
     },
     "14538": {
       "id": "14538",
@@ -2663,7 +2767,8 @@
       "date": "2025-08-05",
       "total_votes": 7,
       "video_url": "https://torrance.granicus.com/player/clip/14538",
-      "agenda_url": "https://torrance.granicus.com/GeneratedAgendaViewer.php?view_id=8&clip_id=14538"
+      "agenda_url": "https://torrance.granicus.com/GeneratedAgendaViewer.php?view_id=8&clip_id=14538",
+      "year": "2025"
     },
     "14524": {
       "id": "14524",
@@ -2671,7 +2776,8 @@
       "date": "2025-08-05",
       "total_votes": 2,
       "video_url": "https://torrance.granicus.com/player/clip/14524",
-      "agenda_url": "https://torrance.granicus.com/GeneratedAgendaViewer.php?view_id=8&clip_id=14524"
+      "agenda_url": "https://torrance.granicus.com/GeneratedAgendaViewer.php?view_id=8&clip_id=14524",
+      "year": "2025"
     },
     "14530": {
       "id": "14530",
@@ -2679,7 +2785,8 @@
       "date": "2025-08-05",
       "total_votes": 31,
       "video_url": "https://torrance.granicus.com/player/clip/14530",
-      "agenda_url": "https://torrance.granicus.com/GeneratedAgendaViewer.php?view_id=8&clip_id=14530"
+      "agenda_url": "https://torrance.granicus.com/GeneratedAgendaViewer.php?view_id=8&clip_id=14530",
+      "year": "2025"
     },
     "14536": {
       "id": "14536",
@@ -2687,7 +2794,8 @@
       "date": "2025-08-05",
       "total_votes": 18,
       "video_url": "https://torrance.granicus.com/player/clip/14536",
-      "agenda_url": "https://torrance.granicus.com/GeneratedAgendaViewer.php?view_id=8&clip_id=14536"
+      "agenda_url": "https://torrance.granicus.com/GeneratedAgendaViewer.php?view_id=8&clip_id=14536",
+      "year": "2025"
     }
   },
   "councilmembers": [
