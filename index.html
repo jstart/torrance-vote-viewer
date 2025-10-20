@@ -673,7 +673,37 @@
                     ${mayors.length > 0 ? `
                         <h3>Mayor</h3>
                         <div class="stats-grid">
-                            ${mayors.map(cm => `
+                            ${mayors.map(cm => {
+                                const councilmemberSummary = this.data.councilmember_summaries && this.data.councilmember_summaries[fullNames[cm.id]];
+                                return `
+                                    <div class="councilmember-card" onclick="window.location.href='#/councilmember/${cm.id}'" style="cursor: pointer;">
+                                        <div class="councilmember-name">${fullNames[cm.id] || cm.display_name}</div>
+                                        <div class="councilmember-stats">
+                                            <div class="councilmember-stat">
+                                                <div class="councilmember-stat-number">${cm.total_votes}</div>
+                                                <div class="councilmember-stat-label">Votes</div>
+                                            </div>
+                                        </div>
+                                        
+                                        ${councilmemberSummary ? `
+                                            <div class="councilmember-summary-preview" style="background: #f8f9fa; padding: 0.8rem; border-radius: 6px; margin: 0.8rem 0; border-left: 3px solid #1976d2; font-size: 0.85rem;">
+                                                <div style="font-weight: bold; color: #1976d2; margin-bottom: 0.3rem;">👤 Profile</div>
+                                                <div style="line-height: 1.3;">${councilmemberSummary.summary}</div>
+                                            </div>
+                                        ` : ''}
+                                        
+                                        <a href="#/councilmember/${cm.id}" class="btn" onclick="event.stopPropagation();">View Details</a>
+                                    </div>
+                                `;
+                            }).join('')}
+                        </div>
+                    ` : ''}
+
+                    <h3>Councilmembers</h3>
+                    <div class="stats-grid">
+                        ${councilmembersList.map(cm => {
+                            const councilmemberSummary = this.data.councilmember_summaries && this.data.councilmember_summaries[fullNames[cm.id]];
+                            return `
                                 <div class="councilmember-card" onclick="window.location.href='#/councilmember/${cm.id}'" style="cursor: pointer;">
                                     <div class="councilmember-name">${fullNames[cm.id] || cm.display_name}</div>
                                     <div class="councilmember-stats">
@@ -682,26 +712,18 @@
                                             <div class="councilmember-stat-label">Votes</div>
                                         </div>
                                     </div>
+                                    
+                                    ${councilmemberSummary ? `
+                                        <div class="councilmember-summary-preview" style="background: #f8f9fa; padding: 0.8rem; border-radius: 6px; margin: 0.8rem 0; border-left: 3px solid #1976d2; font-size: 0.85rem;">
+                                            <div style="font-weight: bold; color: #1976d2; margin-bottom: 0.3rem;">👤 Profile</div>
+                                            <div style="line-height: 1.3;">${councilmemberSummary.summary}</div>
+                                        </div>
+                                    ` : ''}
+                                    
                                     <a href="#/councilmember/${cm.id}" class="btn" onclick="event.stopPropagation();">View Details</a>
                                 </div>
-                            `).join('')}
-                        </div>
-                    ` : ''}
-
-                    <h3>Councilmembers</h3>
-                    <div class="stats-grid">
-                        ${councilmembersList.map(cm => `
-                            <div class="councilmember-card" onclick="window.location.href='#/councilmember/${cm.id}'" style="cursor: pointer;">
-                                <div class="councilmember-name">${fullNames[cm.id] || cm.display_name}</div>
-                                <div class="councilmember-stats">
-                                    <div class="councilmember-stat">
-                                        <div class="councilmember-stat-number">${cm.total_votes}</div>
-                                        <div class="councilmember-stat-label">Votes</div>
-                                    </div>
-                                </div>
-                                <a href="#/councilmember/${cm.id}" class="btn" onclick="event.stopPropagation();">View Details</a>
-                            </div>
-                        `).join('')}
+                            `;
+                        }).join('')}
                     </div>
                 `;
                 this.renderContent(content);
@@ -913,26 +935,44 @@
             }
 
             renderMeetingsList(meetings) {
-                return meetings.map(meeting => `
-                    <div class="meeting-card" onclick="window.location.href='#/meeting/${meeting.id}'" style="cursor: pointer;">
-                        <div class="meeting-header">
-                            <div>
-                                <div class="meeting-title">${meeting.title}</div>
-                                <div class="meeting-date">${meeting.date}</div>
+                return meetings.map(meeting => {
+                    // Get meeting summary if available
+                    const meetingSummary = this.data.meeting_summaries && this.data.meeting_summaries[meeting.id];
+                    
+                    return `
+                        <div class="meeting-card" onclick="window.location.href='#/meeting/${meeting.id}'" style="cursor: pointer;">
+                            <div class="meeting-header">
+                                <div>
+                                    <div class="meeting-title">${meeting.title}</div>
+                                    <div class="meeting-date">${meeting.date}</div>
+                                </div>
+                                <div>
+                                    <div class="stat-number">${meeting.total_votes}</div>
+                                    <div class="stat-label">Votes</div>
+                                </div>
                             </div>
-                            <div>
-                                <div class="stat-number">${meeting.total_votes}</div>
-                                <div class="stat-label">Votes</div>
-                            </div>
-                        </div>
 
-                        <div class="meeting-links">
-                            <a href="#/meeting/${meeting.id}" class="meeting-link" onclick="event.stopPropagation();">View Votes</a>
-                            ${meeting.video_url ? `<a href="${meeting.video_url}" target="_blank" class="meeting-link" onclick="event.stopPropagation();">📹 Watch Video</a>` : ''}
-                            ${meeting.agenda_url ? `<a href="${meeting.agenda_url}" target="_blank" class="meeting-link" onclick="event.stopPropagation();">📋 View Agenda</a>` : ''}
+                            ${meetingSummary ? `
+                                <div class="meeting-summary-preview" style="background: #f8f9fa; padding: 1rem; border-radius: 6px; margin: 1rem 0; border-left: 3px solid #1976d2; font-size: 0.9rem;">
+                                    <div style="font-weight: bold; color: #1976d2; margin-bottom: 0.5rem;">📋 Meeting Summary</div>
+                                    <div style="line-height: 1.4;">${meetingSummary.summary}</div>
+                                    ${meetingSummary.unique_aspects && meetingSummary.unique_aspects.length > 0 ? `
+                                        <div style="margin-top: 0.5rem; font-size: 0.85rem; color: #666;">
+                                            <strong>Key:</strong> ${meetingSummary.unique_aspects.slice(0, 2).join(', ')}
+                                            ${meetingSummary.unique_aspects.length > 2 ? ` +${meetingSummary.unique_aspects.length - 2} more` : ''}
+                                        </div>
+                                    ` : ''}
+                                </div>
+                            ` : ''}
+
+                            <div class="meeting-links">
+                                <a href="#/meeting/${meeting.id}" class="meeting-link" onclick="event.stopPropagation();">View Votes</a>
+                                ${meeting.video_url ? `<a href="${meeting.video_url}" target="_blank" class="meeting-link" onclick="event.stopPropagation();">📹 Watch Video</a>` : ''}
+                                ${meeting.agenda_url ? `<a href="${meeting.agenda_url}" target="_blank" class="meeting-link" onclick="event.stopPropagation();">📋 View Agenda</a>` : ''}
+                            </div>
                         </div>
-                    </div>
-                `).join('');
+                    `;
+                }).join('');
             }
 
             renderVotesList(votes) {
