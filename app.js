@@ -326,7 +326,7 @@ class TorranceVoteViewer {
                     ${mayors.map(cm => {
                         const councilmemberSummary = this.data.councilmember_summaries && this.data.councilmember_summaries[fullNames[cm.id]];
                         return `
-                            <div class="councilmember-card" onclick="window.location.href='#/councilmember/${cm.id}'" style="cursor: pointer;">
+                            <div class="councilmember-card" onclick="app.navigateTo('councilmember/${cm.id}')" style="cursor: pointer;">
                                 <div class="councilmember-name">${fullNames[cm.id] || cm.display_name}</div>
                                 <div class="councilmember-stats-horizontal">
                                     <div class="councilmember-stat">
@@ -346,15 +346,15 @@ class TorranceVoteViewer {
                                 ${councilmemberSummary ? `
                                     <div style="background: #f8f9fa; padding: 0.8rem; border-radius: 6px; margin: 0.8rem 0; border-left: 3px solid #1976d2; font-size: 0.85rem;">
                                         <div style="font-weight: bold; color: #1976d2; margin-bottom: 0.3rem;">👤 Mayor Profile</div>
-                                        
+
                                         <!-- Preview text (first ~120 characters) -->
                                         <div style="line-height: 1.3; margin-bottom: 0.6rem;">
-                                            ${councilmemberSummary.summary.length > 120 ? 
-                                                councilmemberSummary.summary.substring(0, 120).replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href=\"$2\" target=\"_blank\" style=\"color: #1976d2; text-decoration: none; font-weight: bold;\">$1</a>') + '...' : 
+                                            ${councilmemberSummary.summary.length > 120 ?
+                            councilmemberSummary.summary.substring(0, 120).replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href=\"$2\" target=\"_blank\" style=\"color: #1976d2; text-decoration: none; font-weight: bold;\">$1</a>') + '...' :
                                                 councilmemberSummary.summary.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href=\"$2\" target=\"_blank\" style=\"color: #1976d2; text-decoration: none; font-weight: bold;\">$1</a>')
                                             }
                                         </div>
-                                        
+
                                         <!-- Expandable details -->
                                         <details>
                                             <summary style="font-size: 0.8rem; color: #1976d2; cursor: pointer; margin-bottom: 0.6rem;">
@@ -365,7 +365,7 @@ class TorranceVoteViewer {
                                                 <div style="line-height: 1.3; margin-bottom: 0.6rem;">
                                                     ${councilmemberSummary.summary.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href=\"$2\" target=\"_blank\" style=\"color: #1976d2; text-decoration: none; font-weight: bold;\">$1</a>')}
                                                 </div>
-                                                
+
                                                 ${councilmemberSummary.bio_url ? `
                                                     <div style="margin-bottom: 0.6rem;">
                                                         <a href="${councilmemberSummary.bio_url}" target="_blank" style="color: #1976d2; text-decoration: none; font-weight: bold; font-size: 0.8rem;">
@@ -373,7 +373,7 @@ class TorranceVoteViewer {
                                                         </a>
                                                     </div>
                                                 ` : ''}
-                                                
+
                                                 ${councilmemberSummary.policy_focus && councilmemberSummary.policy_focus.length > 0 ? `
                                                     <div style="font-size: 0.8rem; color: #666;">
                                                         <strong>Focus:</strong> ${councilmemberSummary.policy_focus.slice(0, 2).join(' • ')}
@@ -396,7 +396,7 @@ class TorranceVoteViewer {
                 ${councilmembersList.map(cm => {
                     const councilmemberSummary = this.data.councilmember_summaries && this.data.councilmember_summaries[fullNames[cm.id]];
                     return `
-                        <div class="councilmember-row" onclick="window.location.href='#/councilmember/${cm.id}'" style="cursor: pointer;">
+                        <div class="councilmember-row" onclick="app.navigateTo('councilmember/${cm.id}')" style="cursor: pointer;">
                             <div class="councilmember-info">
                                 <div class="councilmember-name-large">${fullNames[cm.id] || cm.display_name}</div>
                                 <div class="councilmember-stats-horizontal">
@@ -419,15 +419,15 @@ class TorranceVoteViewer {
                                 ${councilmemberSummary ? `
                                     <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; margin: 1rem 0; border-left: 4px solid #1976d2;">
                                         <div style="font-weight: bold; color: #1976d2; margin-bottom: 0.5rem; font-size: 0.9rem;">👤 Councilmember Profile</div>
-                                        
+
                                         <!-- Preview text (first ~150 characters) -->
                                         <div style="line-height: 1.4; font-size: 0.9rem; margin-bottom: 0.8rem;">
-                                            ${councilmemberSummary.summary.length > 150 ? 
-                                                councilmemberSummary.summary.substring(0, 150).replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href=\"$2\" target=\"_blank\" style=\"color: #1976d2; text-decoration: none; font-weight: bold;\">$1</a>') + '...' : 
+                                            ${councilmemberSummary.summary.length > 150 ?
+                        councilmemberSummary.summary.substring(0, 150).replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href=\"$2\" target=\"_blank\" style=\"color: #1976d2; text-decoration: none; font-weight: bold;\">$1</a>') + '...' :
                                                 councilmemberSummary.summary.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href=\"$2\" target=\"_blank\" style=\"color: #1976d2; text-decoration: none; font-weight: bold;\">$1</a>')
                                             }
                                         </div>
-                                        
+
                                         <!-- Expandable details -->
                                         <details>
                                             <summary style="font-size: 0.85rem; color: #1976d2; cursor: pointer; margin-bottom: 0.8rem;">
@@ -438,7 +438,7 @@ class TorranceVoteViewer {
                                                 <div style="line-height: 1.4; font-size: 0.9rem; margin-bottom: 0.8rem;">
                                                     ${councilmemberSummary.summary.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href=\"$2\" target=\"_blank\" style=\"color: #1976d2; text-decoration: none; font-weight: bold;\">$1</a>')}
                                                 </div>
-                                                
+
                                                 ${councilmemberSummary.bio_url ? `
                                                     <div style="margin-bottom: 0.8rem;">
                                                         <a href="${councilmemberSummary.bio_url}" target="_blank" style="color: #1976d2; text-decoration: none; font-weight: bold; font-size: 0.85rem;">
@@ -446,7 +446,7 @@ class TorranceVoteViewer {
                                                         </a>
                                                     </div>
                                                 ` : ''}
-                                                
+
                                                 ${councilmemberSummary.policy_focus && councilmemberSummary.policy_focus.length > 0 ? `
                                                     <div style="margin-bottom: 0.8rem;">
                                                         <div style="font-weight: bold; color: #1976d2; margin-bottom: 0.3rem; font-size: 0.85rem;">Policy Focus Areas:</div>
@@ -455,7 +455,7 @@ class TorranceVoteViewer {
                                                         </div>
                                                     </div>
                                                 ` : ''}
-                                                
+
                                                 ${councilmemberSummary.notes && councilmemberSummary.notes.length > 0 ? `
                                                     <div>
                                                         <div style="font-weight: bold; color: #1976d2; margin-bottom: 0.3rem; font-size: 0.85rem;">Key Notes:</div>
@@ -669,7 +669,7 @@ class TorranceVoteViewer {
             <div id="searchResults">                    </div>
         `;
         this.renderContent(content);
-        
+
         // Add event listener for return key on search input
         const searchInput = document.getElementById('searchInput');
         if (searchInput) {
@@ -745,7 +745,7 @@ class TorranceVoteViewer {
             const meetingSummary = this.data.meeting_summaries && this.data.meeting_summaries[meeting.id];
 
             return `
-                <div class="meeting-card" onclick="window.location.href='#/meeting/${meeting.id}'" style="cursor: pointer;">
+                <div class="meeting-card" onclick="app.navigateTo('meeting/${meeting.id}')" style="cursor: pointer;">
                     <div class="meeting-header">
                         <div>
                             <div class="meeting-title">${meeting.title}</div>
@@ -785,7 +785,7 @@ class TorranceVoteViewer {
             // Calculate timestamp - use actual video timestamp if available, otherwise estimate from frame
             let timestamp;
             let timestampSource;
-            
+
             if (vote.video_timestamp !== undefined) {
                 // Use actual video timestamp (in seconds)
                 const minutes = Math.floor(vote.video_timestamp / 60);
