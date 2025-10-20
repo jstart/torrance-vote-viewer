@@ -198,12 +198,12 @@ class VoteViewerUtils {
     // Councilmember name mapping
     static getCouncilmemberNames() {
         return {
-            'george_chen': 'George Chen',
-            'mike_gerson': 'Mike Gerson',
-            'jon_kaji': 'Jon Kaji',
-            'sharon_kalani': 'Sharon Kalani',
-            'asam_shaikh': 'Asam Shaikh',
-            'mattucci': 'Mattucci'
+          'george_chen': 'GEORGE CHEN',
+          'mike_gerson': 'MIKE GERSON',
+          'jon_kaji': 'JON KAJI',
+          'sharon_kalani': 'SHARON KALANI',
+          'asam_shaikh': 'ASAM SHAIKH',
+          'mattucci': 'MATTUCCI'
         };
     }
 
@@ -212,6 +212,24 @@ class VoteViewerUtils {
         const names = this.getCouncilmemberNames();
         return names[councilmemberId] || councilmemberId;
     }
+
+  // Format timestamp in seconds to MM:SS or HH:MM:SS format
+  static formatTimestamp(seconds) {
+    if (seconds === undefined || seconds === null || isNaN(seconds)) {
+      return '00:00';
+    }
+
+    const totalSeconds = Math.floor(seconds);
+    const hours = Math.floor(totalSeconds / 3600);
+    const minutes = Math.floor((totalSeconds % 3600) / 60);
+    const remainingSeconds = totalSeconds % 60;
+
+    if (hours > 0) {
+      return `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
+    } else {
+      return `${minutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
+    }
+  }
 
     // Calculate timestamp for vote
     static calculateVoteTimestamp(vote) {
