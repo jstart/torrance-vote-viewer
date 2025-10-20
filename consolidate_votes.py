@@ -85,17 +85,17 @@ def consolidate_votes():
             frame_numbers = [v.get('frame_number', 0) for v in votes_group if v.get('frame_number')]
             if frame_numbers:
                 consolidated_vote['frame_number'] = min(frame_numbers)
-            
+
             # Use the earliest video timestamp
             timestamps = [v.get('video_timestamp') for v in votes_group if v.get('video_timestamp')]
             if timestamps:
                 consolidated_vote['video_timestamp'] = min(timestamps)
-            
+
             # Preserve meta_id from any vote that has it
             meta_ids = [v.get('meta_id') for v in votes_group if v.get('meta_id')]
             if meta_ids:
                 consolidated_vote['meta_id'] = meta_ids[0]  # Use first meta_id found
-            
+
             # Preserve timestamp_estimated flag
             consolidated_vote['timestamp_estimated'] = consolidated_vote.get('video_timestamp') is None
 
