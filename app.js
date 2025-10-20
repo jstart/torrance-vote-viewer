@@ -12,6 +12,7 @@ class TorranceVoteViewer {
             console.log('Initializing app...');
             await this.loadData();
             this.setupRouting();
+            this.setupKeyboardShortcuts();
 
             // Handle server-side routes by converting them to hash routes
             this.handleServerSideRoute();
@@ -191,6 +192,14 @@ class TorranceVoteViewer {
                     <div class="stat-label">Agenda Items</div>
                 </div>
             </div>
+            
+            <div class="data-freshness">
+                <small>📅 Data last updated: ${new Date().toLocaleDateString('en-US', { 
+                    year: 'numeric', 
+                    month: 'long', 
+                    day: 'numeric' 
+                })}</small>
+            </div>
 
             <h2>Recent Meetings</h2>
             ${this.renderMeetingsList(Object.values(this.data.meetings).slice(0, 3))}
@@ -200,6 +209,30 @@ class TorranceVoteViewer {
                 <a href="#/meetings" class="nav-link">View All Meetings</a>
                 <a href="#/councilmembers" class="nav-link">View Councilmembers</a>
                 <a href="#/search" class="nav-link">Search Votes</a>
+            </div>
+
+            <div class="keyboard-shortcuts">
+                <details>
+                    <summary>⌨️ Keyboard Shortcuts</summary>
+                    <div class="shortcuts-list">
+                        <div class="shortcut-item">
+                            <kbd>Ctrl/Cmd + K</kbd>
+                            <span>Quick search</span>
+                        </div>
+                        <div class="shortcut-item">
+                            <kbd>Ctrl/Cmd + E</kbd>
+                            <span>Export CSV</span>
+                        </div>
+                        <div class="shortcut-item">
+                            <kbd>Escape</kbd>
+                            <span>Go to home</span>
+                        </div>
+                        <div class="shortcut-item">
+                            <kbd>1, 2, 3</kbd>
+                            <span>Jump to recent meetings</span>
+                        </div>
+                    </div>
+                </details>
             </div>
 
             <h2>Export Data</h2>
@@ -884,15 +917,93 @@ class TorranceVoteViewer {
     notifySubscribers(newMeetings) {
         const subscriptions = this.getStoredSubscriptions();
         if (subscriptions.length === 0) return;
-
+        
         // In a real implementation, this would send emails via a server
         console.log(`Notifying ${subscriptions.length} subscribers about ${newMeetings.length} new meetings`);
-
+        
         // For demo purposes, show a notification
         VoteViewerUtils.showNotification(
-          `New meetings detected! ${subscriptions.length} subscribers will be notified.`,
+            `New meetings detected! ${subscriptions.length} subscribers will be notified.`, 
             'info'
         );
+    }
+
+    // Copy vote link to clipboard
+    copyVoteLink(meetingId, agendaItem) {
+        const baseUrl = window.location.origin + window.location.pathname;
+        const voteLink = `${baseUrl}#/meeting/${meetingId}`;
+        
+        if (navigator.clipboard) {
+            navigator.clipboard.writeText(voteLink).then(() => {
+                VoteViewerUtils.showNotification('Link copied to clipboard!', 'success');
+            }).catch(() => {
+                this.fallbackCopyToClipboard(voteLink);
+            });
+        } else {
+            this.fallbackCopyToClipboard(voteLink);
+        }
+    }
+
+    // Fallback copy method for older browsers
+    fallbackCopyToClipboard(text) {
+        const textArea = document.createElement('textarea');
+        textArea.value = text;
+        textArea.style.position = 'fixed';
+        textArea.style.left = '-999999px';
+        textArea.style.top = '-999999px';
+        document.body.appendChild(textArea);
+        textArea.focus();
+        textArea.select();
+        
+        try {
+            document.execCommand('copy');
+            VoteViewerUtils.showNotification('Link copied to clipboard!', 'success');
+        } catch (err) {
+            VoteViewerUtils.showNotification('Failed to copy link', 'error');
+        }
+        
+        document.body.removeChild(textArea);
+    }
+
+    // Keyboard shortcuts for power users
+    setupKeyboardShortcuts() {
+        document.addEventListener('keydown', (e) => {
+            // Only trigger shortcuts when not typing in input fields
+            if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') {
+                return;
+            }
+            
+            // Ctrl/Cmd + K for search
+            if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+                e.preventDefault();
+                this.navigateTo('search');
+                // Focus search input after navigation
+                setTimeout(() => {
+                    const searchInput = document.getElementById('searchInput');
+                    if (searchInput) searchInput.focus();
+                }, 100);
+            }
+            
+            // Ctrl/Cmd + E for export
+            if ((e.ctrlKey || e.metaKey) && e.key === 'e') {
+                e.preventDefault();
+                this.exportData('csv');
+            }
+            
+            // Escape to go home
+            if (e.key === 'Escape') {
+                this.navigateTo('home');
+            }
+            
+            // Number keys for quick navigation
+            if (e.key >= '1' && e.key <= '3') {
+                const meetings = Object.values(this.data.meetings);
+                const meetingIndex = parseInt(e.key) - 1;
+                if (meetings[meetingIndex]) {
+                    this.navigateTo(`meeting/${meetings[meetingIndex].id}`);
+                }
+            }
+        });
     }
 }
 
