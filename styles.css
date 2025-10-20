@@ -914,48 +914,6 @@ details[open] summary::marker {
     font-style: italic;
 }
 
-/* Keyboard Shortcuts */
-.keyboard-shortcuts {
-    margin: 2rem 0;
-}
-
-.shortcuts-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 0.5rem;
-    margin-top: 1rem;
-}
-
-.shortcut-item {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    padding: 0.5rem;
-    background: #f8f9fa;
-    border-radius: 4px;
-}
-
-.shortcut-item kbd {
-    background: #e9ecef;
-    border: 1px solid #adb5bd;
-    border-radius: 3px;
-    box-shadow: 0 1px 0 rgba(0,0,0,0.2);
-    color: #495057;
-    display: inline-block;
-    font-size: 0.8rem;
-    font-weight: bold;
-    line-height: 1;
-    padding: 0.25rem 0.5rem;
-    white-space: nowrap;
-    min-width: 60px;
-    text-align: center;
-}
-
-.shortcut-item span {
-    color: #666;
-    font-size: 0.9rem;
-}
-
 /* Notifications */
 .notification {
     position: fixed;
