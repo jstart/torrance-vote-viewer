@@ -760,14 +760,14 @@ class TorranceVoteViewer {
         return meetings.map(meeting => {
             // Get meeting summary if available
             const meetingSummary = this.data.meeting_summaries && this.data.meeting_summaries[meeting.id];
-            
-            // Use the template function
-            return VoteViewerTemplates.meetingCard(meeting, meetingSummary, VoteViewerUtils);
+
+          // Use the template function
+          return VoteViewerTemplates.meetingCard(meeting, meetingSummary, VoteViewerUtils);
         }).join('');
     }
 
     renderVotesList(votes) {
-        return VoteViewerTemplates.votesList(votes, VoteViewerUtils);
+      return VoteViewerTemplates.votesList(votes, VoteViewerUtils);
     }
 
     renderContent(content) {
