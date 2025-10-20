@@ -482,7 +482,9 @@
                     : 'data/torrance_votes_smart_consolidated.json';
                 console.log('Using data path:', dataPath);
 
-                const response = await fetch(dataPath);
+                // Add cache-busting parameter
+                const cacheBuster = '?v=' + Date.now();
+                const response = await fetch(dataPath + cacheBuster);
                 console.log('Response status:', response.status);
                 if (!response.ok) {
                     throw new Error(`Failed to load data: ${response.status} ${response.statusText}`);
@@ -493,6 +495,8 @@
                 console.log('Has councilmember_summaries:', 'councilmember_summaries' in this.data);
                 console.log('Has councilmember_stats:', 'councilmember_stats' in this.data);
                 console.log('Votes with individual data:', this.data.votes?.filter(v => v.individual_votes)?.length || 0);
+                console.log('Meeting summaries count:', Object.keys(this.data.meeting_summaries || {}).length);
+                console.log('Councilmember summaries count:', Object.keys(this.data.councilmember_summaries || {}).length);
             }
 
             setupRouting() {
