@@ -516,7 +516,7 @@
                         e.preventDefault();
                         const route = e.target.getAttribute('data-route');
                         const href = e.target.getAttribute('href');
-                        
+
                         // If href exists and contains more than just the route, use it
                         if (href && href.includes('/') && href.split('/').length > 2) {
                             console.log('Data route with href clicked:', href);
@@ -794,6 +794,7 @@
                     <div class="councilmembers-list">
                         ${councilmembersList.map(cm => {
                             const councilmemberSummary = this.data.councilmember_summaries && this.data.councilmember_summaries[fullNames[cm.id]];
+                            console.log('Councilmember summary for', cm.id, '->', fullNames[cm.id], ':', councilmemberSummary);
                             return `
                                 <div class="councilmember-row" onclick="window.location.href='#/councilmember/${cm.id}'" style="cursor: pointer;">
                                     <div class="councilmember-info">
@@ -961,7 +962,7 @@
                                         'gerson': 'Gerson',
                                         'kaji': 'Kaji',
                                         'kalani': 'Kalani',
-                                        'lewis': 'Mayor Lewis',
+                                        'lewis': 'Lewis',
                                         'mattucci': 'Mattucci',
                                         'sheikh': 'Sheikh'
                                     };
@@ -1055,6 +1056,7 @@
                 return meetings.map(meeting => {
                     // Get meeting summary if available
                     const meetingSummary = this.data.meeting_summaries && this.data.meeting_summaries[meeting.id];
+                    console.log('Meeting summary for', meeting.id, ':', meetingSummary);
 
                     return `
                         <div class="meeting-card" onclick="window.location.href='#/meeting/${meeting.id}'" style="cursor: pointer;">
