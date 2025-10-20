@@ -359,7 +359,7 @@ class TorranceVoteViewer {
 
         // Create councilmember objects with stats
         const councilmembers = councilmemberNames.map(name => ({
-            id: name.toLowerCase(),
+            id: name.toLowerCase().replace(/\s+/g, '_'),
             display_name: name,
             total_votes: this.data.councilmember_stats?.[name]?.total_votes || 0,
             yes_votes: this.data.councilmember_stats?.[name]?.yes_votes || 0,
@@ -368,18 +368,16 @@ class TorranceVoteViewer {
 
         // Define full names and identify mayors
         const fullNames = {
-            'chen': 'Chen',
-            'gerson': 'Gerson',
-            'kaji': 'Kaji',
-            'kalani': 'Kalani',
-            'lewis': 'Lewis',
-            'mattucci': 'Mattucci',
-            'sheikh': 'Sheikh'
+            'george_chen': 'George Chen',
+            'mike_gerson': 'Mike Gerson',
+            'jonathan_kang': 'Jonathan Kang',
+            'sharon_kalani': 'Sharon Kalani',
+            'asam_shaikh': 'Asam Shaikh'
         };
 
-        // Separate mayors
-        const mayors = councilmembers.filter(cm => cm.id === 'chen');
-        const councilmembersList = councilmembers.filter(cm => cm.id !== 'chen');
+        // Separate mayors (George Chen is the mayor)
+        const mayors = councilmembers.filter(cm => cm.id === 'george_chen');
+        const councilmembersList = councilmembers.filter(cm => cm.id !== 'george_chen');
 
         const content = `
             <h2>City Council</h2>

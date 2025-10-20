@@ -198,13 +198,11 @@ class VoteViewerUtils {
     // Councilmember name mapping
     static getCouncilmemberNames() {
         return {
-            'chen': 'Chen',
-            'gerson': 'Gerson',
-            'kaji': 'Kaji',
-            'kalani': 'Kalani',
-            'lewis': 'Lewis',
-            'mattucci': 'Mattucci',
-            'sheikh': 'Sheikh'
+            'george_chen': 'George Chen',
+            'mike_gerson': 'Mike Gerson',
+            'jonathan_kang': 'Jonathan Kang',
+            'sharon_kalani': 'Sharon Kalani',
+            'asam_shaikh': 'Asam Shaikh'
         };
     }
 
