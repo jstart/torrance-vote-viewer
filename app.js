@@ -217,7 +217,7 @@ class TorranceVoteViewer {
     showMeeting(meetingId) {
         console.log('showMeeting called with ID:', meetingId, 'type:', typeof meetingId);
         console.log('Available meetings:', Object.keys(this.data.meetings));
-        
+
         const meeting = this.data.meetings[meetingId];
         if (!meeting) {
             console.log('Meeting not found:', meetingId);

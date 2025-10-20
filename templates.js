@@ -46,7 +46,7 @@ class VoteViewerTemplates {
     // Meeting detail template
     static meetingDetail(meeting, votes, meetingSummary, utils) {
         const voteStats = utils.calculateVoteStats(votes);
-        
+
         return `
             <div class="breadcrumb">
                 <a href="#/meetings">Meetings</a> > ${meeting.title}
@@ -153,7 +153,7 @@ class VoteViewerTemplates {
     // Councilmember card template (for mayor)
     static councilmemberCard(cm, councilmemberSummary, utils) {
         const fullName = utils.getFullName(cm.id);
-        
+
         return `
             <div class="councilmember-card councilmember-card-clickable" onclick="app.navigateTo('councilmember/${cm.id}')">
                 <div class="councilmember-name">${fullName}</div>
@@ -182,7 +182,7 @@ class VoteViewerTemplates {
     // Councilmember row template (for councilmembers list)
     static councilmemberRow(cm, councilmemberSummary, utils) {
         const fullName = utils.getFullName(cm.id);
-        
+
         return `
             <div class="councilmember-row councilmember-card-clickable" onclick="app.navigateTo('councilmember/${cm.id}')">
                 <div class="councilmember-info">
@@ -218,18 +218,18 @@ class VoteViewerTemplates {
         const sizeClass = isSmall ? '' : '-large';
         const previewLength = isSmall ? 120 : 150;
         const cardClass = isSmall ? 'councilmember-summary-card' : 'councilmember-summary-card-large';
-        
+
         return `
             <div class="${cardClass}">
                 <div class="councilmember-profile-title${sizeClass}">👤 ${isSmall ? 'Mayor' : 'Councilmember'} Profile</div>
-                
+
                 <div class="councilmember-summary-preview${sizeClass}">
-                    ${councilmemberSummary.summary.length > previewLength ? 
-                        utils.convertMarkdownLinks(councilmemberSummary.summary.substring(0, previewLength)) + '...' : 
+                    ${councilmemberSummary.summary.length > previewLength ?
+            utils.convertMarkdownLinks(councilmemberSummary.summary.substring(0, previewLength)) + '...' :
                         utils.convertMarkdownLinks(councilmemberSummary.summary)
                     }
                 </div>
-                
+
                 <details>
                     <summary class="councilmember-summary-details${sizeClass}">
                         ${councilmemberSummary.summary.length > previewLength ? 'Show full profile' : 'Show additional details'}
@@ -238,7 +238,7 @@ class VoteViewerTemplates {
                         <div class="councilmember-summary-full${sizeClass}">
                             ${utils.convertMarkdownLinks(councilmemberSummary.summary)}
                         </div>
-                        
+
                         ${councilmemberSummary.bio_url ? `
                             <div class="councilmember-bio-link${sizeClass}">
                                 <a href="${councilmemberSummary.bio_url}" target="_blank">
@@ -246,7 +246,7 @@ class VoteViewerTemplates {
                                 </a>
                             </div>
                         ` : ''}
-                        
+
                         ${councilmemberSummary.policy_focus && councilmemberSummary.policy_focus.length > 0 ? `
                             <div class="councilmember-policy-focus${sizeClass}">
                                 <div class="councilmember-policy-focus-title">Policy Focus Areas:</div>
@@ -255,7 +255,7 @@ class VoteViewerTemplates {
                                 </div>
                             </div>
                         ` : ''}
-                        
+
                         ${councilmemberSummary.notes && councilmemberSummary.notes.length > 0 ? `
                             <div>
                                 <div class="councilmember-notes-title">Key Notes:</div>
@@ -282,7 +282,7 @@ class VoteViewerTemplates {
     // Councilmember detail template
     static councilmemberDetail(councilmember, votes, councilmemberSummary, utils) {
         const fullName = utils.getFullName(councilmember.id);
-        
+
         return `
             <div class="breadcrumb">
                 <a href="#/councilmembers">Councilmembers</a> > ${fullName}

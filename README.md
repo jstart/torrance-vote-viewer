@@ -66,10 +66,10 @@ The application uses a consolidated JSON file (`torrance_votes_smart_consolidate
    ```bash
    # Using Python
    python3 -m http.server 8000
-   
+
    # Using Node.js
    npx serve .
-   
+
    # Using PHP
    php -S localhost:8000
    ```
