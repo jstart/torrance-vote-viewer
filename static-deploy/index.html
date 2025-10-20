@@ -625,22 +625,32 @@
             }
 
             showCouncilmembers() {
-                const councilmembers = Object.values(this.data.councilmembers);
+                // Get councilmembers from the new data structure
+                const councilmemberNames = this.data.councilmembers || [];
+                
+                // Create councilmember objects with stats
+                const councilmembers = councilmemberNames.map(name => ({
+                    id: name.toLowerCase().replace(/\s+/g, '_'),
+                    display_name: name,
+                    total_votes: this.data.councilmember_stats?.[name]?.total_votes || 0,
+                    yes_votes: this.data.councilmember_stats?.[name]?.yes_votes || 0,
+                    no_votes: this.data.councilmember_stats?.[name]?.no_votes || 0
+                }));
 
                 // Define full names and identify mayors
                 const fullNames = {
-                    'chen': 'Councilmember Chen',
-                    'gerson': 'Councilmember Gerson',
-                    'kaji': 'Councilmember Kaji',
-                    'kalani': 'Councilmember Kalani',
-                    'lewis': 'Councilmember Lewis',
-                    'mattucci': 'Councilmember Mattucci',
-                    'sheikh': 'Councilmember Sheikh'
+                    'george_chen': 'George Chen',
+                    'mike_gerson': 'Mike Gerson',
+                    'jon_kaji': 'Jon Kaji',
+                    'sharon_kalani': 'Sharon Kalani',
+                    'lewis': 'Bridget Lewis',
+                    'mattucci': 'Mike Mattucci',
+                    'asam_shaikh': 'Asam Shaikh'
                 };
 
-                // Separate mayors (assuming Lewis is mayor based on common patterns)
-                const mayors = councilmembers.filter(cm => cm.id === 'lewis');
-                const councilmembersList = councilmembers.filter(cm => cm.id !== 'lewis');
+                // Separate mayors (assuming George Chen is mayor)
+                const mayors = councilmembers.filter(cm => cm.id === 'george_chen');
+                const councilmembersList = councilmembers.filter(cm => cm.id !== 'george_chen');
 
                 const content = `
                     <h2>City Council</h2>
@@ -648,65 +658,121 @@
                     ${mayors.length > 0 ? `
                         <h3>Mayor</h3>
                         <div class="stats-grid">
-                            ${mayors.map(cm => `
-                                <div class="councilmember-card">
-                                    <div class="councilmember-name">${fullNames[cm.id] || cm.display_name}</div>
-                                    <div class="councilmember-stats">
-                                        <div class="councilmember-stat">
-                                            <div class="councilmember-stat-number">${cm.total_votes}</div>
-                                            <div class="councilmember-stat-label">Votes</div>
+                            ${mayors.map(cm => {
+                                const councilmemberSummary = this.data.councilmember_summaries && this.data.councilmember_summaries[cm.display_name];
+                                return `
+                                    <div class="councilmember-card">
+                                        <div class="councilmember-name">${fullNames[cm.id] || cm.display_name}</div>
+                                        <div class="councilmember-stats">
+                                            <div class="councilmember-stat">
+                                                <div class="councilmember-stat-number">${cm.total_votes}</div>
+                                                <div class="councilmember-stat-label">Total Votes</div>
+                                            </div>
+                                            <div class="councilmember-stat">
+                                                <div class="councilmember-stat-number">${cm.yes_votes}</div>
+                                                <div class="councilmember-stat-label">Yes Votes</div>
+                                            </div>
+                                            <div class="councilmember-stat">
+                                                <div class="councilmember-stat-number">${cm.no_votes}</div>
+                                                <div class="councilmember-stat-label">No Votes</div>
+                                            </div>
                                         </div>
+                                        ${councilmemberSummary ? `
+                                            <div class="councilmember-summary" style="margin-top: 1rem; font-style: italic; color: #666;">
+                                                ${councilmemberSummary.summary.length > 120 ? 
+                                                    councilmemberSummary.summary.substring(0, 120) + '...' : 
+                                                    councilmemberSummary.summary
+                                                }
+                                            </div>
+                                        ` : ''}
+                                        <a href="#/councilmember/${cm.id}" class="btn">View Details</a>
                                     </div>
-                                    <a href="#/councilmember/${cm.id}" class="btn">View Details</a>
-                                </div>
-                            `).join('')}
+                                `;
+                            }).join('')}
                         </div>
                     ` : ''}
 
                     <h3>Councilmembers</h3>
                     <div class="stats-grid">
-                        ${councilmembersList.map(cm => `
-                            <div class="councilmember-card">
-                                <div class="councilmember-name">${fullNames[cm.id] || cm.display_name}</div>
-                                <div class="councilmember-stats">
-                                    <div class="councilmember-stat">
-                                        <div class="councilmember-stat-number">${cm.total_votes}</div>
-                                        <div class="councilmember-stat-label">Votes</div>
+                        ${councilmembersList.map(cm => {
+                            const councilmemberSummary = this.data.councilmember_summaries && this.data.councilmember_summaries[cm.display_name];
+                            return `
+                                <div class="councilmember-card">
+                                    <div class="councilmember-name">${fullNames[cm.id] || cm.display_name}</div>
+                                    <div class="councilmember-stats">
+                                        <div class="councilmember-stat">
+                                            <div class="councilmember-stat-number">${cm.total_votes}</div>
+                                            <div class="councilmember-stat-label">Total Votes</div>
+                                        </div>
+                                        <div class="councilmember-stat">
+                                            <div class="councilmember-stat-number">${cm.yes_votes}</div>
+                                            <div class="councilmember-stat-label">Yes Votes</div>
+                                        </div>
+                                        <div class="councilmember-stat">
+                                            <div class="councilmember-stat-number">${cm.no_votes}</div>
+                                            <div class="councilmember-stat-label">No Votes</div>
+                                        </div>
                                     </div>
+                                    ${councilmemberSummary ? `
+                                        <div class="councilmember-summary" style="margin-top: 1rem; font-style: italic; color: #666;">
+                                            ${councilmemberSummary.summary.length > 120 ? 
+                                                councilmemberSummary.summary.substring(0, 120) + '...' : 
+                                                councilmemberSummary.summary
+                                            }
+                                        </div>
+                                    ` : ''}
+                                    <a href="#/councilmember/${cm.id}" class="btn">View Details</a>
                                 </div>
-                                <a href="#/councilmember/${cm.id}" class="btn">View Details</a>
-                            </div>
-                        `).join('')}
+                            `;
+                        }).join('')}
                     </div>
                 `;
                 this.renderContent(content);
             }
 
             showCouncilmember(councilmemberId) {
-                const councilmember = Object.values(this.data.councilmembers).find(cm => cm.id === councilmemberId);
+                // Get councilmembers from the array and create objects with stats
+                const councilmemberNames = this.data.councilmembers || [];
+                
+                // Find the councilmember by converting names to IDs and matching
+                const councilmember = councilmemberNames.find(name => {
+                    const id = name.toLowerCase().replace(/\s+/g, '_');
+                    return id === councilmemberId;
+                });
+                
                 if (!councilmember) {
                     this.showError('Councilmember not found');
                     return;
                 }
 
-                // Define full names
-                const fullNames = {
-                    'chen': 'Councilmember Chen',
-                    'gerson': 'Councilmember Gerson',
-                    'kaji': 'Councilmember Kaji',
-                    'kalani': 'Councilmember Kalani',
-                    'lewis': 'Mayor Lewis',
-                    'mattucci': 'Councilmember Mattucci',
-                    'sheikh': 'Councilmember Sheikh'
+                const councilmemberObj = {
+                    id: councilmemberId,
+                    display_name: councilmember,
+                    total_votes: this.data.councilmember_stats?.[councilmember]?.total_votes || 0,
+                    yes_votes: this.data.councilmember_stats?.[councilmember]?.yes_votes || 0,
+                    no_votes: this.data.councilmember_stats?.[councilmember]?.no_votes || 0
                 };
 
-                const fullName = fullNames[councilmemberId] || councilmember.display_name;
+                // Filter votes for this councilmember
                 const votes = this.data.votes.filter(vote =>
-                    vote.individual_votes &&
-                    vote.individual_votes.some(vote_detail =>
-                        (vote_detail.name || '').toLowerCase().includes(councilmember.name.toLowerCase())
-                    )
+                    vote.individual_votes[councilmember] !== undefined
                 );
+
+                // Get councilmember summary if available
+                const councilmemberSummary = this.data.councilmember_summaries && this.data.councilmember_summaries[councilmember];
+
+                // Define full names
+                const fullNames = {
+                    'george_chen': 'George Chen',
+                    'mike_gerson': 'Mike Gerson',
+                    'jon_kaji': 'Jon Kaji',
+                    'sharon_kalani': 'Sharon Kalani',
+                    'lewis': 'Bridget Lewis',
+                    'mattucci': 'Mike Mattucci',
+                    'asam_shaikh': 'Asam Shaikh'
+                };
+
+                const fullName = fullNames[councilmemberId] || councilmember;
 
                 const content = `
                     <div class="breadcrumb">
@@ -717,15 +783,15 @@
                         <div class="councilmember-name">${fullName}</div>
                         <div class="councilmember-stats">
                             <div class="councilmember-stat">
-                                <div class="councilmember-stat-number">${votes.length}</div>
+                                <div class="councilmember-stat-number">${councilmemberObj.total_votes}</div>
                                 <div class="councilmember-stat-label">Total Votes</div>
                             </div>
                             <div class="councilmember-stat">
-                                <div class="councilmember-stat-number">${votes.filter(v => (v.result || '').toLowerCase().includes('pass')).length}</div>
+                                <div class="councilmember-stat-number">${councilmemberObj.yes_votes}</div>
                                 <div class="councilmember-stat-label">Voted Yes</div>
                             </div>
                             <div class="councilmember-stat">
-                                <div class="councilmember-stat-number">${votes.filter(v => (v.result || '').toLowerCase().includes('fail')).length}</div>
+                                <div class="councilmember-stat-number">${councilmemberObj.no_votes}</div>
                                 <div class="councilmember-stat-label">Voted No</div>
                             </div>
                         </div>
