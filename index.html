@@ -929,26 +929,44 @@
                                         </div>
 
                                         ${councilmemberSummary ? `
-                                            <details style="margin-top: 0.8rem;">
-                                                <summary style="font-size: 0.9rem; padding: 0.6rem;">👤 Mayor Profile</summary>
-                                                <div style="padding: 0.8rem;">
-                                                    <div style="line-height: 1.3; font-size: 0.85rem; margin-bottom: 0.8rem;">${councilmemberSummary.summary}</div>
-
-                                                    ${councilmemberSummary.bio_url ? `
-                                                        <div style="margin-bottom: 0.8rem;">
-                                                            <a href="${councilmemberSummary.bio_url}" target="_blank" style="color: #1976d2; text-decoration: none; font-weight: bold; font-size: 0.8rem;">
-                                                                📋 View Official Bio →
-                                                            </a>
-                                                        </div>
-                                                    ` : ''}
-
-                                                    ${councilmemberSummary.policy_focus && councilmemberSummary.policy_focus.length > 0 ? `
-                                                        <div style="font-size: 0.8rem; color: #666;">
-                                                            <strong>Focus:</strong> ${councilmemberSummary.policy_focus.slice(0, 2).join(' • ')}
-                                                        </div>
-                                                    ` : ''}
+                                            <div style="background: #f8f9fa; padding: 0.8rem; border-radius: 6px; margin: 0.8rem 0; border-left: 3px solid #1976d2; font-size: 0.85rem;">
+                                                <div style="font-weight: bold; color: #1976d2; margin-bottom: 0.3rem;">👤 Mayor Profile</div>
+                                                
+                                                <!-- Preview text (first ~120 characters) -->
+                                                <div style="line-height: 1.3; margin-bottom: 0.6rem;">
+                                                    ${councilmemberSummary.summary.length > 120 ? 
+                                                        councilmemberSummary.summary.substring(0, 120) + '...' : 
+                                                        councilmemberSummary.summary
+                                                    }
                                                 </div>
-                                            </details>
+                                                
+                                                <!-- Expandable details -->
+                                                <details>
+                                                    <summary style="font-size: 0.8rem; color: #1976d2; cursor: pointer; margin-bottom: 0.6rem;">
+                                                        ${councilmemberSummary.summary.length > 120 ? 'Show full profile' : 'Show additional details'}
+                                                    </summary>
+                                                    <div>
+                                                        <!-- Full summary text -->
+                                                        <div style="line-height: 1.3; margin-bottom: 0.6rem;">
+                                                            ${councilmemberSummary.summary}
+                                                        </div>
+                                                        
+                                                        ${councilmemberSummary.bio_url ? `
+                                                            <div style="margin-bottom: 0.6rem;">
+                                                                <a href="${councilmemberSummary.bio_url}" target="_blank" style="color: #1976d2; text-decoration: none; font-weight: bold; font-size: 0.8rem;">
+                                                                    📋 View Official Bio →
+                                                                </a>
+                                                            </div>
+                                                        ` : ''}
+                                                        
+                                                        ${councilmemberSummary.policy_focus && councilmemberSummary.policy_focus.length > 0 ? `
+                                                            <div style="font-size: 0.8rem; color: #666;">
+                                                                <strong>Focus:</strong> ${councilmemberSummary.policy_focus.slice(0, 2).join(' • ')}
+                                                            </div>
+                                                        ` : ''}
+                                                    </div>
+                                                </details>
+                                            </div>
                                         ` : ''}
 
                                         <a href="#/councilmember/${cm.id}" class="btn" onclick="event.stopPropagation();">View Details</a>
@@ -984,38 +1002,56 @@
 
                                     <div class="councilmember-summary-section">
                                         ${councilmemberSummary ? `
-                                            <details>
-                                                <summary>👤 Councilmember Profile</summary>
-                                                <div>
-                                                    <div style="line-height: 1.5; font-size: 0.95rem; margin-bottom: 1rem;">${councilmemberSummary.summary}</div>
-
-                                                    ${councilmemberSummary.bio_url ? `
-                                                        <div style="margin-bottom: 1rem;">
-                                                            <a href="${councilmemberSummary.bio_url}" target="_blank" style="color: #1976d2; text-decoration: none; font-weight: bold; font-size: 0.9rem;">
-                                                                📋 View Official Bio →
-                                                            </a>
-                                                        </div>
-                                                    ` : ''}
-
-                                                    ${councilmemberSummary.policy_focus && councilmemberSummary.policy_focus.length > 0 ? `
-                                                        <div style="margin-bottom: 1rem;">
-                                                            <div style="font-weight: bold; color: #1976d2; margin-bottom: 0.3rem; font-size: 0.9rem;">Policy Focus Areas:</div>
-                                                            <div style="font-size: 0.9rem; color: #666;">
-                                                                ${councilmemberSummary.policy_focus.join(' • ')}
-                                                            </div>
-                                                        </div>
-                                                    ` : ''}
-
-                                                    ${councilmemberSummary.notes && councilmemberSummary.notes.length > 0 ? `
-                                                        <div>
-                                                            <div style="font-weight: bold; color: #1976d2; margin-bottom: 0.3rem; font-size: 0.9rem;">Key Notes:</div>
-                                                            <ul style="margin-left: 1.2rem; font-size: 0.9rem;">
-                                                                ${councilmemberSummary.notes.slice(0, 4).map(note => `<li style="margin-bottom: 0.3rem;">${note}</li>`).join('')}
-                                                            </ul>
-                                                        </div>
-                                                    ` : ''}
+                                            <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; margin: 1rem 0; border-left: 4px solid #1976d2;">
+                                                <div style="font-weight: bold; color: #1976d2; margin-bottom: 0.5rem; font-size: 0.9rem;">👤 Councilmember Profile</div>
+                                                
+                                                <!-- Preview text (first ~150 characters) -->
+                                                <div style="line-height: 1.4; font-size: 0.9rem; margin-bottom: 0.8rem;">
+                                                    ${councilmemberSummary.summary.length > 150 ? 
+                                                        councilmemberSummary.summary.substring(0, 150) + '...' : 
+                                                        councilmemberSummary.summary
+                                                    }
                                                 </div>
-                                            </details>
+                                                
+                                                <!-- Expandable details -->
+                                                <details>
+                                                    <summary style="font-size: 0.85rem; color: #1976d2; cursor: pointer; margin-bottom: 0.8rem;">
+                                                        ${councilmemberSummary.summary.length > 150 ? 'Show full profile' : 'Show additional details'}
+                                                    </summary>
+                                                    <div>
+                                                        <!-- Full summary text -->
+                                                        <div style="line-height: 1.4; font-size: 0.9rem; margin-bottom: 0.8rem;">
+                                                            ${councilmemberSummary.summary}
+                                                        </div>
+                                                        
+                                                        ${councilmemberSummary.bio_url ? `
+                                                            <div style="margin-bottom: 0.8rem;">
+                                                                <a href="${councilmemberSummary.bio_url}" target="_blank" style="color: #1976d2; text-decoration: none; font-weight: bold; font-size: 0.85rem;">
+                                                                    📋 View Official Bio →
+                                                                </a>
+                                                            </div>
+                                                        ` : ''}
+                                                        
+                                                        ${councilmemberSummary.policy_focus && councilmemberSummary.policy_focus.length > 0 ? `
+                                                            <div style="margin-bottom: 0.8rem;">
+                                                                <div style="font-weight: bold; color: #1976d2; margin-bottom: 0.3rem; font-size: 0.85rem;">Policy Focus Areas:</div>
+                                                                <div style="font-size: 0.85rem; color: #666;">
+                                                                    ${councilmemberSummary.policy_focus.join(' • ')}
+                                                                </div>
+                                                            </div>
+                                                        ` : ''}
+                                                        
+                                                        ${councilmemberSummary.notes && councilmemberSummary.notes.length > 0 ? `
+                                                            <div>
+                                                                <div style="font-weight: bold; color: #1976d2; margin-bottom: 0.3rem; font-size: 0.85rem;">Key Notes:</div>
+                                                                <ul style="margin-left: 1rem; font-size: 0.85rem;">
+                                                                    ${councilmemberSummary.notes.slice(0, 3).map(note => `<li style="margin-bottom: 0.2rem;">${note}</li>`).join('')}
+                                                                </ul>
+                                                            </div>
+                                                        ` : ''}
+                                                    </div>
+                                                </details>
+                                            </div>
                                         ` : `
                                             <div class="councilmember-summary-placeholder" style="background: #f5f5f5; padding: 1.2rem; border-radius: 8px; margin: 1rem 0; border-left: 4px solid #ccc; color: #666; font-style: italic;">
                                                 Profile summary coming soon...
@@ -1098,7 +1134,7 @@
                     </div>
 
                     ${councilmemberSummary ? `
-                        <details>
+                        <details open>
                             <summary>👤 Councilmember Profile</summary>
                             <div>
                                 <div style="line-height: 1.6; font-size: 1.1rem; margin-bottom: 1rem;">${councilmemberSummary.summary}</div>
