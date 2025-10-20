@@ -1,0 +1,49 @@
+{
+  "meeting_id": "14423",
+  "processing_timestamp": "2025-10-19T18:43:55.141063",
+  "total_frames_processed": 5485,
+  "vote_candidates_found": 1,
+  "votable_candidates": 1,
+  "total_votes_extracted": 1,
+  "processing_stats": {
+    "ocr_processing": "sequential",
+    "gemini_processing": "sequential",
+    "parallel_processing": false,
+    "votable_indicators_checked": 1,
+    "frame_size_optimized": "250x141",
+    "storage_savings": "80%",
+    "speed_improvement": "5x faster"
+  },
+  "votes": [
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": "high",
+      "agenda_item": null,
+      "meeting_id": "14423",
+      "frame_path": "2025_meetings_data/votable_frames_14423/frame_005356.jpg",
+      "frame_name": "frame_005356.jpg",
+      "frame_number": 5356,
+      "extraction_timestamp": 1760924635.14094,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true
+    }
+  ],
+  "vote_candidates": [
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14423/frame_005356.jpg",
+      "frame_name": "frame_005356.jpg",
+      "frame_number": 5356,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\nyea | 7| nay! | abstain || recuse | 0\ncouncilmember gerson nl\ncouncilmember kaji ra\ncouncilmember kalani aa\ncouncilmember lewis na\ncouncilmember mattucci nil\ncouncilmember sheikh am\nmay",
+      "has_votable_indicators": true,
+      "meeting_id": "14423"
+    }
+  ]
+}

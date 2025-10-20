@@ -1,0 +1,48 @@
+{
+  "processing_completed": "2025-10-18T12:25:17.123856",
+  "total_processing_time_hours": 0.0003007911311255561,
+  "meetings_processed": 6,
+  "successful_meetings": 0,
+  "failed_meetings": 6,
+  "total_frames_processed": 6,
+  "total_vote_candidates": 0,
+  "total_votes_extracted": 0,
+  "optimizations": {
+    "frame_size": "250x141",
+    "storage_savings": "80%",
+    "speed_improvement": "5x faster",
+    "detection_method": "voting_results_only"
+  },
+  "results": [
+    {
+      "meeting_id": "14536",
+      "status": "failed",
+      "reason": "division by zero"
+    },
+    {
+      "meeting_id": "14530",
+      "status": "failed",
+      "reason": "division by zero"
+    },
+    {
+      "meeting_id": "14524",
+      "status": "failed",
+      "reason": "division by zero"
+    },
+    {
+      "meeting_id": "14538",
+      "status": "failed",
+      "reason": "division by zero"
+    },
+    {
+      "meeting_id": "14510",
+      "status": "failed",
+      "reason": "division by zero"
+    },
+    {
+      "meeting_id": "14490",
+      "status": "failed",
+      "reason": "division by zero"
+    }
+  ]
+}

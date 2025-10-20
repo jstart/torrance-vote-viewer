@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torrance Vote Viewer - Static Deployment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #1976d2, #1565c0);
+            color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        .deploy-section {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+        }
+        .code {
+            background: #e9ecef;
+            padding: 0.5rem;
+            border-radius: 4px;
+            font-family: monospace;
+            margin: 0.5rem 0;
+        }
+        .button {
+            display: inline-block;
+            background: #1976d2;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            text-decoration: none;
+            border-radius: 4px;
+            margin: 0.5rem;
+        }
+        .button:hover {
+            background: #1565c0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Torrance Vote Viewer</h1>
+        <p>Static Deployment Package</p>
+    </div>
+
+    <div class="deploy-section">
+        <h2>🚀 Ready for Static Hosting!</h2>
+        <p>This application is designed to work on any static hosting service. No server required!</p>
+        
+        <h3>Quick Deploy Options:</h3>
+        
+        <h4>1. GitHub Pages</h4>
+        <div class="code">
+            git init<br>
+            git add .<br>
+            git commit -m "Deploy Torrance Vote Viewer"<br>
+            git push origin main
+        </div>
+        <p>Then enable GitHub Pages in repository settings.</p>
+        
+        <h4>2. Netlify</h4>
+        <p>Drag this folder to <a href="https://netlify.com" target="_blank">netlify.com</a></p>
+        
+        <h4>3. Vercel</h4>
+        <div class="code">
+            npm i -g vercel<br>
+            vercel
+        </div>
+        
+        <h4>4. Surge.sh</h4>
+        <div class="code">
+            npm install -g surge<br>
+            surge
+        </div>
+    </div>
+
+    <div class="deploy-section">
+        <h2>📁 What's Included</h2>
+        <ul>
+            <li><strong>index.html</strong> - Main application (39KB)</li>
+            <li><strong>data/</strong> - All vote data and metadata</li>
+            <li><strong>README.md</strong> - Deployment instructions</li>
+        </ul>
+    </div>
+
+    <div class="deploy-section">
+        <h2>✨ Features</h2>
+        <ul>
+            <li>📊 Browse 34 consolidated votes across 6 meetings</li>
+            <li>👥 View councilmember voting records</li>
+            <li>🔍 Advanced search and filtering</li>
+            <li>📹 Deep links to video chapters</li>
+            <li>📋 Direct links to agenda items</li>
+            <li>📱 Responsive design</li>
+            <li>⚡ Client-side routing</li>
+        </ul>
+    </div>
+
+    <div class="deploy-section">
+        <h2>🌐 Live Demo</h2>
+        <p>Once deployed, your site will support these routes:</p>
+        <div class="code">
+            /#/meetings - All meetings<br>
+            /#/meeting/14510 - Specific meeting<br>
+            /#/councilmembers - All councilmembers<br>
+            /#/councilmember/chen - Specific councilmember<br>
+            /#/year/2025 - Year view<br>
+            /#/search - Search interface
+        </div>
+    </div>
+
+    <div style="text-align: center; margin-top: 2rem;">
+        <a href="index.html" class="button">🚀 Launch Application</a>
+    </div>
+</body>
+</html>

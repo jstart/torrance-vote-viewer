@@ -1,0 +1,448 @@
+[
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 7,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Passes",
+    "confidence": 0.98,
+    "agenda_item": "5. COUNCIL COMMITTEE MEETINGS AND ANNOUNCEMENTS",
+    "meeting_id": "14490",
+    "frame_path": "2025_meetings_data/votable_frames_14490/frame_000486.jpg",
+    "frame_name": "frame_000486.jpg",
+    "frame_number": 486,
+    "extraction_timestamp": 1760798938.366359,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 486
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 7,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": "high",
+    "agenda_item": "5. COUNCIL COMMITTEE MEETINGS AND ANNOUNCEMENTS",
+    "meeting_id": "14490",
+    "frame_path": "2025_meetings_data/votable_frames_14490/frame_000487.jpg",
+    "frame_name": "frame_000487.jpg",
+    "frame_number": 487,
+    "extraction_timestamp": 1760798944.7739441,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 487
+  },
+  {
+    "motion_text": "Not available in image",
+    "vote_tally": {
+      "ayes": 7,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": "High",
+    "agenda_item": "5. COUNCIL COMMITTEE MEETINGS AND ANNOUNCEMENTS",
+    "meeting_id": "14490",
+    "frame_path": "2025_meetings_data/votable_frames_14490/frame_000488.jpg",
+    "frame_name": "frame_000488.jpg",
+    "frame_number": 488,
+    "extraction_timestamp": 1760798951.5748448,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 488
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 7,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": "High",
+    "agenda_item": "8. CONSENT CALENDAR Matters listed under the Consent Calendar are considered routine and will be enacted by one motion and one vote. There will be no separate discussion of these items. If discussion is desired, that item will be pulled by a Councilmember",
+    "meeting_id": "14490",
+    "frame_path": "2025_meetings_data/votable_frames_14490/frame_002843.jpg",
+    "frame_name": "frame_002843.jpg",
+    "frame_number": 2843,
+    "extraction_timestamp": 1760798958.229037,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 2843
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 7,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": 0.98,
+    "agenda_item": "8. CONSENT CALENDAR Matters listed under the Consent Calendar are considered routine and will be enacted by one motion and one vote. There will be no separate discussion of these items. If discussion is desired, that item will be pulled by a Councilmember",
+    "meeting_id": "14490",
+    "frame_path": "2025_meetings_data/votable_frames_14490/frame_002844.jpg",
+    "frame_name": "frame_002844.jpg",
+    "frame_number": 2844,
+    "extraction_timestamp": 1760798962.9789371,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 2844
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 7,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": 0.95,
+    "agenda_item": "9. HEARINGS",
+    "meeting_id": "14490",
+    "frame_path": "2025_meetings_data/votable_frames_14490/frame_002845.jpg",
+    "frame_name": "frame_002845.jpg",
+    "frame_number": 2845,
+    "extraction_timestamp": 1760798970.837879,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 2845
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 7,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": 0.99,
+    "agenda_item": "9. HEARINGS",
+    "meeting_id": "14490",
+    "frame_path": "2025_meetings_data/votable_frames_14490/frame_002846.jpg",
+    "frame_name": "frame_002846.jpg",
+    "frame_number": 2846,
+    "extraction_timestamp": 1760798977.398587,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 2846
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 7,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": 1.0,
+    "agenda_item": "9A. Planning Commission and Community Development \u2013 Conduct a Public Hearing on Land Use Study 25-00001 Regarding Proposed Amendments to the Torrance Municipal Code Pertaining to the Regulation of Accessory Dwelling Units and Junior Accessory Dwelling Un",
+    "meeting_id": "14490",
+    "frame_path": "2025_meetings_data/votable_frames_14490/frame_002847.jpg",
+    "frame_name": "frame_002847.jpg",
+    "frame_number": 2847,
+    "extraction_timestamp": 1760798985.029909,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 2847
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 7,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": "High",
+    "agenda_item": "9A. Planning Commission and Community Development \u2013 Conduct a Public Hearing on Land Use Study 25-00001 Regarding Proposed Amendments to the Torrance Municipal Code Pertaining to the Regulation of Accessory Dwelling Units and Junior Accessory Dwelling Un",
+    "meeting_id": "14490",
+    "frame_path": "2025_meetings_data/votable_frames_14490/frame_003480.jpg",
+    "frame_name": "frame_003480.jpg",
+    "frame_number": 3480,
+    "extraction_timestamp": 1760798992.530056,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 3480
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 7,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Passed",
+    "confidence": "High",
+    "agenda_item": "9A. Planning Commission and Community Development \u2013 Conduct a Public Hearing on Land Use Study 25-00001 Regarding Proposed Amendments to the Torrance Municipal Code Pertaining to the Regulation of Accessory Dwelling Units and Junior Accessory Dwelling Un",
+    "meeting_id": "14490",
+    "frame_path": "2025_meetings_data/votable_frames_14490/frame_003481.jpg",
+    "frame_name": "frame_003481.jpg",
+    "frame_number": 3481,
+    "extraction_timestamp": 1760799000.477985,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 3481
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 7,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": 1.0,
+    "agenda_item": "9A. Planning Commission and Community Development \u2013 Conduct a Public Hearing on Land Use Study 25-00001 Regarding Proposed Amendments to the Torrance Municipal Code Pertaining to the Regulation of Accessory Dwelling Units and Junior Accessory Dwelling Un",
+    "meeting_id": "14490",
+    "frame_path": "2025_meetings_data/votable_frames_14490/frame_003482.jpg",
+    "frame_name": "frame_003482.jpg",
+    "frame_number": 3482,
+    "extraction_timestamp": 1760799024.5634859,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 3482
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 7,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": 1.0,
+    "agenda_item": "9A. Planning Commission and Community Development \u2013 Conduct a Public Hearing on Land Use Study 25-00001 Regarding Proposed Amendments to the Torrance Municipal Code Pertaining to the Regulation of Accessory Dwelling Units and Junior Accessory Dwelling Un",
+    "meeting_id": "14490",
+    "frame_path": "2025_meetings_data/votable_frames_14490/frame_003483.jpg",
+    "frame_name": "frame_003483.jpg",
+    "frame_number": 3483,
+    "extraction_timestamp": 1760799032.996883,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 3483
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 7,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": 1.0,
+    "agenda_item": "9A. Planning Commission and Community Development \u2013 Conduct a Public Hearing on Land Use Study 25-00001 Regarding Proposed Amendments to the Torrance Municipal Code Pertaining to the Regulation of Accessory Dwelling Units and Junior Accessory Dwelling Un",
+    "meeting_id": "14490",
+    "frame_path": "2025_meetings_data/votable_frames_14490/frame_003592.jpg",
+    "frame_name": "frame_003592.jpg",
+    "frame_number": 3592,
+    "extraction_timestamp": 1760799041.8765728,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 3592
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 7,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": "High",
+    "agenda_item": "12. ORAL COMMUNICATIONS #2 (Limited up to a 15-minute period) This portion of the meeting is reserved for comments on items that are not on the agenda. Under the Ralph M. Brown Act, City Council cannot act on items raised during public comment but may res",
+    "meeting_id": "14490",
+    "frame_path": "2025_meetings_data/votable_frames_14490/frame_003593.jpg",
+    "frame_name": "frame_003593.jpg",
+    "frame_number": 3593,
+    "extraction_timestamp": 1760799046.963711,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 3593
+  },
+  {
+    "motion_text": "Not discernible from the image.",
+    "vote_tally": {
+      "ayes": 7,
+      "noes": 0,
+      "abstentions": 0,
+      "recusals": 0,
+      "voter_details": [
+        {
+          "name": "Councilmember Gerson",
+          "vote": "Yea"
+        },
+        {
+          "name": "Councilmember Kaji",
+          "vote": "Yea"
+        },
+        {
+          "name": "Councilmember Kalani",
+          "vote": "Yea"
+        },
+        {
+          "name": "Councilmember Lewis",
+          "vote": "Yea"
+        },
+        {
+          "name": "Councilmember Mattucci",
+          "vote": "Yea"
+        },
+        {
+          "name": "Councilmember Sheikh",
+          "vote": "Yea"
+        },
+        {
+          "name": "Mayor Chen",
+          "vote": "Yea"
+        }
+      ]
+    },
+    "result": "Motion Passes",
+    "confidence": "High",
+    "agenda_item": "12. ORAL COMMUNICATIONS #2 (Limited up to a 15-minute period) This portion of the meeting is reserved for comments on items that are not on the agenda. Under the Ralph M. Brown Act, City Council cannot act on items raised during public comment but may res",
+    "ordinance_number": "Not discernible from the image.",
+    "meeting_id": "14490",
+    "frame_path": "2025_meetings_data/votable_frames_14490/frame_003594.jpg",
+    "frame_name": "frame_003594.jpg",
+    "frame_number": 3594,
+    "extraction_timestamp": 1760799056.123032,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 3594
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 7,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": 0.95,
+    "agenda_item": "12. ORAL COMMUNICATIONS #2 (Limited up to a 15-minute period) This portion of the meeting is reserved for comments on items that are not on the agenda. Under the Ralph M. Brown Act, City Council cannot act on items raised during public comment but may res",
+    "meeting_id": "14490",
+    "frame_path": "2025_meetings_data/votable_frames_14490/frame_003595.jpg",
+    "frame_name": "frame_003595.jpg",
+    "frame_number": 3595,
+    "extraction_timestamp": 1760799067.5299141,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 3595
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 7,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Passes",
+    "confidence": 0.95,
+    "agenda_item": "12. ORAL COMMUNICATIONS #2 (Limited up to a 15-minute period) This portion of the meeting is reserved for comments on items that are not on the agenda. Under the Ralph M. Brown Act, City Council cannot act on items raised during public comment but may res",
+    "individual_votes": [
+      {
+        "council_member": "Gerson",
+        "vote": "Yea"
+      },
+      {
+        "council_member": "Kaji",
+        "vote": "Yea"
+      },
+      {
+        "council_member": "Kalani",
+        "vote": "Yea"
+      },
+      {
+        "council_member": "Lewis",
+        "vote": "Yea"
+      },
+      {
+        "council_member": "Mattucci",
+        "vote": "Yea"
+      },
+      {
+        "council_member": "Sheikh",
+        "vote": "Yea"
+      },
+      {
+        "council_member": "Mayor Chen",
+        "vote": "Yea"
+      }
+    ],
+    "additional_info": {
+      "recused": 0
+    },
+    "meeting_id": "14490",
+    "frame_path": "2025_meetings_data/votable_frames_14490/frame_003596.jpg",
+    "frame_name": "frame_003596.jpg",
+    "frame_number": 3596,
+    "extraction_timestamp": 1760799075.0119948,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 3596
+  },
+  {
+    "motion_text": "Not visible in image",
+    "vote_tally": {
+      "ayes": 7,
+      "noes": 0,
+      "abstentions": 0,
+      "recused": 0
+    },
+    "result": "Motion Passes",
+    "confidence": "High",
+    "agenda_item": "14. ADJOURNMENT Adjournment of City Council meeting to Tuesday, August 12, 2025, at 5:00 p.m. for closed session in the LeRoy J. Jackson Council Chamber.",
+    "meeting_id": "14490",
+    "frame_path": "2025_meetings_data/votable_frames_14490/frame_003832.jpg",
+    "frame_name": "frame_003832.jpg",
+    "frame_number": 3832,
+    "extraction_timestamp": 1760799080.6523268,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 3832
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 7,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Passes",
+    "confidence": "High",
+    "agenda_item": "14. ADJOURNMENT Adjournment of City Council meeting to Tuesday, August 12, 2025, at 5:00 p.m. for closed session in the LeRoy J. Jackson Council Chamber.",
+    "meeting_id": "14490",
+    "frame_path": "2025_meetings_data/votable_frames_14490/frame_003833.jpg",
+    "frame_name": "frame_003833.jpg",
+    "frame_number": 3833,
+    "extraction_timestamp": 1760799087.8503082,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 3833
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 7,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": 1.0,
+    "agenda_item": "14. ADJOURNMENT Adjournment of City Council meeting to Tuesday, August 12, 2025, at 5:00 p.m. for closed session in the LeRoy J. Jackson Council Chamber.",
+    "meeting_id": "14490",
+    "frame_path": "2025_meetings_data/votable_frames_14490/frame_003834.jpg",
+    "frame_name": "frame_003834.jpg",
+    "frame_number": 3834,
+    "extraction_timestamp": 1760799093.143408,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 3834
+  }
+]

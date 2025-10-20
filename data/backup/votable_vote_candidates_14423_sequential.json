@@ -1,0 +1,12 @@
+[
+  {
+    "frame_path": "2025_meetings_data/votable_frames_14423/frame_005356.jpg",
+    "frame_name": "frame_005356.jpg",
+    "frame_number": 5356,
+    "confidence": 0.9,
+    "detection_method": "voting_results_only",
+    "raw_text": "voting results\nyea | 7| nay! | abstain || recuse | 0\ncouncilmember gerson nl\ncouncilmember kaji ra\ncouncilmember kalani aa\ncouncilmember lewis na\ncouncilmember mattucci nil\ncouncilmember sheikh am\nmay",
+    "has_votable_indicators": true,
+    "meeting_id": "14423"
+  }
+]

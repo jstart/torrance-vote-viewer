@@ -1,0 +1,32 @@
+# GitHub Pages Configuration
+
+This repository contains a static web application for viewing Torrance City Council votes.
+
+## Live Demo
+
+Once deployed, the application will be available at:
+`https://YOUR_USERNAME.github.io/torrance-vote-viewer`
+
+## Features
+
+- 📊 Browse votes by meeting, councilmember, or year
+- 🔍 Advanced search and filtering
+- 📹 Deep links to video chapters
+- 📋 Direct links to agenda items
+- 📱 Responsive design
+
+## Technical Details
+
+- **Frontend**: Pure HTML/CSS/JavaScript
+- **Data**: Static JSON files
+- **Routing**: Client-side hash routing
+- **Hosting**: GitHub Pages compatible
+
+## Deployment
+
+1. Enable GitHub Pages in repository settings
+2. Select "Deploy from a branch"
+3. Choose "main" branch and "/" folder
+4. Your site will be live at the GitHub Pages URL
+
+No build process required - just static files!

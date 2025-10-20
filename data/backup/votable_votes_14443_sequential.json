@@ -1,0 +1,275 @@
+[
+  {
+    "motion_text": "Not available from image",
+    "vote_tally": {
+      "ayes": 6,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": "High",
+    "agenda_item": "Not available from image",
+    "meeting_id": "14443",
+    "frame_path": "2025_meetings_data/votable_frames_14443/frame_006271.jpg",
+    "frame_name": "frame_006271.jpg",
+    "frame_number": 6271,
+    "extraction_timestamp": 1760920645.295912,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 6,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": "high",
+    "agenda_item": null,
+    "meeting_id": "14443",
+    "frame_path": "2025_meetings_data/votable_frames_14443/frame_006272.jpg",
+    "frame_name": "frame_006272.jpg",
+    "frame_number": 6272,
+    "extraction_timestamp": 1760920654.8438668,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": "Approval of Consent Calendar",
+    "vote_tally": {
+      "ayes": 6,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Passed",
+    "confidence": "High",
+    "agenda_item": "8",
+    "meeting_id": "14443",
+    "frame_path": "2025_meetings_data/votable_frames_14443/frame_009030.jpg",
+    "frame_name": "frame_009030.jpg",
+    "frame_number": 9030,
+    "extraction_timestamp": 1760920659.526515,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": "Approval of Consent Calendar items. Matters listed under the Consent Calendar are considered routine and will be enacted by one motion and one vote. There will be no separate discussion of these items. If discussion is desired, that item will be removed by a Councilmember from the Consent Calendar and considered separately.",
+    "vote_tally": {
+      "ayes": 6,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Passed",
+    "confidence": 5,
+    "agenda_item": "8",
+    "meeting_id": "14443",
+    "frame_path": "2025_meetings_data/votable_frames_14443/frame_009031.jpg",
+    "frame_name": "frame_009031.jpg",
+    "frame_number": 9031,
+    "extraction_timestamp": 1760920666.119691,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": "Approval of the Consent Calendar",
+    "vote_tally": {
+      "ayes": 6,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Passed",
+    "confidence": "High",
+    "agenda_item": "8",
+    "meeting_id": "14443",
+    "frame_path": "2025_meetings_data/votable_frames_14443/frame_009141.jpg",
+    "frame_name": "frame_009141.jpg",
+    "frame_number": 9141,
+    "extraction_timestamp": 1760920670.033757,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": "City Attorney - Discuss and Consider Adopting an ORDINANCE Amending the Torrance Municipal Code Regulating Touch (and Stop) and Go, Full Stop Taxi Back, and Low Approaches at the Torrance Municipal Airport and Adopt California Environmental Quality Act Exemption. Expenditure: None",
+    "vote_tally": {
+      "ayes": 5,
+      "noes": 1,
+      "abstentions": 0
+    },
+    "result": "Passed",
+    "confidence": "High",
+    "agenda_item": "10B",
+    "meeting_id": "14443",
+    "frame_path": "2025_meetings_data/votable_frames_14443/frame_011219.jpg",
+    "frame_name": "frame_011219.jpg",
+    "frame_number": 11219,
+    "extraction_timestamp": 1760920676.28491,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": "City Attorney - Discuss and Consider Adopting an ORDINANCE Amending the Torrance Municipal Code Regulating Touch (and Stop) and Go, Full Stop Taxi Back, and Low Approaches at the Torrance Municipal Airport and Adopt California Environmental Quality Act Exemption. Expenditure: None",
+    "vote_tally": {
+      "ayes": 5,
+      "noes": 1,
+      "abstentions": 0
+    },
+    "result": "Passed",
+    "confidence": "High",
+    "agenda_item": "10B",
+    "meeting_id": "14443",
+    "frame_path": "2025_meetings_data/votable_frames_14443/frame_011220.jpg",
+    "frame_name": "frame_011220.jpg",
+    "frame_number": 11220,
+    "extraction_timestamp": 1760920682.6031082,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": "Conduct a Public Hearing and Adopt a RESOLUTION for the Denial of a Variance Request to Exempt a Proposed New Two-Story, Single Family Residence from Enforcement of Article 41, Chapter 1, Division 9, of the Torrance Municipal Code, Hillside and Local Coastal Overlay Zone, on Property Located within the Hillside Overlay in the R-1 Zone. Expenditure: None",
+    "vote_tally": {
+      "ayes": 6,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Passed",
+    "confidence": 1.0,
+    "agenda_item": "9A",
+    "meeting_id": "14443",
+    "frame_path": "2025_meetings_data/votable_frames_14443/frame_014187.jpg",
+    "frame_name": "frame_014187.jpg",
+    "frame_number": 14187,
+    "extraction_timestamp": 1760920688.16607,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": "Conduct a Public Hearing and Adopt a RESOLUTION for the Denial of a Variance Request to Exempt a Proposed New Two-Story, Single-Family Residence from Enforcement of Article 41, Chapter 1, Division 9, of the Torrance Municipal Code, Hillside and Local Coastal Overlay Zone, on Property Located within the Hillside Overlay in the R-1 Zone. Expenditure: None",
+    "vote_tally": {
+      "ayes": 6,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Passed",
+    "confidence": "High",
+    "agenda_item": "9A",
+    "meeting_id": "14443",
+    "frame_path": "2025_meetings_data/votable_frames_14443/frame_014188.jpg",
+    "frame_name": "frame_014188.jpg",
+    "frame_number": 14188,
+    "extraction_timestamp": 1760920693.1839821,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": "Conduct a Public Hearing and Adopt a RESOLUTION for the Denial of a Variance Request to Exempt a Proposed New Two-Story, Single Family Residence from Enforcement of Article 41, Chapter 1, Division 9, of the Torrance Municipal Code, Hillside and Local Coastal Overlay Zone, on Property Located within the Hillside Overlay in the R-1 Zone. Expenditure: None",
+    "vote_tally": {
+      "ayes": 6,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Passed",
+    "confidence": "High",
+    "agenda_item": "9A",
+    "meeting_id": "14443",
+    "frame_path": "2025_meetings_data/votable_frames_14443/frame_014189.jpg",
+    "frame_name": "frame_014189.jpg",
+    "frame_number": 14189,
+    "extraction_timestamp": 1760920698.561949,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": "Conduct a Public Hearing and Adopt a RESOLUTION for the Denial of a Variance Request to Exempt a Proposed New Two-Story, Single-Family Residence from Enforcement of Article 41, Chapter 1, Division 9, of the Torrance Municipal Code, Hillside and Local Coastal Overlay Zone, on Property Located within the Hillside Overlay in the R-1 Zone. Expenditure: None",
+    "vote_tally": {
+      "ayes": 6,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Passed",
+    "confidence": 1.0,
+    "agenda_item": "9A",
+    "meeting_id": "14443",
+    "frame_path": "2025_meetings_data/votable_frames_14443/frame_014263.jpg",
+    "frame_name": "frame_014263.jpg",
+    "frame_number": 14263,
+    "extraction_timestamp": 1760920704.391362,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 6,
+      "noes": 0,
+      "abstentions": 0,
+      "recusals": 0
+    },
+    "result": "Motion Passes",
+    "confidence": "high",
+    "agenda_item": null,
+    "meeting_id": "14443",
+    "frame_path": "2025_meetings_data/votable_frames_14443/frame_019079.jpg",
+    "frame_name": "frame_019079.jpg",
+    "frame_number": 19079,
+    "extraction_timestamp": 1760920709.203267,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 5,
+      "noes": 1,
+      "abstentions": 0,
+      "recused": 0
+    },
+    "result": "Motion Passes",
+    "confidence": "High",
+    "agenda_item": null,
+    "meeting_id": "14443",
+    "frame_path": "2025_meetings_data/votable_frames_14443/frame_019230.jpg",
+    "frame_name": "frame_019230.jpg",
+    "frame_number": 19230,
+    "extraction_timestamp": 1760920713.136197,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": "Not available in image",
+    "vote_tally": {
+      "ayes": 6,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": "High",
+    "agenda_item": "Not available in image",
+    "meeting_id": "14443",
+    "frame_path": "2025_meetings_data/votable_frames_14443/frame_020050.jpg",
+    "frame_name": "frame_020050.jpg",
+    "frame_number": 20050,
+    "extraction_timestamp": 1760920718.415369,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": "Not visible in image",
+    "vote_tally": {
+      "ayes": 6,
+      "noes": 0,
+      "abstentions": 0,
+      "recused": 0
+    },
+    "result": "Motion Passes",
+    "confidence": 1.0,
+    "agenda_item": "Not visible in image",
+    "meeting_id": "14443",
+    "frame_path": "2025_meetings_data/votable_frames_14443/frame_021270.jpg",
+    "frame_name": "frame_021270.jpg",
+    "frame_number": 21270,
+    "extraction_timestamp": 1760920727.0425029,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  }
+]

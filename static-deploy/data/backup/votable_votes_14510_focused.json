@@ -1,0 +1,496 @@
+[
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 7,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": "High",
+    "agenda_item": null,
+    "meeting_id": "14510",
+    "frame_path": "2025_meetings_data/votable_frames_14510/frame_005828.jpg",
+    "frame_name": "frame_005828.jpg",
+    "frame_number": 5828,
+    "extraction_timestamp": 1760796029.998416,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 7,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Passes",
+    "confidence": 0.98,
+    "agenda_item": null,
+    "meeting_id": "14510",
+    "frame_path": "2025_meetings_data/votable_frames_14510/frame_006380.jpg",
+    "frame_name": "frame_006380.jpg",
+    "frame_number": 6380,
+    "extraction_timestamp": 1760796037.658988,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 7,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": 1.0,
+    "agenda_item": null,
+    "meeting_id": "14510",
+    "frame_path": "2025_meetings_data/votable_frames_14510/frame_007471.jpg",
+    "frame_name": "frame_007471.jpg",
+    "frame_number": 7471,
+    "extraction_timestamp": 1760796045.908868,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 7,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": 1.0,
+    "agenda_item": null,
+    "meeting_id": "14510",
+    "frame_path": "2025_meetings_data/votable_frames_14510/frame_008986.jpg",
+    "frame_name": "frame_008986.jpg",
+    "frame_number": 8986,
+    "extraction_timestamp": 1760796053.8520231,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 7,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Passes",
+    "confidence": 0.98,
+    "agenda_item": null,
+    "meeting_id": "14510",
+    "frame_path": "2025_meetings_data/votable_frames_14510/frame_008987.jpg",
+    "frame_name": "frame_008987.jpg",
+    "frame_number": 8987,
+    "extraction_timestamp": 1760796061.0891972,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 7,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": 0.98,
+    "agenda_item": null,
+    "meeting_id": "14510",
+    "frame_path": "2025_meetings_data/votable_frames_14510/frame_009229.jpg",
+    "frame_name": "frame_009229.jpg",
+    "frame_number": 9229,
+    "extraction_timestamp": 1760796066.613657,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 7,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": "high",
+    "agenda_item": null,
+    "meeting_id": "14510",
+    "frame_path": "2025_meetings_data/votable_frames_14510/frame_009230.jpg",
+    "frame_name": "frame_009230.jpg",
+    "frame_number": 9230,
+    "extraction_timestamp": 1760796071.34739,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": "Not visible in image.",
+    "vote_tally": {
+      "ayes": 7,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": 0.98,
+    "agenda_item": "Not visible in image.",
+    "ordinance_numbers": "Not visible in image.",
+    "meeting_id": "14510",
+    "frame_path": "2025_meetings_data/votable_frames_14510/frame_010854.jpg",
+    "frame_name": "frame_010854.jpg",
+    "frame_number": 10854,
+    "extraction_timestamp": 1760796076.5116448,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 7,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": "High",
+    "agenda_item": null,
+    "meeting_id": "14510",
+    "frame_path": "2025_meetings_data/votable_frames_14510/frame_010981.jpg",
+    "frame_name": "frame_010981.jpg",
+    "frame_number": 10981,
+    "extraction_timestamp": 1760796082.105543,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 7,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": "High",
+    "agenda_item": null,
+    "meeting_id": "14510",
+    "frame_path": "2025_meetings_data/votable_frames_14510/frame_015590.jpg",
+    "frame_name": "frame_015590.jpg",
+    "frame_number": 15590,
+    "extraction_timestamp": 1760796089.999242,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 7,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": "High",
+    "agenda_item": null,
+    "council_member_votes": [
+      {
+        "name": "Councilmember Gerson",
+        "vote": "Yea"
+      },
+      {
+        "name": "Councilmember Kaji",
+        "vote": "Yea"
+      },
+      {
+        "name": "Councilmember Kalani",
+        "vote": "Yea"
+      },
+      {
+        "name": "Councilmember Lewis",
+        "vote": "Yea"
+      },
+      {
+        "name": "Councilmember Mattucci",
+        "vote": "Yea"
+      },
+      {
+        "name": "Councilmember Sheikh",
+        "vote": "Yea"
+      },
+      {
+        "name": "Mayor Chen",
+        "vote": "Yea"
+      }
+    ],
+    "meeting_id": "14510",
+    "frame_path": "2025_meetings_data/votable_frames_14510/frame_015591.jpg",
+    "frame_name": "frame_015591.jpg",
+    "frame_number": 15591,
+    "extraction_timestamp": 1760796097.26322,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 2,
+      "noes": 5,
+      "abstentions": 0
+    },
+    "result": "Motion Fails",
+    "confidence": "High",
+    "agenda_item": null,
+    "meeting_id": "14510",
+    "frame_path": "2025_meetings_data/votable_frames_14510/frame_016361.jpg",
+    "frame_name": "frame_016361.jpg",
+    "frame_number": 16361,
+    "extraction_timestamp": 1760796103.226766,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 2,
+      "noes": 5,
+      "abstentions": 0
+    },
+    "result": "Motion Fails",
+    "confidence": "High",
+    "agenda_item": null,
+    "meeting_id": "14510",
+    "frame_path": "2025_meetings_data/votable_frames_14510/frame_016362.jpg",
+    "frame_name": "frame_016362.jpg",
+    "frame_number": 16362,
+    "extraction_timestamp": 1760796111.3157718,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 2,
+      "noes": 5,
+      "abstentions": 0
+    },
+    "result": "Motion Fails",
+    "confidence": 0.95,
+    "agenda_item": null,
+    "meeting_id": "14510",
+    "frame_path": "2025_meetings_data/votable_frames_14510/frame_016363.jpg",
+    "frame_name": "frame_016363.jpg",
+    "frame_number": 16363,
+    "extraction_timestamp": 1760796116.909384,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": "Not available (motion description not present on screen)",
+    "vote_tally": {
+      "ayes": 2,
+      "noes": 5,
+      "abstentions": 0
+    },
+    "result": "Motion Fails",
+    "confidence": 1.0,
+    "agenda_item": "Not available (agenda item number/description not present on screen)",
+    "meeting_id": "14510",
+    "frame_path": "2025_meetings_data/votable_frames_14510/frame_016364.jpg",
+    "frame_name": "frame_016364.jpg",
+    "frame_number": 16364,
+    "extraction_timestamp": 1760796122.1890922,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 2,
+      "noes": 5,
+      "abstentions": 0
+    },
+    "result": "Motion Fails",
+    "confidence": "High",
+    "agenda_item": null,
+    "meeting_id": "14510",
+    "frame_path": "2025_meetings_data/votable_frames_14510/frame_016365.jpg",
+    "frame_name": "frame_016365.jpg",
+    "frame_number": 16365,
+    "extraction_timestamp": 1760796129.115515,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": "N/A (motion text not specified in the image)",
+    "vote_tally": {
+      "ayes": 5,
+      "noes": 2,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": 0.98,
+    "agenda_item": "N/A (agenda item or ordinance number not specified in the image)",
+    "meeting_id": "14510",
+    "frame_path": "2025_meetings_data/votable_frames_14510/frame_016429.jpg",
+    "frame_name": "frame_016429.jpg",
+    "frame_number": 16429,
+    "extraction_timestamp": 1760796137.020114,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 5,
+      "noes": 2,
+      "abstentions": 0
+    },
+    "result": "Passes",
+    "confidence": 1.0,
+    "agenda_item": null,
+    "council_votes": [
+      {
+        "council_member": "Gerson",
+        "vote": "Nay"
+      },
+      {
+        "council_member": "Kaji",
+        "vote": "Yea"
+      },
+      {
+        "council_member": "Kalani",
+        "vote": "Yea"
+      },
+      {
+        "council_member": "Lewis",
+        "vote": "Yea"
+      },
+      {
+        "council_member": "Mattucci",
+        "vote": "Yea"
+      },
+      {
+        "council_member": "Sheikh",
+        "vote": "Nay"
+      },
+      {
+        "council_member": "Mayor Chen",
+        "vote": "Yea"
+      }
+    ],
+    "meeting_id": "14510",
+    "frame_path": "2025_meetings_data/votable_frames_14510/frame_016430.jpg",
+    "frame_name": "frame_016430.jpg",
+    "frame_number": 16430,
+    "extraction_timestamp": 1760796141.683456,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 7,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": 1.0,
+    "agenda_item": null,
+    "meeting_id": "14510",
+    "frame_path": "2025_meetings_data/votable_frames_14510/frame_017405.jpg",
+    "frame_name": "frame_017405.jpg",
+    "frame_number": 17405,
+    "extraction_timestamp": 1760796146.593377,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 7,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": 1.0,
+    "agenda_item": null,
+    "meeting_id": "14510",
+    "frame_path": "2025_meetings_data/votable_frames_14510/frame_017406.jpg",
+    "frame_name": "frame_017406.jpg",
+    "frame_number": 17406,
+    "extraction_timestamp": 1760796155.791095,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 7,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Passes",
+    "confidence": 0.98,
+    "agenda_item": null,
+    "meeting_id": "14510",
+    "frame_path": "2025_meetings_data/votable_frames_14510/frame_019087.jpg",
+    "frame_name": "frame_019087.jpg",
+    "frame_number": 19087,
+    "extraction_timestamp": 1760796161.96322,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 7,
+      "noes": 0,
+      "abstentions": 0,
+      "recusals": 0
+    },
+    "result": "Motion Passes",
+    "confidence": 0.95,
+    "agenda_item": null,
+    "meeting_id": "14510",
+    "frame_path": "2025_meetings_data/votable_frames_14510/frame_019088.jpg",
+    "frame_name": "frame_019088.jpg",
+    "frame_number": 19088,
+    "extraction_timestamp": 1760796167.8797781,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": "Not specified in image",
+    "vote_tally": {
+      "ayes": 5,
+      "noes": 1,
+      "abstentions": 0
+    },
+    "result": "Passes",
+    "confidence": 1.0,
+    "agenda_item": "Not specified in image",
+    "meeting_id": "14510",
+    "frame_path": "2025_meetings_data/votable_frames_14510/frame_021772.jpg",
+    "frame_name": "frame_021772.jpg",
+    "frame_number": 21772,
+    "extraction_timestamp": 1760796173.812203,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": "The specific motion text is not visible in the provided image.",
+    "vote_tally": {
+      "ayes": 5,
+      "noes": 1,
+      "abstentions": 0
+    },
+    "result": "Passes",
+    "confidence": "High for vote tally and result. Low for motion text and agenda item as they are not present in the image.",
+    "agenda_item": "The agenda item number or title is not visible in the provided image.",
+    "meeting_id": "14510",
+    "frame_path": "2025_meetings_data/votable_frames_14510/frame_021773.jpg",
+    "frame_name": "frame_021773.jpg",
+    "frame_number": 21773,
+    "extraction_timestamp": 1760796179.2813241,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  }
+]

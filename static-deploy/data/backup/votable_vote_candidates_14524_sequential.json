@@ -1,0 +1,22 @@
+[
+  {
+    "frame_path": "2025_meetings_data/votable_frames_14524/frame_004320.jpg",
+    "frame_name": "frame_004320.jpg",
+    "frame_number": 4320,
+    "confidence": 0.9,
+    "detection_method": "voting_results_only",
+    "raw_text": "voting results\nyea | 5 | nay| q| abstain || recuse | 0\ncouncilmember gerson nl\ncouncilmember kaji ra\ncouncilmember kalani na\ncouncilmember mattucci all\nmayor chen af\nmotion passes\n",
+    "has_votable_indicators": true,
+    "meeting_id": "14524"
+  },
+  {
+    "frame_path": "2025_meetings_data/votable_frames_14524/frame_004321.jpg",
+    "frame_name": "frame_004321.jpg",
+    "frame_number": 4321,
+    "confidence": 0.9,
+    "detection_method": "voting_results_only",
+    "raw_text": "voting results\nyea | 5) nay| q| abstain | 9 | recuse | 0\ncouncilmember gerson nl\ncouncilmember kaji ra\ncouncilmember kalani na\ncouncilmember mattucci all\nmayor chen ae\nmotion passes\n",
+    "has_votable_indicators": true,
+    "meeting_id": "14524"
+  }
+]

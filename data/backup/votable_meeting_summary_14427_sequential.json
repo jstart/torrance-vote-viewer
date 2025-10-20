@@ -1,0 +1,593 @@
+{
+  "meeting_id": "14427",
+  "processing_timestamp": "2025-10-19T18:33:25.521071",
+  "total_frames_processed": 23365,
+  "vote_candidates_found": 20,
+  "votable_candidates": 20,
+  "total_votes_extracted": 19,
+  "processing_stats": {
+    "ocr_processing": "sequential",
+    "gemini_processing": "sequential",
+    "parallel_processing": false,
+    "votable_indicators_checked": 1,
+    "frame_size_optimized": "250x141",
+    "storage_savings": "80%",
+    "speed_improvement": "5x faster"
+  },
+  "votes": [
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": "High",
+      "agenda_item": null,
+      "meeting_id": "14427",
+      "frame_path": "2025_meetings_data/votable_frames_14427/frame_006034.jpg",
+      "frame_name": "frame_006034.jpg",
+      "frame_number": 6034,
+      "extraction_timestamp": 1760923895.047352,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true
+    },
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": "High",
+      "agenda_item": null,
+      "meeting_id": "14427",
+      "frame_path": "2025_meetings_data/votable_frames_14427/frame_006035.jpg",
+      "frame_name": "frame_006035.jpg",
+      "frame_number": 6035,
+      "extraction_timestamp": 1760923899.363575,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true
+    },
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": 0.98,
+      "agenda_item": null,
+      "meeting_id": "14427",
+      "frame_path": "2025_meetings_data/votable_frames_14427/frame_006036.jpg",
+      "frame_name": "frame_006036.jpg",
+      "frame_number": 6036,
+      "extraction_timestamp": 1760923904.14077,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true
+    },
+    {
+      "motion_text": "Approval of Consent Calendar",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Passed",
+      "confidence": "High",
+      "agenda_item": "8 (Consent Calendar)",
+      "meeting_id": "14427",
+      "frame_path": "2025_meetings_data/votable_frames_14427/frame_007667.jpg",
+      "frame_name": "frame_007667.jpg",
+      "frame_number": 7667,
+      "extraction_timestamp": 1760923912.934667,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true
+    },
+    {
+      "motion_text": "Public Works - Conduct Public Hearing and Adopt RESOLUTION Confirming a Diagram and Assessment for Fiscal Year (FY) 2025-26 in Connection with City of Torrance Lighting District No. 99-1. Expenditure: $1,912,828 (General Fund and Non-General Funds)",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Passed",
+      "confidence": 0.99,
+      "agenda_item": "9A",
+      "meeting_id": "14427",
+      "frame_path": "2025_meetings_data/votable_frames_14427/frame_008055.jpg",
+      "frame_name": "frame_008055.jpg",
+      "frame_number": 8055,
+      "extraction_timestamp": 1760923917.268658,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true
+    },
+    {
+      "motion_text": "Public Works - Conduct Public Hearing and Adopt RESOLUTION Confirming a Diagram and Assessment for Fiscal Year (FY) 2025-26 in Connection with City of Torrance Lighting District No. 99-1. Expenditure: $1,912,828 (General Fund and Non-General Funds)",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Passed",
+      "confidence": "High",
+      "agenda_item": "9A",
+      "meeting_id": "14427",
+      "frame_path": "2025_meetings_data/votable_frames_14427/frame_008056.jpg",
+      "frame_name": "frame_008056.jpg",
+      "frame_number": 8056,
+      "extraction_timestamp": 1760923924.0073678,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true
+    },
+    {
+      "motion_text": "Public Works - Conduct Public Hearing and Adopt RESOLUTION Confirming a Diagram and Assessment for Fiscal Year (FY) 2025-26 in Connection with City of Torrance Lighting District No. 99-1. Expenditure: $1,912,828 (General Fund and Non General Funds)",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Passed",
+      "confidence": "High",
+      "agenda_item": "9A",
+      "meeting_id": "14427",
+      "frame_path": "2025_meetings_data/votable_frames_14427/frame_008112.jpg",
+      "frame_name": "frame_008112.jpg",
+      "frame_number": 8112,
+      "extraction_timestamp": 1760923929.2198331,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true
+    },
+    {
+      "motion_text": "Public Works - Conduct Public Hearing and Adopt RESOLUTION Confirming a Diagram and Assessment for Fiscal Year (FY) 2025-26 in Connection with City of Torrance Lighting District No. 99-1. Expenditure: $1,912,828 (General Fund and Non General Funds)",
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Passed",
+      "confidence": 1.0,
+      "agenda_item": "9A",
+      "meeting_id": "14427",
+      "frame_path": "2025_meetings_data/votable_frames_14427/frame_008113.jpg",
+      "frame_name": "frame_008113.jpg",
+      "frame_number": 8113,
+      "extraction_timestamp": 1760923934.535433,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true
+    },
+    {
+      "motion_text": "Conduct Third Public Hearing on Proposed Fiscal Year 2025-27 Operating Budget and Capital Improvement Plan and Adopt RESOLUTIONS Establishing the City's Annual Operating Budget Appropriations, Capital Budget Appropriations, and Appropriations Limit and Selection of Annual Adjustment Factors for Fiscal Year 2025-26",
+      "vote_tally": {
+        "ayes": 6,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Passed",
+      "confidence": "High",
+      "agenda_item": "9B",
+      "ordinance_number": null,
+      "meeting_id": "14427",
+      "frame_path": "2025_meetings_data/votable_frames_14427/frame_008767.jpg",
+      "frame_name": "frame_008767.jpg",
+      "frame_number": 8767,
+      "extraction_timestamp": 1760923940.221823,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true
+    },
+    {
+      "motion_text": "City Manager and Finance - Conduct Third Public Hearing on Proposed Fiscal Year 2025-27 Operating Budget and Capital Improvement Plan and Adopt RESOLUTIONS Establishing the City's Annual Operating Budget Appropriations, Capital Budget Appropriations, and Appropriations Limit and Selection of Annual Adjustment Factors for Fiscal Year 2025-26",
+      "vote_tally": {
+        "ayes": 6,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Passed",
+      "confidence": "High",
+      "agenda_item": "9B",
+      "meeting_id": "14427",
+      "frame_path": "2025_meetings_data/votable_frames_14427/frame_008768.jpg",
+      "frame_name": "frame_008768.jpg",
+      "frame_number": 8768,
+      "extraction_timestamp": 1760923946.822505,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true
+    },
+    {
+      "motion_text": "City Manager and Finance - Conduct Third Public Hearing on Proposed Fiscal Year 2025-27 Operating Budget and Capital Improvement Plan and Adopt RESOLUTIONS Establishing the City's Annual Operating Budget Appropriations, Capital Budget Appropriations, and Appropriations Limit and Selection of Annual Adjustment Factors for Fiscal Year 2025-26",
+      "vote_tally": {
+        "ayes": 6,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Passed",
+      "confidence": 1.0,
+      "agenda_item": "9B",
+      "ordinance_numbers": null,
+      "meeting_id": "14427",
+      "frame_path": "2025_meetings_data/votable_frames_14427/frame_008769.jpg",
+      "frame_name": "frame_008769.jpg",
+      "frame_number": 8769,
+      "extraction_timestamp": 1760923953.020447,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true
+    },
+    {
+      "motion_text": "Conduct Third Public Hearing on Proposed Fiscal Year 2025-27 Operating Budget and Capital Improvement Plan and Adopt RESOLUTIONS Establishing the City's Annual Operating Budget Appropriations, Capital Budget Appropriations, and Appropriations Limit and Selection of Annual Adjustment Factors for Fiscal Year 2025-26",
+      "vote_tally": {
+        "ayes": 6,
+        "noes": 0,
+        "abstentions": 0,
+        "recused": 0
+      },
+      "result": "Passed",
+      "confidence": 0.98,
+      "agenda_item": "9B",
+      "council_member_votes": [
+        {
+          "name": "Gerson",
+          "vote": "Yea"
+        },
+        {
+          "name": "Kaji",
+          "vote": "Yea"
+        },
+        {
+          "name": "Kalani",
+          "vote": "Yea"
+        },
+        {
+          "name": "Lewis",
+          "vote": "Yea"
+        },
+        {
+          "name": "Mattucci",
+          "vote": "Yea"
+        },
+        {
+          "name": "Mayor Chen",
+          "vote": "Yea"
+        }
+      ],
+      "ordinance_number": null,
+      "meeting_id": "14427",
+      "frame_path": "2025_meetings_data/votable_frames_14427/frame_008919.jpg",
+      "frame_name": "frame_008919.jpg",
+      "frame_number": 8919,
+      "extraction_timestamp": 1760923960.2562292,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true
+    },
+    {
+      "motion_text": "Conduct Third Public Hearing on Proposed Fiscal Year 2025-27 Operating Budget and Capital Improvement Plan and Adopt RESOLUTIONS Establishing the City's Annual Operating Budget Appropriations, Capital Budget Appropriations, and Appropriations Limit and Selection of Annual Adjustment Factors for Fiscal Year 2025-26",
+      "vote_tally": {
+        "ayes": 6,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Passed",
+      "confidence": 1.0,
+      "agenda_item": "9B",
+      "meeting_id": "14427",
+      "frame_path": "2025_meetings_data/votable_frames_14427/frame_008920.jpg",
+      "frame_name": "frame_008920.jpg",
+      "frame_number": 8920,
+      "extraction_timestamp": 1760923964.6770601,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true
+    },
+    {
+      "motion_text": "City Manager - Approve Shelter Operations Facility Use Agreement (FUA) with American National Red Cross (Red Cross) and Authorize City Manager as City's Signatory",
+      "vote_tally": {
+        "ayes": 6,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Passed",
+      "confidence": 100,
+      "agenda_item": "10A",
+      "meeting_id": "14427",
+      "frame_path": "2025_meetings_data/votable_frames_14427/frame_009269.jpg",
+      "frame_name": "frame_009269.jpg",
+      "frame_number": 9269,
+      "extraction_timestamp": 1760923971.098146,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true
+    },
+    {
+      "motion_text": "Approve Shelter Operations Facility Use Agreement (FUA) with American National Red Cross (Red Cross) and Authorize City Manager as City's Signatory",
+      "vote_tally": {
+        "ayes": 6,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Passed",
+      "confidence": "High",
+      "agenda_item": "10A",
+      "meeting_id": "14427",
+      "frame_path": "2025_meetings_data/votable_frames_14427/frame_009270.jpg",
+      "frame_name": "frame_009270.jpg",
+      "frame_number": 9270,
+      "extraction_timestamp": 1760923977.961271,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true
+    },
+    {
+      "motion_text": "Police and City Manager - Approve the Memorandum of Agreement Between the Pasadena Police Department and the City of Torrance (Torrance Police Department) Pertaining to Assistance under the Law Enforcement Mutual Aid Plan (LEMA) and Authorize the City Manager to Execute and Administer Agreement and Related Documents.",
+      "vote_tally": {
+        "ayes": 6,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Passed",
+      "confidence": 0.98,
+      "agenda_item": "10B",
+      "meeting_id": "14427",
+      "frame_path": "2025_meetings_data/votable_frames_14427/frame_009422.jpg",
+      "frame_name": "frame_009422.jpg",
+      "frame_number": 9422,
+      "extraction_timestamp": 1760923982.15502,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true
+    },
+    {
+      "motion_text": "Approve the Memorandum of Agreement Between the Pasadena Police Department and the City of Torrance (Torrance Police Department) Pertaining to Assistance under the Law Enforcement Mutual Aid Plan (LEMA) and Authorize the City Manager to Execute and Administer Agreement and Related Documents.",
+      "vote_tally": {
+        "ayes": 6,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Passed",
+      "confidence": 0.98,
+      "agenda_item": "10B",
+      "meeting_id": "14427",
+      "frame_path": "2025_meetings_data/votable_frames_14427/frame_009423.jpg",
+      "frame_name": "frame_009423.jpg",
+      "frame_number": 9423,
+      "extraction_timestamp": 1760923987.617324,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true
+    },
+    {
+      "motion_text": "Fire - Discuss and Consider Amending the Torrance Municipal Code; Determine California Environmental Quality Act (CEQA) Exemption; and Adopt ORDINANCE Adding Article 4, 'Fire Hazard Severity Zones' to Chapter 5 of Division 8 of the Torrance Municipal Code Designating Moderate, High and Very High Fire Hazard Severity Zones Consistent with State Law",
+      "vote_tally": {
+        "ayes": 6,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Pass",
+      "confidence": "High",
+      "agenda_item": "10C",
+      "meeting_id": "14427",
+      "frame_path": "2025_meetings_data/votable_frames_14427/frame_009769.jpg",
+      "frame_name": "frame_009769.jpg",
+      "frame_number": 9769,
+      "extraction_timestamp": 1760923993.3320398,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true
+    },
+    {
+      "motion_text": "Fire - Discuss and Consider Amending the Torrance Municipal Code, Determine California Environmental Quality Act (CEQA) Exemption, and Adopt ORDINANCE Adding Article 4, 'Fire Hazard Severity Zones' to Chapter 5 of Division 8 of the Torrance Municipal Code Designating Moderate, High and Very High Fire Hazard Severity Zones Consistent with State Law",
+      "vote_tally": {
+        "ayes": 6,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Passed",
+      "confidence": "High",
+      "agenda_item": "10C",
+      "meeting_id": "14427",
+      "frame_path": "2025_meetings_data/votable_frames_14427/frame_009770.jpg",
+      "frame_name": "frame_009770.jpg",
+      "frame_number": 9770,
+      "extraction_timestamp": 1760924000.0446248,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true
+    }
+  ],
+  "vote_candidates": [
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14427/frame_006034.jpg",
+      "frame_name": "frame_006034.jpg",
+      "frame_number": 6034,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\nyea [5] nay| 0] abstain [9 | recuse { 0\ncouncilmember kaji ey]\ncouncilmember kalani a\ncouncilmember lewis aian\ncouncilmember mattucci aia\nmayor chen ze\nmotion passes\n",
+      "has_votable_indicators": true,
+      "meeting_id": "14427"
+    },
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14427/frame_006035.jpg",
+      "frame_name": "frame_006035.jpg",
+      "frame_number": 6035,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\nyea | 5| nay! | abstain || recuse | 0\ncouncilmember kaji me\ncouncilmember kalani aa\ncouncilmember lewis an\ncouncilmember mattucci  n/all\nmayor chen =e\nmotion passes\n",
+      "has_votable_indicators": true,
+      "meeting_id": "14427"
+    },
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14427/frame_006036.jpg",
+      "frame_name": "frame_006036.jpg",
+      "frame_number": 6036,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\nyea | 5| nay! 0| abstain || recuse | 0\ncouncilmember kaji ne\ncouncilmember kalani aa\ncouncilmember lewis al\ncouncilmember mattucci all\nmayor chen =e\nmotion passes\n",
+      "has_votable_indicators": true,
+      "meeting_id": "14427"
+    },
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14427/frame_007667.jpg",
+      "frame_name": "frame_007667.jpg",
+      "frame_number": 7667,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\n\nyea | 5| nay! 0| abstain | 9 | recuse | 0\ncouncilmember kaji am\ncouncilmember kalani al\ncouncilmember lewis an\ncouncilmember mattucci all\nmayor chen =e\n\nconsenticalendar\n",
+      "has_votable_indicators": true,
+      "meeting_id": "14427"
+    },
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14427/frame_008055.jpg",
+      "frame_name": "frame_008055.jpg",
+      "frame_number": 8055,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\n\nyea | 5| nay! | abstain || recuse | 0\ncouncilmember kaji wa\ncouncilmember kalani na\ncouncilmember lewis al\ncouncilmember mattucci ill\nmayor chen na\n\nhearings,\n",
+      "has_votable_indicators": true,
+      "meeting_id": "14427"
+    },
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14427/frame_008056.jpg",
+      "frame_name": "frame_008056.jpg",
+      "frame_number": 8056,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\n\nyea | 5| nay! | abstain | 0 | recuse | 0\ncouncilmember kaji we\ncouncilmember kalani na\ncouncilmember lewis nl\ncouncilmember mattucci mill\nmayor chen na\n\nhearings,\n",
+      "has_votable_indicators": true,
+      "meeting_id": "14427"
+    },
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14427/frame_008112.jpg",
+      "frame_name": "frame_008112.jpg",
+      "frame_number": 8112,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\n\nyea | 5 | nay! | abstain || recuse | 0\ncouncilmember kaji me\ncouncilmember kalani nn\ncouncilmember lewis nn\ncouncilmember mattucci ill\nmayor chen aa\n\nhearings\n",
+      "has_votable_indicators": true,
+      "meeting_id": "14427"
+    },
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14427/frame_008113.jpg",
+      "frame_name": "frame_008113.jpg",
+      "frame_number": 8113,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\n\nyea | 5| nay! | abstain || recuse | 0\ncouncilmember kaji asi\ncouncilmember kalani na\ncouncilmember lewis ae\ncouncilmember mattucci nil\nmayor chen ae\n\nhearings\n",
+      "has_votable_indicators": true,
+      "meeting_id": "14427"
+    },
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14427/frame_008767.jpg",
+      "frame_name": "frame_008767.jpg",
+      "frame_number": 8767,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\nyea {6 | nay| 0] abstain | | recuse | 0\ncouncilmember gerson\ncouncilmember kaji nm\ncouncilmember kalani na\ncouncilmember lewis ay\ncouncilmember mattucci al\nmayor chen ma\nhearings\n",
+      "has_votable_indicators": true,
+      "meeting_id": "14427"
+    },
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14427/frame_008768.jpg",
+      "frame_name": "frame_008768.jpg",
+      "frame_number": 8768,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\n\nyea | 6| nay! 0| abstain | 0 | recuse | 0\ncouncilmember gerson al\ncouncilmember kaji wal\ncouncilmember kalani ne\ncouncilmember lewis a\ncouncilmember mattucci [nil\nmayor chen a\n\nhearing",
+      "has_votable_indicators": true,
+      "meeting_id": "14427"
+    },
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14427/frame_008769.jpg",
+      "frame_name": "frame_008769.jpg",
+      "frame_number": 8769,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\nyea | 6| nay! 0| abstain | | recuse | 0\ncouncilmember gerson nia\ncouncilmember kaji al\ncouncilmember kalani aa\ncouncilmember lewis mal\ncouncilmember mattucci mall\nmayor chen \u2122a\nhearings",
+      "has_votable_indicators": true,
+      "meeting_id": "14427"
+    },
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14427/frame_008919.jpg",
+      "frame_name": "frame_008919.jpg",
+      "frame_number": 8919,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\n\nyea | 6 | nay! 0| abstain | 0 | recuse | 0\ncouncilmember gerson\ncouncilmember kaji ma\ncouncilmember kalani ab\ncouncilmember lewis an\ncouncilmember mattucci ll\nmayor chen ey\n\nhearings:\n",
+      "has_votable_indicators": true,
+      "meeting_id": "14427"
+    },
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14427/frame_008920.jpg",
+      "frame_name": "frame_008920.jpg",
+      "frame_number": 8920,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\nyea | 6| nay! 0| abstain | 0 | recuse | 0\ncouncilmember gerson aia\ncouncilmember kaji na\ncouncilmember kalani aa\ncouncilmember lewis mal\ncouncilmember mattucci nall\nmayor chen ma\nhearin",
+      "has_votable_indicators": true,
+      "meeting_id": "14427"
+    },
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14427/frame_009269.jpg",
+      "frame_name": "frame_009269.jpg",
+      "frame_number": 9269,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\nyea | 6| nay! | abstain || recuse | 0\ncouncilmember gerson ni\ncouncilmember kaji wal\ncouncilmember kalani aia\ncouncilmember lewis wal\ncouncilmember mattucci maal\nmayor chen na\nadministr",
+      "has_votable_indicators": true,
+      "meeting_id": "14427"
+    },
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14427/frame_009270.jpg",
+      "frame_name": "frame_009270.jpg",
+      "frame_number": 9270,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\nyea | 6| nay! 0| abstain | 0 | recuse | 0\ncouncilmember gerson ni\ncouncilmember kaji mal\ncouncilmember kalani aia\ncouncilmember lewis mal\ncouncilmember mattucci mal\nmayor chen \u2122al\nadmin",
+      "has_votable_indicators": true,
+      "meeting_id": "14427"
+    },
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14427/frame_009422.jpg",
+      "frame_name": "frame_009422.jpg",
+      "frame_number": 9422,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\nyea | 6 | nay| q| abstain | q | recuse | o\ncouncilmember gerson al\ncouncilmember kaji ha\ncouncilmember kalani nam\ncouncilmember lewis na\ncouncilmember mattucci mall\nmayor chen na\nadmini",
+      "has_votable_indicators": true,
+      "meeting_id": "14427"
+    },
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14427/frame_009423.jpg",
+      "frame_name": "frame_009423.jpg",
+      "frame_number": 9423,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\nyea | 6| nay! | abstain | 0 | recuse | 0\ncouncilmember gerson a\ncouncilmember kaji mal\ncouncilmember kalani a\ncouncilmember lewis mal\ncouncilmember mattucci mall\nmayor chen 7a\nadministr",
+      "has_votable_indicators": true,
+      "meeting_id": "14427"
+    },
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14427/frame_009769.jpg",
+      "frame_name": "frame_009769.jpg",
+      "frame_number": 9769,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\nyea | 6| nay! | abstain || recuse | 0\ncouncilmember gerson a\ncouncilmember kaji mal\ncouncilmember kalani aia\ncouncilmember lewis cy\ncouncilmember mattucci mall\nmayor chen \u2122a\nadministrat",
+      "has_votable_indicators": true,
+      "meeting_id": "14427"
+    },
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14427/frame_009770.jpg",
+      "frame_name": "frame_009770.jpg",
+      "frame_number": 9770,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\nyea | 6| nay! 0| abstain | 9 | recuse | 0\ncouncilmember gerson a\ncouncilmember kaji aa\ncouncilmember kalani bane\ncouncilmember lewis na\ncouncilmember mattucci nil\nmayor chen ey]\nadminis",
+      "has_votable_indicators": true,
+      "meeting_id": "14427"
+    },
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14427/frame_023360.jpg",
+      "frame_name": "frame_023360.jpg",
+      "frame_number": 23360,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\nyea | 6| nay! 0| abstain | 0 | recuse | 0\ncouncilmember gerson aia\ncouncilmember kaji na\ncouncilmember kalani aia\ncouncilmember lewis 2a\ncouncilmember mattucci mall\nmayor chen mal\nadjou",
+      "has_votable_indicators": true,
+      "meeting_id": "14427"
+    }
+  ]
+}

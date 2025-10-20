@@ -1,0 +1,344 @@
+[
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 6,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": "High",
+    "agenda_item": "6B. RESOLUTION NO. 2025-59 honoring Denise Thurston upon her retirement from the City of Torrance after twenty-six years of service (For Adoption Only).",
+    "meeting_id": "14536",
+    "frame_path": "2025_meetings_data/votable_frames_14536/frame_006721.jpg",
+    "frame_name": "frame_006721.jpg",
+    "frame_number": 6721,
+    "extraction_timestamp": 1760789411.63988,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 6721
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 6,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": 1.0,
+    "agenda_item": "6B. RESOLUTION NO. 2025-59 honoring Denise Thurston upon her retirement from the City of Torrance after twenty-six years of service (For Adoption Only).",
+    "meeting_id": "14536",
+    "frame_path": "2025_meetings_data/votable_frames_14536/frame_006722.jpg",
+    "frame_name": "frame_006722.jpg",
+    "frame_number": 6722,
+    "extraction_timestamp": 1760789417.465324,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 6722
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 6,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": 1.0,
+    "agenda_item": "6C. PROCLAMATION declaring the month of October 2025 as Breast Cancer Awareness Month in the City of Torrance, California.",
+    "meeting_id": "14536",
+    "frame_path": "2025_meetings_data/votable_frames_14536/frame_006763.jpg",
+    "frame_name": "frame_006763.jpg",
+    "frame_number": 6763,
+    "extraction_timestamp": 1760789422.321332,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 6763
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 6,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": 1.0,
+    "agenda_item": "6C. PROCLAMATION declaring the month of October 2025 as Breast Cancer Awareness Month in the City of Torrance, California.",
+    "meeting_id": "14536",
+    "frame_path": "2025_meetings_data/votable_frames_14536/frame_006764.jpg",
+    "frame_name": "frame_006764.jpg",
+    "frame_number": 6764,
+    "extraction_timestamp": 1760789426.988308,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 6764
+  },
+  {
+    "motion_text": "Approval of the Consent Calendar, including all matters listed therein, to be enacted by one motion and one vote.",
+    "vote_tally": {
+      "ayes": 6,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Passed",
+    "confidence": "High",
+    "agenda_item": "8F. Finance \u2013 Appropriate 2016 Certificate of Participation (COP) Bond Funds. Expenditure: None.",
+    "meeting_id": "14536",
+    "frame_path": "2025_meetings_data/votable_frames_14536/frame_009136.jpg",
+    "frame_name": "frame_009136.jpg",
+    "frame_number": 9136,
+    "extraction_timestamp": 1760789431.661338,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 9136
+  },
+  {
+    "motion_text": "Consent Calendar",
+    "vote_tally": {
+      "ayes": 6,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Passed",
+    "confidence": "High",
+    "agenda_item": "8F. Finance \u2013 Appropriate 2016 Certificate of Participation (COP) Bond Funds. Expenditure: None.",
+    "meeting_id": "14536",
+    "frame_path": "2025_meetings_data/votable_frames_14536/frame_009137.jpg",
+    "frame_name": "frame_009137.jpg",
+    "frame_number": 9137,
+    "extraction_timestamp": 1760789436.166251,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 9137
+  },
+  {
+    "motion_text": "To approve all matters listed under the Consent Calendar.",
+    "vote_tally": {
+      "ayes": 6,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Pass",
+    "confidence": "High",
+    "agenda_item": "8F. Finance \u2013 Appropriate 2016 Certificate of Participation (COP) Bond Funds. Expenditure: None.",
+    "meeting_id": "14536",
+    "frame_path": "2025_meetings_data/votable_frames_14536/frame_009138.jpg",
+    "frame_name": "frame_009138.jpg",
+    "frame_number": 9138,
+    "extraction_timestamp": 1760789444.104243,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 9138
+  },
+  {
+    "motion_text": "Approval of the Consent Calendar.",
+    "vote_tally": {
+      "ayes": 6,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Passed",
+    "confidence": 0.9,
+    "agenda_item": "8F. Finance \u2013 Appropriate 2016 Certificate of Participation (COP) Bond Funds. Expenditure: None.",
+    "meeting_id": "14536",
+    "frame_path": "2025_meetings_data/votable_frames_14536/frame_009347.jpg",
+    "frame_name": "frame_009347.jpg",
+    "frame_number": 9347,
+    "extraction_timestamp": 1760789453.145768,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 9347
+  },
+  {
+    "motion_text": "City Council Ad Hoc Naming of Public Facilities Committee and City Manager. Accept and File Ad Hoc Naming of Public Facilities Committee Meeting Minutes and Discuss and Provide Direction on Renaming Columbia Park.",
+    "vote_tally": {
+      "ayes": 2,
+      "noes": 4,
+      "abstentions": 0
+    },
+    "result": "Fails",
+    "confidence": 1.0,
+    "agenda_item": "10A. City Council Ad Hoc Naming of Public Facilities Committee and City Manager \u2013 Accept and File Ad Hoc Naming of Public Facilities Committee Meeting Minutes and Discuss and Provide Direction on Renaming Columbia Park. Expenditure: None.",
+    "meeting_id": "14536",
+    "frame_path": "2025_meetings_data/votable_frames_14536/frame_009910.jpg",
+    "frame_name": "frame_009910.jpg",
+    "frame_number": 9910,
+    "extraction_timestamp": 1760789458.749505,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 9910
+  },
+  {
+    "motion_text": "City Council Ad Hoc Naming of Public Facilities Committee and City Manager. Accept and File Ad Hoc Naming of Public Facilities Committee Meeting Minutes and Discuss and Provide Direction on Renaming Columbia Park.",
+    "vote_tally": {
+      "ayes": 2,
+      "noes": 4,
+      "abstentions": 0
+    },
+    "result": "Failed",
+    "confidence": "High",
+    "agenda_item": "10A. City Council Ad Hoc Naming of Public Facilities Committee and City Manager \u2013 Accept and File Ad Hoc Naming of Public Facilities Committee Meeting Minutes and Discuss and Provide Direction on Renaming Columbia Park. Expenditure: None.",
+    "meeting_id": "14536",
+    "frame_path": "2025_meetings_data/votable_frames_14536/frame_009911.jpg",
+    "frame_name": "frame_009911.jpg",
+    "frame_number": 9911,
+    "extraction_timestamp": 1760789462.985058,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 9911
+  },
+  {
+    "motion_text": "City Council Ad Hoc Naming of Public Facilities Committee and City Manager. Accept and File Ad Hoc Naming of Public Facilities Committee Meeting Minutes and Discuss and Provide Direction on Renaming Columbia Park.",
+    "vote_tally": {
+      "ayes": 2,
+      "noes": 4,
+      "abstentions": 0
+    },
+    "result": "FAILED",
+    "confidence": "High",
+    "agenda_item": "10A. City Council Ad Hoc Naming of Public Facilities Committee and City Manager \u2013 Accept and File Ad Hoc Naming of Public Facilities Committee Meeting Minutes and Discuss and Provide Direction on Renaming Columbia Park. Expenditure: None.",
+    "meeting_id": "14536",
+    "frame_path": "2025_meetings_data/votable_frames_14536/frame_009912.jpg",
+    "frame_name": "frame_009912.jpg",
+    "frame_number": 9912,
+    "extraction_timestamp": 1760789467.88784,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 9912
+  },
+  {
+    "motion_text": "City Council Ad Hoc Naming of Public Facilities Committee and City Manager. Accept and File Ad Hoc Naming of Public Facilities Committee Meeting Minutes and Discuss and Provide Direction on Renaming Columbia Park.",
+    "vote_tally": {
+      "ayes": 5,
+      "noes": 1,
+      "abstentions": 0
+    },
+    "result": "Passed",
+    "confidence": "High",
+    "agenda_item": "10A. City Council Ad Hoc Naming of Public Facilities Committee and City Manager \u2013 Accept and File Ad Hoc Naming of Public Facilities Committee Meeting Minutes and Discuss and Provide Direction on Renaming Columbia Park. Expenditure: None.",
+    "meeting_id": "14536",
+    "frame_path": "2025_meetings_data/votable_frames_14536/frame_010859.jpg",
+    "frame_name": "frame_010859.jpg",
+    "frame_number": 10859,
+    "extraction_timestamp": 1760789473.539965,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 10859
+  },
+  {
+    "motion_text": "City Council Ad Hoc Naming of Public Facilities Committee and City Manager. Accept and File Ad Hoc Naming of Public Facilities Committee Meeting Minutes and Discuss and Provide Direction on Renaming Columbia Park.",
+    "vote_tally": {
+      "ayes": 5,
+      "noes": 1,
+      "abstentions": 0
+    },
+    "result": "Passed",
+    "confidence": 0.98,
+    "agenda_item": "10A. City Council Ad Hoc Naming of Public Facilities Committee and City Manager \u2013 Accept and File Ad Hoc Naming of Public Facilities Committee Meeting Minutes and Discuss and Provide Direction on Renaming Columbia Park. Expenditure: None.",
+    "meeting_id": "14536",
+    "frame_path": "2025_meetings_data/votable_frames_14536/frame_010860.jpg",
+    "frame_name": "frame_010860.jpg",
+    "frame_number": 10860,
+    "extraction_timestamp": 1760789477.097919,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 10860
+  },
+  {
+    "motion_text": "Accept and File Ad Hoc Naming of Public Facilities Committee Meeting Minutes and Discuss and Provide Direction on Renaming Columbia Park.",
+    "vote_tally": {
+      "ayes": 5,
+      "noes": 1,
+      "abstentions": 0
+    },
+    "result": "Passed",
+    "confidence": "High",
+    "agenda_item": "10A. City Council Ad Hoc Naming of Public Facilities Committee and City Manager \u2013 Accept and File Ad Hoc Naming of Public Facilities Committee Meeting Minutes and Discuss and Provide Direction on Renaming Columbia Park. Expenditure: None.",
+    "meeting_id": "14536",
+    "frame_path": "2025_meetings_data/votable_frames_14536/frame_010861.jpg",
+    "frame_name": "frame_010861.jpg",
+    "frame_number": 10861,
+    "extraction_timestamp": 1760789483.287671,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 10861
+  },
+  {
+    "motion_text": "City Manager - Discuss and Provide Direction on Request for Subsidy of Rental Fees for Use of the Toyota Meeting Hall and James Armstrong Theatre for World War II Camp Memorial Fundraising Event. Expenditure: $1,200 (General Fund)",
+    "vote_tally": {
+      "ayes": 6,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Passed",
+    "confidence": 0.98,
+    "agenda_item": "10B. City Manager \u2013 Discuss and Provide Direction on Request for Subsidy of Rental Fees for Use of the Toyota Meeting Hall and James Armstrong Theatre for World War II Camp Memorial Fundraising Event. Expenditure: $1,200 (General Fund).",
+    "meeting_id": "14536",
+    "frame_path": "2025_meetings_data/votable_frames_14536/frame_012190.jpg",
+    "frame_name": "frame_012190.jpg",
+    "frame_number": 12190,
+    "extraction_timestamp": 1760789487.573994,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 12190
+  },
+  {
+    "motion_text": "City Manager - Discuss and Provide Direction on Request for Subsidy of Rental Fees for Use of the Toyota Meeting Hall and James Armstrong Theatre for World War II Camp Memorial Fundraising Event. Expenditure: $1,200 (General Fund)",
+    "vote_tally": {
+      "ayes": 6,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Passed",
+    "confidence": "High",
+    "agenda_item": "10B. City Manager \u2013 Discuss and Provide Direction on Request for Subsidy of Rental Fees for Use of the Toyota Meeting Hall and James Armstrong Theatre for World War II Camp Memorial Fundraising Event. Expenditure: $1,200 (General Fund).",
+    "meeting_id": "14536",
+    "frame_path": "2025_meetings_data/votable_frames_14536/frame_012191.jpg",
+    "frame_name": "frame_012191.jpg",
+    "frame_number": 12191,
+    "extraction_timestamp": 1760789491.4212859,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 12191
+  },
+  {
+    "motion_text": "Adjournment of City Council meeting to Tuesday, October 14, 2025, at 5:00 p.m. for closed session in the LeRoy J. Jackson Council Chamber",
+    "vote_tally": {
+      "ayes": 5,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Passed",
+    "confidence": "High",
+    "agenda_item": "14. ADJOURNMENT Adjournment of City Council meeting to Tuesday, October 14, 2025, at 5:00 p.m. for closed session in the LeRoy J. Jackson Council Chamber.",
+    "meeting_id": "14536",
+    "frame_path": "2025_meetings_data/votable_frames_14536/frame_018874.jpg",
+    "frame_name": "frame_018874.jpg",
+    "frame_number": 18874,
+    "extraction_timestamp": 1760789495.1692228,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 18874
+  },
+  {
+    "motion_text": "Adjournment of City Council meeting to Tuesday, October 14, 2025, at 5:00 p.m. for closed session in the LeRoy J. Jackson Council Chamber",
+    "vote_tally": {
+      "ayes": 5,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Passed",
+    "confidence": "High",
+    "agenda_item": "14. ADJOURNMENT Adjournment of City Council meeting to Tuesday, October 14, 2025, at 5:00 p.m. for closed session in the LeRoy J. Jackson Council Chamber.",
+    "meeting_id": "14536",
+    "frame_path": "2025_meetings_data/votable_frames_14536/frame_018875.jpg",
+    "frame_name": "frame_018875.jpg",
+    "frame_number": 18875,
+    "extraction_timestamp": 1760789499.418685,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 18875
+  }
+]
