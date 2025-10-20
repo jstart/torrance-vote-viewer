@@ -269,11 +269,11 @@ class TorranceVoteViewer {
 
                 <div class="stats-grid" style="margin-top: 1rem;">
                     <div class="stat-card">
-                        <div class="stat-number">${meeting.vote_results.passed}</div>
+                        <div class="stat-number">${votes.filter(v => v.result && v.result.toLowerCase().includes('pass')).length}</div>
                         <div class="stat-label">Passed</div>
                     </div>
                     <div class="stat-card">
-                        <div class="stat-number">${meeting.vote_results.failed}</div>
+                        <div class="stat-number">${votes.filter(v => v.result && v.result.toLowerCase().includes('fail')).length}</div>
                         <div class="stat-label">Failed</div>
                     </div>
                 </div>
