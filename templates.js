@@ -22,6 +22,9 @@ class VoteViewerTemplates {
                     <a href="#/meeting/${meeting.id}" class="meeting-link" onclick="event.stopPropagation();">View Votes</a>
                     ${meeting.video_url ? `<a href="${meeting.video_url}" target="_blank" class="meeting-link" onclick="event.stopPropagation();">📹 Watch Video</a>` : ''}
                     ${meeting.agenda_url ? `<a href="${meeting.agenda_url}" target="_blank" class="meeting-link" onclick="event.stopPropagation();">📋 View Agenda</a>` : ''}
+                    <button onclick="event.stopPropagation(); app.copyVoteLink('${meeting.id}', '')" class="btn btn-small" title="Copy link to this meeting">
+                        🔗 Copy Link
+                    </button>
                 </div>
             </div>
         `;
@@ -67,6 +70,9 @@ class VoteViewerTemplates {
                 <div class="meeting-links">
                     ${meeting.video_url ? `<a href="${meeting.video_url}" target="_blank" class="meeting-link">📹 Watch Video</a>` : ''}
                     ${meeting.agenda_url ? `<a href="${meeting.agenda_url}" target="_blank" class="meeting-link">📋 View Agenda</a>` : ''}
+                    <button onclick="app.copyVoteLink('${meeting.id}', '')" class="btn btn-small" title="Copy link to this meeting">
+                        🔗 Copy Link
+                    </button>
                 </div>
 
                 <div class="stats-grid meeting-stats-grid">
@@ -140,9 +146,6 @@ class VoteViewerTemplates {
                     ${videoDeepLink ? `<a href="${videoDeepLink}" target="_blank" class="meeting-link">📹 Watch at ${timestamp}</a>` : ''}
                     ${agendaDeepLink ? `<a href="${agendaDeepLink}" target="_blank" class="meeting-link">📋 View Agenda Item</a>` : ''}
                     ${vote.video_url ? `<a href="${vote.video_url}" target="_blank" class="meeting-link">📺 Full Video</a>` : ''}
-                    <button onclick="app.copyVoteLink('${vote.meeting_id}', '${vote.agenda_item?.replace(/'/g, "\\'")}')" class="btn btn-small" title="Copy link to this vote">
-                        🔗 Copy Link
-                    </button>
                 </div>
             </div>
         `;

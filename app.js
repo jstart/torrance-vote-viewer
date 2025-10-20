@@ -39,11 +39,11 @@ class TorranceVoteViewer {
     }
 
     async loadData() {
-        console.log('Loading data from torrance_votes_smart_consolidated.json...');
+      console.log('Loading data from torrance_votes_smart_consolidated.json...');
         // Use absolute path to avoid issues with different base paths
         const dataPath = window.location.pathname.includes('/') && !window.location.pathname.endsWith('/')
-            ? '/data/torrance_votes_smart_consolidated.json'
-            : 'data/torrance_votes_smart_consolidated.json';
+          ? '/data/torrance_votes_smart_consolidated.json'
+          : 'data/torrance_votes_smart_consolidated.json';
         console.log('Using data path:', dataPath);
 
         // Add cache-busting parameter
@@ -54,13 +54,10 @@ class TorranceVoteViewer {
             throw new Error(`Failed to load data: ${response.status} ${response.statusText}`);
         }
         this.data = await response.json();
-        console.log('Data loaded successfully:', this.data.metadata);
+      console.log('Data loaded successfully');
+      console.log('Meetings count:', Object.keys(this.data.meetings || {}).length);
         console.log('Has meeting_summaries:', 'meeting_summaries' in this.data);
-        console.log('Has councilmember_summaries:', 'councilmember_summaries' in this.data);
-        console.log('Has councilmember_stats:', 'councilmember_stats' in this.data);
-        console.log('Votes with individual data:', this.data.votes?.filter(v => v.individual_votes)?.length || 0);
-        console.log('Meeting summaries count:', Object.keys(this.data.meeting_summaries || {}).length);
-        console.log('Councilmember summaries count:', Object.keys(this.data.councilmember_summaries || {}).length);
+      console.log('Has councilmember_summaries:', 'councilmember_summaries' in this.data);
     }
 
     setupRouting() {
@@ -370,10 +367,10 @@ class TorranceVoteViewer {
         const fullNames = {
             'george_chen': 'George Chen',
             'mike_gerson': 'Mike Gerson',
-            'jon_kaji': 'Jon Kaji',
+          'jon_kaji': 'Jon Kaji',
             'sharon_kalani': 'Sharon Kalani',
-            'asam_shaikh': 'Asam Shaikh',
-            'mattucci': 'Mattucci'
+          'asam_shaikh': 'Asam Shaikh',
+          'mattucci': 'Mattucci'
         };
 
       // Separate mayors (George Chen is the mayor)
@@ -549,63 +546,56 @@ class TorranceVoteViewer {
 
     showCouncilmember(councilmemberId) {
         // Get councilmembers from the array and create objects with stats
-        const councilmemberNames = this.data.councilmembers || [];
-        const councilmembers = councilmemberNames.map(name => ({
-            id: name.toLowerCase(),
-            display_name: name,
-            total_votes: this.data.councilmember_stats?.[name]?.total_votes || 0,
-            yes_votes: this.data.councilmember_stats?.[name]?.yes_votes || 0,
-            no_votes: this.data.councilmember_stats?.[name]?.no_votes || 0
-        }));
+      const councilmemberNames = this.data.councilmembers || [];
 
-        const councilmember = councilmembers.find(cm => cm.id === councilmemberId);
+      // Find the councilmember by converting names to IDs and matching
+      const councilmember = councilmemberNames.find(name => {
+        const id = name.toLowerCase().replace(/\s+/g, '_');
+        return id === councilmemberId;
+      });
+
         if (!councilmember) {
             this.showError('Councilmember not found');
             return;
         }
 
-        // Define full names
-        const fullNames = {
-            'chen': 'Chen',
-            'gerson': 'Gerson',
-            'kaji': 'Kaji',
-            'kalani': 'Kalani',
-            'lewis': 'Lewis',
-            'mattucci': 'Mattucci',
-            'sheikh': 'Sheikh'
+      const councilmemberObj = {
+        id: councilmemberId,
+        display_name: councilmember,
+        total_votes: this.data.councilmember_stats?.[councilmember]?.total_votes || 0,
+        yes_votes: this.data.councilmember_stats?.[councilmember]?.yes_votes || 0,
+        no_votes: this.data.councilmember_stats?.[councilmember]?.no_votes || 0
         };
 
-        const fullName = fullNames[councilmemberId] || councilmember.display_name;
+      // Filter votes for this councilmember
         const votes = this.data.votes.filter(vote =>
             vote.individual_votes &&
-            vote.individual_votes.some(vote_detail =>
-                (vote_detail.name || '').toLowerCase() === councilmember.display_name.toLowerCase()
-            )
+          vote.individual_votes[councilmember] !== undefined
         );
 
         // Get councilmember summary if available
-        const councilmemberSummary = this.data.councilmember_summaries && this.data.councilmember_summaries[fullName];
-        console.log('Councilmember summary for', councilmemberId, '->', fullName, ':', councilmemberSummary);
+      const councilmemberSummary = this.data.councilmember_summaries && this.data.councilmember_summaries[councilmember];
+      console.log('Councilmember summary for', councilmemberId, '->', councilmember, ':', councilmemberSummary);
 
         const content = `
             <div class="breadcrumb">
-                <a href="#/councilmembers">Councilmembers</a> > ${fullName}
+                <a href="#/councilmembers">Councilmembers</a> > ${councilmember}
             </div>
 
             <div class="councilmember-card">
                 <div class="councilmember-header">
-                    <div class="councilmember-name-large">${fullName}</div>
+                    <div class="councilmember-name-large">${councilmember}</div>
                     <div class="councilmember-stats-horizontal">
                         <div class="councilmember-stat">
-                            <div class="stat-number">${councilmember.total_votes}</div>
+                            <div class="stat-number">${councilmemberObj.total_votes}</div>
                             <div class="stat-label">Total Votes</div>
                         </div>
                         <div class="councilmember-stat">
-                            <div class="stat-number">${councilmember.yes_votes}</div>
+                            <div class="stat-number">${councilmemberObj.yes_votes}</div>
                             <div class="stat-label">Voted Yes</div>
                         </div>
                         <div class="councilmember-stat">
-                            <div class="stat-number">${councilmember.no_votes}</div>
+                            <div class="stat-number">${councilmemberObj.no_votes}</div>
                             <div class="stat-label">Voted No</div>
                         </div>
                     </div>
@@ -662,8 +652,14 @@ class TorranceVoteViewer {
     }
 
     showYear(year) {
-        const meetings = Object.values(this.data.meetings).filter(meeting => meeting.year === year);
-        const votes = this.data.votes.filter(vote => vote.year === year);
+      const yearInt = parseInt(year);
+      const votes = this.data.votes.filter(vote => vote.year === yearInt);
+
+      // Get meetings that have votes in this year
+      const meetingIdsWithVotes = [...new Set(votes.map(vote => vote.meeting_id))];
+      const meetings = Object.values(this.data.meetings).filter(meeting =>
+        meetingIdsWithVotes.includes(meeting.id)
+      );
 
         const content = `
             <div class="breadcrumb">
