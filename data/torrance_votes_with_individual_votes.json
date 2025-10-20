@@ -1318,74 +1318,116 @@
   },
   "councilmember_summaries": {
     "Chen": {
+      "summary": "Chen serves as mayor of the Torrance City Council. Based on available voting records, Chen has participated in 2 recorded votes, showing a consistently supportive approach to council decisions. Voted 'Yes' on 2 motions, Key areas of focus include 9C. Planning Commission and Community Development \u2013 Conduct a Public Hearing and Consider Adoption of RESOLUTION for the Denial of a Modification (MOD23-00010) of a Previously Approved Division of Lot (DIV14-00006) to Amend an Open Space Easement (Note A, 10D. City Manager \u2013 Accept and File Economic Development Update and Consider and Provide Direction on Proposed Economic Development Initiatives. Expenditure: None..",
       "role": "Mayor",
-      "full_name": "George Chen",
-      "summary": "Mayor of Torrance. Limited individual voting data available in current dataset, but serves as the presiding officer of the City Council.",
       "notes": [
-        "Serves as Mayor and presiding officer",
-        "Limited individual vote records in current data",
-        "Most votes show only tally results, not individual positions"
-      ]
+        "Participated in 2 recorded votes",
+        "Voted 'Yes' on 2 motions",
+        "Voted on 2 different agenda items"
+      ],
+      "voting_stats": {
+        "total_votes": 2,
+        "yes_votes": 2,
+        "no_votes": 0,
+        "abstentions": 0,
+        "agenda_items_count": 2
+      }
     },
     "Gerson": {
+      "summary": "Gerson serves as councilmember of the Torrance City Council. Based on available voting records, Gerson has participated in 2 recorded votes, showing a consistently supportive approach to council decisions. Voted 'Yes' on 2 motions, Key areas of focus include 9C. Planning Commission and Community Development \u2013 Conduct a Public Hearing and Consider Adoption of RESOLUTION for the Denial of a Modification (MOD23-00010) of a Previously Approved Division of Lot (DIV14-00006) to Amend an Open Space Easement (Note A, 10D. City Manager \u2013 Accept and File Economic Development Update and Consider and Provide Direction on Proposed Economic Development Initiatives. Expenditure: None..",
       "role": "Councilmember",
-      "full_name": "Councilmember Gerson",
-      "summary": "City Councilmember. Limited individual voting data available in current dataset. Most votes show only tally results rather than individual positions.",
       "notes": [
-        "City Councilmember",
-        "Limited individual vote records in current data",
-        "Most votes show only tally results, not individual positions"
-      ]
+        "Participated in 2 recorded votes",
+        "Voted 'Yes' on 2 motions",
+        "Voted on 2 different agenda items"
+      ],
+      "voting_stats": {
+        "total_votes": 2,
+        "yes_votes": 2,
+        "no_votes": 0,
+        "abstentions": 0,
+        "agenda_items_count": 2
+      }
     },
     "Kaji": {
+      "summary": "Kaji serves as councilmember of the Torrance City Council. Based on available voting records, Kaji has participated in 2 recorded votes, showing a consistently supportive approach to council decisions. Voted 'Yes' on 2 motions, Key areas of focus include 9C. Planning Commission and Community Development \u2013 Conduct a Public Hearing and Consider Adoption of RESOLUTION for the Denial of a Modification (MOD23-00010) of a Previously Approved Division of Lot (DIV14-00006) to Amend an Open Space Easement (Note A, 10D. City Manager \u2013 Accept and File Economic Development Update and Consider and Provide Direction on Proposed Economic Development Initiatives. Expenditure: None..",
       "role": "Councilmember",
-      "full_name": "Councilmember Kaji",
-      "summary": "City Councilmember. Limited individual voting data available in current dataset. Most votes show only tally results rather than individual positions.",
       "notes": [
-        "City Councilmember",
-        "Limited individual vote records in current data",
-        "Most votes show only tally results, not individual positions"
-      ]
+        "Participated in 2 recorded votes",
+        "Voted 'Yes' on 2 motions",
+        "Voted on 2 different agenda items"
+      ],
+      "voting_stats": {
+        "total_votes": 2,
+        "yes_votes": 2,
+        "no_votes": 0,
+        "abstentions": 0,
+        "agenda_items_count": 2
+      }
     },
     "Kalani": {
+      "summary": "Kalani serves as councilmember of the Torrance City Council. Based on available voting records, Kalani has participated in 2 recorded votes, showing a consistently supportive approach to council decisions. Voted 'Yes' on 2 motions, Key areas of focus include 9C. Planning Commission and Community Development \u2013 Conduct a Public Hearing and Consider Adoption of RESOLUTION for the Denial of a Modification (MOD23-00010) of a Previously Approved Division of Lot (DIV14-00006) to Amend an Open Space Easement (Note A, 10D. City Manager \u2013 Accept and File Economic Development Update and Consider and Provide Direction on Proposed Economic Development Initiatives. Expenditure: None..",
       "role": "Councilmember",
-      "full_name": "Councilmember Kalani",
-      "summary": "City Councilmember. Limited individual voting data available in current dataset. Most votes show only tally results rather than individual positions.",
       "notes": [
-        "City Councilmember",
-        "Limited individual vote records in current data",
-        "Most votes show only tally results, not individual positions"
-      ]
+        "Participated in 2 recorded votes",
+        "Voted 'Yes' on 2 motions",
+        "Voted on 2 different agenda items"
+      ],
+      "voting_stats": {
+        "total_votes": 2,
+        "yes_votes": 2,
+        "no_votes": 0,
+        "abstentions": 0,
+        "agenda_items_count": 2
+      }
     },
     "Lewis": {
+      "summary": "Lewis serves as councilmember of the Torrance City Council. Based on available voting records, Lewis has participated in 2 recorded votes, showing a consistently supportive approach to council decisions. Voted 'Yes' on 2 motions, Key areas of focus include 9C. Planning Commission and Community Development \u2013 Conduct a Public Hearing and Consider Adoption of RESOLUTION for the Denial of a Modification (MOD23-00010) of a Previously Approved Division of Lot (DIV14-00006) to Amend an Open Space Easement (Note A, 10D. City Manager \u2013 Accept and File Economic Development Update and Consider and Provide Direction on Proposed Economic Development Initiatives. Expenditure: None..",
       "role": "Councilmember",
-      "full_name": "Councilmember Lewis",
-      "summary": "City Councilmember. Limited individual voting data available in current dataset. Most votes show only tally results rather than individual positions.",
       "notes": [
-        "City Councilmember",
-        "Limited individual vote records in current data",
-        "Most votes show only tally results, not individual positions"
-      ]
+        "Participated in 2 recorded votes",
+        "Voted 'Yes' on 2 motions",
+        "Voted on 2 different agenda items"
+      ],
+      "voting_stats": {
+        "total_votes": 2,
+        "yes_votes": 2,
+        "no_votes": 0,
+        "abstentions": 0,
+        "agenda_items_count": 2
+      }
     },
     "Mattucci": {
+      "summary": "Mattucci serves as councilmember of the Torrance City Council. Based on available voting records, Mattucci has participated in 2 recorded votes, showing a consistently supportive approach to council decisions. Voted 'Yes' on 2 motions, Key areas of focus include 9C. Planning Commission and Community Development \u2013 Conduct a Public Hearing and Consider Adoption of RESOLUTION for the Denial of a Modification (MOD23-00010) of a Previously Approved Division of Lot (DIV14-00006) to Amend an Open Space Easement (Note A, 10D. City Manager \u2013 Accept and File Economic Development Update and Consider and Provide Direction on Proposed Economic Development Initiatives. Expenditure: None..",
       "role": "Councilmember",
-      "full_name": "Councilmember Mattucci",
-      "summary": "City Councilmember. Limited individual voting data available in current dataset. Most votes show only tally results rather than individual positions.",
       "notes": [
-        "City Councilmember",
-        "Limited individual vote records in current data",
-        "Most votes show only tally results, not individual positions"
-      ]
+        "Participated in 2 recorded votes",
+        "Voted 'Yes' on 2 motions",
+        "Voted on 2 different agenda items"
+      ],
+      "voting_stats": {
+        "total_votes": 2,
+        "yes_votes": 2,
+        "no_votes": 0,
+        "abstentions": 0,
+        "agenda_items_count": 2
+      }
     },
     "Sheikh": {
+      "summary": "Sheikh serves as councilmember of the Torrance City Council. Based on available voting records, Sheikh has participated in 2 recorded votes, showing a consistently supportive approach to council decisions. Voted 'Yes' on 2 motions, Key areas of focus include 9C. Planning Commission and Community Development \u2013 Conduct a Public Hearing and Consider Adoption of RESOLUTION for the Denial of a Modification (MOD23-00010) of a Previously Approved Division of Lot (DIV14-00006) to Amend an Open Space Easement (Note A, 10D. City Manager \u2013 Accept and File Economic Development Update and Consider and Provide Direction on Proposed Economic Development Initiatives. Expenditure: None..",
       "role": "Councilmember",
-      "full_name": "Councilmember Sheikh",
-      "summary": "City Councilmember. Limited individual voting data available in current dataset. Most votes show only tally results rather than individual positions.",
       "notes": [
-        "City Councilmember",
-        "Limited individual vote records in current data",
-        "Most votes show only tally results, not individual positions"
-      ]
+        "Participated in 2 recorded votes",
+        "Voted 'Yes' on 2 motions",
+        "Voted on 2 different agenda items"
+      ],
+      "voting_stats": {
+        "total_votes": 2,
+        "yes_votes": 2,
+        "no_votes": 0,
+        "abstentions": 0,
+        "agenda_items_count": 2
+      }
     }
   },
   "councilmember_stats": {
