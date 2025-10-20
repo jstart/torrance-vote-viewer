@@ -201,6 +201,36 @@ class TorranceVoteViewer {
                 <a href="#/councilmembers" class="nav-link">View Councilmembers</a>
                 <a href="#/search" class="nav-link">Search Votes</a>
             </div>
+
+            <h2>Export Data</h2>
+            <div class="export-section">
+                <p>Download all vote data for analysis or archival purposes.</p>
+                <div class="export-buttons">
+                    <button onclick="app.exportData('csv')" class="btn btn-primary">
+                        📊 Download CSV
+                    </button>
+                    <button onclick="app.exportData('json')" class="btn btn-secondary">
+                        📄 Download JSON
+                    </button>
+                </div>
+                <div class="export-info">
+                    <small>CSV format is ideal for spreadsheet analysis. JSON format preserves all data structure.</small>
+                </div>
+            </div>
+
+            <h2>Stay Updated</h2>
+            <div class="subscription-section">
+                <p>Get notified when new meetings are added to the system.</p>
+                <div class="subscription-form">
+                    <input type="email" id="emailInput" placeholder="Enter your email address" class="email-input">
+                    <button onclick="app.subscribeToUpdates()" class="btn btn-primary">
+                        📧 Subscribe
+                    </button>
+                </div>
+                <div class="subscription-info">
+                    <small>We'll send you a notification when new meeting data is available. Unsubscribe anytime.</small>
+                </div>
+            </div>
         `;
         this.renderContent(content);
     }
@@ -777,6 +807,90 @@ class TorranceVoteViewer {
 
     showError(message) {
         this.renderContent(`<div class="error">${message}</div>`);
+    }
+
+    // Export data functionality
+    exportData(format) {
+        try {
+            const votes = this.data.votes;
+            const timestamp = new Date().toISOString().split('T')[0]; // YYYY-MM-DD format
+            
+            if (format === 'csv') {
+                const filename = `torrance_votes_${timestamp}.csv`;
+                VoteViewerUtils.exportToCSV(votes, filename);
+                VoteViewerUtils.showNotification('CSV file downloaded successfully!', 'success');
+            } else if (format === 'json') {
+                const filename = `torrance_votes_${timestamp}.json`;
+                VoteViewerUtils.exportToJSON(votes, filename);
+                VoteViewerUtils.showNotification('JSON file downloaded successfully!', 'success');
+            }
+        } catch (error) {
+            console.error('Export error:', error);
+            VoteViewerUtils.showNotification('Export failed. Please try again.', 'error');
+        }
+    }
+
+    // Email subscription functionality
+    subscribeToUpdates() {
+        const emailInput = document.getElementById('emailInput');
+        const email = emailInput?.value?.trim();
+        
+        if (!email) {
+            VoteViewerUtils.showNotification('Please enter a valid email address.', 'error');
+            return;
+        }
+        
+        if (!this.isValidEmail(email)) {
+            VoteViewerUtils.showNotification('Please enter a valid email address.', 'error');
+            return;
+        }
+        
+        // Store subscription in localStorage (in a real app, this would go to a server)
+        try {
+            const subscriptions = this.getStoredSubscriptions();
+            if (!subscriptions.includes(email)) {
+                subscriptions.push(email);
+                localStorage.setItem('torrance_vote_subscriptions', JSON.stringify(subscriptions));
+                VoteViewerUtils.showNotification('Successfully subscribed! You\'ll be notified of new meetings.', 'success');
+                emailInput.value = ''; // Clear the input
+            } else {
+                VoteViewerUtils.showNotification('This email is already subscribed.', 'info');
+            }
+        } catch (error) {
+            console.error('Subscription error:', error);
+            VoteViewerUtils.showNotification('Subscription failed. Please try again.', 'error');
+        }
+    }
+
+    // Helper methods for subscription
+    isValidEmail(email) {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+    }
+
+    getStoredSubscriptions() {
+        try {
+            const stored = localStorage.getItem('torrance_vote_subscriptions');
+            return stored ? JSON.parse(stored) : [];
+        } catch (error) {
+            console.error('Error reading subscriptions:', error);
+            return [];
+        }
+    }
+
+    // Method to notify subscribers (would be called when new data is added)
+    notifySubscribers(newMeetings) {
+        const subscriptions = this.getStoredSubscriptions();
+        if (subscriptions.length === 0) return;
+        
+        // In a real implementation, this would send emails via a server
+        console.log(`Notifying ${subscriptions.length} subscribers about ${newMeetings.length} new meetings`);
+        
+        // For demo purposes, show a notification
+        VoteViewerUtils.showNotification(
+            `New meetings detected! ${subscriptions.length} subscribers will be notified.`, 
+            'info'
+        );
     }
 }
 

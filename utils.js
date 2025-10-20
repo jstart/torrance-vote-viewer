@@ -11,17 +11,104 @@ class VoteViewerUtils {
         return text.replace(/(https?:\/\/[^\s]+)/g, '<a href="$1" target="_blank" class="link-style">$1</a>');
     }
 
-  // Format timestamp from seconds to H:MM:SS (matching video player format)
-    static formatTimestamp(seconds) {
-      const hours = Math.floor(seconds / 3600);
-      const minutes = Math.floor((seconds % 3600) / 60);
-        const remainingSeconds = seconds % 60;
-
-      if (hours > 0) {
-        return `${hours}:${minutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
-      } else {
-        return `${minutes}:${remainingSeconds.toString().padStart(2, '0')}`;
-        }
+    // Export vote data to CSV format
+    static exportToCSV(votes, filename = 'torrance_votes.csv') {
+        const headers = [
+            'Meeting ID',
+            'Meeting Date',
+            'Meeting Time',
+            'Agenda Item',
+            'Vote Result',
+            'Ayes',
+            'Noes',
+            'Abstentions',
+            'Recused',
+            'Video Timestamp',
+            'Video URL',
+            'Agenda URL',
+            'Meta ID',
+            'Frame Number',
+            'Timestamp Estimated'
+        ];
+        
+        const csvContent = [
+            headers.join(','),
+            ...votes.map(vote => [
+                vote.meeting_id || '',
+                vote.date || '',
+                vote.time || '',
+                `"${(vote.agenda_item || '').replace(/"/g, '""')}"`,
+                vote.result || '',
+                vote.vote_tally?.ayes || 0,
+                vote.vote_tally?.noes || 0,
+                vote.vote_tally?.abstentions || 0,
+                vote.vote_tally?.recused || 0,
+                vote.video_timestamp || '',
+                vote.video_url || '',
+                vote.agenda_url || '',
+                vote.meta_id || '',
+                vote.frame_number || '',
+                vote.timestamp_estimated ? 'Yes' : 'No'
+            ].join(','))
+        ].join('\n');
+        
+        this.downloadFile(csvContent, filename, 'text/csv');
+    }
+    
+    // Export vote data to JSON format
+    static exportToJSON(votes, filename = 'torrance_votes.json') {
+        const exportData = {
+            export_date: new Date().toISOString(),
+            total_votes: votes.length,
+            votes: votes.map(vote => ({
+                meeting_id: vote.meeting_id,
+                date: vote.date,
+                time: vote.time,
+                agenda_item: vote.agenda_item,
+                result: vote.result,
+                vote_tally: vote.vote_tally,
+                individual_votes: vote.individual_votes,
+                video_timestamp: vote.video_timestamp,
+                video_url: vote.video_url,
+                agenda_url: vote.agenda_url,
+                meta_id: vote.meta_id,
+                frame_number: vote.frame_number,
+                timestamp_estimated: vote.timestamp_estimated
+            }))
+        };
+        
+        const jsonContent = JSON.stringify(exportData, null, 2);
+        this.downloadFile(jsonContent, filename, 'application/json');
+    }
+    
+    // Download file helper
+    static downloadFile(content, filename, mimeType) {
+        const blob = new Blob([content], { type: mimeType });
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = filename;
+        link.style.display = 'none';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        URL.revokeObjectURL(url);
+    }
+    
+    // Show notification
+    static showNotification(message, type = 'info') {
+        // Remove existing notifications
+        const existingNotifications = document.querySelectorAll('.notification');
+        existingNotifications.forEach(notification => notification.remove());
+        
+        const notification = document.createElement('div');
+        notification.className = `notification notification-${type}`;
+        notification.textContent = message;
+        document.body.appendChild(notification);
+        
+        setTimeout(() => {
+            notification.remove();
+        }, 3000);
     }
 
   // Format date and time in human-readable format with PST timezone

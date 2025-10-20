@@ -13,7 +13,7 @@ USAGE:
 
 REQUIREMENTS:
     - data/torrance_votes_smart_consolidated.json
-    - data/meta_id_mapping.json  
+    - data/meta_id_mapping.json
     - data/video_timestamps.json
 
 FEATURES:
@@ -144,7 +144,7 @@ def find_best_meta_id_match(agenda_item: str, available_meta_ids: Dict[str, int]
 def fix_meeting_meta_ids(meeting_id: str, votes: List[Dict], meta_mapping: Dict, timestamp_data: Dict) -> List[Dict]:
     """Fix meta_ids for all votes in a meeting"""
     fixes_applied = []
-    
+
     if meeting_id not in meta_mapping:
         print(f"  ⚠️  No meta_id mapping available for meeting {meeting_id}")
         print(f"      This may be a closed session or special meeting")
@@ -190,23 +190,23 @@ def validate_data_integrity(consolidated_data: Dict) -> bool:
         if key not in consolidated_data:
             print(f"❌ Missing required key: {key}")
             return False
-    
+
     votes = consolidated_data['votes']
     if not isinstance(votes, list):
         print("❌ Votes must be a list")
         return False
-    
+
     for i, vote in enumerate(votes):
         if not isinstance(vote, dict):
             print(f"❌ Vote {i} must be a dictionary")
             return False
-        
+
         required_vote_keys = ['meeting_id', 'agenda_item']
         for key in required_vote_keys:
             if key not in vote:
                 print(f"❌ Vote {i} missing required key: {key}")
                 return False
-    
+
     print("✅ Data structure validation passed")
     return True
 
@@ -217,12 +217,12 @@ def main():
 
     # Load data
     consolidated_data, meta_mapping, timestamp_data = load_data()
-    
+
     # Validate data integrity
     if not validate_data_integrity(consolidated_data):
         print("❌ Data validation failed. Exiting.")
         return
-    
+
     votes = consolidated_data.get('votes', [])
     meetings = consolidated_data.get('meetings', {})
 
