@@ -933,7 +933,7 @@
                                                 <summary style="font-size: 0.9rem; padding: 0.6rem;">👤 Mayor Profile</summary>
                                                 <div style="padding: 0.8rem;">
                                                     <div style="line-height: 1.3; font-size: 0.85rem; margin-bottom: 0.8rem;">${councilmemberSummary.summary}</div>
-                                                    
+
                                                     ${councilmemberSummary.bio_url ? `
                                                         <div style="margin-bottom: 0.8rem;">
                                                             <a href="${councilmemberSummary.bio_url}" target="_blank" style="color: #1976d2; text-decoration: none; font-weight: bold; font-size: 0.8rem;">
@@ -941,7 +941,7 @@
                                                             </a>
                                                         </div>
                                                     ` : ''}
-                                                    
+
                                                     ${councilmemberSummary.policy_focus && councilmemberSummary.policy_focus.length > 0 ? `
                                                         <div style="font-size: 0.8rem; color: #666;">
                                                             <strong>Focus:</strong> ${councilmemberSummary.policy_focus.slice(0, 2).join(' • ')}
@@ -988,7 +988,7 @@
                                                 <summary>👤 Councilmember Profile</summary>
                                                 <div>
                                                     <div style="line-height: 1.5; font-size: 0.95rem; margin-bottom: 1rem;">${councilmemberSummary.summary}</div>
-                                                    
+
                                                     ${councilmemberSummary.bio_url ? `
                                                         <div style="margin-bottom: 1rem;">
                                                             <a href="${councilmemberSummary.bio_url}" target="_blank" style="color: #1976d2; text-decoration: none; font-weight: bold; font-size: 0.9rem;">
@@ -996,7 +996,7 @@
                                                             </a>
                                                         </div>
                                                     ` : ''}
-                                                    
+
                                                     ${councilmemberSummary.policy_focus && councilmemberSummary.policy_focus.length > 0 ? `
                                                         <div style="margin-bottom: 1rem;">
                                                             <div style="font-weight: bold; color: #1976d2; margin-bottom: 0.3rem; font-size: 0.9rem;">Policy Focus Areas:</div>
@@ -1005,7 +1005,7 @@
                                                             </div>
                                                         </div>
                                                     ` : ''}
-                                                    
+
                                                     ${councilmemberSummary.notes && councilmemberSummary.notes.length > 0 ? `
                                                         <div>
                                                             <div style="font-weight: bold; color: #1976d2; margin-bottom: 0.3rem; font-size: 0.9rem;">Key Notes:</div>
@@ -1035,7 +1035,17 @@
             }
 
             showCouncilmember(councilmemberId) {
-                const councilmember = Object.values(this.data.councilmembers).find(cm => cm.id === councilmemberId);
+                // Get councilmembers from the array and create objects with stats
+                const councilmemberNames = this.data.councilmembers || [];
+                const councilmembers = councilmemberNames.map(name => ({
+                    id: name.toLowerCase(),
+                    display_name: name,
+                    total_votes: this.data.councilmember_stats?.[name]?.total_votes || 0,
+                    yes_votes: this.data.councilmember_stats?.[name]?.yes_votes || 0,
+                    no_votes: this.data.councilmember_stats?.[name]?.no_votes || 0
+                }));
+
+                const councilmember = councilmembers.find(cm => cm.id === councilmemberId);
                 if (!councilmember) {
                     this.showError('Councilmember not found');
                     return;
@@ -1056,13 +1066,13 @@
                 const votes = this.data.votes.filter(vote =>
                     vote.individual_votes &&
                     vote.individual_votes.some(vote_detail =>
-                        (vote_detail.name || '').toLowerCase() === councilmember.name.toLowerCase()
+                        (vote_detail.name || '').toLowerCase() === councilmember.display_name.toLowerCase()
                     )
                 );
 
                 // Get councilmember summary if available
-                const councilmemberSummary = this.data.councilmember_summaries && this.data.councilmember_summaries[councilmemberId];
-                console.log('Councilmember summary for', councilmemberId, ':', councilmemberSummary);
+                const councilmemberSummary = this.data.councilmember_summaries && this.data.councilmember_summaries[fullName];
+                console.log('Councilmember summary for', councilmemberId, '->', fullName, ':', councilmemberSummary);
 
                 const content = `
                     <div class="breadcrumb">
