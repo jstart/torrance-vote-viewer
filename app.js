@@ -172,11 +172,11 @@ class TorranceVoteViewer {
     }
 
     showHome() {
-        // Calculate stats from actual data
-        const totalVotes = this.data.votes ? this.data.votes.length : 0;
-        const totalMeetings = this.data.meetings ? Object.keys(this.data.meetings).length : 0;
-        const totalCouncilmembers = this.data.councilmember_stats ? Object.keys(this.data.councilmember_stats).length : 0;
-        
+      // Calculate stats from actual data
+      const totalVotes = this.data.votes ? this.data.votes.length : 0;
+      const totalMeetings = this.data.meetings ? Object.keys(this.data.meetings).length : 0;
+      const totalCouncilmembers = this.data.councilmember_stats ? Object.keys(this.data.councilmember_stats).length : 0;
+
         const content = `
             <div class="stats-grid">
                 <div class="stat-card">

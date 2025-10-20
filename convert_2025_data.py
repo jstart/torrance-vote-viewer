@@ -80,46 +80,46 @@ def infer_individual_votes(vote_data: Dict) -> Dict[str, str]:
     ayes = tally.get('ayes', 0)
     noes = tally.get('noes', 0)
     abstentions = tally.get('abstentions', 0)
-    
+
     # Standard councilmember names (you may need to adjust these)
     councilmembers = [
         "GEORGE CHEN",
-        "MIKE GERSON", 
+        "MIKE GERSON",
         "JONATHAN KANG",
         "SHARON KALANI",
         "ASAM SHAIKH"
     ]
-    
+
     individual_votes = {}
-    
+
     # Distribute votes based on tally
     # This is a simplified approach - ideally you'd have actual individual vote data
     total_votes = ayes + noes + abstentions
-    
+
     if total_votes > 0:
         # Distribute ayes
         for i in range(min(ayes, len(councilmembers))):
             individual_votes[councilmembers[i]] = "YES"
-        
+
         # Distribute noes
         for i in range(ayes, min(ayes + noes, len(councilmembers))):
             individual_votes[councilmembers[i]] = "NO"
-        
+
         # Distribute abstentions
         for i in range(ayes + noes, min(ayes + noes + abstentions, len(councilmembers))):
             individual_votes[councilmembers[i]] = "ABSTAIN"
-    
+
     # Ensure we always return a dictionary, not a list
     if isinstance(individual_votes, list):
         individual_votes = {}
-    
+
     # If no votes were distributed, create default votes
     if not individual_votes and total_votes > 0:
         # Default to all YES if we have ayes but couldn't distribute
         if ayes > 0:
             for i in range(min(ayes, len(councilmembers))):
                 individual_votes[councilmembers[i]] = "YES"
-    
+
     return individual_votes
 
 def create_import_data(votes: List[Dict], meetings: Dict[str, Dict]) -> Dict[str, Any]:
