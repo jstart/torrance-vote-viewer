@@ -12,6 +12,7 @@ class TorranceVoteViewer {
             console.log('Initializing app...');
             await this.loadData();
             this.setupRouting();
+            this.setupMobileOptimizations();
 
             // Handle server-side routes by converting them to hash routes
             this.handleServerSideRoute();
@@ -930,15 +931,94 @@ class TorranceVoteViewer {
         document.body.appendChild(textArea);
         textArea.focus();
         textArea.select();
-
+        
         try {
             document.execCommand('copy');
             VoteViewerUtils.showNotification('Link copied to clipboard!', 'success');
         } catch (err) {
             VoteViewerUtils.showNotification('Failed to copy link', 'error');
         }
-
+        
         document.body.removeChild(textArea);
+    }
+
+    // Mobile-specific optimizations
+    setupMobileOptimizations() {
+        // Add viewport meta tag if not present
+        if (!document.querySelector('meta[name="viewport"]')) {
+            const viewport = document.createElement('meta');
+            viewport.name = 'viewport';
+            viewport.content = 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no';
+            document.head.appendChild(viewport);
+        }
+
+        // Prevent zoom on double tap for iOS
+        let lastTouchEnd = 0;
+        document.addEventListener('touchend', function (event) {
+            const now = (new Date()).getTime();
+            if (now - lastTouchEnd <= 300) {
+                event.preventDefault();
+            }
+            lastTouchEnd = now;
+        }, false);
+
+        // Add touch feedback for interactive elements
+        this.addTouchFeedback();
+
+        // Optimize scrolling performance
+        this.optimizeScrolling();
+
+        // Handle orientation changes
+        window.addEventListener('orientationchange', () => {
+            setTimeout(() => {
+                this.handleRoute(); // Refresh current view after orientation change
+            }, 100);
+        });
+    }
+
+    // Add visual feedback for touch interactions
+    addTouchFeedback() {
+        const touchElements = document.querySelectorAll('.btn, .nav-link, .meeting-link, .vote-item, .meeting-card, .councilmember-card, .councilmember-row');
+        
+        touchElements.forEach(element => {
+            element.addEventListener('touchstart', function() {
+                this.style.transform = 'scale(0.98)';
+                this.style.opacity = '0.8';
+            });
+            
+            element.addEventListener('touchend', function() {
+                this.style.transform = '';
+                this.style.opacity = '';
+            });
+            
+            element.addEventListener('touchcancel', function() {
+                this.style.transform = '';
+                this.style.opacity = '';
+            });
+        });
+    }
+
+    // Optimize scrolling performance
+    optimizeScrolling() {
+        // Add smooth scrolling behavior
+        document.documentElement.style.scrollBehavior = 'smooth';
+        
+        // Optimize scroll performance on mobile
+        let ticking = false;
+        
+        function updateScrollPosition() {
+            // Add any scroll-based optimizations here
+            ticking = false;
+        }
+        
+        function requestTick() {
+            if (!ticking) {
+                requestAnimationFrame(updateScrollPosition);
+                ticking = true;
+            }
+        }
+        
+        window.addEventListener('scroll', requestTick, { passive: true });
     }
 }
 
