@@ -27,3 +27,8 @@ venv.bak/
 # Temporary files
 *.tmp
 *.temp
+
+# Video frame data (large files)
+*_meetings_data/
+votable_frames_*/
+**/votable_frames_*/
