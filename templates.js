@@ -167,8 +167,8 @@ class VoteViewerTemplates {
                                     <small>Frame ${vote.frame_number} - ${vote.frame_path}</small>
                                     ${!vote.frame_available ? `
                                         <br><small>
-                                            ${vote.meeting_id && vote.meeting_id.startsWith('14') && parseInt(vote.meeting_id) < 14400 ? 
-                                                '2024 meeting frames are being processed' : 
+                                            ${vote.meeting_id && vote.meeting_id.startsWith('14') && parseInt(vote.meeting_id) < 14400 ?
+            '2024 meeting frames are being processed' :
                                                 'Frame processing in progress'
                                             }
                                         </small>
