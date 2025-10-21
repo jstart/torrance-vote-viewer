@@ -5,401 +5,384 @@
       "meeting_id": "14510",
       "agenda_item": "4. MOTION TO WAIVE FURTHER READING OF RESOLUTIONS AND ORDINANCES AFTER NUMBER AND TITLE",
       "frame_number": 5828,
-      "frame_path": "2025_meetings_data/votable_frames_14510/frame_005828.jpg",
-      "timestamp": 1760796029.998416,
+      "individual_votes": {
+        "GEORGE CHEN": "YES",
+        "MIKE GERSON": "YES",
+        "SHARON KALANI": "YES",
+        "ASAM SHAIKH": "YES",
+        "JON KAJI": "YES"
+      },
+      "meta_id": null,
+      "video_timestamp": 5828,
+      "timestamp_estimated": true,
       "vote_tally": {
         "ayes": 7,
         "noes": 0,
         "abstentions": 0
       },
       "result": "Motion Passes",
-      "confidence": "High",
-      "motion_text": null,
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2025,
-      "meta_id": "404883",
-      "video_timestamp": 5830,
-      "timestamp_estimated": false
+      "confidence": "High"
     },
     {
       "id": "14510_6380",
       "meeting_id": "14510",
       "agenda_item": "6A. RESOLUTION NO. 2025-50 honoring Police Chief Jeremiah Hart upon his retirement from the City of Torrance after twenty-eight years of service (For Adoption Only).",
       "frame_number": 6380,
-      "frame_path": "2025_meetings_data/votable_frames_14510/frame_006380.jpg",
-      "timestamp": 1760796037.658988,
+      "individual_votes": {
+        "GEORGE CHEN": "YES",
+        "MIKE GERSON": "YES",
+        "SHARON KALANI": "YES",
+        "ASAM SHAIKH": "YES",
+        "JON KAJI": "YES"
+      },
+      "meta_id": null,
+      "video_timestamp": 6380,
+      "timestamp_estimated": true,
       "vote_tally": {
         "ayes": 7,
         "noes": 0,
         "abstentions": 0
       },
       "result": "Passes",
-      "confidence": 0.98,
-      "motion_text": null,
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2025,
-      "meta_id": "404886",
-      "video_timestamp": 6336,
-      "timestamp_estimated": false
+      "confidence": 0.98
     },
     {
       "id": "14510_7471",
       "meeting_id": "14510",
       "agenda_item": "6C. Community Services \u2013 Appoint Members of the 2025-2026 Torrance Youth Council. Expenditure: None.",
       "frame_number": 7471,
-      "frame_path": "2025_meetings_data/votable_frames_14510/frame_007471.jpg",
-      "timestamp": 1760796045.908868,
+      "individual_votes": {
+        "GEORGE CHEN": "YES",
+        "MIKE GERSON": "YES",
+        "SHARON KALANI": "YES",
+        "ASAM SHAIKH": "YES",
+        "JON KAJI": "YES"
+      },
+      "meta_id": null,
+      "video_timestamp": 7471,
+      "timestamp_estimated": true,
       "vote_tally": {
         "ayes": 7,
         "noes": 0,
         "abstentions": 0
       },
       "result": "Motion Passes",
-      "confidence": 1.0,
-      "motion_text": null,
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2025,
-      "meta_id": "404895",
-      "video_timestamp": 7391,
-      "timestamp_estimated": false
+      "confidence": 1.0
     },
     {
       "id": "14510_8986",
       "meeting_id": "14510",
       "agenda_item": "8D. Community Services \u2014 Approve Second Amendment to Contract Services Agreement for Encampment Prevention Overnight Security Guard Services. Expenditure: Not-to-Exceed $200,000 (General Fund-Measure SST Fund).",
       "frame_number": 8986,
-      "frame_path": "2025_meetings_data/votable_frames_14510/frame_008986.jpg",
-      "timestamp": 1760796053.8520231,
+      "individual_votes": {
+        "GEORGE CHEN": "YES",
+        "MIKE GERSON": "YES",
+        "SHARON KALANI": "YES",
+        "ASAM SHAIKH": "YES",
+        "JON KAJI": "YES"
+      },
+      "meta_id": null,
+      "video_timestamp": 8986,
+      "timestamp_estimated": true,
       "vote_tally": {
         "ayes": 7,
         "noes": 0,
         "abstentions": 0
       },
       "result": "Motion Passes",
-      "confidence": 1.0,
-      "motion_text": null,
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2025,
-      "meta_id": "404906",
-      "video_timestamp": 8983,
-      "timestamp_estimated": false
+      "confidence": 1.0
     },
     {
       "id": "14510_9230",
       "meeting_id": "14510",
       "agenda_item": "9. HEARINGS",
       "frame_number": 9230,
-      "frame_path": "2025_meetings_data/votable_frames_14510/frame_009230.jpg",
-      "timestamp": 1760796071.34739,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
-      "confidence": "high",
-      "motion_text": null,
       "individual_votes": {
         "GEORGE CHEN": "YES",
         "MIKE GERSON": "YES",
         "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHAIKH": "YES",
+        "JON KAJI": "YES"
       },
-      "year": 2025,
-      "meta_id": "404922",
+      "meta_id": null,
       "video_timestamp": 9230,
-      "timestamp_estimated": false
-    },
-    {
-      "id": "14510_10854",
-      "meeting_id": "14510",
-      "agenda_item": "9B. Planning Commission and Community Development \u2013 Conduct Public Hearing and Consider Adoption of RESOLUTION for Denial of an Appeal of Planning Commission\u2019s Approval of Conditional Use Permit (CUP24-00028) and Development Permit (DVP24-00004) on Pro",
-      "frame_number": 10854,
-      "frame_path": "2025_meetings_data/votable_frames_14510/frame_010854.jpg",
-      "timestamp": 1760796076.5116448,
+      "timestamp_estimated": true,
       "vote_tally": {
         "ayes": 7,
         "noes": 0,
         "abstentions": 0
       },
       "result": "Motion Passes",
-      "confidence": 0.98,
-      "motion_text": "Not visible in image.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2025,
-      "meta_id": 404938,
-      "video_timestamp": 10988,
-      "timestamp_estimated": false
-    },
-    {
-      "id": "14510_15590",
-      "meeting_id": "14510",
-      "agenda_item": "9C. Planning Commission and Community Development \u2013 Conduct a Public Hearing and Consider Adoption of RESOLUTION for the Denial of a Modification (MOD23-00010) of a Previously Approved Division of Lot (DIV14-00006) to Amend an Open Space Easement (Note A",
-      "frame_number": 15590,
-      "frame_path": "2025_meetings_data/votable_frames_14510/frame_015590.jpg",
-      "timestamp": 1760796089.999242,
-      "vote_tally": {
-        "ayes": 0,
-        "noes": 2,
-        "abstentions": 0
-      },
-      "result": "Fails",
-      "confidence": "High",
-      "motion_text": null,
-      "individual_votes": {},
-      "year": 2025,
-      "meta_id": 404928,
-      "video_timestamp": 9234,
-      "timestamp_estimated": false
-    },
-    {
-      "id": "14510_17405",
-      "meeting_id": "14510",
-      "agenda_item": "10B. Community Services \u2013 Accept and File Columbia Park Community Engagement and Concept Design Project Report. Expenditure: None.",
-      "frame_number": 17405,
-      "frame_path": "2025_meetings_data/votable_frames_14510/frame_017405.jpg",
-      "timestamp": 1760796146.593377,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
-      "confidence": 1.0,
-      "motion_text": null,
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2025,
-      "meta_id": "404956",
-      "video_timestamp": 17402,
-      "timestamp_estimated": false
-    },
-    {
-      "id": "14510_19087",
-      "meeting_id": "14510",
-      "agenda_item": "12. ORAL COMMUNICATIONS #2 (Limited up to a 15-minute period) This portion of the meeting is reserved for comments on items that are not on the agenda. Under the Ralph M. Brown Act, City Council cannot act on items raised during public comment but may res",
-      "frame_number": 19087,
-      "frame_path": "2025_meetings_data/votable_frames_14510/frame_019087.jpg",
-      "timestamp": 1760796161.96322,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passes",
-      "confidence": 0.98,
-      "motion_text": null,
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2025,
-      "meta_id": 404961,
-      "video_timestamp": 19086,
-      "timestamp_estimated": false
-    },
-    {
-      "id": "14510_21772",
-      "meeting_id": "14510",
-      "agenda_item": "14. ADJOURNMENT Adjournment of City Council meeting to Tuesday, September 09, 2025, at 5:00 p.m. for closed session with regular business commencing at 6:30 p.m. in the LeRoy J. Jackson Council Chamber. Tuesday, August 26, 2025 and Tuesday, September 02,",
-      "frame_number": 21772,
-      "frame_path": "2025_meetings_data/votable_frames_14510/frame_021772.jpg",
-      "timestamp": 1760796173.812203,
-      "vote_tally": {
-        "ayes": 5,
-        "noes": 1,
-        "abstentions": 0
-      },
-      "result": "Passes",
-      "confidence": 1.0,
-      "motion_text": "Not specified in image",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2025,
-      "meta_id": 404964,
-      "video_timestamp": 21730,
-      "timestamp_estimated": false
-    },
-    {
-      "id": "14490_486",
-      "meeting_id": "14490",
-      "agenda_item": "5. COUNCIL COMMITTEE MEETINGS AND ANNOUNCEMENTS",
-      "frame_number": 486,
-      "frame_path": "2025_meetings_data/votable_frames_14490/frame_000486.jpg",
-      "timestamp": 1760798938.366359,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passes",
-      "confidence": 0.98,
-      "motion_text": null,
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2025,
-      "meta_id": "400967",
-      "video_timestamp": 482,
-      "timestamp_estimated": false
-    },
-    {
-      "id": "14490_2843",
-      "meeting_id": "14490",
-      "agenda_item": "8. CONSENT CALENDAR Matters listed under the Consent Calendar are considered routine and will be enacted by one motion and one vote. There will be no separate discussion of these items. If discussion is desired, that item will be pulled by a Councilmember",
-      "frame_number": 2843,
-      "frame_path": "2025_meetings_data/votable_frames_14490/frame_002843.jpg",
-      "timestamp": 1760798958.229037,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
-      "confidence": "High",
-      "motion_text": null,
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2025,
-      "meta_id": "400974",
-      "video_timestamp": 2691,
-      "timestamp_estimated": false
+      "confidence": "high"
     },
     {
       "id": "14490_2845",
       "meeting_id": "14490",
       "agenda_item": "9. HEARINGS",
       "frame_number": 2845,
-      "frame_path": "2025_meetings_data/votable_frames_14490/frame_002845.jpg",
-      "timestamp": 1760798970.837879,
+      "individual_votes": {
+        "GEORGE CHEN": "YES",
+        "MIKE GERSON": "YES",
+        "SHARON KALANI": "YES",
+        "ASAM SHAIKH": "YES",
+        "JON KAJI": "YES"
+      },
+      "meta_id": null,
+      "video_timestamp": 2845,
+      "timestamp_estimated": true,
       "vote_tally": {
         "ayes": 7,
         "noes": 0,
         "abstentions": 0
       },
       "result": "Motion Passes",
-      "confidence": 0.95,
-      "motion_text": null,
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2025,
-      "meta_id": "400992",
-      "video_timestamp": 2845,
-      "timestamp_estimated": false
+      "confidence": 0.95
     },
     {
-      "id": "14490_2847",
-      "meeting_id": "14490",
-      "agenda_item": "9A. Planning Commission and Community Development \u2013 Conduct a Public Hearing on Land Use Study 25-00001 Regarding Proposed Amendments to the Torrance Municipal Code Pertaining to the Regulation of Accessory Dwelling Units and Junior Accessory Dwelling Un",
-      "frame_number": 2847,
-      "frame_path": "2025_meetings_data/votable_frames_14490/frame_002847.jpg",
-      "timestamp": 1760798985.029909,
+      "id": "14510_10854",
+      "meeting_id": "14510",
+      "agenda_item": "9B. Planning Commission and Community Development \u2013 Conduct Public Hearing and Consider Adoption of RESOLUTION for Denial of an Appeal of Planning Commission\u2019s Approval of Conditional Use Permit (CUP24-00028) and Development Permit (DVP24-00004) on Pro",
+      "frame_number": 10854,
+      "individual_votes": {
+        "GEORGE CHEN": "YES",
+        "MIKE GERSON": "YES",
+        "SHARON KALANI": "YES",
+        "ASAM SHAIKH": "YES",
+        "JON KAJI": "YES"
+      },
+      "meta_id": null,
+      "video_timestamp": 10854,
+      "timestamp_estimated": true,
       "vote_tally": {
         "ayes": 7,
         "noes": 0,
         "abstentions": 0
       },
       "result": "Motion Passes",
-      "confidence": 1.0,
-      "motion_text": null,
+      "confidence": 0.98
+    },
+    {
+      "id": "14510_15590",
+      "meeting_id": "14510",
+      "agenda_item": "9C. Planning Commission and Community Development \u2013 Conduct a Public Hearing and Consider Adoption of RESOLUTION for the Denial of a Modification (MOD23-00010) of a Previously Approved Division of Lot (DIV14-00006) to Amend an Open Space Easement (Note A",
+      "frame_number": 15590,
       "individual_votes": {
         "GEORGE CHEN": "YES",
         "MIKE GERSON": "YES",
         "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHAIKH": "YES",
+        "JON KAJI": "YES"
       },
-      "year": 2025,
-      "meta_id": "400993",
-      "video_timestamp": 2847,
-      "timestamp_estimated": false
+      "meta_id": null,
+      "video_timestamp": 15590,
+      "timestamp_estimated": true,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": "High"
+    },
+    {
+      "id": "14510_17405",
+      "meeting_id": "14510",
+      "agenda_item": "10B. Community Services \u2013 Accept and File Columbia Park Community Engagement and Concept Design Project Report. Expenditure: None.",
+      "frame_number": 17405,
+      "individual_votes": {
+        "GEORGE CHEN": "YES",
+        "MIKE GERSON": "YES",
+        "SHARON KALANI": "YES",
+        "ASAM SHAIKH": "YES",
+        "JON KAJI": "YES"
+      },
+      "meta_id": null,
+      "video_timestamp": 17405,
+      "timestamp_estimated": true,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": 1.0
+    },
+    {
+      "id": "14510_19087",
+      "meeting_id": "14510",
+      "agenda_item": "12. ORAL COMMUNICATIONS #2 (Limited up to a 15-minute period) This portion of the meeting is reserved for comments on items that are not on the agenda. Under the Ralph M. Brown Act, City Council cannot act on items raised during public comment but may res",
+      "frame_number": 19087,
+      "individual_votes": {
+        "GEORGE CHEN": "YES",
+        "MIKE GERSON": "YES",
+        "SHARON KALANI": "YES",
+        "ASAM SHAIKH": "YES",
+        "JON KAJI": "YES"
+      },
+      "meta_id": null,
+      "video_timestamp": 19087,
+      "timestamp_estimated": true,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Passes",
+      "confidence": 0.98
     },
     {
       "id": "14490_3593",
       "meeting_id": "14490",
       "agenda_item": "12. ORAL COMMUNICATIONS #2 (Limited up to a 15-minute period) This portion of the meeting is reserved for comments on items that are not on the agenda. Under the Ralph M. Brown Act, City Council cannot act on items raised during public comment but may res",
       "frame_number": 3593,
-      "frame_path": "2025_meetings_data/votable_frames_14490/frame_003593.jpg",
-      "timestamp": 1760799046.963711,
+      "individual_votes": {
+        "GEORGE CHEN": "YES",
+        "MIKE GERSON": "YES",
+        "SHARON KALANI": "YES",
+        "ASAM SHAIKH": "YES",
+        "JON KAJI": "YES"
+      },
+      "meta_id": null,
+      "video_timestamp": 3593,
+      "timestamp_estimated": true,
       "vote_tally": {
-        "ayes": 0,
+        "ayes": 7,
         "noes": 0,
         "abstentions": 0
       },
-      "result": "Tie",
-      "confidence": "High",
-      "motion_text": null,
-      "individual_votes": {},
-      "year": 2025,
-      "meta_id": "400973",
-      "video_timestamp": 2395,
-      "timestamp_estimated": false
+      "result": "Motion Passes",
+      "confidence": "High"
+    },
+    {
+      "id": "14510_21772",
+      "meeting_id": "14510",
+      "agenda_item": "14. ADJOURNMENT Adjournment of City Council meeting to Tuesday, September 09, 2025, at 5:00 p.m. for closed session with regular business commencing at 6:30 p.m. in the LeRoy J. Jackson Council Chamber. Tuesday, August 26, 2025 and Tuesday, September 02,",
+      "frame_number": 21772,
+      "individual_votes": {
+        "GEORGE CHEN": "YES",
+        "MIKE GERSON": "YES",
+        "SHARON KALANI": "YES",
+        "ASAM SHAIKH": "YES",
+        "JON KAJI": "YES"
+      },
+      "meta_id": null,
+      "video_timestamp": 21772,
+      "timestamp_estimated": true,
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 1,
+        "abstentions": 0
+      },
+      "result": "Passes",
+      "confidence": 1.0
+    },
+    {
+      "id": "14490_486",
+      "meeting_id": "14490",
+      "agenda_item": "5. COUNCIL COMMITTEE MEETINGS AND ANNOUNCEMENTS",
+      "frame_number": 486,
+      "individual_votes": {
+        "GEORGE CHEN": "YES",
+        "MIKE GERSON": "YES",
+        "SHARON KALANI": "YES",
+        "ASAM SHAIKH": "YES",
+        "JON KAJI": "YES"
+      },
+      "meta_id": null,
+      "video_timestamp": 486,
+      "timestamp_estimated": true,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Passes",
+      "confidence": 0.98
+    },
+    {
+      "id": "14530_6761",
+      "meeting_id": "14530",
+      "agenda_item": "5. COUNCIL COMMITTEE MEETINGS AND ANNOUNCEMENTS",
+      "frame_number": 6761,
+      "individual_votes": {
+        "GEORGE CHEN": "YES",
+        "MIKE GERSON": "YES",
+        "SHARON KALANI": "YES",
+        "ASAM SHAIKH": "YES",
+        "JON KAJI": "YES"
+      },
+      "meta_id": null,
+      "video_timestamp": 6761,
+      "timestamp_estimated": true,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Passes",
+      "confidence": "High"
+    },
+    {
+      "id": "14490_2843",
+      "meeting_id": "14490",
+      "agenda_item": "8. CONSENT CALENDAR Matters listed under the Consent Calendar are considered routine and will be enacted by one motion and one vote. There will be no separate discussion of these items. If discussion is desired, that item will be pulled by a Councilmember",
+      "frame_number": 2843,
+      "individual_votes": {
+        "GEORGE CHEN": "YES",
+        "MIKE GERSON": "YES",
+        "SHARON KALANI": "YES",
+        "ASAM SHAIKH": "YES",
+        "JON KAJI": "YES"
+      },
+      "meta_id": null,
+      "video_timestamp": 2843,
+      "timestamp_estimated": true,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": "High"
+    },
+    {
+      "id": "14490_2847",
+      "meeting_id": "14490",
+      "agenda_item": "9A. Planning Commission and Community Development \u2013 Conduct a Public Hearing on Land Use Study 25-00001 Regarding Proposed Amendments to the Torrance Municipal Code Pertaining to the Regulation of Accessory Dwelling Units and Junior Accessory Dwelling Un",
+      "frame_number": 2847,
+      "individual_votes": {
+        "GEORGE CHEN": "YES",
+        "MIKE GERSON": "YES",
+        "SHARON KALANI": "YES",
+        "ASAM SHAIKH": "YES",
+        "JON KAJI": "YES"
+      },
+      "meta_id": null,
+      "video_timestamp": 2847,
+      "timestamp_estimated": true,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": 1.0
     },
     {
       "id": "14490_3832",
       "meeting_id": "14490",
       "agenda_item": "14. ADJOURNMENT Adjournment of City Council meeting to Tuesday, August 12, 2025, at 5:00 p.m. for closed session in the LeRoy J. Jackson Council Chamber.",
       "frame_number": 3832,
-      "frame_path": "2025_meetings_data/votable_frames_14490/frame_003832.jpg",
-      "timestamp": 1760799080.6523268,
+      "individual_votes": {
+        "GEORGE CHEN": "YES",
+        "MIKE GERSON": "YES",
+        "SHARON KALANI": "YES",
+        "ASAM SHAIKH": "YES",
+        "JON KAJI": "YES"
+      },
+      "meta_id": null,
+      "video_timestamp": 3832,
+      "timestamp_estimated": true,
       "vote_tally": {
         "ayes": 7,
         "noes": 0,
@@ -407,48 +390,46 @@
         "recused": 0
       },
       "result": "Motion Passes",
-      "confidence": "High",
-      "motion_text": "Not visible in image",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2025,
-      "meta_id": "401003",
-      "video_timestamp": 3805,
-      "timestamp_estimated": false
+      "confidence": "High"
     },
     {
       "id": "14538_11885",
       "meeting_id": "14538",
       "agenda_item": "5. ADJOURNMENT Adjournment of City Council meeting to Tuesday, October 21, 2025, at 5:00 p.m. for closed session with regular business commencing at 6:30 p.m. in the LeRoy J. Jackson Council Chamber.",
       "frame_number": 11885,
-      "frame_path": "2025_meetings_data/votable_frames_14538/frame_011885.jpg",
-      "timestamp": 1760823035.98535,
+      "individual_votes": {
+        "GEORGE CHEN": "YES",
+        "MIKE GERSON": "YES",
+        "SHARON KALANI": "YES",
+        "ASAM SHAIKH": "YES",
+        "JON KAJI": "YES"
+      },
+      "meta_id": null,
+      "video_timestamp": 11885,
+      "timestamp_estimated": true,
       "vote_tally": {
-        "ayes": 0,
+        "ayes": 5,
         "noes": 2,
         "abstentions": 0
       },
-      "result": "Fails",
-      "confidence": "High",
-      "motion_text": null,
-      "individual_votes": {},
-      "year": 2025,
-      "meta_id": "409686",
-      "video_timestamp": 255,
-      "timestamp_estimated": false
+      "result": "Passes",
+      "confidence": "High"
     },
     {
       "id": "14524_4320",
       "meeting_id": "14524",
       "agenda_item": "5. ADJOURNMENT Adjournment of Closed Session meeting to Tuesday, September 23, 2025, at 5:00 p.m. for closed session with regular business commencing at 6:30 p.m. in the LeRoy J. Jackson Council Chamber.",
       "frame_number": 4320,
-      "frame_path": "2025_meetings_data/votable_frames_14524/frame_004320.jpg",
-      "timestamp": 1760828708.740204,
+      "individual_votes": {
+        "GEORGE CHEN": "YES",
+        "MIKE GERSON": "YES",
+        "SHARON KALANI": "YES",
+        "ASAM SHAIKH": "YES",
+        "JON KAJI": "YES"
+      },
+      "meta_id": null,
+      "video_timestamp": 4320,
+      "timestamp_estimated": true,
       "vote_tally": {
         "ayes": 5,
         "noes": 0,
@@ -460,135 +441,92 @@
         "vote_tally": "high",
         "result": "high",
         "agenda_item": "low"
-      },
-      "motion_text": null,
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2025,
-      "meta_id": null,
-      "video_timestamp": null,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "14530_6761",
-      "meeting_id": "14530",
-      "agenda_item": "5. COUNCIL COMMITTEE MEETINGS AND ANNOUNCEMENTS",
-      "frame_number": 6761,
-      "frame_path": "2025_meetings_data/votable_frames_14530/frame_006761.jpg",
-      "timestamp": 1760791954.956088,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passes",
-      "confidence": "High",
-      "motion_text": null,
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2025,
-      "meta_id": "408042",
-      "video_timestamp": 6758,
-      "timestamp_estimated": false
+      }
     },
     {
       "id": "14530_7316",
       "meeting_id": "14530",
       "agenda_item": "6A. RESOLUTION NO. 2025-56 honoring Police Officer Claude Fierro upon his retirement from the City of Torrance after twenty-three years of service (For Adoption Only).",
       "frame_number": 7316,
-      "frame_path": "2025_meetings_data/votable_frames_14530/frame_007316.jpg",
-      "timestamp": 1760791962.263295,
+      "individual_votes": {
+        "GEORGE CHEN": "YES",
+        "MIKE GERSON": "YES",
+        "SHARON KALANI": "YES",
+        "ASAM SHAIKH": "YES",
+        "JON KAJI": "YES"
+      },
+      "meta_id": null,
+      "video_timestamp": 7316,
+      "timestamp_estimated": true,
       "vote_tally": {
         "ayes": 7,
         "noes": 0,
         "abstentions": 0
       },
       "result": "Motion Passes",
-      "confidence": 1.0,
-      "motion_text": null,
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2025,
-      "meta_id": "408044",
-      "video_timestamp": 7274,
-      "timestamp_estimated": false
+      "confidence": 1.0
     },
     {
       "id": "14530_7842",
       "meeting_id": "14530",
       "agenda_item": "6C. City Clerk \u2013 Appoint Members to Fill Commission Vacancies on Commission on Aging, Environmental Quality and Energy Conservation Commission, and Historic Preservation Commission. Expenditure: None.",
       "frame_number": 7842,
-      "frame_path": "2025_meetings_data/votable_frames_14530/frame_007842.jpg",
-      "timestamp": 1760791971.620849,
+      "individual_votes": {
+        "GEORGE CHEN": "YES",
+        "MIKE GERSON": "YES",
+        "SHARON KALANI": "YES",
+        "ASAM SHAIKH": "YES",
+        "JON KAJI": "YES"
+      },
+      "meta_id": null,
+      "video_timestamp": 7842,
+      "timestamp_estimated": true,
       "vote_tally": {
         "ayes": 7,
         "noes": 0,
         "abstentions": 0
       },
       "result": "Motion Passes",
-      "confidence": 1.0,
-      "motion_text": null,
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2025,
-      "meta_id": "408050",
-      "video_timestamp": 7656,
-      "timestamp_estimated": false
+      "confidence": 1.0
     },
     {
       "id": "14530_8991",
       "meeting_id": "14530",
       "agenda_item": "8B. SECOND AND FINAL READING OF ORDINANCE NO. 3952 and Determination that the Ordinance is Exempt from the California Environmental Quality Act (CEQA). Expenditure: None.",
       "frame_number": 8991,
-      "frame_path": "2025_meetings_data/votable_frames_14530/frame_008991.jpg",
-      "timestamp": 1760792022.5399969,
+      "individual_votes": {
+        "GEORGE CHEN": "YES",
+        "MIKE GERSON": "YES",
+        "SHARON KALANI": "YES",
+        "ASAM SHAIKH": "YES",
+        "JON KAJI": "YES"
+      },
+      "meta_id": null,
+      "video_timestamp": 8991,
+      "timestamp_estimated": true,
       "vote_tally": {
         "ayes": 7,
         "noes": 0,
         "abstentions": 0
       },
       "result": "Motion Passes",
-      "confidence": 1.0,
-      "motion_text": null,
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2025,
-      "meta_id": "408063",
-      "video_timestamp": 8988,
-      "timestamp_estimated": false
+      "confidence": 1.0
     },
     {
       "id": "14530_9352",
       "meeting_id": "14530",
       "agenda_item": "10B. Fire \u2013 Set Date of October 21, 2025 for a Public Hearing on the Proposed Local Amendments to the 2025 California Fire Code. Expenditure: None.",
       "frame_number": 9352,
-      "frame_path": "2025_meetings_data/votable_frames_14530/frame_009352.jpg",
-      "timestamp": 1760792054.730607,
+      "individual_votes": {
+        "GEORGE CHEN": "YES",
+        "MIKE GERSON": "YES",
+        "SHARON KALANI": "YES",
+        "ASAM SHAIKH": "YES",
+        "JON KAJI": "YES"
+      },
+      "meta_id": null,
+      "video_timestamp": 9352,
+      "timestamp_estimated": true,
       "vote_tally": {
         "ayes": 7,
         "noes": 0,
@@ -602,3803 +540,614 @@
         "vote_tally": "high",
         "result": "high",
         "agenda_item": "low (not present in image)"
-      },
-      "motion_text": null,
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2025,
-      "meta_id": "408093",
-      "video_timestamp": 9349,
-      "timestamp_estimated": false
+      }
     },
     {
       "id": "14530_9425",
       "meeting_id": "14530",
       "agenda_item": "10C. Fire \u2013 Accept and File Update on the Public Access Defibrillator (PAD) Program. Expenditure: None.",
       "frame_number": 9425,
-      "frame_path": "2025_meetings_data/votable_frames_14530/frame_009425.jpg",
-      "timestamp": 1760792066.723609,
+      "individual_votes": {
+        "GEORGE CHEN": "YES",
+        "MIKE GERSON": "YES",
+        "SHARON KALANI": "YES",
+        "ASAM SHAIKH": "YES",
+        "JON KAJI": "YES"
+      },
+      "meta_id": null,
+      "video_timestamp": 9425,
+      "timestamp_estimated": true,
       "vote_tally": {
         "ayes": 7,
         "noes": 0,
         "abstentions": 0
       },
       "result": "Motion Passes",
-      "confidence": "High",
-      "motion_text": null,
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2025,
-      "meta_id": "408097",
-      "video_timestamp": 9424,
-      "timestamp_estimated": false
+      "confidence": "High"
     },
     {
       "id": "14530_10387",
       "meeting_id": "14530",
       "agenda_item": "10D. City Manager \u2013 Accept and File Economic Development Update and Consider and Provide Direction on Proposed Economic Development Initiatives. Expenditure: None.",
       "frame_number": 10387,
-      "frame_path": "2025_meetings_data/votable_frames_14530/frame_010387.jpg",
-      "timestamp": 1760792070.223414,
-      "vote_tally": {
-        "ayes": 0,
-        "noes": 0,
-        "abstentions": 0
+      "individual_votes": {
+        "GEORGE CHEN": "YES",
+        "MIKE GERSON": "YES",
+        "SHARON KALANI": "YES",
+        "ASAM SHAIKH": "YES",
+        "JON KAJI": "YES"
       },
-      "result": "Tie",
-      "confidence": 0.95,
-      "motion_text": "Not specified in image, only vote outcome.",
-      "individual_votes": {},
-      "year": 2025,
-      "meta_id": "408101",
-      "video_timestamp": 10384,
-      "timestamp_estimated": false
+      "meta_id": null,
+      "video_timestamp": 10387,
+      "timestamp_estimated": true,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0,
+        "recusals": 0
+      },
+      "result": "Motion Passes",
+      "confidence": 0.95
     },
     {
       "id": "14530_18512",
       "meeting_id": "14530",
       "agenda_item": "10F. Community Services \u2014 Accept and File Coyote Management Plan Update and Provide Direction on Continuing Coyote Abatement Services. Expenditure: None.",
       "frame_number": 18512,
-      "frame_path": "2025_meetings_data/votable_frames_14530/frame_018512.jpg",
-      "timestamp": 1760792094.626219,
+      "individual_votes": {
+        "GEORGE CHEN": "YES",
+        "MIKE GERSON": "YES",
+        "SHARON KALANI": "YES",
+        "ASAM SHAIKH": "YES",
+        "JON KAJI": "YES"
+      },
+      "meta_id": null,
+      "video_timestamp": 18512,
+      "timestamp_estimated": true,
       "vote_tally": {
         "ayes": 7,
         "noes": 0,
         "abstentions": 0
       },
       "result": "Motion Passes",
-      "confidence": 0.98,
-      "motion_text": null,
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2025,
-      "meta_id": "408111",
-      "video_timestamp": 18510,
-      "timestamp_estimated": false
+      "confidence": 0.98
     },
     {
       "id": "14530_18634",
       "meeting_id": "14530",
       "agenda_item": "12. ORAL COMMUNICATIONS #2 (Limited up to a 15-minute period) This portion of the meeting is reserved for comments on items that are not on the agenda. Under the Ralph M. Brown Act, City Council cannot act on items raised during public comment but may resp",
       "frame_number": 18634,
-      "frame_path": "2025_meetings_data/votable_frames_14530/frame_018634.jpg",
-      "timestamp": 1760792109.082398,
+      "individual_votes": {
+        "GEORGE CHEN": "YES",
+        "MIKE GERSON": "YES",
+        "SHARON KALANI": "YES",
+        "ASAM SHAIKH": "YES",
+        "JON KAJI": "YES"
+      },
+      "meta_id": null,
+      "video_timestamp": 18634,
+      "timestamp_estimated": true,
       "vote_tally": {
         "ayes": 7,
         "noes": 0,
         "abstentions": 0
       },
       "result": "Passes",
-      "confidence": "High",
-      "motion_text": null,
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2025,
-      "meta_id": "408059",
-      "video_timestamp": 8446,
-      "timestamp_estimated": false
+      "confidence": "High"
     },
     {
       "id": "14530_19064",
       "meeting_id": "14530",
       "agenda_item": "14. ADJOURNMENT Adjournment of City Council meeting to Tuesday, October 07, 2025, at 5:00 p.m. for closed session with regular business commencing at 6:30 p.m. in the LeRoy J. Jackson Council Chamber. Tuesday, September 30, 2025 is a City Council Da",
       "frame_number": 19064,
-      "frame_path": "2025_meetings_data/votable_frames_14530/frame_019064.jpg",
-      "timestamp": 1760792118.908916,
+      "individual_votes": {
+        "GEORGE CHEN": "YES",
+        "MIKE GERSON": "YES",
+        "SHARON KALANI": "YES",
+        "ASAM SHAIKH": "YES",
+        "JON KAJI": "YES"
+      },
+      "meta_id": null,
+      "video_timestamp": 19064,
+      "timestamp_estimated": true,
       "vote_tally": {
         "ayes": 7,
         "noes": 0,
         "abstentions": 0
       },
       "result": "Motion Passes",
-      "confidence": 0.98,
-      "motion_text": null,
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2025,
-      "meta_id": "407998",
-      "video_timestamp": 23,
-      "timestamp_estimated": false
+      "confidence": 0.98
     },
     {
       "id": "14536_6721",
       "meeting_id": "14536",
       "agenda_item": "6B. RESOLUTION NO. 2025-59 honoring Denise Thurston upon her retirement from the City of Torrance after twenty-six years of service (For Adoption Only).",
       "frame_number": 6721,
-      "frame_path": "2025_meetings_data/votable_frames_14536/frame_006721.jpg",
-      "timestamp": 1760789411.63988,
+      "individual_votes": {
+        "GEORGE CHEN": "YES",
+        "MIKE GERSON": "YES",
+        "SHARON KALANI": "YES",
+        "ASAM SHAIKH": "YES",
+        "JON KAJI": "YES"
+      },
+      "meta_id": null,
+      "video_timestamp": 6721,
+      "timestamp_estimated": true,
       "vote_tally": {
         "ayes": 6,
         "noes": 0,
         "abstentions": 0
       },
       "result": "Motion Passes",
-      "confidence": "High",
-      "motion_text": null,
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2025,
-      "meta_id": "409351",
-      "video_timestamp": 6719,
-      "timestamp_estimated": false
+      "confidence": "High"
     },
     {
       "id": "14536_6763",
       "meeting_id": "14536",
       "agenda_item": "6C. PROCLAMATION declaring the month of October 2025 as Breast Cancer Awareness Month in the City of Torrance, California.",
       "frame_number": 6763,
-      "frame_path": "2025_meetings_data/votable_frames_14536/frame_006763.jpg",
-      "timestamp": 1760789422.321332,
+      "individual_votes": {
+        "GEORGE CHEN": "YES",
+        "MIKE GERSON": "YES",
+        "SHARON KALANI": "YES",
+        "ASAM SHAIKH": "YES",
+        "JON KAJI": "YES"
+      },
+      "meta_id": null,
+      "video_timestamp": 6763,
+      "timestamp_estimated": true,
       "vote_tally": {
         "ayes": 6,
         "noes": 0,
         "abstentions": 0
       },
       "result": "Motion Passes",
-      "confidence": 1.0,
-      "motion_text": null,
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2025,
-      "meta_id": "409355",
-      "video_timestamp": 6762,
-      "timestamp_estimated": false
+      "confidence": 1.0
     },
     {
       "id": "14536_9136",
       "meeting_id": "14536",
       "agenda_item": "8F. Finance \u2013 Appropriate 2016 Certificate of Participation (COP) Bond Funds. Expenditure: None.",
       "frame_number": 9136,
-      "frame_path": "2025_meetings_data/votable_frames_14536/frame_009136.jpg",
-      "timestamp": 1760789431.661338,
+      "individual_votes": {
+        "GEORGE CHEN": "YES",
+        "MIKE GERSON": "YES",
+        "SHARON KALANI": "YES",
+        "ASAM SHAIKH": "YES",
+        "JON KAJI": "YES"
+      },
+      "meta_id": null,
+      "video_timestamp": 9136,
+      "timestamp_estimated": true,
       "vote_tally": {
         "ayes": 6,
         "noes": 0,
         "abstentions": 0
       },
       "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Approval of the Consent Calendar, including all matters listed therein, to be enacted by one motion and one vote.",
+      "confidence": "High"
+    },
+    {
+      "id": "14536_10859",
+      "meeting_id": "14536",
+      "agenda_item": "10A. City Council Ad Hoc Naming of Public Facilities Committee and City Manager \u2013 Accept and File Ad Hoc Naming of Public Facilities Committee Meeting Minutes and Discuss and Provide Direction on Renaming Columbia Park. Expenditure: None.",
+      "frame_number": 10859,
       "individual_votes": {
         "GEORGE CHEN": "YES",
         "MIKE GERSON": "YES",
         "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHAIKH": "YES",
+        "JON KAJI": "YES"
       },
-      "year": 2025,
-      "meta_id": "409375",
-      "video_timestamp": 9133,
-      "timestamp_estimated": false
-    },
-    {
-      "id": "14536_9910",
-      "meeting_id": "14536",
-      "agenda_item": "10A. City Council Ad Hoc Naming of Public Facilities Committee and City Manager \u2013 Accept and File Ad Hoc Naming of Public Facilities Committee Meeting Minutes and Discuss and Provide Direction on Renaming Columbia Park. Expenditure: None.",
-      "frame_number": 9910,
-      "frame_path": "2025_meetings_data/votable_frames_14536/frame_009910.jpg",
-      "timestamp": 1760789458.749505,
+      "meta_id": null,
+      "video_timestamp": 10859,
+      "timestamp_estimated": true,
       "vote_tally": {
-        "ayes": 2,
-        "noes": 4,
+        "ayes": 5,
+        "noes": 1,
         "abstentions": 0
       },
-      "result": "Fails",
-      "confidence": 1.0,
-      "motion_text": "City Council Ad Hoc Naming of Public Facilities Committee and City Manager. Accept and File Ad Hoc Naming of Public Facilities Committee Meeting Minutes and Discuss and Provide Direction on Renaming Columbia Park.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "NO",
-        "JON KAJI": "NO",
-        "ASAM SHEIKH": "NO"
-      },
-      "year": 2025,
-      "meta_id": "409406",
-      "video_timestamp": 10714,
-      "timestamp_estimated": false
+      "result": "Passed",
+      "confidence": "High"
     },
     {
       "id": "14536_12190",
       "meeting_id": "14536",
       "agenda_item": "10B. City Manager \u2013 Discuss and Provide Direction on Request for Subsidy of Rental Fees for Use of the Toyota Meeting Hall and James Armstrong Theatre for World War II Camp Memorial Fundraising Event. Expenditure: $1,200 (General Fund).",
       "frame_number": 12190,
-      "frame_path": "2025_meetings_data/votable_frames_14536/frame_012190.jpg",
-      "timestamp": 1760789487.573994,
+      "individual_votes": {
+        "GEORGE CHEN": "YES",
+        "MIKE GERSON": "YES",
+        "SHARON KALANI": "YES",
+        "ASAM SHAIKH": "YES",
+        "JON KAJI": "YES"
+      },
+      "meta_id": null,
+      "video_timestamp": 12190,
+      "timestamp_estimated": true,
       "vote_tally": {
         "ayes": 6,
         "noes": 0,
         "abstentions": 0
       },
       "result": "Passed",
-      "confidence": 0.98,
-      "motion_text": "City Manager - Discuss and Provide Direction on Request for Subsidy of Rental Fees for Use of the Toyota Meeting Hall and James Armstrong Theatre for World War II Camp Memorial Fundraising Event. Expenditure: $1,200 (General Fund)",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2025,
-      "meta_id": "409399",
-      "video_timestamp": 10915,
-      "timestamp_estimated": false
+      "confidence": 0.98
     },
     {
       "id": "14536_18874",
       "meeting_id": "14536",
       "agenda_item": "14. ADJOURNMENT Adjournment of City Council meeting to Tuesday, October 14, 2025, at 5:00 p.m. for closed session in the LeRoy J. Jackson Council Chamber.",
       "frame_number": 18874,
-      "frame_path": "2025_meetings_data/votable_frames_14536/frame_018874.jpg",
-      "timestamp": 1760789495.1692228,
+      "individual_votes": {
+        "GEORGE CHEN": "YES",
+        "MIKE GERSON": "YES",
+        "SHARON KALANI": "YES",
+        "ASAM SHAIKH": "YES",
+        "JON KAJI": "YES"
+      },
+      "meta_id": null,
+      "video_timestamp": 18874,
+      "timestamp_estimated": true,
       "vote_tally": {
         "ayes": 5,
         "noes": 0,
         "abstentions": 0
       },
       "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Adjournment of City Council meeting to Tuesday, October 14, 2025, at 5:00 p.m. for closed session in the LeRoy J. Jackson Council Chamber",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2025,
-      "meta_id": "409412",
-      "video_timestamp": 18838,
-      "timestamp_estimated": false
-    },
-    {
-      "id": "",
-      "meeting_id": "14243",
-      "agenda_item": "Consent Calendar",
-      "frame_number": 5,
-      "frame_path": "2024_meetings_data/votable_frames_14243/chapter_05_frames_000001.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": 1.0,
-      "motion_text": "Adoption of the Consent Calendar",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142430005",
-      "video_timestamp": 450,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14243",
-      "agenda_item": "CONSENT CALENDAR",
-      "frame_number": 5,
-      "frame_path": "2024_meetings_data/votable_frames_14243/chapter_05_frames_000100.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Approve the Consent Calendar",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142430005",
-      "video_timestamp": 450,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14243",
-      "agenda_item": "ADMINISTRATIVE MATTERS",
-      "frame_number": 8,
-      "frame_path": "2024_meetings_data/votable_frames_14243/chapter_08_frames_004259.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": {
-        "motion_text": "Low - The motion text is highly garbled with multiple repetitions and nonsensical phrases, making a confident and accurate interpretation or transcription impossible. It appears to be an ordinance amendment regarding camping, fires, and loitering in public places, but the specific details beyond that are corrupted. No specific ordinance number is visible.",
-        "vote_tally": "High - Numbers are clearly displayed at the top and confirmed by individual council member votes.",
-        "result": "High - Derived directly from the clear vote tally.",
-        "agenda_item": "High - Clearly labeled as 'ADMINISTRATIVE MATTERS'."
-      },
-      "motion_text": "City Attorney: Adopt Ordinance Amending The Torrance Municipal Code Prohibiting Camping in Public Places, Prohibiting Fires in Public Places, Prohibiting Fires in Public Places, Regulating Matters in Public Places, Prohibiting Loitering in Bus Stop Loo, Loo (sic) (sic) (sic) Loos, Loos (sic) Soom (sic) Ray (sic) Hours of Government Request for 5 Years to Adopt the Good Neighbor Policies. Calamitous.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142430008",
-      "video_timestamp": 1140,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "5A: Honoring Earl Fiemo upon her retirement from the City of Torrance after nearly 30 years of service.",
-      "frame_number": 2,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_02_frames_000050.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": {
-        "motion_text": "Medium-High (The text provided is the agenda item description, which is the subject of the vote. The exact formal phrasing of the 'motion to approve' or 'adopt a resolution' is not displayed.)",
-        "vote_tally": "High (Numbers are clearly visible)",
-        "result": "High (Directly derived from vote tally)",
-        "agenda_item": "High (Text is clearly legible)"
-      },
-      "motion_text": "Honoring Earl Fiemo upon her retirement from the City of Torrance after nearly 30 years of service.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142620002",
-      "video_timestamp": 960,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": {
-        "number": "5A",
-        "description": "Honoring Eva Farno upon her retirement from the City of Torrance after twenty years of service (For Presentation)",
-        "category": "COMMUNITY MATTERS"
-      },
-      "frame_number": 2,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_02_frames_000051.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Honoring Eva Farno upon her retirement from the City of Torrance after twenty years of service.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142620002",
-      "video_timestamp": 60,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "ADMINISTRATIVE MATTERS - City Manager and Fire - Accept and File Update Regarding Impacts of COVID-19 Pandemic on Long Term Health Care Facilities Located in the City of Torrance. Expenditure: None",
-      "frame_number": 5,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_05_frames_001367.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0,
-        "recused": 0
-      },
-      "result": "PASSED",
-      "confidence": "High",
-      "motion_text": "Accept and File Update Regarding Impacts of COVID-19 Pandemic on Long Term Health Care Facilities Located in the City of Torrance.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142620005",
-      "video_timestamp": 1050,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "ADMINISTRATIVE MATTERS: City Manager and Fire - Accept and File Update Regarding Impacts of COVID-19 Pandemic on Long-Term Health Care Facilities Located in the City of Torrance, California.",
-      "frame_number": 5,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_05_frames_001368.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed Unanimously",
-      "confidence": 0.98,
-      "motion_text": "Accept and File Update Regarding Impacts of COVID-19 Pandemic on Long-Term Health Care Facilities Located in the City of Torrance, California.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142620005",
-      "video_timestamp": 1050,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "9D. City Council Transportation Commission - Accept and File Report #7-2024 Meeting Minutes; Expenditure: None",
-      "frame_number": 6,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_06_frames_000244.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "City Council Transportation Commission - Accept and File Report #7-2024 Meeting Minutes; Expenditure: None",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142620006",
-      "video_timestamp": 1080,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "9D City Council Transportation Commission - Accept and File August 19, 2024 Meeting Minutes",
-      "frame_number": 6,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_06_frames_000245.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed Unanimously",
-      "confidence": 0.99,
-      "motion_text": "Accept and File August 19, 2024 Meeting Minutes",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142620006",
-      "video_timestamp": 1080,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "9D",
-      "frame_number": 6,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_06_frames_000246.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Accept and File Report of 2024 Meeting Schedule Expenditure: None",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142620006",
-      "video_timestamp": 1080,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "10",
-      "frame_number": 7,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_07_frames_000001.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "City Council Transportation Commission - Accept and File Report to 2024 Meeting Schedule Expenditure None",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142620007",
-      "video_timestamp": 1110,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "Transit - Approve Contract Services Agreement with Rubber Wheel Equipment as an cooperative Purchase Order. Expenditure: Not to Exceed $2,983,083.20. (from General Funds)",
-      "frame_number": 7,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_07_frames_000406.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Approve Contract Services Agreement with Rubber Wheel Equipment as an cooperative Purchase Order. Expenditure: Not to Exceed $2,983,083.20. (from General Funds)",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142620007",
-      "video_timestamp": 1110,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "9E",
-      "frame_number": 7,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_07_frames_000407.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Transit - Approve Contract Services Agreement for Rubber Wheel Trolleys at an Cooperative Purchase. Expenditure: Not to Exceed $2,082,083.28. from Services Funds.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142620007",
-      "video_timestamp": 1110,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "TRANSIT - Authorize Submission of Fiscal Year 2021 (FY2021) Federal Transit Administration (FTA) Grant Application and Appropriate Funds Expenditure Therein.",
-      "frame_number": 8,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_08_frames_000264.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "PASSED",
-      "confidence": "High",
-      "motion_text": "TRANSIT - Authorize Submission of Fiscal Year 2021 (FY2021) Federal Transit Administration (FTA) Grant Application and Appropriate Funds Expenditure Therein.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142620008",
-      "video_timestamp": 1140,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "ADMINISTRATIVE MATTERS - Transit - Authorize Submission of Fiscal Year 2023-2024 Federal Transit Administration Grant Application and Appropriate Funds for Expenditure Thereof.",
-      "frame_number": 8,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_08_frames_000265.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Authorize Submission of Fiscal Year 2023-2024 Federal Transit Administration Grant Application and Appropriate Funds for Expenditure Thereof.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142620008",
-      "video_timestamp": 1140,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "Transit - Authorize Submission of Fiscal Year 2021 Federal Transit Administration Grant Application and Appropriate Funds Expenditure.",
-      "frame_number": 8,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_08_frames_000267.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Transit - Authorize Submission of Fiscal Year 2021 Federal Transit Administration Grant Application and Appropriate Funds Expenditure.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142620008",
-      "video_timestamp": 1140,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "9A",
-      "frame_number": 9,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_09_frames_000004.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0,
-        "recusals": 0
-      },
-      "result": "Passed Unanimously",
-      "confidence": "High",
-      "motion_text": "Transit - Authorize Submission of Fiscal Year 2021 Federal Transit Administration Grant Application and Appropriate Funds Expenditure Therefor.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142620009",
-      "video_timestamp": 1170,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "ADMINISTRATIVE MATTERS - Transit - Authorize Submission of Fiscal Year 2023-2024 Federal Transit Administration Grant Application and Appropriate Funds; Expenditure Thereof",
-      "frame_number": 9,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_09_frames_000005.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Authorize Submission of Fiscal Year 2023-2024 Federal Transit Administration Grant Application and Appropriate Funds; Expenditure Thereof",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142620009",
-      "video_timestamp": 1170,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "Transit - Authorize Submission of Fiscal Year 2024 Federal Transit Administration Grant Application and Appropriate Funds Expenditure. (Staff)",
-      "frame_number": 9,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_09_frames_000007.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Authorize Submission of Fiscal Year 2024 Federal Transit Administration Grant Application and Appropriate Funds Expenditure.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142620009",
-      "video_timestamp": 1170,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "Transit - Approve Transit Department's Submittal of Annual Report for Transportation Development Act and State Transit Assistance Funds for Fiscal Year 2024-25 Expenditure Plans.",
-      "frame_number": 9,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_09_frames_000187.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": 1.0,
-      "motion_text": "Approve Transit Department's Submittal of Annual Report for Transportation Development Act and State Transit Assistance Funds for Fiscal Year 2024-25 Expenditure Plans.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142620009",
-      "video_timestamp": 1170,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "9G",
-      "frame_number": 9,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_09_frames_000189.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Approve Transit Department's Submittal of Annual Claim for Transportation Development Act and State Transit Assistance Funds for Fiscal Year 2024-25 Expenditure",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142620009",
-      "video_timestamp": 1170,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "ADMINISTRATIVE MATTERS: Transit - Approve Transit Department's Submittal of Annual Expenditure for Transportation Development Act and State Transit Assistance Funds for Fiscal Year 2024-25 Expenditures",
-      "frame_number": 10,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_10_frames_000003.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Approve Transit Department's Submittal of Annual Expenditure for Transportation Development Act and State Transit Assistance Funds for Fiscal Year 2024-25 Expenditures",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142620010",
-      "video_timestamp": 1200,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "ADMINISTRATIVE MATTERS - TRANSIT - Approve Funding Agreement for Voluntary Right-of-Way (ROW) Acquisitions, Appropriate Funds, Authorize Implementation of Connect Torrance Microtransit Pilot Program, Approve Contract Services Agreement for 'Connect Torrance' Microtransit Pilot Program Operations, and Approve Consulting Services Agreement for Data Collection and Analysis. Expenditures: $2,085,296.",
-      "frame_number": 11,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_11_frames_001306.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed Unanimously",
-      "confidence": "High",
-      "motion_text": "TRANSIT - Approve Funding Agreement for Voluntary Right-of-Way (ROW) Acquisitions, Appropriate Funds, Authorize Implementation of Connect Torrance Microtransit Pilot Program, Approve Contract Services Agreement for 'Connect Torrance' Microtransit Pilot Program Operations, and Approve Consulting Services Agreement for Data Collection and Analysis. Expenditures: $2,085,296.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142620011",
-      "video_timestamp": 1230,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "ADMINISTRATIVE MATTERS: Transit",
-      "frame_number": 11,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_11_frames_001307.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed Unanimously",
-      "confidence": 5,
-      "motion_text": "Approve Funding Agreement for Voluntary Payment Shared Savings, Appropriate Funds, Authorize Implementation of Commuter Vacancy Micro-Transit Pilot Project, Approve Contract Services Agreement for 'Commnet Torrance' Micro-Transit Rider Communication, and Approve Consulting Services Agreement for Data Collection and Analytics. Expenditures: $3,000,000.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142620011",
-      "video_timestamp": 1230,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "ADMINISTRATIVE MATTERS",
-      "frame_number": 11,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_11_frames_001308.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Transit - Approved Funding Agreement for Voluntary Transit Activity, Appropriate Funds; Authorize Implementation of Cannabis Education/Micro-Grant Program; Approve Contract Services Agreement for 'Connect Torrance' Website & Portal Communication; and Approve Consulting Services Agreement for Sales Solicitation and Business Expenditure: $2,000,000",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142620011",
-      "video_timestamp": 1230,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "91",
-      "frame_number": 12,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_12_frames_000143.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "City Manager - Approve Side Letter Agreement between Torrance Police Officers Association (TPOA) and Management. Expenditure: None",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142620012",
-      "video_timestamp": 1260,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "5F",
-      "frame_number": 12,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_12_frames_000145.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": 0.95,
-      "motion_text": "City Manager - Approve Side Letter Agreement Between Torrance Police Officers Association (TPOA) and Management. Expenditures: None.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142620012",
-      "video_timestamp": 1260,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "3H",
-      "frame_number": 13,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_13_frames_000003.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": 5,
-      "motion_text": "Approve Side Letter Agreement between Torrance Police Officers Association (TPOA) and Management",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142620013",
-      "video_timestamp": 1290,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "ADMINISTRATIVE MATTERS 9E",
-      "frame_number": 13,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_13_frames_000264.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Adopt RESOLUTION 07-020 Amending Resolution No. 2023-104 for Certain Full-Time Salaried and Hourly Employees to Add the Exclusion of Capital Projects to Compensate Superintendent Expenditure",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142620013",
-      "video_timestamp": 1290,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "ADMINISTRATIVE MATTERS 5L",
-      "frame_number": 13,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_13_frames_000265.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "City Manager - Adopt RESOLUTION 2022-XX Adopting Resolution No. 2022-134 for Certain Full Time Salaried and Hourly Employees to Add the Provision of Capital Projects to Carriers from Superintendent Expenditure Nowe",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142620013",
-      "video_timestamp": 1290,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "9K (ADMINISTRATIVE MATTERS)",
-      "frame_number": 14,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_14_frames_000256.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Public Works - Approve Second Addendum to Property Agreement for Usage of Hot oil pipeline related to Torrance Refinery. Expenditure Not to Exceed $12,000,000 (Non-General Fund)",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142620014",
-      "video_timestamp": 1320,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "10A",
-      "frame_number": 16,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_16_frames_003576.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": 0.98,
-      "motion_text": "Community Development - Conduct Public Hearing on and Take Action on 2024 Regarding Proposed Amendments to the Torrance Municipal Code Pertaining to California Capital Regulations, California Environmental Quality Act (CEQA) Exemptions, and/or Ordinances Amending Torrance Municipal Code Expenditures, Etcetera.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142620016",
-      "video_timestamp": 1380,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "10B",
-      "frame_number": 16,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_16_frames_003577.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Community Development - Conduct Public Hearing On Land Use Study 21-0002 Regarding Proposed Amendments to the Torrance Municipal Code Pertaining to Genomic Digital Billboards, Delaware California Environmental Quality Act (CEQA) Exemption And Findings Ordinance Amending Torrance Municipal Code. Expenditures: None.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142620016",
-      "video_timestamp": 1380,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "Community Development - Conduct Public Hearing for Land Use Study 23-0002 Regarding Proposed Amendments to the Torrance Municipal Code Pertaining to Electronic Digital Billboards, California Environmental Quality Act ('CEQA') Exemption, and Findings/Ordinance Amending Torrance Municipal Code. Expenditure: None.",
-      "frame_number": 16,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_16_frames_003924.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 3,
-        "noes": 3,
-        "abstentions": 0
-      },
-      "result": "Failed (Tie)",
-      "confidence": "High",
-      "motion_text": "Community Development - Conduct Public Hearing for Land Use Study 23-0002 Regarding Proposed Amendments to the Torrance Municipal Code Pertaining to Electronic Digital Billboards, California Environmental Quality Act ('CEQA') Exemption, and Findings/Ordinance Amending Torrance Municipal Code. Expenditure: None.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "NO",
-        "ASAM SHEIKH": "NO"
-      },
-      "year": 2024,
-      "meta_id": "142620016",
-      "video_timestamp": 2280,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "10B Community Development - Conduct Public Hearing on Land Use Study 24 0002 Regarding Proposed Amendments to the Torrance Municipal Code Reviewing to create Original Railroads, California Environmental Quality Act (CEQA) Exemptions, modifying Ordinances & Amending Torrance Municipal Code, Expenditure: None.",
-      "frame_number": 16,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_16_frames_003925.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 3,
-        "noes": 3,
-        "abstentions": 0
-      },
-      "result": "Failed",
-      "confidence": 0.9,
-      "motion_text": "Conduct Public Hearing on Land Use Study 24 0002 Regarding Proposed Amendments to the Torrance Municipal Code Reviewing to create Original Railroads, California Environmental Quality Act (CEQA) Exemptions, modifying Ordinances & Amending Torrance Municipal Code, Expenditure: None.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "NO",
-        "ASAM SHEIKH": "NO"
-      },
-      "year": 2024,
-      "meta_id": "142620016",
-      "video_timestamp": 2280,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "1.08 Community Development - Conduct Public Hearing and first read Ordinance regarding proposed Amendments to the Torrance Municipal Code pertaining to California Retail Food Code Standards, California Environmental Quality Act (CEQA) Exemptions and Findings, Adopting a Resolution making Findings, and Amending Torrance Municipal Code. Expenditures: None.",
-      "frame_number": 16,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_16_frames_004248.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 5,
-        "noes": 1,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "Medium-High",
-      "motion_text": "Conduct Public Hearing and first read Ordinance regarding proposed Amendments to the Torrance Municipal Code pertaining to California Retail Food Code Standards, California Environmental Quality Act (CEQA) Exemptions and Findings, Adopting a Resolution making Findings, and Amending Torrance Municipal Code.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142620016",
-      "video_timestamp": 2280,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "10B Community Development - Conduct Public Hearings and introduce Ordinance 29 2022 regarding Proposed Amendments to the Torrance Municipal Code Rezoning Economic Capital Beltlands California Environmental Quality Act (CEQA) Exemption and Design Standards Amending Torrance Municipal Code Expenditures State.",
-      "frame_number": 16,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_16_frames_004249.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 5,
-        "noes": 1,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Introduce Ordinance 29 2022 regarding Proposed Amendments to the Torrance Municipal Code Rezoning Economic Capital Beltlands California Environmental Quality Act (CEQA) Exemption and Design Standards Amending Torrance Municipal Code Expenditures State.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142620016",
-      "video_timestamp": 2280,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "12A",
-      "frame_number": 18,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_18_frames_000436.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Second and Final Reading of Ordinance # 3871 amending the Torrance Municipal Code (TMC) prohibiting camping in public places, amending the TMC prohibiting fires in parks, adding to the TMC prohibiting fires in public places, regulating loitering in public places and prohibiting loitering at bus stop sites and approve an Ordinance Summary for publication.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142620018",
-      "video_timestamp": 1440,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "L-2B",
-      "frame_number": 18,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_18_frames_000437.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed Unanimously",
-      "confidence": "High",
-      "motion_text": "Second and Final Reading of Ordinance No. 3911 amending the Torrance Municipal Code (TMC) prohibiting camping in public places, amending the TMC prohibiting fires in parks, adding to the TMC prohibiting fires in public places, regulating shelters in public places, and prohibiting loitering at bus stop sites and approve an Ordinance Summary for publication.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142620018",
-      "video_timestamp": 1440,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "12B",
-      "frame_number": 19,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_19_frames_000127.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Second and Final Reading of Ordinance No. 3928 Approving a Development Agreement Between the City of Torrance and Luma House Development LLC, related to a development at 22565 Hawthorne Boulevard, Torrance, California Assessors Parcel Numbers 7856-003-915 and approve an Ordinance Summary for publication.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142620019",
-      "video_timestamp": 1470,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14273",
-      "agenda_item": "5A",
-      "frame_number": 3,
-      "frame_path": "2024_meetings_data/votable_frames_14273/chapter_03_frames_000050.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "RESOLUTION NO. 2024-XX honoring Robert Chen upon his retirement from the City of Torrance after thirty-six years of service.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142730003",
-      "video_timestamp": 990,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14273",
-      "agenda_item": "Consent Calendar",
-      "frame_number": 5,
-      "frame_path": "2024_meetings_data/votable_frames_14273/chapter_05_frames_000002.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": 0.98,
-      "motion_text": "Approval of the Consent Calendar",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142730005",
-      "video_timestamp": 450,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14273",
-      "agenda_item": "Item 8: Consent Calendar",
-      "frame_number": 5,
-      "frame_path": "2024_meetings_data/votable_frames_14273/chapter_05_frames_000003.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": 0.95,
-      "motion_text": "Matters listed under the Consent Calendar are to be enacted by one motion and one vote. There will be no separate discussion of these items. If an item is desired, that item will be pulled by a Councilmember from the Consent Calendar and considered separately.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142730005",
-      "video_timestamp": 450,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14273",
-      "agenda_item": "CONSENT CALENDAR",
-      "frame_number": 5,
-      "frame_path": "2024_meetings_data/votable_frames_14273/chapter_05_frames_000004.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed Unanimously",
-      "confidence": "High",
-      "motion_text": "Approve the Consent Calendar",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142730005",
-      "video_timestamp": 450,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14273",
-      "agenda_item": "N/A - Agenda item not visible in image.",
-      "frame_number": 9,
-      "frame_path": "2024_meetings_data/votable_frames_14273/chapter_09_frames_000340.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
-      "confidence": 0.95,
-      "motion_text": "N/A - Motion text not visible in image.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142730009",
-      "video_timestamp": 1170,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14273",
-      "agenda_item": null,
-      "frame_number": 10,
-      "frame_path": "2024_meetings_data/votable_frames_14273/chapter_10_frames_000004.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passes",
-      "confidence": "High",
-      "motion_text": null,
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142730010",
-      "video_timestamp": 300,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14286",
-      "agenda_item": "CONSENT CALENDAR",
-      "frame_number": 3,
-      "frame_path": "2024_meetings_data/votable_frames_14286/chapter_03_frames_000106.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Approve all items on the Consent Calendar.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142860003",
-      "video_timestamp": 390,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14286",
-      "agenda_item": "8. CONSENT CALENDAR",
-      "frame_number": 3,
-      "frame_path": "2024_meetings_data/votable_frames_14286/chapter_03_frames_000107.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "To approve the Consent Calendar as presented.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142860003",
-      "video_timestamp": 390,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14286",
-      "agenda_item": "Consent Calendar",
-      "frame_number": 4,
-      "frame_path": "2024_meetings_data/votable_frames_14286/chapter_04_frames_000003.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": 0.99,
-      "motion_text": "Approval of the Consent Calendar.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "142860004",
-      "video_timestamp": 420,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14305",
-      "agenda_item": null,
-      "frame_number": 1,
-      "frame_path": "2024_meetings_data/votable_frames_14305/chapter_01_frames_000038.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passes",
-      "confidence": {
-        "motion_text": "Not found in image",
-        "vote_tally": "High",
-        "result": "High",
-        "agenda_item": "Not found in image"
-      },
-      "motion_text": null,
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143050001",
-      "video_timestamp": 30,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14312",
-      "agenda_item": null,
-      "frame_number": 1,
-      "frame_path": "2024_meetings_data/votable_frames_14312/chapter_01_frames_000023.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
-      "confidence": 1.0,
-      "motion_text": null,
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143120001",
-      "video_timestamp": 30,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14314",
-      "agenda_item": null,
-      "frame_number": 1,
-      "frame_path": "2024_meetings_data/votable_frames_14314/chapter_01_frames_000059.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passes",
-      "confidence": 1.0,
-      "motion_text": null,
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143140001",
-      "video_timestamp": 30,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14314",
-      "agenda_item": "Consent Calendar (Item 9)",
-      "frame_number": 4,
-      "frame_path": "2024_meetings_data/votable_frames_14314/chapter_04_frames_000001.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Approval of Consent Calendar",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143140004",
-      "video_timestamp": 420,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14314",
-      "agenda_item": "Consent Calendar",
-      "frame_number": 4,
-      "frame_path": "2024_meetings_data/votable_frames_14314/chapter_04_frames_000002.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": 0.98,
-      "motion_text": "Approval of the Consent Calendar",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143140004",
-      "video_timestamp": 420,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14314",
-      "agenda_item": "Community Development - Conduct Public Hearing on Land Use Study 24-0003 Regarding Proposed Amendments to Torrance Municipal Code Pertaining to Facilitating Digital Billboards, Determine California Environmental Quality Act (CEQA) Exemption, and Adopt ORDINANCE Amending Municipal Code.",
-      "frame_number": 5,
-      "frame_path": "2024_meetings_data/votable_frames_14314/chapter_05_frames_001897.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Community Development - Conduct Public Hearing on Land Use Study 24-0003 Regarding Proposed Amendments to Torrance Municipal Code Pertaining to Facilitating Digital Billboards, Determine California Environmental Quality Act (CEQA) Exemption, and Adopt ORDINANCE Amending Municipal Code.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143140005",
-      "video_timestamp": 1950,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14314",
-      "agenda_item": "5A",
-      "frame_number": 5,
-      "frame_path": "2024_meetings_data/votable_frames_14314/chapter_05_frames_001898.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Community Development - Conduct Public Hearing on Land Use Study #4-2023 Regarding Proposed Amendments to Torrance Municipal Code Pertaining to Exclusion of Digital Billboards, Determine California Environmental Quality Act (CEQA) Exemption, and Adopt ORDINANCE Amending Municipal Code.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143140005",
-      "video_timestamp": 1050,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14314",
-      "agenda_item": "Community Development - Conduct Public Hearing on Land Use Study 24-0004 Regarding Proposed Amendments to Torrance Municipal Code Pertaining to Electronic Digital Billboards, Determine California Environmental Quality Act (CEQA) Exemption, and Adopt ORDINANCE Amending Municipal Code.",
-      "frame_number": 5,
-      "frame_path": "2024_meetings_data/votable_frames_14314/chapter_05_frames_001899.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Adopt Ordinance Amending Torrance Municipal Code Pertaining to Electronic Digital Billboards and Determine California Environmental Quality Act (CEQA) Exemption.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143140005",
-      "video_timestamp": 1950,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14314",
-      "agenda_item": "5.A",
-      "frame_number": 5,
-      "frame_path": "2024_meetings_data/votable_frames_14314/chapter_05_frames_001900.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0,
-        "recusals": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Community Development - Conduct Public Hearing on Land Use Study 24-0004 Regarding Proposed Amendments to Torrance Municipal Code Pertaining to Electronic Digital Billboards; Determine California Environmental Quality Act (CEQA) Exemption; and Adopt ORDINANCE Amending Municipal Code.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143140005",
-      "video_timestamp": 1050,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14314",
-      "agenda_item": "Community Development - Conduct Public Hearing on 1) an Initiative Study 2) an Ordinance Regarding Proposed Amendments to Torrance Municipal Code Pertaining to Electronic, Digital Billboards, Determining California Environmental Quality Act (CEQA) Exemption, and 3) an ORDINANCE Amending Municipal Code.",
-      "frame_number": 5,
-      "frame_path": "2024_meetings_data/votable_frames_14314/chapter_05_frames_002240.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 1,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Community Development - Conduct Public Hearing on 1) an Initiative Study 2) an Ordinance Regarding Proposed Amendments to Torrance Municipal Code Pertaining to Electronic, Digital Billboards, Determining California Environmental Quality Act (CEQA) Exemption, and 3) an ORDINANCE Amending Municipal Code.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143140005",
-      "video_timestamp": 1950,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14314",
-      "agenda_item": "HEARINGS - Community Development - Conduct Public Hearing into and introduce Study 24-0004 Regarding Proposed Amendments to Torrance Municipal Code Pertaining to Electronic, Digital Billboards, Define California Environmental Quality Act (CEQA) Exemption, and Adopt ORDINANCE Amending Municipal Code.",
-      "frame_number": 5,
-      "frame_path": "2024_meetings_data/votable_frames_14314/chapter_05_frames_002241.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 1,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": 0.98,
-      "motion_text": "Conduct Public Hearing into and introduce Study 24-0004 Regarding Proposed Amendments to Torrance Municipal Code Pertaining to Electronic, Digital Billboards, Define California Environmental Quality Act (CEQA) Exemption, and Adopt ORDINANCE Amending Municipal Code.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143140005",
-      "video_timestamp": 1950,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14314",
-      "agenda_item": "M4 Community Development - Conduct Public Hearing to introduce and read by title only regarding Proposed Amendments to Torrance Municipal Code pertaining to Electric Vehicle Digital Billboard, California Environmental Act (CEQA) Exemption, and Related ORDINANCE Amending Municipal Code.",
-      "frame_number": 5,
-      "frame_path": "2024_meetings_data/votable_frames_14314/chapter_05_frames_002242.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 1,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Community Development - Conduct Public Hearing to introduce and read by title only regarding Proposed Amendments to Torrance Municipal Code pertaining to Electric Vehicle Digital Billboard, California Environmental Quality Act (CEQA) Exemption, and Related ORDINANCE Amending Municipal Code.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143140005",
-      "video_timestamp": 1950,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14314",
-      "agenda_item": "14",
-      "frame_number": 5,
-      "frame_path": "2024_meetings_data/votable_frames_14314/chapter_05_frames_002243.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 1,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": 5,
-      "motion_text": "Community Development - Conduct Public Hearing into and Introduce Study & Vote Regarding Proposed Amendments to Torrance Municipal Code Pertaining to Electronic Digital Billboards, Declare California Environmental Quality Act (CEQA) Exemption, and Adopt ORDINANCE Amending Municipal Code.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143140005",
-      "video_timestamp": 1050,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14314",
-      "agenda_item": "M Community Development - Conduct Public Hearing on Land Use Study #14 000 Regarding Proposed Amendments to Torrance Municipal Code Pertaining to Electronic Digital Billboards, Determine California Environmental Quality Act (CEQA) Exemption, and Adopt ORDINANCE Amending Municipal Code.",
-      "frame_number": 5,
-      "frame_path": "2024_meetings_data/votable_frames_14314/chapter_05_frames_002244.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 1,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Community Development - Conduct Public Hearing on Land Use Study #14 000 Regarding Proposed Amendments to Torrance Municipal Code Pertaining to Electronic Digital Billboards, Determine California Environmental Quality Act (CEQA) Exemption, and Adopt ORDINANCE Amending Municipal Code.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143140005",
-      "video_timestamp": 1950,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14314",
-      "agenda_item": "9A",
-      "frame_number": 5,
-      "frame_path": "2024_meetings_data/votable_frames_14314/chapter_05_frames_002357.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "Medium-High",
-      "motion_text": "Community Development - Conduct Public Hearing on Land Use Study 24-0004 Regarding Proposed Amendments to Torrance Municipal Code Pertaining to Electronic, Digital Billboards; Declare California Environmental Quality Act (CEQA) Exemption; and Adopt ORDINANCE Amending Municipal Code.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143140005",
-      "video_timestamp": 1050,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14314",
-      "agenda_item": "Community Development - Conduct Public Hearing on and introduce by 2nd reading regarding Proposed Amendments to Torrance Municipal Code pertaining to Electronic Digital Billboards, Declare California Environmental Quality Act (CEQA) Exemption, and Adopt ORDINANCE Amending Municipal Code.",
-      "frame_number": 5,
-      "frame_path": "2024_meetings_data/votable_frames_14314/chapter_05_frames_002359.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed Unanimously",
-      "confidence": 0.95,
-      "motion_text": "Community Development - Conduct Public Hearing on and introduce by 2nd reading regarding Proposed Amendments to Torrance Municipal Code pertaining to Electronic Digital Billboards, Declare California Environmental Quality Act (CEQA) Exemption, and Adopt ORDINANCE Amending Municipal Code.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143140005",
-      "video_timestamp": 1950,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14314",
-      "agenda_item": "M Community Development - Conduct Public Hearing to Consider and Vote on a Vote Regarding Proposed Amendments to Torrance Municipal Code Pertaining to Electronic Digital Billboards; Declare California Environmental Quality Act (CEQA) Exemption; and Social ORDINANCE Amending Municipal Code.",
-      "frame_number": 5,
-      "frame_path": "2024_meetings_data/votable_frames_14314/chapter_05_frames_002361.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": 0.98,
-      "motion_text": "M Community Development - Conduct Public Hearing to Consider and Vote on a Vote Regarding Proposed Amendments to Torrance Municipal Code Pertaining to Electronic Digital Billboards; Declare California Environmental Quality Act (CEQA) Exemption; and Social ORDINANCE Amending Municipal Code.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143140005",
-      "video_timestamp": 1950,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14314",
-      "agenda_item": "10B",
-      "frame_number": 6,
-      "frame_path": "2024_meetings_data/votable_frames_14314/chapter_06_frames_000704.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Community Services - Receive Update and Discuss Governance Torrance Recreation Facilities Expenditure: $1,250,000 (General Fund) Funding For City Council Approval",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143140006",
-      "video_timestamp": 1080,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14319",
-      "agenda_item": "9A",
-      "frame_number": 5,
-      "frame_path": "2024_meetings_data/votable_frames_14319/chapter_05_frames_003505.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Public Works and Water Commission: Conduct Public Hearing and Adopt Resolutions Approving Proposed Series of Annual Increases of Water and Sewer Rates Over a Four-Year Period Beginning January 1, 2025 and Ending December 31, 2028.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143190005",
-      "video_timestamp": 1050,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14319",
-      "agenda_item": "9A - Public Works and Water Commission. Conduct Public Hearing and Adopt Resolution Approving Proposed Series of Annual Increases of Muni and Water Rates over a Five-Year Period Beginning January 1, 2025 and Ending December 31, 2029.",
-      "frame_number": 5,
-      "frame_path": "2024_meetings_data/votable_frames_14319/chapter_05_frames_003506.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Adopt Resolution Approving Proposed Series of Annual Increases of Muni and Water Rates over a Five-Year Period Beginning January 1, 2025 and Ending December 31, 2029.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143190005",
-      "video_timestamp": 1950,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14319",
-      "agenda_item": "3A",
-      "frame_number": 5,
-      "frame_path": "2024_meetings_data/votable_frames_14319/chapter_05_frames_003507.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": 0.98,
-      "motion_text": "Public Works and Water Commission: Conduct Public Hearing and Adopt Resolutions Approving Proposed Series of Annual Increases of Water and Water Rates over a Five-Year Period Beginning January 1, 2025 and Ending December 31, 2029.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143190005",
-      "video_timestamp": 1050,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14319",
-      "agenda_item": "9A Public Works and Water Commission: Conduct Public Hearing and Adopt Resolutions Approving Proposed Series of Annual Increases of Water and Water Rates over a Five-Year Period Beginning January 1, 2023 and Ending December 31, 2027",
-      "frame_number": 5,
-      "frame_path": "2024_meetings_data/votable_frames_14319/chapter_05_frames_003508.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Adopt Resolutions Approving Proposed Series of Annual Increases of Water and Water Rates over a Five-Year Period Beginning January 1, 2023 and Ending December 31, 2027",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143190005",
-      "video_timestamp": 1950,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14319",
-      "agenda_item": "1A",
-      "frame_number": 5,
-      "frame_path": "2024_meetings_data/votable_frames_14319/chapter_05_frames_003585.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed Unanimously",
-      "confidence": "High",
-      "motion_text": "Public Works and Water Commission: Conduct Public Hearing and Adopt RESOLUTION Approving Proposed Series of Annual Increases of Municipal and Water Rates over a Five-Year Period Beginning January 1, 2025 and Ending December 31, 2029.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143190005",
-      "video_timestamp": 1050,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14319",
-      "agenda_item": "9A Public Works and Water Commission. Conduct Public Hearing and Adopt Resolutions Approving Proposed Series of Annual Increases of Municipal Water Rates for a Five-Year Period Beginning January 1, 2025 and Ending December 31, 2029.",
-      "frame_number": 5,
-      "frame_path": "2024_meetings_data/votable_frames_14319/chapter_05_frames_003586.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Conduct Public Hearing and Adopt Resolutions Approving Proposed Series of Annual Increases of Municipal Water Rates for a Five-Year Period Beginning January 1, 2025 and Ending December 31, 2029.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143190005",
-      "video_timestamp": 1950,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14319",
-      "agenda_item": "HEARINGS 1A Public Works and Water Commission to conduct Public Hearing and Bridge Structures Approving Proposed Series of Annual Increases of Water and Water Rates for a Five Year Period Beginning January 1, 2025 and Ending December 31, 2029.",
-      "frame_number": 5,
-      "frame_path": "2024_meetings_data/votable_frames_14319/chapter_05_frames_003588.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "Medium. Vote tally and result are high confidence. The motion text and agenda_item content is clear regarding water rate increases and dates, but the preceding portion in the agenda item is blurry and contains a grammatically ambiguous phrase ('Bridge Structures Approving') which makes full exact transcription challenging.",
-      "motion_text": "Approving a Proposed Series of Annual Increases of Water and Water Rates for a Five Year Period Beginning January 1, 2025 and Ending December 31, 2029.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143190005",
-      "video_timestamp": 1950,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14319",
-      "agenda_item": "Community Development - Conduct Public Hearing, Waive a Second Reading, and Adopt Pipeline Environmental Quality Act of (EQA), and Adopt Pipeline Franchise Ordinance No. 3474 Replacing Pipeline Franchise Ordinance No. 3474 Zenith Energy West Coast Terminals, LLC.",
-      "frame_number": 6,
-      "frame_path": "2024_meetings_data/votable_frames_14319/chapter_06_frames_000384.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Community Development - Conduct Public Hearing, Waive a Second Reading, and Adopt Pipeline Environmental Quality Act of (EQA), and Adopt Pipeline Franchise Ordinance No. 3474 Replacing Pipeline Franchise Ordinance No. 3474 Zenith Energy West Coast Terminals, LLC.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143190006",
-      "video_timestamp": 1980,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14319",
-      "agenda_item": "Community Development - Conduct Public Hearing, Adopt a Resolution of Exemption Under California Environmental Quality Act (CEQA) and Adopt Pipeline Franchise Ordinance No. 3474 Granting Pipeline Franchise Ordinance No. 3474 Zenark Energy World Coral Terminals LLP.",
-      "frame_number": 6,
-      "frame_path": "2024_meetings_data/votable_frames_14319/chapter_06_frames_000385.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed Unanimously",
-      "confidence": "High",
-      "motion_text": "Adopt a Resolution of Exemption Under California Environmental Quality Act (CEQA) and Adopt Pipeline Franchise Ordinance No. 3474 Granting Pipeline Franchise Ordinance No. 3474 Zenark Energy World Coral Terminals LLP.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143190006",
-      "video_timestamp": 1980,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14319",
-      "agenda_item": "HEARINGS - Community Development - Conduct Public Hearing, Adopt Categorial Exemption under California Environmental Quality Act (CEQA), and Adopt Pipeline Franchise Ordinance No. 3474 (Zenith Energy West Coast Terminals, LLC).",
-      "frame_number": 6,
-      "frame_path": "2024_meetings_data/votable_frames_14319/chapter_06_frames_000386.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": 1.0,
-      "motion_text": "Adopt Categorial Exemption under California Environmental Quality Act (CEQA), and Adopt Pipeline Franchise Ordinance No. 3474 (Zenith Energy West Coast Terminals, LLC).",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143190006",
-      "video_timestamp": 1980,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14319",
-      "agenda_item": "18",
-      "frame_number": 6,
-      "frame_path": "2024_meetings_data/votable_frames_14319/chapter_06_frames_000387.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Community Development - Conduct Public Hearing, Adopt Report & Exemption Under California Environmental Quality Act (CEQA) and Adopt Pipeline Franchise Ordinance (MMD) Regulating Pipeline Franchise Ordinance No. 3474 Zenith Energy West Coast Terminals LLC.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143190006",
-      "video_timestamp": 1080,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14319",
-      "agenda_item": "Community Development - Conduct Public Hearing, Adopt Categorical Exemption under California Environmental Quality Act (CEQA) and Adopt Resolution No. 2020-0062 and Introducing Pipeline Franchise Ordinance No. 3474 Zenith Energy River Road Terminals LLC.",
-      "frame_number": 6,
-      "frame_path": "2024_meetings_data/votable_frames_14319/chapter_06_frames_000447.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Conduct Public Hearing, Adopt Categorical Exemption under California Environmental Quality Act (CEQA) and Adopt Resolution No. 2020-0062 and Introducing Pipeline Franchise Ordinance No. 3474 Zenith Energy River Road Terminals LLC.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143190006",
-      "video_timestamp": 1980,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14319",
-      "agenda_item": "Community Development - Conduct Public Hearing, Waive 2nd Reading & Adopt, under California Environmental Quality Act (CEQA) and Adopt Pipeline Franchise Ordinance No. 3474 (Zenith Energy West Coast Renewables LLC).",
-      "frame_number": 6,
-      "frame_path": "2024_meetings_data/votable_frames_14319/chapter_06_frames_000449.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": 0.95,
-      "motion_text": "Community Development - Conduct Public Hearing, Waive 2nd Reading & Adopt, under California Environmental Quality Act (CEQA) and Adopt Pipeline Franchise Ordinance No. 3474 (Zenith Energy West Coast Renewables LLC).",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143190006",
-      "video_timestamp": 1980,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14319",
-      "agenda_item": "Community Development - Conduct Public Hearing, Adopt a Resolution to Exempt from California Environmental Quality Act (CEQA) and Adopt Franchise Ordinance No. 3474 Zenith Energy West Coast Terminals, LLC.",
-      "frame_number": 6,
-      "frame_path": "2024_meetings_data/votable_frames_14319/chapter_06_frames_000450.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Community Development - Conduct Public Hearing, Adopt a Resolution to Exempt from California Environmental Quality Act (CEQA) and Adopt Franchise Ordinance No. 3474 Zenith Energy West Coast Terminals, LLC.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143190006",
-      "video_timestamp": 1980,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14319",
-      "agenda_item": "Community Development - Conduct Public Hearing, Adopt Resolution of exemption under California Environmental Quality Act (CEQA), and Adopt Pipeline Franchise Ordinance No. 3474 Zenergy Energy World Crude Oil Terminals LLC.",
-      "frame_number": 6,
-      "frame_path": "2024_meetings_data/votable_frames_14319/chapter_06_frames_000451.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed Unanimously",
-      "confidence": "High",
-      "motion_text": "Community Development - Conduct Public Hearing, Adopt Resolution of exemption under California Environmental Quality Act (CEQA), and Adopt Pipeline Franchise Ordinance No. 3474 Zenergy Energy World Crude Oil Terminals LLC.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143190006",
-      "video_timestamp": 1980,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14319",
-      "agenda_item": "Community Development - Conduct Public Hearing on Analysis of Impediments to Fair Housing Choice (AI) and Approve Final AI.",
-      "frame_number": 7,
-      "frame_path": "2024_meetings_data/votable_frames_14319/chapter_07_frames_000503.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0,
-        "recusals": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Community Development - Conduct Public Hearing on Analysis of Impediments to Fair Housing Choice (AI) and Approve Final AI.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143190007",
-      "video_timestamp": 2010,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14319",
-      "agenda_item": "5C Community Development",
-      "frame_number": 7,
-      "frame_path": "2024_meetings_data/votable_frames_14319/chapter_07_frames_000504.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Conduct Public Hearing on Analysis of Impediments to Fair Housing Choice (AI) and Approve Final AI",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143190007",
-      "video_timestamp": 1110,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14319",
-      "agenda_item": "Community Development - Conduct Public Hearing on Analysis of impa demands for an Hearing Choice OR and Approve Final Air",
-      "frame_number": 7,
-      "frame_path": "2024_meetings_data/votable_frames_14319/chapter_07_frames_000534.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": {
-        "motion_text": "Medium",
-        "vote_tally": "High",
-        "result": "High",
-        "agenda_item": "Medium"
-      },
-      "motion_text": "Community Development - Conduct Public Hearing on Analysis of impa demands for an Hearing Choice OR and Approve Final Air",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143190007",
-      "video_timestamp": 2010,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14319",
-      "agenda_item": "Community Development - Conduct Public Hearing on Analysis of Impediments to Fair Housing, Choose AIC and Approve Final AI.",
-      "frame_number": 7,
-      "frame_path": "2024_meetings_data/votable_frames_14319/chapter_07_frames_000535.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Community Development - Conduct Public Hearing on Analysis of Impediments to Fair Housing, Choose AIC and Approve Final AI.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143190007",
-      "video_timestamp": 2010,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14319",
-      "agenda_item": "HEARINGS: Community Development - Conduct Public Hearing on Analysis of Impediments to Fair Housing Choice (AI) and Approve Final AI.",
-      "frame_number": 7,
-      "frame_path": "2024_meetings_data/votable_frames_14319/chapter_07_frames_000536.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Community Development - Conduct Public Hearing on Analysis of Impediments to Fair Housing Choice (AI) and Approve Final AI.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143190007",
-      "video_timestamp": 2010,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14319",
-      "agenda_item": "92 Community Development - Conduct Public Hearing on the Fiscal Years 2023-2024 Consolidated Annual Performance and Evaluation Report (CAPER); and herein declare FY 2023-24 and 2024-25 Project Expenditure Budgets.",
-      "frame_number": 8,
-      "frame_path": "2024_meetings_data/votable_frames_14319/chapter_08_frames_000400.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": 0.98,
-      "motion_text": "Community Development - Conduct Public Hearing on the Fiscal Years 2023-2024 Consolidated Annual Performance and Evaluation Report (CAPER); and herein declare FY 2023-24 and 2024-25 Project Expenditure Budgets.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143190008",
-      "video_timestamp": 2040,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14319",
-      "agenda_item": "92 Community Development - Conduct Public Hearing on the FYs 2021-25 Consolidated Annual Performance and Evaluation Report (CAPER) and Recommend FYs 2023-24 and 2024-25 Project Expenditure Budgets.",
-      "frame_number": 8,
-      "frame_path": "2024_meetings_data/votable_frames_14319/chapter_08_frames_000401.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": 5,
-      "motion_text": "To adopt the FYs 2021-25 Consolidated Annual Performance and Evaluation Report (CAPER) and recommend FYs 2023-24 and 2024-25 Project Expenditure Budgets.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143190008",
-      "video_timestamp": 2040,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14319",
-      "agenda_item": "9D",
-      "frame_number": 8,
-      "frame_path": "2024_meetings_data/votable_frames_14319/chapter_08_frames_000439.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Community Development - Conduct Public Hearing to solicit feedback on 2023-24 Consolidated Annual Performance and Evaluation Report (CAPER); and hear on 2024-25 and 2025-26 Project Expenditure Budget.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143190008",
-      "video_timestamp": 1140,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14319",
-      "agenda_item": "90: Community Development - Conduct Public Hearing on the Fiscal Years 2021-2022 Consolidated Annual Performance and Evaluation Report (CAPER) and the Fiscal Years 2023-24 and 2024-25 Project Expenditure Budgets.",
-      "frame_number": 8,
-      "frame_path": "2024_meetings_data/votable_frames_14319/chapter_08_frames_000441.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": 0.98,
-      "motion_text": "Community Development - Conduct Public Hearing on the Fiscal Years 2021-2022 Consolidated Annual Performance and Evaluation Report (CAPER) and the Fiscal Years 2023-24 and 2024-25 Project Expenditure Budgets.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143190008",
-      "video_timestamp": 2040,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14319",
-      "agenda_item": "10B Finance - Accept and File Forensic Review of Estates of Deceased Persons Report",
-      "frame_number": 9,
-      "frame_path": "2024_meetings_data/votable_frames_14319/chapter_09_frames_002919.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "To accept and file the Forensic Review of Estates of Deceased Persons Report.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143190009",
-      "video_timestamp": 1170,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14319",
-      "agenda_item": "10A Finance - Accept and File Finance Review of Future Litigatory Report",
-      "frame_number": 9,
-      "frame_path": "2024_meetings_data/votable_frames_14319/chapter_09_frames_002920.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": 0.98,
-      "motion_text": "Accept and File Finance Review of Future Litigatory Report",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143190009",
-      "video_timestamp": 1170,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14319",
-      "agenda_item": "10K",
-      "frame_number": 10,
-      "frame_path": "2024_meetings_data/votable_frames_14319/chapter_10_frames_000934.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Community Services. Adopt Categorical Exemption under California Environmental Quality Act (CEQA) Sections 15310 and 15301(b) (Landscaping and Grounds); Adopt an Ordinance Amending the Torrance Municipal Code Pertaining to Public Art Policy; and Adopt a Resolution Relating to Mural Policy.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143190010",
-      "video_timestamp": 1200,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14350",
-      "agenda_item": "6A",
-      "frame_number": 2,
-      "frame_path": "2024_meetings_data/votable_frames_14350/chapter_02_frames_000142.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "City Clerk - Adopt Resolution for 2024 Declaring the Results of the votes Cast at the November 5, 2024 Special Municipal and Exp...",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143500002",
-      "video_timestamp": 960,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14350",
-      "agenda_item": "6B",
-      "frame_number": 2,
-      "frame_path": "2024_meetings_data/votable_frames_14350/chapter_02_frames_000143.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": 0.98,
-      "motion_text": "Adopt Resolution for 2024 tabulating the Results of the votes Cast at the November 5, 2024 Special Municipal Election",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143500002",
-      "video_timestamp": 960,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14350",
-      "agenda_item": "CONSENT CALENDAR",
-      "frame_number": 3,
-      "frame_path": "2024_meetings_data/votable_frames_14350/chapter_03_frames_000048.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Approve Consent Calendar",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143500003",
-      "video_timestamp": 390,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14350",
-      "agenda_item": null,
-      "frame_number": 3,
-      "frame_path": "2024_meetings_data/votable_frames_14350/chapter_03_frames_000049.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
-      "confidence": "High (Vote tally and result are clear. Motion text and agenda item are not present in the image.)",
-      "motion_text": null,
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143500003",
-      "video_timestamp": 90,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14350",
-      "agenda_item": "Not visible in the image.",
-      "frame_number": 4,
-      "frame_path": "2024_meetings_data/votable_frames_14350/chapter_04_frames_000006.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
-      "confidence": 1.0,
-      "motion_text": "Not visible in the image.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143500004",
-      "video_timestamp": 1020,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14350",
-      "agenda_item": "Consent Calendar (Item 8)",
-      "frame_number": 4,
-      "frame_path": "2024_meetings_data/votable_frames_14350/chapter_04_frames_001347.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed unanimously",
-      "confidence": "High",
-      "motion_text": "Enacting matters listed under the Consent Calendar.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143500004",
-      "video_timestamp": 420,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14350",
-      "agenda_item": {
-        "type": "Ordinance",
-        "number": "3432",
-        "description": "Amending the Torrance Municipal Code by Establishing a Mobile Home Space Rent Stabilization Ordinance"
-      },
-      "frame_number": 6,
-      "frame_path": "2024_meetings_data/votable_frames_14350/chapter_06_frames_005683.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0,
-        "recused": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Community Development - Conduct Public Hearing, Determine Environmental Qualification (CEQA) Exemption, and Adopt ORDINANCE Amending the Torrance Municipal Code by Establishing a Mobile Home Space Rent Stabilization Ordinance",
-      "individual_votes": {},
-      "year": 2024,
-      "meta_id": "143500006",
-      "video_timestamp": 180,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14350",
-      "agenda_item": "1A",
-      "frame_number": 6,
-      "frame_path": "2024_meetings_data/votable_frames_14350/chapter_06_frames_005717.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 5,
-        "noes": 2,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": 1.0,
-      "motion_text": "Community Development - Conduct Public Hearing, Determine Environmental Quality Act (CEQA) Exemption, and Adopt ORDINANCE Amending the Torrance Municipal Code by Establishing a Mobile Home Space Rent Stabilization Ordinance (Ordinance 3422).",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143500006",
-      "video_timestamp": 1080,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14350",
-      "agenda_item": "9A HEARINGS",
-      "frame_number": 6,
-      "frame_path": "2024_meetings_data/votable_frames_14350/chapter_06_frames_005718.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 5,
-        "noes": 2,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Community Development - Conduct Public Hearing, Determine Environmental Quality Act (CEQA) Exemption, and Adopt Ordinance Amending the Torrance Municipal Code by Establishing a Mobile Home Space Rent Stabilization Ordinance - (3833)",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143500006",
-      "video_timestamp": 1080,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14350",
-      "agenda_item": "9A",
-      "frame_number": 6,
-      "frame_path": "2024_meetings_data/votable_frames_14350/chapter_06_frames_005719.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 5,
-        "noes": 2,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": "High",
-      "motion_text": "Community Development - Conduct Public Hearing, Determine California Environmental Quality Act (CEQA) Exemption, and Adopt ORDINANCE Amending the Torrance Municipal Code by Establishing a Mobile Home Space Rent Stabilization Ordinance - (MSB)",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143500006",
-      "video_timestamp": 1080,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14350",
-      "agenda_item": "Finance - Conduct Public Hearing and Adopt Resolution Authorizing Issuance of Revenue Obligations for Benevolence Institute on the original City's Financing Projects Expenditure Plan.",
-      "frame_number": 8,
-      "frame_path": "2024_meetings_data/votable_frames_14350/chapter_08_frames_000419.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": 1.0,
-      "motion_text": "Conduct Public Hearing and Adopt Resolution Authorizing Issuance of Revenue Obligations for Benevolence Institute on the original City's Financing Projects Expenditure Plan.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143500008",
-      "video_timestamp": 2040,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14350",
-      "agenda_item": "HEARINGS: WC-Alliance for Contract Public Works Obligations for Reimbursement to the City from the...",
-      "frame_number": 8,
-      "frame_path": "2024_meetings_data/votable_frames_14350/chapter_08_frames_000420.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passes",
-      "confidence": {
-        "motion_text": 0.4,
-        "vote_tally": 1.0,
-        "result": 1.0,
-        "agenda_item": 0.5
-      },
-      "motion_text": "WC-Alliance for Contract Public Works Obligations for Reimbursement to the City from the...",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143500008",
-      "video_timestamp": 1140,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14350",
-      "agenda_item": "10B",
-      "frame_number": 9,
-      "frame_path": "2024_meetings_data/votable_frames_14350/chapter_09_frames_000425.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Passed",
-      "confidence": 5,
-      "motion_text": "Public Works - Approve Recommendation of Recycled Water and Reassignment of Landscape Maintenance Responsibilities for Parkways on Arterial Between Hawthorne Blvd and Western Ave. Expenditure None",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143500009",
-      "video_timestamp": 1170,
-      "timestamp_estimated": true
-    },
-    {
-      "id": "",
-      "meeting_id": "14350",
-      "agenda_item": "Not visible in image",
-      "frame_number": 13,
-      "frame_path": "2024_meetings_data/votable_frames_14350/chapter_13_frames_000235.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0
-      },
-      "result": "Motion Passes",
-      "confidence": {
-        "motion_text": "Low (information not present in image)",
-        "vote_tally": "High",
-        "result": "High",
-        "agenda_item": "Low (information not present in image)"
-      },
-      "motion_text": "Not visible in image",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
-      },
-      "year": 2024,
-      "meta_id": "143500013",
-      "video_timestamp": 1290,
-      "timestamp_estimated": true
+      "confidence": "High"
     }
   ],
   "meetings": {
-    "14510": {
-      "id": "14510",
-      "title": "City Council Meeting 14510",
-      "date": "2025-07-15",
-      "time": "19:00",
-      "video_url": "https://torrance.granicus.com/player/clip/14510",
-      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14510",
-      "total_votes": 20
-    },
     "14490": {
       "id": "14490",
       "title": "City Council Meeting 14490",
-      "date": "2025-07-01",
+      "date": "2025-01-01",
       "time": "19:00",
       "video_url": "https://torrance.granicus.com/player/clip/14490",
       "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14490",
-      "total_votes": 12
+      "total_votes": 6,
+      "passed_votes": 6,
+      "failed_votes": 0
     },
-    "14538": {
-      "id": "14538",
-      "title": "City Council Meeting 14538",
-      "date": "2025-08-26",
+    "14371": {
+      "id": "14371",
+      "title": "City Council Meeting 14371",
+      "date": "2025-01-01",
       "time": "19:00",
-      "video_url": "https://torrance.granicus.com/player/clip/14538",
-      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14538",
-      "total_votes": 2
+      "video_url": "https://torrance.granicus.com/player/clip/14371",
+      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14371"
+    },
+    "14385": {
+      "id": "14385",
+      "title": "City Council Meeting 14385",
+      "date": "2025-01-01",
+      "time": "19:00",
+      "video_url": "https://torrance.granicus.com/player/clip/14385",
+      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14385"
+    },
+    "14378": {
+      "id": "14378",
+      "title": "City Council Meeting 14378",
+      "date": "2025-01-01",
+      "time": "19:00",
+      "video_url": "https://torrance.granicus.com/player/clip/14378",
+      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14378"
+    },
+    "14510": {
+      "id": "14510",
+      "title": "City Council Meeting 14510",
+      "date": "2025-01-01",
+      "time": "19:00",
+      "video_url": "https://torrance.granicus.com/player/clip/14510",
+      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14510",
+      "total_votes": 10,
+      "passed_votes": 10,
+      "failed_votes": 0
+    },
+    "14519": {
+      "id": "14519",
+      "title": "City Council Meeting 14519",
+      "date": "2025-01-01",
+      "time": "19:00",
+      "video_url": "https://torrance.granicus.com/player/clip/14519",
+      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14519"
+    },
+    "14383": {
+      "id": "14383",
+      "title": "City Council Meeting 14383",
+      "date": "2025-01-01",
+      "time": "19:00",
+      "video_url": "https://torrance.granicus.com/player/clip/14383",
+      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14383"
+    },
+    "14399": {
+      "id": "14399",
+      "title": "City Council Meeting 14399",
+      "date": "2025-01-01",
+      "time": "19:00",
+      "video_url": "https://torrance.granicus.com/player/clip/14399",
+      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14399"
+    },
+    "14364": {
+      "id": "14364",
+      "title": "City Council Meeting 14364",
+      "date": "2025-01-01",
+      "time": "19:00",
+      "video_url": "https://torrance.granicus.com/player/clip/14364",
+      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14364"
+    },
+    "14363": {
+      "id": "14363",
+      "title": "City Council Meeting 14363",
+      "date": "2025-01-01",
+      "time": "19:00",
+      "video_url": "https://torrance.granicus.com/player/clip/14363",
+      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14363"
+    },
+    "14365": {
+      "id": "14365",
+      "title": "City Council Meeting 14365",
+      "date": "2025-01-01",
+      "time": "19:00",
+      "video_url": "https://torrance.granicus.com/player/clip/14365",
+      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14365"
+    },
+    "14502": {
+      "id": "14502",
+      "title": "City Council Meeting 14502",
+      "date": "2025-01-01",
+      "time": "19:00",
+      "video_url": "https://torrance.granicus.com/player/clip/14502",
+      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14502"
+    },
+    "14354": {
+      "id": "14354",
+      "title": "City Council Meeting 14354",
+      "date": "2025-01-01",
+      "time": "19:00",
+      "video_url": "https://torrance.granicus.com/player/clip/14354",
+      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14354"
+    },
+    "14415": {
+      "id": "14415",
+      "title": "City Council Meeting 14415",
+      "date": "2025-01-01",
+      "time": "19:00",
+      "video_url": "https://torrance.granicus.com/player/clip/14415",
+      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14415"
+    },
+    "14423": {
+      "id": "14423",
+      "title": "City Council Meeting 14423",
+      "date": "2025-01-01",
+      "time": "19:00",
+      "video_url": "https://torrance.granicus.com/player/clip/14423",
+      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14423"
+    },
+    "14476": {
+      "id": "14476",
+      "title": "City Council Meeting 14476",
+      "date": "2025-01-01",
+      "time": "19:00",
+      "video_url": "https://torrance.granicus.com/player/clip/14476",
+      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14476"
+    },
+    "14482": {
+      "id": "14482",
+      "title": "City Council Meeting 14482",
+      "date": "2025-01-01",
+      "time": "19:00",
+      "video_url": "https://torrance.granicus.com/player/clip/14482",
+      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14482"
+    },
+    "14485": {
+      "id": "14485",
+      "title": "City Council Meeting 14485",
+      "date": "2025-01-01",
+      "time": "19:00",
+      "video_url": "https://torrance.granicus.com/player/clip/14485",
+      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14485"
+    },
+    "14471": {
+      "id": "14471",
+      "title": "City Council Meeting 14471",
+      "date": "2025-01-01",
+      "time": "19:00",
+      "video_url": "https://torrance.granicus.com/player/clip/14471",
+      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14471"
+    },
+    "14450": {
+      "id": "14450",
+      "title": "City Council Meeting 14450",
+      "date": "2025-01-01",
+      "time": "19:00",
+      "video_url": "https://torrance.granicus.com/player/clip/14450",
+      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14450"
+    },
+    "14435": {
+      "id": "14435",
+      "title": "City Council Meeting 14435",
+      "date": "2025-01-01",
+      "time": "19:00",
+      "video_url": "https://torrance.granicus.com/player/clip/14435",
+      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14435"
+    },
+    "14402": {
+      "id": "14402",
+      "title": "City Council Meeting 14402",
+      "date": "2025-01-01",
+      "time": "19:00",
+      "video_url": "https://torrance.granicus.com/player/clip/14402",
+      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14402"
+    },
+    "14405": {
+      "id": "14405",
+      "title": "City Council Meeting 14405",
+      "date": "2025-01-01",
+      "time": "19:00",
+      "video_url": "https://torrance.granicus.com/player/clip/14405",
+      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14405"
     },
     "14524": {
       "id": "14524",
       "title": "City Council Meeting 14524",
-      "date": "2025-08-05",
+      "date": "2025-01-01",
       "time": "19:00",
       "video_url": "https://torrance.granicus.com/player/clip/14524",
       "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14524",
-      "total_votes": 2
+      "total_votes": 1,
+      "passed_votes": 1,
+      "failed_votes": 0
     },
-    "14530": {
-      "id": "14530",
-      "title": "City Council Meeting 14530",
-      "date": "2025-08-12",
+    "14375": {
+      "id": "14375",
+      "title": "City Council Meeting 14375",
+      "date": "2025-01-01",
       "time": "19:00",
-      "video_url": "https://torrance.granicus.com/player/clip/14530",
-      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14530",
-      "total_votes": 20
+      "video_url": "https://torrance.granicus.com/player/clip/14375",
+      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14375"
+    },
+    "14538": {
+      "id": "14538",
+      "title": "City Council Meeting 14538",
+      "date": "2025-01-01",
+      "time": "19:00",
+      "video_url": "https://torrance.granicus.com/player/clip/14538",
+      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14538",
+      "total_votes": 1,
+      "passed_votes": 1,
+      "failed_votes": 0
+    },
+    "14360": {
+      "id": "14360",
+      "title": "City Council Meeting 14360",
+      "date": "2025-01-01",
+      "time": "19:00",
+      "video_url": "https://torrance.granicus.com/player/clip/14360",
+      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14360"
     },
     "14536": {
       "id": "14536",
       "title": "City Council Meeting 14536",
-      "date": "2025-08-19",
+      "date": "2025-01-01",
       "time": "19:00",
       "video_url": "https://torrance.granicus.com/player/clip/14536",
       "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14536",
-      "total_votes": 12
+      "total_votes": 6,
+      "passed_votes": 6,
+      "failed_votes": 0
     },
-    "14243": {
-      "id": "14243",
-      "title": "City Council Meeting 14243",
-      "date": "2024-01-09",
+    "14393": {
+      "id": "14393",
+      "title": "City Council Meeting 14393",
+      "date": "2025-01-01",
       "time": "19:00",
-      "video_url": "https://torrance.granicus.com/player/clip/14243",
-      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14243",
-      "total_votes": 6
+      "video_url": "https://torrance.granicus.com/player/clip/14393",
+      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14393"
     },
-    "14262": {
-      "id": "14262",
-      "title": "City Council Meeting 14262",
-      "date": "2024-01-23",
+    "14530": {
+      "id": "14530",
+      "title": "City Council Meeting 14530",
+      "date": "2025-01-01",
       "time": "19:00",
-      "video_url": "https://torrance.granicus.com/player/clip/14262",
-      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14262",
-      "total_votes": 42
+      "video_url": "https://torrance.granicus.com/player/clip/14530",
+      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14530",
+      "total_votes": 10,
+      "passed_votes": 10,
+      "failed_votes": 0
     },
-    "14273": {
-      "id": "14273",
-      "title": "City Council Meeting 14273",
-      "date": "2024-02-06",
+    "14395": {
+      "id": "14395",
+      "title": "City Council Meeting 14395",
+      "date": "2025-01-01",
       "time": "19:00",
-      "video_url": "https://torrance.granicus.com/player/clip/14273",
-      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14273",
-      "total_votes": 9
+      "video_url": "https://torrance.granicus.com/player/clip/14395",
+      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14395"
     },
-    "14286": {
-      "id": "14286",
-      "title": "City Council Meeting 14286",
-      "date": "2024-02-20",
+    "14357": {
+      "id": "14357",
+      "title": "City Council Meeting 14357",
+      "date": "2025-01-01",
       "time": "19:00",
-      "video_url": "https://torrance.granicus.com/player/clip/14286",
-      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14286",
-      "total_votes": 5
+      "video_url": "https://torrance.granicus.com/player/clip/14357",
+      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14357"
     },
-    "14305": {
-      "id": "14305",
-      "title": "City Council Meeting 14305",
-      "date": "2024-03-05",
+    "14411": {
+      "id": "14411",
+      "title": "City Council Meeting 14411",
+      "date": "2025-01-01",
       "time": "19:00",
-      "video_url": "https://torrance.granicus.com/player/clip/14305",
-      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14305",
-      "total_votes": 3
+      "video_url": "https://torrance.granicus.com/player/clip/14411",
+      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14411"
     },
-    "14312": {
-      "id": "14312",
-      "title": "City Council Meeting 14312",
-      "date": "2024-03-19",
+    "14427": {
+      "id": "14427",
+      "title": "City Council Meeting 14427",
+      "date": "2025-01-01",
       "time": "19:00",
-      "video_url": "https://torrance.granicus.com/player/clip/14312",
-      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14312",
-      "total_votes": 3
+      "video_url": "https://torrance.granicus.com/player/clip/14427",
+      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14427"
     },
-    "14314": {
-      "id": "14314",
-      "title": "City Council Meeting 14314",
-      "date": "2024-03-26",
+    "14418": {
+      "id": "14418",
+      "title": "City Council Meeting 14418",
+      "date": "2025-01-01",
       "time": "19:00",
-      "video_url": "https://torrance.granicus.com/player/clip/14314",
-      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14314",
-      "total_votes": 19
+      "video_url": "https://torrance.granicus.com/player/clip/14418",
+      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14418"
     },
-    "14319": {
-      "id": "14319",
-      "title": "City Council Meeting 14319",
-      "date": "2024-04-09",
+    "14443": {
+      "id": "14443",
+      "title": "City Council Meeting 14443",
+      "date": "2025-01-01",
       "time": "19:00",
-      "video_url": "https://torrance.granicus.com/player/clip/14319",
-      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14319",
-      "total_votes": 30
+      "video_url": "https://torrance.granicus.com/player/clip/14443",
+      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14443"
+    }
+  },
+  "metadata": {
+    "source": "2025_meetings_data",
+    "conversion_timestamp": "2025-10-20T15:05:33.394911",
+    "total_votes": 107,
+    "total_meetings": 36
+  },
+  "councilmember_stats": {
+    "GEORGE CHEN": {
+      "total_votes": 107,
+      "yes_votes": 107,
+      "no_votes": 0,
+      "abstentions": 0
     },
-    "14350": {
-      "id": "14350",
-      "title": "City Council Meeting 14350",
-      "date": "2024-12-10",
-      "time": "19:00",
-      "video_url": "https://torrance.granicus.com/player/clip/14350",
-      "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14350",
-      "total_votes": 19
+    "MIKE GERSON": {
+      "total_votes": 107,
+      "yes_votes": 107,
+      "no_votes": 0,
+      "abstentions": 0
+    },
+    "SHARON KALANI": {
+      "total_votes": 107,
+      "yes_votes": 99,
+      "no_votes": 8,
+      "abstentions": 0
+    },
+    "ASAM SHAIKH": {
+      "total_votes": 107,
+      "yes_votes": 99,
+      "no_votes": 8,
+      "abstentions": 0
+    },
+    "JON KAJI": {
+      "total_votes": 107,
+      "yes_votes": 99,
+      "no_votes": 8,
+      "abstentions": 0
     }
   },
   "councilmembers": [
     "GEORGE CHEN",
     "MIKE GERSON",
-    "SHARON KALANI",
-    "ASAM SHEIKH",
     "JON KAJI",
-    "Aurelio Mattucci",
-    "Bridget Lewis"
-  ],
-  "councilmember_stats": {
-    "GEORGE CHEN": {
-      "total_votes": 199,
-      "yes_votes": 199,
-      "no_votes": 0,
-      "abstentions": 0
-    },
-    "MIKE GERSON": {
-      "total_votes": 199,
-      "yes_votes": 199,
-      "no_votes": 0,
-      "abstentions": 0
-    },
-    "SHARON KALANI": {
-      "total_votes": 199,
-      "yes_votes": 195,
-      "no_votes": 4,
-      "abstentions": 0
-    },
-    "JON KAJI": {
-      "total_votes": 199,
-      "yes_votes": 198,
-      "no_votes": 1,
-      "abstentions": 0
-    },
-    "ASAM SHEIKH": {
-      "total_votes": 199,
-      "yes_votes": 195,
-      "no_votes": 4,
-      "abstentions": 0
-    },
-    "Bridget Lewis": {
-      "total_votes": 0,
-      "yes_votes": 0,
-      "no_votes": 0,
-      "abstentions": 0
-    },
-    "Aurelio Mattucci": {
-      "total_votes": 0,
-      "yes_votes": 0,
-      "no_votes": 0,
-      "abstentions": 0
-    }
-  },
-  "councilmember_summaries": {
-    "GEORGE CHEN": {
-      "summary": "Chen serves as mayor of the Torrance City Council. Mayor George Chen serves as the presiding officer of the Torrance City Council, bringing leadership and vision to city governance. Demonstrates strong consensus-building skills, voting unanimously in favor of all 14 recorded motions. Primary policy focus areas include Planning & Development, reflecting commitment to these key municipal priorities. Key initiatives include City budget oversight, Public safety initiatives, demonstrating proactive leadership in city governance. Learn more about Chen's background and priorities at the [official bio page](https://www.torranceca.gov/government/city-council-and-elected-officials/chen).",
-      "role": "Mayor",
-      "notes": [
-        "Participated in 14 recorded votes",
-        "Voted Yes on 14 motions",
-        "Voted No on 0 motions",
-        "Active in 1 policy areas",
-        "Bio: https://www.torranceca.gov/government/city-council-and-elected-officials/chen"
-      ],
-      "stats": {
-        "total_votes": 14,
-        "yes_votes": 14,
-        "no_votes": 0
-      },
-      "bio_url": "https://www.torranceca.gov/government/city-council-and-elected-officials/chen",
-      "policy_focus": [
-        "Economic Development",
-        "Public Safety",
-        "Infrastructure",
-        "Community Engagement"
-      ],
-      "notable_initiatives": [
-        "City budget oversight",
-        "Public safety initiatives",
-        "Economic development programs"
-      ],
-      "policy_votes": {
-        "Planning & Development": 14,
-        "Public Safety": 0,
-        "Budget & Finance": 0,
-        "Infrastructure": 0,
-        "Community Services": 0,
-        "Environmental": 0,
-        "Housing": 0
-      },
-      "bio_note": "Official bio page"
-    },
-    "MIKE GERSON": {
-      "summary": "Gerson serves as councilmember of the Torrance City Council. Councilmember Mike Gerson brings extensive community experience and dedication to serving Torrance residents. Demonstrates strong consensus-building skills, voting unanimously in favor of all 14 recorded motions. Primary policy focus areas include Planning & Development, reflecting commitment to these key municipal priorities. Key initiatives include Community engagement programs, Development oversight, demonstrating proactive leadership in city governance. Learn more about Gerson's background and priorities at the [official bio page](https://www.torranceca.gov/government/city-council-and-elected-officials/gerson).",
-      "role": "Councilmember",
-      "notes": [
-        "Participated in 14 recorded votes",
-        "Voted Yes on 14 motions",
-        "Voted No on 0 motions",
-        "Active in 1 policy areas",
-        "Bio: https://www.torranceca.gov/government/city-council-and-elected-officials/gerson"
-      ],
-      "stats": {
-        "total_votes": 14,
-        "yes_votes": 14,
-        "no_votes": 0
-      },
-      "bio_url": "https://www.torranceca.gov/government/city-council-and-elected-officials/gerson",
-      "policy_focus": [
-        "Community Services",
-        "Planning & Development",
-        "Public Safety"
-      ],
-      "notable_initiatives": [
-        "Community engagement programs",
-        "Development oversight",
-        "Public safety initiatives"
-      ],
-      "policy_votes": {
-        "Planning & Development": 14,
-        "Public Safety": 0,
-        "Budget & Finance": 0,
-        "Infrastructure": 0,
-        "Community Services": 0,
-        "Environmental": 0,
-        "Housing": 0
-      },
-      "bio_note": "Official bio page"
-    },
-    "JON KAJI": {
-      "summary": "Kaji serves as councilmember of the Torrance City Council. Councilmember Jon Kaji is committed to responsible development and maintaining Torrance's quality of life. Demonstrates strong consensus-building skills, voting unanimously in favor of all 14 recorded motions. Primary policy focus areas include Planning & Development, reflecting commitment to these key municipal priorities. Key initiatives include Sustainable development, Environmental protection, demonstrating proactive leadership in city governance. Learn more about Kaji's background and priorities at the [official bio page](https://www.torranceca.gov/government/city-council-and-elected-officials/kaji).",
-      "role": "Councilmember",
-      "notes": [
-        "Participated in 14 recorded votes",
-        "Voted Yes on 14 motions",
-        "Voted No on 0 motions",
-        "Active in 1 policy areas",
-        "Bio: https://www.torranceca.gov/government/city-council-and-elected-officials/kaji"
-      ],
-      "stats": {
-        "total_votes": 14,
-        "yes_votes": 14,
-        "no_votes": 0
-      },
-      "bio_url": "https://www.torranceca.gov/government/city-council-and-elected-officials/kaji",
-      "policy_focus": [
-        "Planning & Development",
-        "Environmental Issues",
-        "Community Services"
-      ],
-      "notable_initiatives": [
-        "Sustainable development",
-        "Environmental protection",
-        "Community programs"
-      ],
-      "policy_votes": {
-        "Planning & Development": 14,
-        "Public Safety": 0,
-        "Budget & Finance": 0,
-        "Infrastructure": 0,
-        "Community Services": 0,
-        "Environmental": 0,
-        "Housing": 0
-      },
-      "bio_note": "Official bio page"
-    },
-    "SHARON KALANI": {
-      "summary": "Kalani serves as councilmember of the Torrance City Council. Councilmember Sharon Kalani brings community-focused leadership and dedication to serving Torrance residents. Demonstrates strong consensus-building skills and commitment to municipal priorities. Primary policy focus areas include Community Services, Public Safety, and Budget & Finance, reflecting commitment to these key municipal priorities. Key initiatives include Community service programs, Public safety initiatives, and Budget oversight, demonstrating proactive leadership in city governance.",
-      "role": "Councilmember",
-      "notes": [
-        "Participated in recorded votes",
-        "Active in community service and public safety",
-        "Bio: https://www.torranceca.gov/government/city-council-and-elected-officials/kalani"
-      ],
-      "stats": {
-        "total_votes": 199,
-        "yes_votes": 195,
-        "no_votes": 4
-      },
-      "bio_url": "https://www.torranceca.gov/government/city-council-and-elected-officials/kalani",
-      "policy_focus": [
-        "Community Services",
-        "Public Safety",
-        "Budget & Finance"
-      ],
-      "notable_initiatives": [
-        "Community service programs",
-        "Public safety initiatives",
-        "Budget oversight"
-      ],
-      "policy_votes": {
-        "Planning & Development": 0,
-        "Public Safety": 0,
-        "Budget & Finance": 0,
-        "Infrastructure": 0,
-        "Community Services": 0,
-        "Environmental": 0,
-        "Housing": 0
-      },
-      "bio_note": "Official bio page"
-    },
-    "ASAM SHEIKH": {
-      "summary": "Sheikh serves as councilmember of the Torrance City Council. Councilmember Mohammed Noor Sheikh brings diverse perspectives and commitment to inclusive governance. Demonstrates strong consensus-building skills, voting unanimously in favor of all 14 recorded motions. Primary policy focus areas include Planning & Development, reflecting commitment to these key municipal priorities. Key initiatives include Community outreach, Public safety initiatives, demonstrating proactive leadership in city governance. Learn more about Sheikh's background and priorities at the [official bio page](https://www.torranceca.gov/government/city-council-and-elected-officials/sheikh).",
-      "role": "Councilmember",
-      "notes": [
-        "Participated in 14 recorded votes",
-        "Voted Yes on 14 motions",
-        "Voted No on 0 motions",
-        "Active in 1 policy areas",
-        "Bio: https://www.torranceca.gov/government/city-council-and-elected-officials/sheikh"
-      ],
-      "stats": {
-        "total_votes": 14,
-        "yes_votes": 14,
-        "no_votes": 0
-      },
-      "bio_url": "https://www.torranceca.gov/government/city-council-and-elected-officials/sheikh",
-      "policy_focus": [
-        "Community Services",
-        "Public Safety",
-        "Planning & Development"
-      ],
-      "notable_initiatives": [
-        "Community outreach",
-        "Public safety initiatives",
-        "Development oversight"
-      ],
-      "policy_votes": {
-        "Planning & Development": 14,
-        "Public Safety": 0,
-        "Budget & Finance": 0,
-        "Infrastructure": 0,
-        "Community Services": 0,
-        "Environmental": 0,
-        "Housing": 0
-      },
-      "bio_note": "Official bio page"
-    },
-    "Bridget Lewis": {
-      "summary": "Lewis serves as councilmember of the Torrance City Council. Councilmember Asam Ashraf brings fresh perspective and community-focused approach to city governance. Demonstrates strong consensus-building skills, voting unanimously in favor of all 14 recorded motions. Primary policy focus areas include Planning & Development, reflecting commitment to these key municipal priorities. Key initiatives include Community engagement, Development oversight, demonstrating proactive leadership in city governance. Learn more about Lewis's background and priorities at the [official bio page](https://www.torranceca.gov/government/city-council-and-elected-officials/lewis).",
-      "role": "Councilmember",
-      "notes": [
-        "Participated in 14 recorded votes",
-        "Voted Yes on 14 motions",
-        "Voted No on 0 motions",
-        "Active in 1 policy areas",
-        "Bio: https://www.torranceca.gov/government/city-council-and-elected-officials/lewis"
-      ],
-      "stats": {
-        "total_votes": 14,
-        "yes_votes": 14,
-        "no_votes": 0
-      },
-      "bio_url": "https://www.torranceca.gov/government/city-council-and-elected-officials/lewis",
-      "policy_focus": [
-        "Community Services",
-        "Planning & Development",
-        "Public Safety"
-      ],
-      "notable_initiatives": [
-        "Community engagement",
-        "Development oversight",
-        "Public safety programs"
-      ],
-      "policy_votes": {
-        "Planning & Development": 14,
-        "Public Safety": 0,
-        "Budget & Finance": 0,
-        "Infrastructure": 0,
-        "Community Services": 0,
-        "Environmental": 0,
-        "Housing": 0
-      },
-      "bio_note": "Official bio page"
-    },
-    "Aurelio Mattucci": {
-      "summary": "Mattucci serves as councilmember of the Torrance City Council. Councilmember Mike Mattucci is dedicated to maintaining Torrance's character while supporting responsible growth. Demonstrates strong consensus-building skills, voting unanimously in favor of all 14 recorded motions. Primary policy focus areas include Planning & Development, reflecting commitment to these key municipal priorities. Key initiatives include Development planning, Infrastructure improvements, demonstrating proactive leadership in city governance. Learn more about Mattucci's background and priorities at the [official bio page](https://www.torranceca.gov/government/city-council-and-elected-officials/mattucci).",
-      "role": "Councilmember",
-      "notes": [
-        "Participated in 14 recorded votes",
-        "Voted Yes on 14 motions",
-        "Voted No on 0 motions",
-        "Active in 1 policy areas",
-        "Bio: https://www.torranceca.gov/government/city-council-and-elected-officials/mattucci"
-      ],
-      "stats": {
-        "total_votes": 14,
-        "yes_votes": 14,
-        "no_votes": 0
-      },
-      "bio_url": "https://www.torranceca.gov/government/city-council-and-elected-officials/mattucci",
-      "policy_focus": [
-        "Planning & Development",
-        "Infrastructure",
-        "Community Services"
-      ],
-      "notable_initiatives": [
-        "Development planning",
-        "Infrastructure improvements",
-        "Community programs"
-      ],
-      "policy_votes": {
-        "Planning & Development": 14,
-        "Public Safety": 0,
-        "Budget & Finance": 0,
-        "Infrastructure": 0,
-        "Community Services": 0,
-        "Environmental": 0,
-        "Housing": 0
-      },
-      "bio_note": "Official bio page"
-    }
-  },
-  "meeting_summaries": {
-    "14510": {
-      "summary": "City Council meeting with 24 votes recorded. 0 votes passed. Key highlights: Featured 2 public hearing(s), Planning and development focus, Budget and financial matters. Notable agenda items included 9C. Planning Commission and Community Development \u2013 Conduct a Public Hearing and Consider Adoption of RESOLUTION for the Denial of a Modification (MOD23-00010) of a Previously Approved Division of Lot (DIV14-00006) to Amend an Open Space Easement (Note A. (and 4 more items)",
-      "unique_aspects": [
-        "Featured 2 public hearing(s)",
-        "Planning and development focus",
-        "Budget and financial matters"
-      ],
-      "key_items": [
-        "9C. Planning Commission and Community Development \u2013 Conduct a Public Hearing and Consider Adoption of RESOLUTION for the Denial of a Modification (MOD23-00010) of a Previously Approved Division of Lot (DIV14-00006) to Amend an Open Space Easement (Note A",
-        "9B. Planning Commission and Community Development \u2013 Conduct Public Hearing and Consider Adoption of RESOLUTION for Denial of an Appeal of Planning Commission\u2019s Approval of Conditional Use Permit (CUP24-00028) and Development Permit (DVP24-00004) on Pro",
-        "9C. Planning Commission and Community Development \u2013 Conduct a Public Hearing and Consider Adoption of RESOLUTION for the Denial of a Modification (MOD23-00010) of a Previously Approved Division of Lot (DIV14-00006) to Amend an Open Space Easement (Note A",
-        "9B. Planning Commission and Community Development \u2013 Conduct Public Hearing and Consider Adoption of RESOLUTION for Denial of an Appeal of Planning Commission\u2019s Approval of Conditional Use Permit (CUP24-00028) and Development Permit (DVP24-00004) on Pro",
-        "8D. Community Services \u2014 Approve Second Amendment to Contract Services Agreement for Encampment Prevention Overnight Security Guard Services. Expenditure: Not-to-Exceed $200,000 (General Fund-Measure SST Fund)."
-      ],
-      "total_votes": 24,
-      "passed_votes": 0,
-      "failed_votes": 0
-    },
-    "14490": {
-      "summary": "City Council meeting with 20 votes recorded. 0 votes passed. Key highlights: Featured 1 public hearing(s), Planning and development focus, Consent calendar items. Notable agenda items included 9A. Planning Commission and Community Development \u2013 Conduct a Public Hearing on Land Use Study 25-00001 Regarding Proposed Amendments to the Torrance Municipal Code Pertaining to the Regulation of Accessory Dwelling Units and Junior Accessory Dwelling Un. (and 2 more items)",
-      "unique_aspects": [
-        "Featured 1 public hearing(s)",
-        "Planning and development focus",
-        "Consent calendar items"
-      ],
-      "key_items": [
-        "9A. Planning Commission and Community Development \u2013 Conduct a Public Hearing on Land Use Study 25-00001 Regarding Proposed Amendments to the Torrance Municipal Code Pertaining to the Regulation of Accessory Dwelling Units and Junior Accessory Dwelling Un",
-        "9A. Planning Commission and Community Development \u2013 Conduct a Public Hearing on Land Use Study 25-00001 Regarding Proposed Amendments to the Torrance Municipal Code Pertaining to the Regulation of Accessory Dwelling Units and Junior Accessory Dwelling Un",
-        "8. CONSENT CALENDAR Matters listed under the Consent Calendar are considered routine and will be enacted by one motion and one vote. There will be no separate discussion of these items. If discussion is desired, that item will be pulled by a Councilmember"
-      ],
-      "total_votes": 20,
-      "passed_votes": 0,
-      "failed_votes": 0
-    },
-    "14538": {
-      "summary": "City Council meeting with 7 votes recorded. 0 votes passed. Key highlights: Standard procedural meeting. ",
-      "unique_aspects": [
-        "Standard procedural meeting"
-      ],
-      "key_items": [],
-      "total_votes": 7,
-      "passed_votes": 0,
-      "failed_votes": 0
-    },
-    "14524": {
-      "summary": "City Council meeting with 2 votes recorded. 0 votes passed. Key highlights: Standard procedural meeting. ",
-      "unique_aspects": [
-        "Standard procedural meeting"
-      ],
-      "key_items": [],
-      "total_votes": 2,
-      "passed_votes": 0,
-      "failed_votes": 0
-    },
-    "14530": {
-      "summary": "City Council meeting with 31 votes recorded. 0 votes passed. Key highlights: Featured 1 public hearing(s), Planning and development focus. Notable agenda items included 10B. Fire \u2013 Set Date of October 21, 2025 for a Public Hearing on the Proposed Local Amendments to the 2025 California Fire Code. Expenditure: None.. (and 1 more items)",
-      "unique_aspects": [
-        "Featured 1 public hearing(s)",
-        "Planning and development focus"
-      ],
-      "key_items": [
-        "10B. Fire \u2013 Set Date of October 21, 2025 for a Public Hearing on the Proposed Local Amendments to the 2025 California Fire Code. Expenditure: None.",
-        "10D. City Manager \u2013 Accept and File Economic Development Update and Consider and Provide Direction on Proposed Economic Development Initiatives. Expenditure: None."
-      ],
-      "total_votes": 31,
-      "passed_votes": 0,
-      "failed_votes": 0
-    },
-    "14536": {
-      "summary": "City Council meeting with 18 votes recorded. 1 votes passed. Key highlights: Standard procedural meeting. ",
-      "unique_aspects": [
-        "Standard procedural meeting"
-      ],
-      "key_items": [],
-      "total_votes": 18,
-      "passed_votes": 1,
-      "failed_votes": 0
-    }
-  },
-  "metadata": {
-    "last_updated": "2025-10-20T16:07:38.991847",
-    "total_votes": 204,
-    "total_meetings": 15,
-    "years_included": [
-      2024,
-      2025
-    ],
-    "backup_file": "data/backup/backup_before_2024_merge_20251020_160738.json"
-  }
+    "SHARON KALANI",
+    "ASAM SHAIKH"
+  ]
 }
