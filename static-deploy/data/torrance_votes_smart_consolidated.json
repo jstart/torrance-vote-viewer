@@ -4174,7 +4174,7 @@
       "timestamp": 1760796076.5116448,
       "vote_tally": {
         "ayes": 5,
-        "noes": 3,
+        "noes": 2,
         "abstentions": 0,
         "recused": 0
       },
@@ -5657,7 +5657,7 @@
     "14243": {
       "id": "14243",
       "title": "City Council Meeting 14243",
-      "date": "2024-01-15",
+      "date": "2024-01-16",
       "time": "19:00",
       "video_url": "https://torrance.granicus.com/player/clip/14243",
       "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14243",
@@ -5669,7 +5669,7 @@
     "14262": {
       "id": "14262",
       "title": "City Council Meeting 14262",
-      "date": "2024-02-12",
+      "date": "2024-02-13",
       "time": "19:00",
       "video_url": "https://torrance.granicus.com/player/clip/14262",
       "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14262",
@@ -5681,7 +5681,7 @@
     "14273": {
       "id": "14273",
       "title": "City Council Meeting 14273",
-      "date": "2024-03-11",
+      "date": "2024-03-12",
       "time": "19:00",
       "video_url": "https://torrance.granicus.com/player/clip/14273",
       "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14273",
@@ -5693,7 +5693,7 @@
     "14286": {
       "id": "14286",
       "title": "City Council Meeting 14286",
-      "date": "2024-04-08",
+      "date": "2024-04-09",
       "time": "19:00",
       "video_url": "https://torrance.granicus.com/player/clip/14286",
       "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14286",
@@ -5704,63 +5704,68 @@
     },
     "14305": {
       "id": "14305",
-      "title": "City Council Meeting 14305",
-      "date": "2024-05-13",
+      "title": "City Council Meeting 14305 (2024)",
+      "date": "2024-05-14",
       "time": "19:00",
       "video_url": "https://torrance.granicus.com/player/clip/14305",
       "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14305",
       "total_votes": 1,
       "passed_votes": 1,
       "failed_votes": 0,
-      "summary": "The Torrance City Council convened on 2024-01-28 for a regular meeting. The council conducted 1 votes, with 1 motions passing and 0 motions failing. Key agenda topics included: Other Business (1 items). All councilmembers participated actively, with GEORGE CHEN voting on 1 items. The meeting concluded with standard adjournment procedures."
+      "summary": "The Torrance City Council convened on 2024-05-13 for a regular meeting. The council conducted 1 votes, with 1 motions passing and 0 motions failing. Key agenda topics included: Other Business (1 items). All councilmembers participated actively, with GEORGE CHEN voting on 1 items. The meeting concluded with standard adjournment procedures.",
+      "year": "2024"
     },
     "14312": {
       "id": "14312",
-      "title": "City Council Meeting 14312",
-      "date": "2024-06-10",
+      "title": "City Council Meeting 14312 (2024)",
+      "date": "2024-06-11",
       "time": "19:00",
       "video_url": "https://torrance.granicus.com/player/clip/14312",
       "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14312",
       "total_votes": 1,
       "passed_votes": 1,
       "failed_votes": 0,
-      "summary": "The Torrance City Council convened on 2024-01-28 for a regular meeting. The council conducted 1 votes, with 1 motions passing and 0 motions failing. Key agenda topics included: Other Business (1 items). All councilmembers participated actively, with GEORGE CHEN voting on 1 items. The meeting concluded with standard adjournment procedures."
+      "summary": "The Torrance City Council convened on 2024-06-10 for a regular meeting. The council conducted 1 votes, with 1 motions passing and 0 motions failing. Key agenda topics included: Other Business (1 items). All councilmembers participated actively, with GEORGE CHEN voting on 1 items. The meeting concluded with standard adjournment procedures.",
+      "year": "2024"
     },
     "14314": {
       "id": "14314",
-      "title": "City Council Meeting 14314",
-      "date": "2024-07-08",
+      "title": "City Council Meeting 14314 (2024)",
+      "date": "2024-07-09",
       "time": "19:00",
       "video_url": "https://torrance.granicus.com/player/clip/14314",
       "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14314",
       "total_votes": 9,
       "passed_votes": 9,
       "failed_votes": 0,
-      "summary": "The Torrance City Council convened on 2024-01-28 for a regular meeting. The council conducted 16 votes, with 16 motions passing and 0 motions failing. Key agenda topics included: Planning & Development (8 items), Other Business (6 items), Consent Calendar (2 items). Notable actions included: Approved Community Development - Conduct Public Hearing on Land Use S...; Approved Community Development - Conduct Public Hearing on Land Use S...; Approved Community Development - Conduct Public Hearing on 1) an Init.... All councilmembers participated actively, with GEORGE CHEN voting on 16 items. The meeting concluded with standard adjournment procedures."
+      "summary": "The Torrance City Council convened on 2024-07-08 for a regular meeting. The council conducted 16 votes, with 16 motions passing and 0 motions failing. Key agenda topics included: Planning & Development (8 items), Other Business (6 items), Consent Calendar (2 items). Notable actions included: Approved Community Development - Conduct Public Hearing on Land Use S...; Approved Community Development - Conduct Public Hearing on Land Use S...; Approved Community Development - Conduct Public Hearing on 1) an Init.... All councilmembers participated actively, with GEORGE CHEN voting on 16 items. The meeting concluded with standard adjournment procedures.",
+      "year": "2024"
     },
     "14319": {
       "id": "14319",
-      "title": "City Council Meeting 14319",
-      "date": "2024-08-12",
+      "title": "City Council Meeting 14319 (2024)",
+      "date": "2024-08-13",
       "time": "19:00",
       "video_url": "https://torrance.granicus.com/player/clip/14319",
       "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14319",
       "total_votes": 13,
       "passed_votes": 13,
       "failed_votes": 0,
-      "summary": "The Torrance City Council convened on 2024-01-28 for a regular meeting. The council conducted 27 votes, with 27 motions passing and 0 motions failing. Key agenda topics included: Planning & Development (15 items), Other Business (6 items), Recognition & Proclamations (3 items), Budget & Finance (2 items), Public Hearings (1 items). Notable actions included: Approved 9A - Public Works and Water Commission. Conduct Public Heari...; Approved 9A Public Works and Water Commission: Conduct Public Hearing...; Approved 9A Public Works and Water Commission. Conduct Public Hearing.... All councilmembers participated actively, with GEORGE CHEN voting on 27 items. The meeting concluded with standard adjournment procedures."
+      "summary": "The Torrance City Council convened on 2024-08-12 for a regular meeting. The council conducted 27 votes, with 27 motions passing and 0 motions failing. Key agenda topics included: Planning & Development (15 items), Other Business (6 items), Recognition & Proclamations (3 items), Budget & Finance (2 items), Public Hearings (1 items). Notable actions included: Approved 9A - Public Works and Water Commission. Conduct Public Heari...; Approved 9A Public Works and Water Commission: Conduct Public Hearing...; Approved 9A Public Works and Water Commission. Conduct Public Hearing.... All councilmembers participated actively, with GEORGE CHEN voting on 27 items. The meeting concluded with standard adjournment procedures.",
+      "year": "2024"
     },
     "14350": {
       "id": "14350",
-      "title": "City Council Meeting 14350",
-      "date": "2024-09-09",
+      "title": "City Council Meeting 14350 (2024)",
+      "date": "2024-12-17",
       "time": "19:00",
       "video_url": "https://torrance.granicus.com/player/clip/14350",
       "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14350",
       "total_votes": 14,
       "passed_votes": 14,
       "failed_votes": 0,
-      "summary": "The Torrance City Council convened on 2024-01-28 for a regular meeting. The council conducted 14 votes, with 14 motions passing and 0 motions failing. Key agenda topics included: Other Business (9 items), Consent Calendar (2 items), Public Hearings (2 items), Budget & Finance (1 items). Notable actions included: Approved Amending the Torrance Municipal Code by Establishing a Mobil...; Approved Finance - Conduct Public Hearing and Adopt Resolution Author...; Approved HEARINGS: WC-Alliance for Contract Public Works Obligations .... All councilmembers participated actively, with GEORGE CHEN voting on 13 items. The meeting concluded with standard adjournment procedures."
+      "summary": "The Torrance City Council convened on 2024-09-09 for a regular meeting. The council conducted 14 votes, with 14 motions passing and 0 motions failing. Key agenda topics included: Other Business (9 items), Consent Calendar (2 items), Public Hearings (2 items), Budget & Finance (1 items). Notable actions included: Approved Amending the Torrance Municipal Code by Establishing a Mobil...; Approved Finance - Conduct Public Hearing and Adopt Resolution Author...; Approved HEARINGS: WC-Alliance for Contract Public Works Obligations .... All councilmembers participated actively, with GEORGE CHEN voting on 13 items. The meeting concluded with standard adjournment procedures.",
+      "year": "2024"
     },
     "14427": {
       "id": "14427",
