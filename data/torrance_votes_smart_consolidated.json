@@ -8,16 +8,22 @@
       "frame_path": "2025_meetings_data/votable_frames_14510/frame_005828.jpg",
       "timestamp": 1760796029.998416,
       "vote_tally": {
-        "ayes": 0,
+        "ayes": 6,
         "noes": 1,
         "abstentions": 0,
         "recused": 0
       },
-      "result": "Motion Fails",
+      "result": "Motion Passes",
       "confidence": "High",
       "motion_text": null,
       "individual_votes": {
-        "MIKE GERSON": "NO"
+        "MIKE GERSON": "NO",
+        "GEORGE CHEN": "YES",
+        "JON KAJI": "YES",
+        "SHARON KALANI": "YES",
+        "ASAM SHEIKH": "YES",
+        "AURELIO MATTUCCI": "YES",
+        "BRIDGET LEWIS": "YES"
       },
       "year": 2025,
       "meta_id": "404883",
@@ -33,16 +39,22 @@
       "frame_path": "2025_meetings_data/votable_frames_14510/frame_006380.jpg",
       "timestamp": 1760796037.658988,
       "vote_tally": {
-        "ayes": 0,
+        "ayes": 6,
         "noes": 1,
         "abstentions": 0,
         "recused": 0
       },
-      "result": "Motion Fails",
+      "result": "Motion Passes",
       "confidence": 0.98,
       "motion_text": null,
       "individual_votes": {
-        "MIKE GERSON": "NO"
+        "MIKE GERSON": "NO",
+        "GEORGE CHEN": "YES",
+        "JON KAJI": "YES",
+        "SHARON KALANI": "YES",
+        "ASAM SHEIKH": "YES",
+        "AURELIO MATTUCCI": "YES",
+        "BRIDGET LEWIS": "YES"
       },
       "year": 2025,
       "meta_id": "404886",
@@ -137,18 +149,23 @@
       "frame_path": "2025_meetings_data/votable_frames_14510/frame_010854.jpg",
       "timestamp": 1760796076.5116448,
       "vote_tally": {
-        "ayes": 0,
+        "ayes": 5,
         "noes": 3,
         "abstentions": 0,
         "recused": 0
       },
-      "result": "Motion Fails",
+      "result": "Motion Passes",
       "confidence": 0.98,
       "motion_text": "Not visible in image.",
       "individual_votes": {
         "MIKE GERSON": "NO",
         "SHARON KALANI": "NO",
-        "ASAM SHAIKH": "NO"
+        "ASAM SHAIKH": "NO",
+        "GEORGE CHEN": "YES",
+        "JON KAJI": "YES",
+        "ASAM SHEIKH": "YES",
+        "AURELIO MATTUCCI": "YES",
+        "BRIDGET LEWIS": "YES"
       },
       "year": 2025,
       "meta_id": 404938,
@@ -221,16 +238,22 @@
       "frame_path": "2025_meetings_data/votable_frames_14490/frame_002843.jpg",
       "timestamp": 1760798958.229037,
       "vote_tally": {
-        "ayes": 0,
+        "ayes": 6,
         "noes": 1,
         "abstentions": 0,
         "recused": 0
       },
-      "result": "Motion Fails",
+      "result": "Motion Passes",
       "confidence": "High",
       "motion_text": null,
       "individual_votes": {
-        "MIKE GERSON": "NO"
+        "MIKE GERSON": "NO",
+        "GEORGE CHEN": "YES",
+        "JON KAJI": "YES",
+        "SHARON KALANI": "YES",
+        "ASAM SHEIKH": "YES",
+        "AURELIO MATTUCCI": "YES",
+        "BRIDGET LEWIS": "YES"
       },
       "year": 2025,
       "meta_id": "400974",
@@ -304,17 +327,22 @@
       "frame_path": "2025_meetings_data/votable_frames_14530/frame_007316.jpg",
       "timestamp": 1760791962.263295,
       "vote_tally": {
-        "ayes": 0,
+        "ayes": 5,
         "noes": 2,
         "abstentions": 0,
         "recused": 0
       },
-      "result": "Motion Fails",
+      "result": "Motion Passes",
       "confidence": 1.0,
       "motion_text": null,
       "individual_votes": {
         "MIKE GERSON": "NO",
-        "JON KAJI": "NO"
+        "JON KAJI": "NO",
+        "GEORGE CHEN": "YES",
+        "SHARON KALANI": "YES",
+        "ASAM SHEIKH": "YES",
+        "AURELIO MATTUCCI": "YES",
+        "BRIDGET LEWIS": "YES"
       },
       "year": 2025,
       "meta_id": "408044",
@@ -527,17 +555,22 @@
       "frame_path": "2025_meetings_data/votable_frames_14536/frame_006763.jpg",
       "timestamp": 1760789422.321332,
       "vote_tally": {
-        "ayes": 0,
+        "ayes": 5,
         "noes": 2,
         "abstentions": 0,
         "recused": 0
       },
-      "result": "Motion Fails",
+      "result": "Motion Passes",
       "confidence": 1.0,
       "motion_text": null,
       "individual_votes": {
         "MIKE GERSON": "NO",
-        "SHARON KALANI": "NO"
+        "SHARON KALANI": "NO",
+        "GEORGE CHEN": "YES",
+        "JON KAJI": "YES",
+        "ASAM SHEIKH": "YES",
+        "AURELIO MATTUCCI": "YES",
+        "BRIDGET LEWIS": "YES"
       },
       "year": 2025,
       "meta_id": "409355",
@@ -769,37 +802,6 @@
     {
       "id": "",
       "meeting_id": "14262",
-      "agenda_item": "ADMINISTRATIVE MATTERS: City Manager and Fire - Accept and File Update Regarding Impacts of COVID-19 Pandemic on Long-Term Health Care Facilities Located in the City of Torrance, California.",
-      "frame_number": 5,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_05_frames_001368.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0,
-        "recused": 0
-      },
-      "result": "Motion Passes",
-      "confidence": 0.98,
-      "motion_text": "Accept and File Update Regarding Impacts of COVID-19 Pandemic on Long-Term Health Care Facilities Located in the City of Torrance, California.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES",
-        "AURELIO MATTUCCI": "YES"
-      },
-      "year": 2024,
-      "meta_id": null,
-      "video_timestamp": null,
-      "timestamp_estimated": true,
-      "frame_available": false
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
       "agenda_item": "9D. City Council Transportation Commission - Accept and File Report #7-2024 Meeting Minutes; Expenditure: None",
       "frame_number": 6,
       "frame_path": "2024_meetings_data/votable_frames_14262/chapter_06_frames_000244.jpg",
@@ -813,37 +815,6 @@
       "result": "Motion Passes",
       "confidence": "High",
       "motion_text": "City Council Transportation Commission - Accept and File Report #7-2024 Meeting Minutes; Expenditure: None",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES",
-        "AURELIO MATTUCCI": "YES"
-      },
-      "year": 2024,
-      "meta_id": null,
-      "video_timestamp": null,
-      "timestamp_estimated": true,
-      "frame_available": false
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "9D City Council Transportation Commission - Accept and File August 19, 2024 Meeting Minutes",
-      "frame_number": 6,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_06_frames_000245.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0,
-        "recused": 0
-      },
-      "result": "Motion Passes",
-      "confidence": 0.99,
-      "motion_text": "Accept and File August 19, 2024 Meeting Minutes",
       "individual_votes": {
         "GEORGE CHEN": "YES",
         "MIKE GERSON": "YES",
@@ -986,68 +957,6 @@
     {
       "id": "",
       "meeting_id": "14262",
-      "agenda_item": "ADMINISTRATIVE MATTERS - Transit - Authorize Submission of Fiscal Year 2023-2024 Federal Transit Administration Grant Application and Appropriate Funds for Expenditure Thereof.",
-      "frame_number": 8,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_08_frames_000265.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0,
-        "recused": 0
-      },
-      "result": "Motion Passes",
-      "confidence": "High",
-      "motion_text": "Authorize Submission of Fiscal Year 2023-2024 Federal Transit Administration Grant Application and Appropriate Funds for Expenditure Thereof.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES",
-        "AURELIO MATTUCCI": "YES"
-      },
-      "year": 2024,
-      "meta_id": null,
-      "video_timestamp": null,
-      "timestamp_estimated": true,
-      "frame_available": false
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "Transit - Authorize Submission of Fiscal Year 2021 Federal Transit Administration Grant Application and Appropriate Funds Expenditure.",
-      "frame_number": 8,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_08_frames_000267.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0,
-        "recused": 0
-      },
-      "result": "Motion Passes",
-      "confidence": "High",
-      "motion_text": "Transit - Authorize Submission of Fiscal Year 2021 Federal Transit Administration Grant Application and Appropriate Funds Expenditure.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES",
-        "AURELIO MATTUCCI": "YES"
-      },
-      "year": 2024,
-      "meta_id": null,
-      "video_timestamp": null,
-      "timestamp_estimated": true,
-      "frame_available": false
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
       "agenda_item": "9A",
       "frame_number": 9,
       "frame_path": "2024_meetings_data/votable_frames_14262/chapter_09_frames_000004.jpg",
@@ -1092,37 +1001,6 @@
       "result": "Motion Passes",
       "confidence": "High",
       "motion_text": "Authorize Submission of Fiscal Year 2023-2024 Federal Transit Administration Grant Application and Appropriate Funds; Expenditure Thereof",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES",
-        "AURELIO MATTUCCI": "YES"
-      },
-      "year": 2024,
-      "meta_id": null,
-      "video_timestamp": null,
-      "timestamp_estimated": true,
-      "frame_available": false
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "Transit - Authorize Submission of Fiscal Year 2024 Federal Transit Administration Grant Application and Appropriate Funds Expenditure. (Staff)",
-      "frame_number": 9,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_09_frames_000007.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0,
-        "recused": 0
-      },
-      "result": "Motion Passes",
-      "confidence": "High",
-      "motion_text": "Authorize Submission of Fiscal Year 2024 Federal Transit Administration Grant Application and Appropriate Funds Expenditure.",
       "individual_votes": {
         "GEORGE CHEN": "YES",
         "MIKE GERSON": "YES",
@@ -1296,37 +1174,6 @@
     {
       "id": "",
       "meeting_id": "14262",
-      "agenda_item": "ADMINISTRATIVE MATTERS",
-      "frame_number": 11,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_11_frames_001308.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0,
-        "recused": 0
-      },
-      "result": "Motion Passes",
-      "confidence": "High",
-      "motion_text": "Transit - Approved Funding Agreement for Voluntary Transit Activity, Appropriate Funds; Authorize Implementation of Cannabis Education/Micro-Grant Program; Approve Contract Services Agreement for 'Connect Torrance' Website & Portal Communication; and Approve Consulting Services Agreement for Sales Solicitation and Business Expenditure: $2,000,000",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES",
-        "AURELIO MATTUCCI": "YES"
-      },
-      "year": 2024,
-      "meta_id": null,
-      "video_timestamp": null,
-      "timestamp_estimated": true,
-      "frame_available": false
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
       "agenda_item": "91",
       "frame_number": 12,
       "frame_path": "2024_meetings_data/votable_frames_14262/chapter_12_frames_000143.jpg",
@@ -1451,37 +1298,6 @@
     {
       "id": "",
       "meeting_id": "14262",
-      "agenda_item": "ADMINISTRATIVE MATTERS 5L",
-      "frame_number": 13,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_13_frames_000265.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0,
-        "recused": 0
-      },
-      "result": "Motion Passes",
-      "confidence": "High",
-      "motion_text": "City Manager - Adopt RESOLUTION 2022-XX Adopting Resolution No. 2022-134 for Certain Full Time Salaried and Hourly Employees to Add the Provision of Capital Projects to Carriers from Superintendent Expenditure Nowe",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES",
-        "AURELIO MATTUCCI": "YES"
-      },
-      "year": 2024,
-      "meta_id": null,
-      "video_timestamp": null,
-      "timestamp_estimated": true,
-      "frame_available": false
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
       "agenda_item": "9K (ADMINISTRATIVE MATTERS)",
       "frame_number": 14,
       "frame_path": "2024_meetings_data/votable_frames_14262/chapter_14_frames_000256.jpg",
@@ -1588,37 +1404,6 @@
       "result": "Tie",
       "confidence": "High",
       "motion_text": "Community Development - Conduct Public Hearing for Land Use Study 23-0002 Regarding Proposed Amendments to the Torrance Municipal Code Pertaining to Electronic Digital Billboards, California Environmental Quality Act ('CEQA') Exemption, and Findings/Ordinance Amending Torrance Municipal Code. Expenditure: None.",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "NO",
-        "ASAM SHEIKH": "NO",
-        "BRIDGET LEWIS": "NO",
-        "AURELIO MATTUCCI": "ABSTAIN"
-      },
-      "year": 2024,
-      "meta_id": null,
-      "video_timestamp": null,
-      "timestamp_estimated": true,
-      "frame_available": false
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "10B Community Development - Conduct Public Hearing on Land Use Study 24 0002 Regarding Proposed Amendments to the Torrance Municipal Code Reviewing to create Original Railroads, California Environmental Quality Act (CEQA) Exemptions, modifying Ordinances & Amending Torrance Municipal Code, Expenditure: None.",
-      "frame_number": 16,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_16_frames_003925.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 3,
-        "noes": 3,
-        "abstentions": 1,
-        "recused": 0
-      },
-      "result": "Tie",
-      "confidence": 0.9,
-      "motion_text": "Conduct Public Hearing on Land Use Study 24 0002 Regarding Proposed Amendments to the Torrance Municipal Code Reviewing to create Original Railroads, California Environmental Quality Act (CEQA) Exemptions, modifying Ordinances & Amending Torrance Municipal Code, Expenditure: None.",
       "individual_votes": {
         "GEORGE CHEN": "YES",
         "MIKE GERSON": "YES",
@@ -3916,8 +3701,8 @@
       "time": "19:00",
       "video_url": "https://torrance.granicus.com/player/clip/14262",
       "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14262",
-      "total_votes": 35,
-      "passed_votes": 33,
+      "total_votes": 27,
+      "passed_votes": 26,
       "failed_votes": 0,
       "summary": "The Torrance City Council convened on 2024-01-28 for a regular meeting. The council conducted 37 votes, with 35 motions passing and 2 motions failing. Key agenda topics included: Other Business (13 items), Administrative Matters (11 items), Transportation (6 items), Planning & Development (5 items), Recognition & Proclamations (2 items). Notable actions included: Approved Transit - Approve Contract Services Agreement with Rubber Wh...; Approved ADMINISTRATIVE MATTERS - TRANSIT - Approve Funding Agreement...; Rejected Community Development - Conduct Public Hearing for Land Use .... All councilmembers participated actively, with GEORGE CHEN voting on 37 items. The meeting concluded with standard adjournment procedures."
     },
@@ -4018,51 +3803,51 @@
   ],
   "councilmember_stats": {
     "MIKE GERSON": {
-      "total_votes": 121,
-      "yes_votes": 106,
+      "total_votes": 113,
+      "yes_votes": 98,
       "no_votes": 15,
       "abstentions": 0
     },
-    "BRIDGET LEWIS": {
-      "total_votes": 111,
+    "GEORGE CHEN": {
+      "total_votes": 104,
       "yes_votes": 104,
+      "no_votes": 0,
+      "abstentions": 0
+    },
+    "JON KAJI": {
+      "total_votes": 108,
+      "yes_votes": 102,
+      "no_votes": 6,
+      "abstentions": 0
+    },
+    "SHARON KALANI": {
+      "total_votes": 107,
+      "yes_votes": 100,
       "no_votes": 7,
+      "abstentions": 0
+    },
+    "ASAM SHEIKH": {
+      "total_votes": 104,
+      "yes_votes": 102,
+      "no_votes": 2,
+      "abstentions": 0
+    },
+    "AURELIO MATTUCCI": {
+      "total_votes": 110,
+      "yes_votes": 104,
+      "no_votes": 5,
+      "abstentions": 1
+    },
+    "BRIDGET LEWIS": {
+      "total_votes": 109,
+      "yes_votes": 103,
+      "no_votes": 6,
       "abstentions": 0
     },
     "ASAM SHAIKH": {
       "total_votes": 5,
       "yes_votes": 0,
       "no_votes": 5,
-      "abstentions": 0
-    },
-    "SHARON KALANI": {
-      "total_votes": 111,
-      "yes_votes": 103,
-      "no_votes": 8,
-      "abstentions": 0
-    },
-    "AURELIO MATTUCCI": {
-      "total_votes": 112,
-      "yes_votes": 105,
-      "no_votes": 5,
-      "abstentions": 2
-    },
-    "GEORGE CHEN": {
-      "total_votes": 106,
-      "yes_votes": 106,
-      "no_votes": 0,
-      "abstentions": 0
-    },
-    "JON KAJI": {
-      "total_votes": 111,
-      "yes_votes": 105,
-      "no_votes": 6,
-      "abstentions": 0
-    },
-    "ASAM SHEIKH": {
-      "total_votes": 106,
-      "yes_votes": 103,
-      "no_votes": 3,
       "abstentions": 0
     }
   },
