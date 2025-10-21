@@ -127,7 +127,7 @@ class VoteViewerTemplates {
         return `
             <div class="vote-item">
                 <div class="vote-header">
-                    <span class="vote-agenda-item">${vote.agenda_item || 'No agenda item available'}</span>
+                    <span class="vote-agenda-item">${typeof vote.agenda_item === 'object' ? (vote.agenda_item.description || vote.agenda_item.number || 'No agenda item available') : (vote.agenda_item || 'No agenda item available')}</span>
                     <span class="vote-result ${vote.result.toLowerCase().includes('pass') ? 'result-passed' : 'result-failed'}">
                         ${vote.result.toLowerCase().includes('pass') ? 'PASSED' : 'FAILED'}
                     </span>
@@ -154,15 +154,18 @@ class VoteViewerTemplates {
                     <div class="vote-frame">
                         <h4>Vote Frame (Frame ${vote.frame_number}):</h4>
                         <div class="frame-container">
-                            <img src="${vote.frame_path}" 
-                                 alt="Vote result frame ${vote.frame_number}" 
-                                 class="vote-frame-image"
-                                 onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-                            <div class="frame-placeholder" style="display: none;">
+                            ${vote.frame_available ? `
+                                <img src="${vote.frame_path}" 
+                                     alt="Vote result frame ${vote.frame_number}" 
+                                     class="vote-frame-image"
+                                     onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                            ` : ''}
+                            <div class="frame-placeholder" style="display: ${vote.frame_available ? 'none' : 'block'};">
                                 <div class="placeholder-content">
                                     <i class="fas fa-image"></i>
-                                    <p>Frame image not available</p>
+                                    <p>${vote.frame_available ? 'Frame image not available' : 'Frame image not yet processed'}</p>
                                     <small>Frame ${vote.frame_number} - ${vote.frame_path}</small>
+                                    ${!vote.frame_available ? '<br><small>2024 meeting frames are being processed</small>' : ''}
                                 </div>
                             </div>
                         </div>

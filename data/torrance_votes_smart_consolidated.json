@@ -21,12 +21,14 @@
         "SHARON KALANI": "YES",
         "JON KAJI": "YES",
         "ASAM SHEIKH": "YES",
-        "AURELIO MATTUCCI": "ABSTAIN"
+        "AURELIO MATTUCCI": "ABSTAIN",
+        "BRIDGET LEWIS": "YES"
       },
       "year": 2025,
       "meta_id": "404883",
       "video_timestamp": 5830,
-      "timestamp_estimated": false
+      "timestamp_estimated": false,
+      "frame_available": true
     },
     {
       "id": "14510_6380",
@@ -55,7 +57,8 @@
       "year": 2025,
       "meta_id": "404886",
       "video_timestamp": 6336,
-      "timestamp_estimated": false
+      "timestamp_estimated": false,
+      "frame_available": true
     },
     {
       "id": "14510_7471",
@@ -84,7 +87,8 @@
       "year": 2025,
       "meta_id": "404895",
       "video_timestamp": 7391,
-      "timestamp_estimated": false
+      "timestamp_estimated": false,
+      "frame_available": true
     },
     {
       "id": "14510_8986",
@@ -113,7 +117,8 @@
       "year": 2025,
       "meta_id": "404906",
       "video_timestamp": 8983,
-      "timestamp_estimated": false
+      "timestamp_estimated": false,
+      "frame_available": true
     },
     {
       "id": "14510_9230",
@@ -142,7 +147,8 @@
       "year": 2025,
       "meta_id": "404922",
       "video_timestamp": 9230,
-      "timestamp_estimated": false
+      "timestamp_estimated": false,
+      "frame_available": true
     },
     {
       "id": "14510_10854",
@@ -171,7 +177,8 @@
       "year": 2025,
       "meta_id": 404938,
       "video_timestamp": 10988,
-      "timestamp_estimated": false
+      "timestamp_estimated": false,
+      "frame_available": true
     },
     {
       "id": "14510_15590",
@@ -195,7 +202,8 @@
       "year": 2025,
       "meta_id": 404928,
       "video_timestamp": 9234,
-      "timestamp_estimated": false
+      "timestamp_estimated": false,
+      "frame_available": true
     },
     {
       "id": "14510_17405",
@@ -224,7 +232,8 @@
       "year": 2025,
       "meta_id": "404956",
       "video_timestamp": 17402,
-      "timestamp_estimated": false
+      "timestamp_estimated": false,
+      "frame_available": true
     },
     {
       "id": "14510_19087",
@@ -247,12 +256,14 @@
         "SHARON KALANI": "YES",
         "JON KAJI": "YES",
         "ASAM SHEIKH": "YES",
-        "AURELIO MATTUCCI": "ABSTAIN"
+        "AURELIO MATTUCCI": "ABSTAIN",
+        "BRIDGET LEWIS": "YES"
       },
       "year": 2025,
       "meta_id": 404961,
       "video_timestamp": 19086,
-      "timestamp_estimated": false
+      "timestamp_estimated": false,
+      "frame_available": true
     },
     {
       "id": "14510_21772",
@@ -274,12 +285,15 @@
         "MIKE GERSON": "YES",
         "SHARON KALANI": "YES",
         "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2025,
       "meta_id": 404964,
       "video_timestamp": 21730,
-      "timestamp_estimated": false
+      "timestamp_estimated": false,
+      "frame_available": true
     },
     {
       "id": "14490_486",
@@ -302,12 +316,14 @@
         "SHARON KALANI": "YES",
         "JON KAJI": "YES",
         "ASAM SHEIKH": "YES",
-        "AURELIO MATTUCCI": "YES"
+        "AURELIO MATTUCCI": "YES",
+        "BRIDGET LEWIS": "YES"
       },
       "year": 2025,
       "meta_id": "400967",
       "video_timestamp": 482,
-      "timestamp_estimated": false
+      "timestamp_estimated": false,
+      "frame_available": true
     },
     {
       "id": "14490_2843",
@@ -336,7 +352,8 @@
       "year": 2025,
       "meta_id": "400974",
       "video_timestamp": 2691,
-      "timestamp_estimated": false
+      "timestamp_estimated": false,
+      "frame_available": true
     },
     {
       "id": "14490_2845",
@@ -365,7 +382,8 @@
       "year": 2025,
       "meta_id": "400992",
       "video_timestamp": 2845,
-      "timestamp_estimated": false
+      "timestamp_estimated": false,
+      "frame_available": true
     },
     {
       "id": "14490_2847",
@@ -394,7 +412,8 @@
       "year": 2025,
       "meta_id": "400993",
       "video_timestamp": 2847,
-      "timestamp_estimated": false
+      "timestamp_estimated": false,
+      "frame_available": true
     },
     {
       "id": "14490_3593",
@@ -411,11 +430,15 @@
       "result": "Tie",
       "confidence": "High",
       "motion_text": null,
-      "individual_votes": {},
+      "individual_votes": {
+        "BRIDGET LEWIS": "NO",
+        "AURELIO MATTUCCI": "ABSTAIN"
+      },
       "year": 2025,
       "meta_id": "400973",
       "video_timestamp": 2395,
-      "timestamp_estimated": false
+      "timestamp_estimated": false,
+      "frame_available": true
     },
     {
       "id": "14490_3832",
@@ -439,12 +462,14 @@
         "SHARON KALANI": "YES",
         "JON KAJI": "YES",
         "ASAM SHEIKH": "YES",
-        "AURELIO MATTUCCI": "ABSTAIN"
+        "AURELIO MATTUCCI": "ABSTAIN",
+        "BRIDGET LEWIS": "YES"
       },
       "year": 2025,
       "meta_id": "401003",
       "video_timestamp": 3805,
-      "timestamp_estimated": false
+      "timestamp_estimated": false,
+      "frame_available": true
     },
     {
       "id": "14538_11885",
@@ -462,12 +487,14 @@
       "confidence": "High",
       "motion_text": null,
       "individual_votes": {
-        "AURELIO MATTUCCI": "ABSTAIN"
+        "AURELIO MATTUCCI": "ABSTAIN",
+        "BRIDGET LEWIS": "NO"
       },
       "year": 2025,
       "meta_id": "409686",
       "video_timestamp": 255,
-      "timestamp_estimated": false
+      "timestamp_estimated": false,
+      "frame_available": true
     },
     {
       "id": "14524_4320",
@@ -495,12 +522,14 @@
         "SHARON KALANI": "YES",
         "JON KAJI": "YES",
         "ASAM SHEIKH": "YES",
-        "AURELIO MATTUCCI": "ABSTAIN"
+        "AURELIO MATTUCCI": "ABSTAIN",
+        "BRIDGET LEWIS": "YES"
       },
       "year": 2025,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": true
     },
     {
       "id": "14530_6761",
@@ -523,12 +552,14 @@
         "SHARON KALANI": "YES",
         "JON KAJI": "YES",
         "ASAM SHEIKH": "YES",
-        "AURELIO MATTUCCI": "ABSTAIN"
+        "AURELIO MATTUCCI": "ABSTAIN",
+        "BRIDGET LEWIS": "YES"
       },
       "year": 2025,
       "meta_id": "408042",
       "video_timestamp": 6758,
-      "timestamp_estimated": false
+      "timestamp_estimated": false,
+      "frame_available": true
     },
     {
       "id": "14530_7316",
@@ -557,7 +588,8 @@
       "year": 2025,
       "meta_id": "408044",
       "video_timestamp": 7274,
-      "timestamp_estimated": false
+      "timestamp_estimated": false,
+      "frame_available": true
     },
     {
       "id": "14530_7842",
@@ -586,7 +618,8 @@
       "year": 2025,
       "meta_id": "408050",
       "video_timestamp": 7656,
-      "timestamp_estimated": false
+      "timestamp_estimated": false,
+      "frame_available": true
     },
     {
       "id": "14530_8991",
@@ -615,7 +648,8 @@
       "year": 2025,
       "meta_id": "408063",
       "video_timestamp": 8988,
-      "timestamp_estimated": false
+      "timestamp_estimated": false,
+      "frame_available": true
     },
     {
       "id": "14530_9352",
@@ -651,7 +685,8 @@
       "year": 2025,
       "meta_id": "408093",
       "video_timestamp": 9349,
-      "timestamp_estimated": false
+      "timestamp_estimated": false,
+      "frame_available": true
     },
     {
       "id": "14530_9425",
@@ -680,7 +715,8 @@
       "year": 2025,
       "meta_id": "408097",
       "video_timestamp": 9424,
-      "timestamp_estimated": false
+      "timestamp_estimated": false,
+      "frame_available": true
     },
     {
       "id": "14530_10387",
@@ -704,7 +740,8 @@
       "year": 2025,
       "meta_id": "408101",
       "video_timestamp": 10384,
-      "timestamp_estimated": false
+      "timestamp_estimated": false,
+      "frame_available": true
     },
     {
       "id": "14530_18512",
@@ -733,7 +770,8 @@
       "year": 2025,
       "meta_id": "408111",
       "video_timestamp": 18510,
-      "timestamp_estimated": false
+      "timestamp_estimated": false,
+      "frame_available": true
     },
     {
       "id": "14530_18634",
@@ -756,12 +794,14 @@
         "SHARON KALANI": "YES",
         "JON KAJI": "YES",
         "ASAM SHEIKH": "YES",
-        "AURELIO MATTUCCI": "ABSTAIN"
+        "AURELIO MATTUCCI": "ABSTAIN",
+        "BRIDGET LEWIS": "YES"
       },
       "year": 2025,
       "meta_id": "408059",
       "video_timestamp": 8446,
-      "timestamp_estimated": false
+      "timestamp_estimated": false,
+      "frame_available": true
     },
     {
       "id": "14530_19064",
@@ -784,12 +824,14 @@
         "SHARON KALANI": "YES",
         "JON KAJI": "YES",
         "ASAM SHEIKH": "YES",
-        "AURELIO MATTUCCI": "ABSTAIN"
+        "AURELIO MATTUCCI": "ABSTAIN",
+        "BRIDGET LEWIS": "YES"
       },
       "year": 2025,
       "meta_id": "407998",
       "video_timestamp": 23,
-      "timestamp_estimated": false
+      "timestamp_estimated": false,
+      "frame_available": true
     },
     {
       "id": "14536_6721",
@@ -818,7 +860,8 @@
       "year": 2025,
       "meta_id": "409351",
       "video_timestamp": 6719,
-      "timestamp_estimated": false
+      "timestamp_estimated": false,
+      "frame_available": true
     },
     {
       "id": "14536_6763",
@@ -847,7 +890,8 @@
       "year": 2025,
       "meta_id": "409355",
       "video_timestamp": 6762,
-      "timestamp_estimated": false
+      "timestamp_estimated": false,
+      "frame_available": true
     },
     {
       "id": "14536_9136",
@@ -876,7 +920,8 @@
       "year": 2025,
       "meta_id": "409375",
       "video_timestamp": 9133,
-      "timestamp_estimated": false
+      "timestamp_estimated": false,
+      "frame_available": true
     },
     {
       "id": "14536_9910",
@@ -905,7 +950,8 @@
       "year": 2025,
       "meta_id": "409406",
       "video_timestamp": 10714,
-      "timestamp_estimated": false
+      "timestamp_estimated": false,
+      "frame_available": true
     },
     {
       "id": "14536_12190",
@@ -934,7 +980,8 @@
       "year": 2025,
       "meta_id": "409399",
       "video_timestamp": 10915,
-      "timestamp_estimated": false
+      "timestamp_estimated": false,
+      "frame_available": true
     },
     {
       "id": "14536_18874",
@@ -956,12 +1003,15 @@
         "MIKE GERSON": "YES",
         "SHARON KALANI": "YES",
         "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2025,
       "meta_id": "409412",
       "video_timestamp": 18838,
-      "timestamp_estimated": false
+      "timestamp_estimated": false,
+      "frame_available": true
     },
     {
       "id": "",
@@ -984,12 +1034,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -1017,12 +1069,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "YES"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -1050,12 +1104,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -1081,12 +1137,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -1110,12 +1169,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -1138,12 +1199,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -1166,12 +1229,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -1194,12 +1259,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -1222,12 +1289,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -1250,12 +1319,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "YES"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -1278,12 +1349,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -1306,12 +1379,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -1334,12 +1409,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -1362,12 +1439,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -1390,12 +1469,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -1419,12 +1500,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -1447,12 +1530,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -1475,12 +1560,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -1503,12 +1590,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -1531,12 +1620,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "YES"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -1559,12 +1650,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -1587,12 +1680,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -1615,12 +1710,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -1643,12 +1740,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "YES"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -1671,12 +1770,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "YES"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -1699,12 +1800,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -1727,12 +1830,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -1755,12 +1860,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -1783,12 +1890,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "YES"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -1811,12 +1920,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -1839,12 +1950,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -1867,12 +1980,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -1895,12 +2010,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "NO",
         "ASAM SHEIKH": "NO",
-        "BRIDGET LEWIS": "NO"
+        "BRIDGET LEWIS": "NO",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -1923,12 +2040,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "NO",
         "ASAM SHEIKH": "NO",
-        "BRIDGET LEWIS": "NO"
+        "BRIDGET LEWIS": "NO",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -1951,12 +2070,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -1979,12 +2100,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -2007,12 +2130,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -2035,12 +2160,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "YES"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -2063,12 +2190,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "YES"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -2091,12 +2220,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -2119,12 +2250,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -2147,12 +2280,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "YES"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -2175,12 +2310,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -2203,12 +2340,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "YES"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -2231,12 +2370,14 @@
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
         "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES"
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -2263,12 +2404,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -2290,12 +2434,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -2317,12 +2464,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -2344,12 +2494,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -2371,12 +2524,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -2398,12 +2554,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "YES"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -2425,12 +2584,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -2452,12 +2614,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -2480,12 +2645,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -2507,12 +2675,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -2534,12 +2705,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -2561,12 +2735,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -2588,12 +2765,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -2615,12 +2795,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -2642,12 +2825,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -2669,12 +2855,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -2696,12 +2885,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "YES"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -2723,12 +2915,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -2750,12 +2945,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -2777,12 +2975,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -2804,12 +3005,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -2831,12 +3035,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -2858,12 +3065,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "YES"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -2885,12 +3095,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -2912,12 +3125,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -2939,12 +3155,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -2966,12 +3185,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -2993,12 +3215,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -3020,12 +3245,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "YES"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -3047,12 +3275,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -3074,12 +3305,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -3101,12 +3335,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -3128,12 +3365,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -3156,12 +3396,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -3183,12 +3426,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -3215,12 +3461,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -3242,12 +3491,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -3269,12 +3521,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "YES"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -3296,12 +3551,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -3323,12 +3581,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "YES"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -3350,12 +3611,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -3377,12 +3641,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -3404,12 +3671,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -3431,12 +3701,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -3458,12 +3731,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -3485,12 +3761,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -3512,12 +3791,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -3539,12 +3821,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "YES"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -3566,12 +3851,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "YES"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -3593,12 +3881,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -3620,12 +3911,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "YES"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -3647,11 +3941,15 @@
       "result": "Passed",
       "confidence": "High",
       "motion_text": "Community Development - Conduct Public Hearing, Determine Environmental Qualification (CEQA) Exemption, and Adopt ORDINANCE Amending the Torrance Municipal Code by Establishing a Mobile Home Space Rent Stabilization Ordinance",
-      "individual_votes": {},
+      "individual_votes": {
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
+      },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -3673,12 +3971,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -3700,12 +4001,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -3727,12 +4031,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "YES"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -3754,12 +4061,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -3786,12 +4096,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -3813,12 +4126,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     },
     {
       "id": "",
@@ -3845,12 +4161,15 @@
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES"
+        "ASAM SHEIKH": "YES",
+        "BRIDGET LEWIS": "YES",
+        "AURELIO MATTUCCI": "ABSTAIN"
       },
       "year": 2024,
       "meta_id": null,
       "video_timestamp": null,
-      "timestamp_estimated": true
+      "timestamp_estimated": true,
+      "frame_available": false
     }
   ],
   "meetings": {
@@ -4046,46 +4365,46 @@
   ],
   "councilmember_stats": {
     "GEORGE CHEN": {
-      "total_votes": 199,
-      "yes_votes": 199,
+      "total_votes": 133,
+      "yes_votes": 133,
       "no_votes": 0,
       "abstentions": 0
     },
     "MIKE GERSON": {
-      "total_votes": 199,
-      "yes_votes": 199,
+      "total_votes": 133,
+      "yes_votes": 133,
       "no_votes": 0,
       "abstentions": 0
     },
     "SHARON KALANI": {
-      "total_votes": 199,
-      "yes_votes": 195,
-      "no_votes": 4,
-      "abstentions": 0
-    },
-    "JON KAJI": {
-      "total_votes": 199,
-      "yes_votes": 198,
-      "no_votes": 1,
+      "total_votes": 133,
+      "yes_votes": 130,
+      "no_votes": 3,
       "abstentions": 0
     },
     "ASAM SHEIKH": {
-      "total_votes": 199,
-      "yes_votes": 195,
-      "no_votes": 4,
+      "total_votes": 133,
+      "yes_votes": 130,
+      "no_votes": 3,
+      "abstentions": 0
+    },
+    "JON KAJI": {
+      "total_votes": 133,
+      "yes_votes": 132,
+      "no_votes": 1,
       "abstentions": 0
     },
     "BRIDGET LEWIS": {
-      "total_votes": 66,
-      "yes_votes": 62,
-      "no_votes": 4,
+      "total_votes": 138,
+      "yes_votes": 132,
+      "no_votes": 6,
       "abstentions": 0
     },
     "AURELIO MATTUCCI": {
-      "total_votes": 31,
-      "yes_votes": 1,
+      "total_votes": 138,
+      "yes_votes": 21,
       "no_votes": 0,
-      "abstentions": 30
+      "abstentions": 117
     }
   },
   "councilmember_summaries": {
@@ -4279,15 +4598,15 @@
       "summary": "Lewis serves as councilmember of the Torrance City Council. Councilmember Bridget Lewis is a dedicated public servant focused on community well-being and constituent service. Demonstrates strong consensus-building skills and active participation in city governance. Primary policy focus areas include Community Services, Public Safety, and Budget & Finance. Key initiatives include Community service programs, Public safety initiatives, and Budget oversight. Learn more about Lewis's background and priorities at the [official bio page](https://www.torranceca.gov/government/city-council-and-elected-officials/lewis).",
       "role": "Councilmember",
       "notes": [
-        "Participated in 66 recorded votes",
-        "Voted Yes on 62 motions",
-        "Voted No on 4 motions",
-        "Active in multiple policy areas"
+        "Participated in 138 recorded votes",
+        "Voted Yes on 132 motions",
+        "Voted No on 6 motions",
+        "Active in 119 policy areas"
       ],
       "stats": {
-        "total_votes": 66,
-        "yes_votes": 62,
-        "no_votes": 4
+        "total_votes": 138,
+        "yes_votes": 132,
+        "no_votes": 6
       },
       "bio_url": "https://www.torranceca.gov/government/city-council-and-elected-officials/lewis",
       "policy_focus": [
@@ -4315,14 +4634,14 @@
       "summary": "Mattucci serves as councilmember of the Torrance City Council. Councilmember Aurelio Mattucci is dedicated to maintaining Torrance's character while supporting responsible growth and development. Demonstrates commitment to community engagement and fiscal responsibility. Primary policy focus areas include Planning & Development, Public Safety, and Budget & Finance. Key initiatives include Development oversight, Public safety initiatives, and Budget management. Learn more about Mattucci's background and priorities at the [official bio page](https://www.torranceca.gov/government/city-council-and-elected-officials/mattucci).",
       "role": "Councilmember",
       "notes": [
-        "Participated in 31 recorded votes",
-        "Voted Yes on 1 motions",
+        "Participated in 138 recorded votes",
+        "Voted Yes on 21 motions",
         "Voted No on 0 motions",
-        "Active in 29 policy areas"
+        "Active in 119 policy areas"
       ],
       "stats": {
-        "total_votes": 31,
-        "yes_votes": 1,
+        "total_votes": 138,
+        "yes_votes": 21,
         "no_votes": 0
       },
       "bio_url": "https://www.torranceca.gov/government/city-council-and-elected-officials/mattucci",
