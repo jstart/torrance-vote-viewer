@@ -10,7 +10,7 @@ from collections import defaultdict
 
 # Configure Gemini API
 genai.configure(api_key="AIzaSyBvOkBwJcTTTMc8yD13D8awxWg5U_OPYrU")
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-2.5-flash')
 
 def parse_votes_with_gemini(raw_text):
     """Use Gemini to parse individual votes from raw text"""

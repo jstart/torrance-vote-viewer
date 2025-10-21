@@ -137,6 +137,19 @@ class VoteViewerTemplates {
                     Noes: ${vote.vote_tally.noes} |
                     Abstentions: ${vote.vote_tally.abstentions}
                 </div>
+                ${vote.individual_votes ? `
+                    <div class="individual-votes">
+                        <h4>Individual Votes:</h4>
+                        <div class="vote-breakdown">
+                            ${Object.entries(vote.individual_votes).map(([councilmember, vote_choice]) => `
+                                <div class="councilmember-vote">
+                                    <span class="councilmember-name">${councilmember}</span>
+                                    <span class="vote-choice ${vote_choice.toLowerCase()}">${vote_choice}</span>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                ` : ''}
                 <div class="vote-timestamp">
                     Vote occurred at ${timestampSource === 'actual' ? '' : 'approximately '}${timestamp} in meeting video
                     ${timestampSource === 'estimated' ? ' (estimated from frame data)' : ''}
