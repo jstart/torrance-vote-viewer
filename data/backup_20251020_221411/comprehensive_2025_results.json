@@ -1,0 +1,206 @@
+{
+  "processing_summary": {
+    "total_meetings": 15,
+    "completed_meetings": 15,
+    "total_frames_processed": 0,
+    "total_vote_candidates": 0,
+    "total_votes_extracted": 126,
+    "start_time": 1760905027.414906,
+    "last_updated": "2025-10-20T20:35:40.124451",
+    "current_meeting": "completed"
+  },
+  "meeting_results": [
+    {
+      "meeting_id": "14243",
+      "status": "completed",
+      "year": "2024",
+      "frame_count": 0,
+      "vote_candidates": 0,
+      "votes_extracted": 2,
+      "processing_time": 0,
+      "meeting_date": "2024-01-28",
+      "meeting_title": "City Council Meeting 14243"
+    },
+    {
+      "meeting_id": "14262",
+      "status": "completed",
+      "year": "2024",
+      "frame_count": 0,
+      "vote_candidates": 0,
+      "votes_extracted": 36,
+      "processing_time": 0,
+      "meeting_date": "2024-01-28",
+      "meeting_title": "City Council Meeting 14262"
+    },
+    {
+      "meeting_id": "14273",
+      "status": "completed",
+      "year": "2024",
+      "frame_count": 0,
+      "vote_candidates": 0,
+      "votes_extracted": 4,
+      "processing_time": 0,
+      "meeting_date": "2024-01-28",
+      "meeting_title": "City Council Meeting 14273"
+    },
+    {
+      "meeting_id": "14286",
+      "status": "completed",
+      "year": "2024",
+      "frame_count": 0,
+      "vote_candidates": 0,
+      "votes_extracted": 2,
+      "processing_time": 0,
+      "meeting_date": "2024-01-28",
+      "meeting_title": "City Council Meeting 14286"
+    },
+    {
+      "meeting_id": "14305",
+      "status": "completed",
+      "year": "2024",
+      "frame_count": 0,
+      "vote_candidates": 0,
+      "votes_extracted": 1,
+      "processing_time": 0,
+      "meeting_date": "2024-01-28",
+      "meeting_title": "City Council Meeting 14305"
+    },
+    {
+      "meeting_id": "14312",
+      "status": "completed",
+      "year": "2024",
+      "frame_count": 0,
+      "vote_candidates": 0,
+      "votes_extracted": 1,
+      "processing_time": 0,
+      "meeting_date": "2024-01-28",
+      "meeting_title": "City Council Meeting 14312"
+    },
+    {
+      "meeting_id": "14314",
+      "status": "completed",
+      "year": "2024",
+      "frame_count": 0,
+      "vote_candidates": 0,
+      "votes_extracted": 16,
+      "processing_time": 0,
+      "meeting_date": "2024-01-28",
+      "meeting_title": "City Council Meeting 14314"
+    },
+    {
+      "meeting_id": "14319",
+      "status": "completed",
+      "year": "2024",
+      "frame_count": 0,
+      "vote_candidates": 0,
+      "votes_extracted": 27,
+      "processing_time": 0,
+      "meeting_date": "2024-01-28",
+      "meeting_title": "City Council Meeting 14319"
+    },
+    {
+      "meeting_id": "14350",
+      "status": "completed",
+      "year": "2024",
+      "frame_count": 0,
+      "vote_candidates": 0,
+      "votes_extracted": 14,
+      "processing_time": 0,
+      "meeting_date": "2024-01-28",
+      "meeting_title": "City Council Meeting 14350"
+    },
+    {
+      "meeting_id": "14490",
+      "status": "completed",
+      "year": "2024",
+      "frame_count": 0,
+      "vote_candidates": 0,
+      "votes_extracted": 3,
+      "processing_time": 0,
+      "meeting_date": "2025-07-01",
+      "meeting_title": "City Council Meeting 14490"
+    },
+    {
+      "meeting_id": "14510",
+      "status": "completed",
+      "year": "2025",
+      "frame_count": 0,
+      "vote_candidates": 0,
+      "votes_extracted": 8,
+      "processing_time": 0,
+      "meeting_date": "2025-07-15",
+      "meeting_title": "City Council Meeting 14510"
+    },
+    {
+      "meeting_id": "14524",
+      "status": "completed",
+      "year": "2025",
+      "frame_count": 0,
+      "vote_candidates": 0,
+      "votes_extracted": 0,
+      "processing_time": 0,
+      "meeting_date": "2025-08-05",
+      "meeting_title": "City Council Meeting 14524"
+    },
+    {
+      "meeting_id": "14530",
+      "status": "completed",
+      "year": "2025",
+      "frame_count": 0,
+      "vote_candidates": 0,
+      "votes_extracted": 7,
+      "processing_time": 0,
+      "meeting_date": "2025-08-12",
+      "meeting_title": "City Council Meeting 14530"
+    },
+    {
+      "meeting_id": "14536",
+      "status": "completed",
+      "year": "2025",
+      "frame_count": 0,
+      "vote_candidates": 0,
+      "votes_extracted": 5,
+      "processing_time": 0,
+      "meeting_date": "2025-08-19",
+      "meeting_title": "City Council Meeting 14536"
+    },
+    {
+      "meeting_id": "14538",
+      "status": "completed",
+      "year": "2025",
+      "frame_count": 0,
+      "vote_candidates": 0,
+      "votes_extracted": 0,
+      "processing_time": 0,
+      "meeting_date": "2025-08-26",
+      "meeting_title": "City Council Meeting 14538"
+    }
+  ],
+  "year_summary": {
+    "2025": {
+      "meetings": 3,
+      "votes": 20,
+      "meeting_ids": [
+        "14510",
+        "14530",
+        "14536"
+      ]
+    },
+    "2024": {
+      "meetings": 10,
+      "votes": 106,
+      "meeting_ids": [
+        "14243",
+        "14262",
+        "14273",
+        "14286",
+        "14305",
+        "14312",
+        "14314",
+        "14319",
+        "14350",
+        "14490"
+      ]
+    }
+  }
+}
