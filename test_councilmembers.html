@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Councilmembers</title>
+</head>
+<body>
+    <h1>Councilmembers Test</h1>
+    <div id="output"></div>
+    
+    <script>
+        fetch('/data/torrance_votes_smart_consolidated.json')
+            .then(response => response.json())
+            .then(data => {
+                console.log('Data loaded:', data);
+                console.log('Councilmembers:', data.councilmembers);
+                console.log('Councilmember stats:', data.councilmember_stats);
+                
+                const output = document.getElementById('output');
+                output.innerHTML = `
+                    <h2>Councilmembers (${data.councilmembers.length}):</h2>
+                    <ul>
+                        ${data.councilmembers.map(name => `<li>${name}</li>`).join('')}
+                    </ul>
+                    
+                    <h2>Stats:</h2>
+                    <ul>
+                        ${Object.entries(data.councilmember_stats).map(([name, stats]) => 
+                            `<li>${name}: ${stats.total_votes} votes</li>`
+                        ).join('')}
+                    </ul>
+                `;
+            })
+            .catch(error => {
+                console.error('Error loading data:', error);
+                document.getElementById('output').innerHTML = `<p>Error: ${error.message}</p>`;
+            });
+    </script>
+</body>
+</html>

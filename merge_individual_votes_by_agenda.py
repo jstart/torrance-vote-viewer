@@ -11,16 +11,16 @@ def normalize_agenda_item(agenda_item):
     """Normalize agenda item text for better matching"""
     if not agenda_item:
         return ""
-    
+
     # Handle case where agenda_item is a dict
     if isinstance(agenda_item, dict):
         number = agenda_item.get('number', '')
         description = agenda_item.get('description', '')
         agenda_item = f"{number}. {description}".strip()
-    
+
     # Convert to lowercase and strip whitespace
     normalized = agenda_item.lower().strip()
-    
+
     # Remove common variations
     normalized = re.sub(r'\s+', ' ', normalized)  # Multiple spaces to single space
     # Remove common prefixes/suffixes that don't affect meaning
@@ -31,45 +31,45 @@ def normalize_agenda_item(agenda_item):
     normalized = re.sub(r'\s*\(for discussion\)\s*$', '', normalized)
     normalized = re.sub(r'\s*expenditure:\s*none\.?\s*$', '', normalized)
     normalized = re.sub(r'\s*expenditure:\s*\$[0-9,]+\.?\s*$', '', normalized)
-    
+
     return normalized
 
 def extract_individual_votes_from_2025_data():
     # Path to the 2025 meetings data directory
     data_dir = "/Users/christophertruman/Downloads/torrance-council-votes-new/2025_meetings_data"
-    
+
     # Load the current consolidated data
     with open('data/torrance_votes_smart_consolidated.json', 'r') as f:
         consolidated_data = json.load(f)
-    
+
     print("Extracting individual vote data from 2025_meetings_data by agenda item matching...")
-    
+
     # Find all votable_votes files
     votable_files = []
     for file in os.listdir(data_dir):
         if file.startswith('votable_votes_') and file.endswith('.json'):
             votable_files.append(os.path.join(data_dir, file))
-    
+
     print(f"Found {len(votable_files)} votable_votes files")
-    
+
     # Extract individual votes from each file, organized by meeting_id and agenda_item
     agenda_votes = defaultdict(dict)  # meeting_id -> agenda_item -> individual_votes
     councilmember_names = set()
-    
+
     for file_path in votable_files:
         print(f"Processing {os.path.basename(file_path)}...")
-        
+
         with open(file_path, 'r') as f:
             votes_data = json.load(f)
-        
+
         for vote in votes_data:
             if vote.get('individual_votes'):
                 meeting_id = vote['meeting_id']
                 agenda_item = vote.get('agenda_item', '')
                 normalized_agenda = normalize_agenda_item(agenda_item)
-                
+
                 individual_votes = {}
-                
+
                 for councilmember_vote in vote['individual_votes']:
                     if isinstance(councilmember_vote, dict):
                         councilmember_name = councilmember_vote.get('council_member', '')
@@ -77,7 +77,7 @@ def extract_individual_votes_from_2025_data():
                     else:
                         print(f"Unexpected individual_vote structure: {councilmember_vote}")
                         continue
-                    
+
                     # Normalize councilmember names
                     if 'Mayor' in councilmember_name:
                         normalized_name = 'GEORGE CHEN'
@@ -95,7 +95,7 @@ def extract_individual_votes_from_2025_data():
                         normalized_name = 'ASAM SHAIKH'
                     else:
                         normalized_name = councilmember_name.upper()
-                    
+
                     # Normalize vote results
                     if vote_result.upper() in ['Y', 'YES', 'AYE', 'YEA']:
                         normalized_vote = 'YES'
@@ -105,23 +105,23 @@ def extract_individual_votes_from_2025_data():
                         normalized_vote = 'ABSTAIN'
                     else:
                         normalized_vote = vote_result.upper()
-                    
+
                     individual_votes[normalized_name] = normalized_vote
                     councilmember_names.add(normalized_name)
-                
+
                 if individual_votes:
                     agenda_votes[meeting_id][normalized_agenda] = individual_votes
-    
+
     print(f"Found individual votes for {sum(len(agendas) for agendas in agenda_votes.values())} agenda items")
     print(f"Councilmembers found: {sorted(councilmember_names)}")
-    
+
     # Update the consolidated data with individual votes by matching agenda items
     votes_updated = 0
     for vote in consolidated_data['votes']:
         meeting_id = vote['meeting_id']
         agenda_item = vote.get('agenda_item', '')
         normalized_agenda = normalize_agenda_item(agenda_item)
-        
+
         # Try exact match first
         if meeting_id in agenda_votes and normalized_agenda in agenda_votes[meeting_id]:
             vote['individual_votes'] = agenda_votes[meeting_id][normalized_agenda]
@@ -138,12 +138,12 @@ def extract_individual_votes_from_2025_data():
                             votes_updated += 1
                             print(f"Updated vote {vote['id']} with individual votes for agenda: {agenda_key} (partial match)")
                             break
-    
+
     print(f"Updated {votes_updated} votes with individual vote data")
-    
+
     # Update councilmembers list
     consolidated_data['councilmembers'] = sorted(councilmember_names)
-    
+
     # Calculate councilmember stats
     councilmember_stats = {}
     for councilmember in councilmember_names:
@@ -153,7 +153,7 @@ def extract_individual_votes_from_2025_data():
             'no_votes': 0,
             'abstentions': 0
         }
-    
+
     for vote in consolidated_data['votes']:
         if 'individual_votes' in vote:
             for councilmember, vote_result in vote['individual_votes'].items():
@@ -165,9 +165,9 @@ def extract_individual_votes_from_2025_data():
                         councilmember_stats[councilmember]['no_votes'] += 1
                     elif vote_result == 'ABSTAIN':
                         councilmember_stats[councilmember]['abstentions'] += 1
-    
+
     consolidated_data['councilmember_stats'] = councilmember_stats
-    
+
     # Create councilmember summaries
     councilmember_summaries = {}
     for councilmember in councilmember_names:
@@ -177,16 +177,16 @@ def extract_individual_votes_from_2025_data():
             'role': 'Councilmember' if 'MAYOR' not in councilmember else 'Mayor',
             'stats': stats
         }
-    
+
     consolidated_data['councilmember_summaries'] = councilmember_summaries
-    
+
     # Save the updated data
     with open('data/torrance_votes_smart_consolidated.json', 'w') as f:
         json.dump(consolidated_data, f, indent=2)
-    
+
     print("✅ Individual vote data extracted and merged successfully!")
     print(f"Updated councilmembers: {consolidated_data['councilmembers']}")
-    
+
     # Print stats for each councilmember
     for councilmember in sorted(councilmember_names):
         stats = councilmember_stats[councilmember]

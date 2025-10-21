@@ -10,45 +10,45 @@ def fix_councilmember_data():
     # Load the data
     with open('data/torrance_votes_smart_consolidated.json', 'r') as f:
         data = json.load(f)
-    
+
     print("Current councilmembers:", data['councilmembers'])
     print("Current councilmember_stats keys:", list(data['councilmember_stats'].keys()))
-    
+
     # Remove MATTUCCI from councilmembers array since there's no vote data
     if "MATTUCCI" in data['councilmembers']:
         data['councilmembers'] = [cm for cm in data['councilmembers'] if cm != "MATTUCCI"]
         print("Removed MATTUCCI from councilmembers array")
-    
+
     # Remove MATTUCCI from councilmember_stats
     if "MATTUCCI" in data['councilmember_stats']:
         del data['councilmember_stats']["MATTUCCI"]
         print("Removed MATTUCCI from councilmember_stats")
-    
+
     # Remove MATTUCCI from councilmember_summaries
     if "MATTUCCI" in data['councilmember_summaries']:
         del data['councilmember_summaries']["MATTUCCI"]
         print("Removed MATTUCCI from councilmember_summaries")
-    
+
     # Fix ASAM SHEIKH name (should be ASAM SHAIKH based on vote data)
     if "ASAM SHEIKH" in data['councilmembers']:
         data['councilmembers'] = [cm if cm != "ASAM SHEIKH" else "ASAM SHAIKH" for cm in data['councilmembers']]
         print("Fixed ASAM SHEIKH → ASAM SHAIKH in councilmembers")
-    
+
     if "ASAM SHEIKH" in data['councilmember_stats']:
         data['councilmember_stats']["ASAM SHAIKH"] = data['councilmember_stats'].pop("ASAM SHEIKH")
         print("Fixed ASAM SHEIKH → ASAM SHAIKH in councilmember_stats")
-    
+
     if "ASAM SHEIKH" in data['councilmember_summaries']:
         data['councilmember_summaries']["ASAM SHAIKH"] = data['councilmember_summaries'].pop("ASAM SHEIKH")
         print("Fixed ASAM SHEIKH → ASAM SHAIKH in councilmember_summaries")
-    
+
     print("\nUpdated councilmembers:", data['councilmembers'])
     print("Updated councilmember_stats keys:", list(data['councilmember_stats'].keys()))
-    
+
     # Save the corrected data
     with open('data/torrance_votes_smart_consolidated.json', 'w') as f:
         json.dump(data, f, indent=2)
-    
+
     print("\n✅ Councilmember data fixed!")
 
 if __name__ == "__main__":

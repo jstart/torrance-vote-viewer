@@ -16,11 +16,12 @@
       "confidence": "High",
       "motion_text": null,
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
+        "MIKE GERSON": "NO",
         "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
+        "SHARON KALANI": "ABSTAIN",
+        "BRIDGET LEWIS": "ABSTAIN",
+        "AURELIO MATTUCCI": "ABSTAIN",
+        "ASAM SHAIKH": "ABSTAIN"
       },
       "year": 2025,
       "meta_id": "404883",
@@ -43,11 +44,12 @@
       "confidence": 0.98,
       "motion_text": null,
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
+        "MIKE GERSON": "NA",
+        "JON KAJI": "MA",
+        "SHARON KALANI": "AA",
+        "BRIDGET LEWIS": "MA",
+        "AURELIO MATTUCCI": "ALL",
+        "ASAM SHAIKH": "AIA"
       },
       "year": 2025,
       "meta_id": "404886",
@@ -70,11 +72,12 @@
       "confidence": 1.0,
       "motion_text": null,
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
+        "MIKE GERSON": "NM",
+        "JON KAJI": "ABSTAIN",
+        "SHARON KALANI": "AA",
+        "BRIDGET LEWIS": "NA",
+        "AURELIO MATTUCCI": "MN",
+        "ASAM SHAIKH": "NAL"
       },
       "year": 2025,
       "meta_id": "404895",
@@ -97,11 +100,11 @@
       "confidence": 1.0,
       "motion_text": null,
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
+        "MIKE GERSON": "ALL",
+        "JON KAJI": "ABSTAIN",
+        "SHARON KALANI": "NA",
+        "BRIDGET LEWIS": "VA",
+        "AURELIO MATTUCCI": "NILL"
       },
       "year": 2025,
       "meta_id": "404906",
@@ -124,11 +127,12 @@
       "confidence": "high",
       "motion_text": null,
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
+        "MIKE GERSON": "NO",
+        "JON KAJI": "ABSTAIN",
+        "SHARON KALANI": "CY",
+        "BRIDGET LEWIS": "AL",
+        "AURELIO MATTUCCI": "ABSTAIN",
+        "ASAM SHAIKH": "NIA"
       },
       "year": 2025,
       "meta_id": "404922",
@@ -151,11 +155,12 @@
       "confidence": 0.98,
       "motion_text": "Not visible in image.",
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
+        "MIKE GERSON": "NO",
+        "JON KAJI": "MA",
+        "SHARON KALANI": "NA",
+        "BRIDGET LEWIS": "AE",
+        "AURELIO MATTUCCI": "ABSTAIN",
+        "ASAM SHAIKH": "NA"
       },
       "year": 2025,
       "meta_id": 404938,
@@ -177,7 +182,14 @@
       "result": "Fails",
       "confidence": "High",
       "motion_text": null,
-      "individual_votes": {},
+      "individual_votes": {
+        "MIKE GERSON": "AE",
+        "JON KAJI": "NA",
+        "SHARON KALANI": "NA",
+        "BRIDGET LEWIS": "MA",
+        "AURELIO MATTUCCI": "MALL",
+        "ASAM SHAIKH": "RAB"
+      },
       "year": 2025,
       "meta_id": 404928,
       "video_timestamp": 9234,
@@ -199,11 +211,12 @@
       "confidence": 1.0,
       "motion_text": null,
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
+        "MIKE GERSON": "BE",
+        "JON KAJI": "AY",
+        "SHARON KALANI": "NA",
+        "BRIDGET LEWIS": "ABSTAIN",
+        "AURELIO MATTUCCI": "NALL",
+        "ASAM SHAIKH": "AIA"
       },
       "year": 2025,
       "meta_id": "404956",
@@ -226,11 +239,12 @@
       "confidence": 0.98,
       "motion_text": null,
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
+        "MIKE GERSON": "NO",
+        "JON KAJI": "AL",
+        "SHARON KALANI": "AA",
+        "BRIDGET LEWIS": "WA",
+        "AURELIO MATTUCCI": "MALL",
+        "ASAM SHAIKH": "NI"
       },
       "year": 2025,
       "meta_id": 404961,
@@ -253,11 +267,11 @@
       "confidence": 1.0,
       "motion_text": "Not specified in image",
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
+        "MIKE GERSON": "NO",
+        "JON KAJI": "EY",
+        "SHARON KALANI": "NA",
+        "BRIDGET LEWIS": "YES",
+        "ASAM SHAIKH": "XIN"
       },
       "year": 2025,
       "meta_id": 404964,
@@ -280,11 +294,9 @@
       "confidence": 0.98,
       "motion_text": null,
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
+        "MIKE GERSON": "RIA",
+        "AURELIO MATTUCCI": "RA",
+        "ASAM SHAIKH": "NAM"
       },
       "year": 2025,
       "meta_id": "400967",
@@ -307,11 +319,11 @@
       "confidence": "High",
       "motion_text": null,
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
+        "MIKE GERSON": "NA",
+        "JON KAJI": "ABSTAIN",
+        "SHARON KALANI": "AE",
+        "AURELIO MATTUCCI": "RIA",
+        "ASAM SHAIKH": "RAE"
       },
       "year": 2025,
       "meta_id": "400974",
@@ -334,7 +346,12 @@
       "confidence": 0.95,
       "motion_text": null,
       "individual_votes": {
-        "": "YEA"
+        "MIKE GERSON": "BE",
+        "JON KAJI": "OA",
+        "SHARON KALANI": "TS",
+        "BRIDGET LEWIS": "YS",
+        "AURELIO MATTUCCI": "IAA",
+        "ASAM SHAIKH": "AAI"
       },
       "year": 2025,
       "meta_id": "400992",
@@ -357,11 +374,11 @@
       "confidence": 1.0,
       "motion_text": null,
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
+        "MIKE GERSON": "NIA",
+        "JON KAJI": "NO",
+        "BRIDGET LEWIS": "AE",
+        "AURELIO MATTUCCI": "RAR",
+        "ASAM SHAIKH": "NAR"
       },
       "year": 2025,
       "meta_id": "400993",
@@ -384,13 +401,9 @@
       "confidence": "High",
       "motion_text": null,
       "individual_votes": {
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "BRIDGET LEWIS": "YES",
-        "AURELIO MATTUCCI": "YES",
-        "ASAM SHAIKH": "YES",
-        "GEORGE CHEN": "YES"
+        "JON KAJI": "AE",
+        "SHARON KALANI": "AS",
+        "BRIDGET LEWIS": "AS"
       },
       "year": 2025,
       "meta_id": "400973",
@@ -414,11 +427,12 @@
       "confidence": "High",
       "motion_text": "Not visible in image",
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
+        "MIKE GERSON": "NI",
+        "JON KAJI": "IY",
+        "SHARON KALANI": "AE",
+        "BRIDGET LEWIS": "ABSTAIN",
+        "AURELIO MATTUCCI": "NIA",
+        "ASAM SHAIKH": "RAR"
       },
       "year": 2025,
       "meta_id": "401003",
@@ -440,7 +454,14 @@
       "result": "Fails",
       "confidence": "High",
       "motion_text": null,
-      "individual_votes": {},
+      "individual_votes": {
+        "MIKE GERSON": "ABSTAIN",
+        "JON KAJI": "AA",
+        "SHARON KALANI": "ABSTAIN",
+        "BRIDGET LEWIS": "LN",
+        "AURELIO MATTUCCI": "AIA",
+        "ASAM SHAIKH": "INI"
+      },
       "year": 2025,
       "meta_id": "409686",
       "video_timestamp": 255,
@@ -467,11 +488,10 @@
       },
       "motion_text": null,
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
+        "MIKE GERSON": "NO",
+        "JON KAJI": "RA",
+        "SHARON KALANI": "NA",
+        "AURELIO MATTUCCI": "ALL"
       },
       "year": 2025,
       "meta_id": null,
@@ -494,11 +514,11 @@
       "confidence": "High",
       "motion_text": null,
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
+        "MIKE GERSON": "NO",
+        "JON KAJI": "AE",
+        "SHARON KALANI": "NA",
+        "BRIDGET LEWIS": "RAL",
+        "AURELIO MATTUCCI": "NAIL"
       },
       "year": 2025,
       "meta_id": "408042",
@@ -521,11 +541,10 @@
       "confidence": 1.0,
       "motion_text": null,
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
+        "MIKE GERSON": "NI",
+        "JON KAJI": "NE",
+        "BRIDGET LEWIS": "RA",
+        "ASAM SHAIKH": "AIA"
       },
       "year": 2025,
       "meta_id": "408044",
@@ -548,11 +567,12 @@
       "confidence": 1.0,
       "motion_text": null,
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
+        "MIKE GERSON": "NILL",
+        "JON KAJI": "DE",
+        "SHARON KALANI": "AA",
+        "BRIDGET LEWIS": "AE",
+        "AURELIO MATTUCCI": "MMM",
+        "ASAM SHAIKH": "NA"
       },
       "year": 2025,
       "meta_id": "408050",
@@ -575,11 +595,12 @@
       "confidence": 1.0,
       "motion_text": null,
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
+        "MIKE GERSON": "NM",
+        "JON KAJI": "DAL",
+        "SHARON KALANI": "NA",
+        "BRIDGET LEWIS": "AA",
+        "AURELIO MATTUCCI": "NALL",
+        "ASAM SHAIKH": "ABSTAIN"
       },
       "year": 2025,
       "meta_id": "408063",
@@ -609,11 +630,10 @@
       },
       "motion_text": null,
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
+        "MIKE GERSON": "NILL",
+        "JON KAJI": "NA",
+        "SHARON KALANI": "ALL",
+        "BRIDGET LEWIS": "NE"
       },
       "year": 2025,
       "meta_id": "408093",
@@ -636,11 +656,12 @@
       "confidence": "High",
       "motion_text": null,
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
+        "MIKE GERSON": "NO",
+        "JON KAJI": "NA",
+        "SHARON KALANI": "ABSTAIN",
+        "BRIDGET LEWIS": "NE",
+        "AURELIO MATTUCCI": "NAIL",
+        "ASAM SHAIKH": "AA"
       },
       "year": 2025,
       "meta_id": "408097",
@@ -662,7 +683,14 @@
       "result": "Tie",
       "confidence": 0.95,
       "motion_text": "Not specified in image, only vote outcome.",
-      "individual_votes": {},
+      "individual_votes": {
+        "MIKE GERSON": "AL",
+        "JON KAJI": "NA",
+        "SHARON KALANI": "AA",
+        "BRIDGET LEWIS": "NA",
+        "AURELIO MATTUCCI": "MMA",
+        "ASAM SHAIKH": "ABSTAIN"
+      },
       "year": 2025,
       "meta_id": "408101",
       "video_timestamp": 10384,
@@ -684,11 +712,12 @@
       "confidence": 0.98,
       "motion_text": null,
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
+        "MIKE GERSON": "NM",
+        "JON KAJI": "CY",
+        "SHARON KALANI": "ABSTAIN",
+        "BRIDGET LEWIS": "AE",
+        "AURELIO MATTUCCI": "NALL",
+        "ASAM SHAIKH": "AA"
       },
       "year": 2025,
       "meta_id": "408111",
@@ -711,11 +740,12 @@
       "confidence": "High",
       "motion_text": null,
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
+        "MIKE GERSON": "NM",
+        "JON KAJI": "NA",
+        "SHARON KALANI": "NA",
+        "BRIDGET LEWIS": "BA",
+        "AURELIO MATTUCCI": "NALL",
+        "ASAM SHAIKH": "NIA"
       },
       "year": 2025,
       "meta_id": "408059",
@@ -738,11 +768,11 @@
       "confidence": 0.98,
       "motion_text": null,
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
+        "MIKE GERSON": "NO",
+        "JON KAJI": "NAL",
+        "SHARON KALANI": "NA",
+        "BRIDGET LEWIS": "NE",
+        "ASAM SHAIKH": "AA"
       },
       "year": 2025,
       "meta_id": "407998",
@@ -765,11 +795,9 @@
       "confidence": "High",
       "motion_text": null,
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
+        "MIKE GERSON": "AL",
+        "AURELIO MATTUCCI": "LL",
+        "ASAM SHAIKH": "ALL"
       },
       "year": 2025,
       "meta_id": "409351",
@@ -792,11 +820,10 @@
       "confidence": 1.0,
       "motion_text": null,
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
+        "MIKE GERSON": "NN",
+        "SHARON KALANI": "NA",
+        "AURELIO MATTUCCI": "ALL",
+        "ASAM SHAIKH": "MAN"
       },
       "year": 2025,
       "meta_id": "409355",
@@ -819,11 +846,11 @@
       "confidence": "High",
       "motion_text": "Approval of the Consent Calendar, including all matters listed therein, to be enacted by one motion and one vote.",
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
+        "MIKE GERSON": "NI",
+        "SHARON KALANI": "AIA",
+        "BRIDGET LEWIS": "CY",
+        "AURELIO MATTUCCI": "MALL",
+        "ASAM SHAIKH": "AIA"
       },
       "year": 2025,
       "meta_id": "409375",
@@ -846,12 +873,10 @@
       "confidence": 1.0,
       "motion_text": "City Council Ad Hoc Naming of Public Facilities Committee and City Manager. Accept and File Ad Hoc Naming of Public Facilities Committee Meeting Minutes and Discuss and Provide Direction on Renaming Columbia Park.",
       "individual_votes": {
-        "MIKE GERSON": "NO",
-        "SHARON KALANI": "NO",
-        "BRIDGET LEWIS": "NO",
-        "AURELIO MATTUCCI": "YES",
-        "ASAM SHAIKH": "NO",
-        "GEORGE CHEN": "YES"
+        "SHARON KALANI": "LN",
+        "BRIDGET LEWIS": "LN",
+        "AURELIO MATTUCCI": "ABSTAIN",
+        "ASAM SHAIKH": "TN"
       },
       "year": 2025,
       "meta_id": "409406",
@@ -874,11 +899,9 @@
       "confidence": 0.98,
       "motion_text": "City Manager - Discuss and Provide Direction on Request for Subsidy of Rental Fees for Use of the Toyota Meeting Hall and James Armstrong Theatre for World War II Camp Memorial Fundraising Event. Expenditure: $1,200 (General Fund)",
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
+        "MIKE GERSON": "AE",
+        "BRIDGET LEWIS": "SS",
+        "AURELIO MATTUCCI": "MIA"
       },
       "year": 2025,
       "meta_id": "409399",
@@ -901,11 +924,10 @@
       "confidence": "High",
       "motion_text": "Adjournment of City Council meeting to Tuesday, October 14, 2025, at 5:00 p.m. for closed session in the LeRoy J. Jackson Council Chamber",
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES"
+        "MIKE GERSON": "BE",
+        "SHARON KALANI": "AIAN",
+        "BRIDGET LEWIS": "AIAN",
+        "ASAM SHAIKH": "RA"
       },
       "year": 2025,
       "meta_id": "409412",
@@ -3455,144 +3477,110 @@
     }
   },
   "councilmembers": [
-    "",
     "ASAM SHAIKH",
     "AURELIO MATTUCCI",
     "BRIDGET LEWIS",
-    "GEORGE CHEN",
     "JON KAJI",
     "MIKE GERSON",
     "SHARON KALANI"
   ],
   "councilmember_stats": {
-    "": {
-      "total_votes": 1,
-      "yes_votes": 0,
+    "BRIDGET LEWIS": {
+      "total_votes": 29,
+      "yes_votes": 1,
       "no_votes": 0,
-      "abstentions": 0
+      "abstentions": 3
     },
     "AURELIO MATTUCCI": {
-      "total_votes": 2,
-      "yes_votes": 2,
+      "total_votes": 28,
+      "yes_votes": 0,
       "no_votes": 0,
-      "abstentions": 0
-    },
-    "MIKE GERSON": {
-      "total_votes": 117,
-      "yes_votes": 116,
-      "no_votes": 1,
-      "abstentions": 0
+      "abstentions": 4
     },
     "ASAM SHAIKH": {
-      "total_votes": 2,
-      "yes_votes": 1,
-      "no_votes": 1,
-      "abstentions": 0
-    },
-    "GEORGE CHEN": {
-      "total_votes": 117,
-      "yes_votes": 117,
+      "total_votes": 28,
+      "yes_votes": 0,
       "no_votes": 0,
-      "abstentions": 0
-    },
-    "BRIDGET LEWIS": {
-      "total_votes": 2,
-      "yes_votes": 1,
-      "no_votes": 1,
-      "abstentions": 0
-    },
-    "JON KAJI": {
-      "total_votes": 116,
-      "yes_votes": 116,
-      "no_votes": 0,
-      "abstentions": 0
+      "abstentions": 3
     },
     "SHARON KALANI": {
-      "total_votes": 117,
-      "yes_votes": 114,
-      "no_votes": 3,
-      "abstentions": 0
+      "total_votes": 116,
+      "yes_votes": 85,
+      "no_votes": 2,
+      "abstentions": 4
+    },
+    "MIKE GERSON": {
+      "total_votes": 119,
+      "yes_votes": 87,
+      "no_votes": 9,
+      "abstentions": 1
+    },
+    "JON KAJI": {
+      "total_votes": 114,
+      "yes_votes": 88,
+      "no_votes": 1,
+      "abstentions": 4
     }
   },
   "councilmember_summaries": {
-    "": {
-      "summary": " serves as councilmember of the Torrance City Council. Participated in 1 recorded votes with 0 yes votes and 0 no votes.",
+    "BRIDGET LEWIS": {
+      "summary": "BRIDGET LEWIS serves as councilmember of the Torrance City Council. Participated in 29 recorded votes with 1 yes votes and 0 no votes.",
       "role": "Councilmember",
       "stats": {
-        "total_votes": 1,
-        "yes_votes": 0,
+        "total_votes": 29,
+        "yes_votes": 1,
         "no_votes": 0,
-        "abstentions": 0
+        "abstentions": 3
       }
     },
     "AURELIO MATTUCCI": {
-      "summary": "AURELIO MATTUCCI serves as councilmember of the Torrance City Council. Participated in 2 recorded votes with 2 yes votes and 0 no votes.",
+      "summary": "AURELIO MATTUCCI serves as councilmember of the Torrance City Council. Participated in 28 recorded votes with 0 yes votes and 0 no votes.",
       "role": "Councilmember",
       "stats": {
-        "total_votes": 2,
-        "yes_votes": 2,
+        "total_votes": 28,
+        "yes_votes": 0,
         "no_votes": 0,
-        "abstentions": 0
-      }
-    },
-    "MIKE GERSON": {
-      "summary": "MIKE GERSON serves as councilmember of the Torrance City Council. Participated in 117 recorded votes with 116 yes votes and 1 no votes.",
-      "role": "Councilmember",
-      "stats": {
-        "total_votes": 117,
-        "yes_votes": 116,
-        "no_votes": 1,
-        "abstentions": 0
+        "abstentions": 4
       }
     },
     "ASAM SHAIKH": {
-      "summary": "ASAM SHAIKH serves as councilmember of the Torrance City Council. Participated in 2 recorded votes with 1 yes votes and 1 no votes.",
+      "summary": "ASAM SHAIKH serves as councilmember of the Torrance City Council. Participated in 28 recorded votes with 0 yes votes and 0 no votes.",
       "role": "Councilmember",
       "stats": {
-        "total_votes": 2,
-        "yes_votes": 1,
-        "no_votes": 1,
-        "abstentions": 0
-      }
-    },
-    "GEORGE CHEN": {
-      "summary": "GEORGE CHEN serves as councilmember of the Torrance City Council. Participated in 117 recorded votes with 117 yes votes and 0 no votes.",
-      "role": "Councilmember",
-      "stats": {
-        "total_votes": 117,
-        "yes_votes": 117,
+        "total_votes": 28,
+        "yes_votes": 0,
         "no_votes": 0,
-        "abstentions": 0
-      }
-    },
-    "BRIDGET LEWIS": {
-      "summary": "BRIDGET LEWIS serves as councilmember of the Torrance City Council. Participated in 2 recorded votes with 1 yes votes and 1 no votes.",
-      "role": "Councilmember",
-      "stats": {
-        "total_votes": 2,
-        "yes_votes": 1,
-        "no_votes": 1,
-        "abstentions": 0
-      }
-    },
-    "JON KAJI": {
-      "summary": "JON KAJI serves as councilmember of the Torrance City Council. Participated in 116 recorded votes with 116 yes votes and 0 no votes.",
-      "role": "Councilmember",
-      "stats": {
-        "total_votes": 116,
-        "yes_votes": 116,
-        "no_votes": 0,
-        "abstentions": 0
+        "abstentions": 3
       }
     },
     "SHARON KALANI": {
-      "summary": "SHARON KALANI serves as councilmember of the Torrance City Council. Participated in 117 recorded votes with 114 yes votes and 3 no votes.",
+      "summary": "SHARON KALANI serves as councilmember of the Torrance City Council. Participated in 116 recorded votes with 85 yes votes and 2 no votes.",
       "role": "Councilmember",
       "stats": {
-        "total_votes": 117,
-        "yes_votes": 114,
-        "no_votes": 3,
-        "abstentions": 0
+        "total_votes": 116,
+        "yes_votes": 85,
+        "no_votes": 2,
+        "abstentions": 4
+      }
+    },
+    "MIKE GERSON": {
+      "summary": "MIKE GERSON serves as councilmember of the Torrance City Council. Participated in 119 recorded votes with 87 yes votes and 9 no votes.",
+      "role": "Councilmember",
+      "stats": {
+        "total_votes": 119,
+        "yes_votes": 87,
+        "no_votes": 9,
+        "abstentions": 1
+      }
+    },
+    "JON KAJI": {
+      "summary": "JON KAJI serves as councilmember of the Torrance City Council. Participated in 114 recorded votes with 88 yes votes and 1 no votes.",
+      "role": "Councilmember",
+      "stats": {
+        "total_votes": 114,
+        "yes_votes": 88,
+        "no_votes": 1,
+        "abstentions": 4
       }
     }
   },
