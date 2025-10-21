@@ -298,7 +298,7 @@ class TorranceVoteViewer {
                 <div class="meeting-header">
                     <div>
                         <div class="meeting-title">${meeting.title}</div>
-                        <div class="meeting-date">${meeting.date}</div>
+                        <div class="meeting-date">${VoteViewerUtils.formatMeetingDateTime(meeting.date, meeting.time)}</div>
                     </div>
                     <div>
                         <div class="stat-number">${meeting.total_votes}</div>
