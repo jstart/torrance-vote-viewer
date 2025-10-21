@@ -155,8 +155,8 @@ class VoteViewerTemplates {
                         <h4>Vote Frame (Frame ${vote.frame_number}):</h4>
                         <div class="frame-container">
                             ${vote.frame_available ? `
-                                <img src="${vote.frame_path}" 
-                                     alt="Vote result frame ${vote.frame_number}" 
+                                <img src="${vote.frame_path}"
+                                     alt="Vote result frame ${vote.frame_number}"
                                      class="vote-frame-image"
                                      onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
                             ` : ''}

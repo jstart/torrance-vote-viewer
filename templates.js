@@ -165,7 +165,14 @@ class VoteViewerTemplates {
                                     <i class="fas fa-image"></i>
                                     <p>${vote.frame_available ? 'Frame image not available' : 'Frame image not yet processed'}</p>
                                     <small>Frame ${vote.frame_number} - ${vote.frame_path}</small>
-                                    ${!vote.frame_available ? '<br><small>2024 meeting frames are being processed</small>' : ''}
+                                    ${!vote.frame_available ? `
+                                        <br><small>
+                                            ${vote.meeting_id && vote.meeting_id.startsWith('14') && parseInt(vote.meeting_id) < 14400 ? 
+                                                '2024 meeting frames are being processed' : 
+                                                'Frame processing in progress'
+                                            }
+                                        </small>
+                                    ` : ''}
                                 </div>
                             </div>
                         </div>

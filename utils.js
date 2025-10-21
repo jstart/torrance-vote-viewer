@@ -168,23 +168,24 @@ class VoteViewerUtils {
         const meetingId = vote.meeting_id;
         const metaId = vote.meta_id;
         const timestampEstimated = vote.timestamp_estimated;
+      const videoTimestamp = vote.video_timestamp;
 
         if (!meetingId) return null;
 
-        // If meta_id is estimated (fake), don't use it for deeplink
-        // Check if meta_id looks like our estimated format (meeting_id + frame_number)
-        if (metaId && timestampEstimated && metaId.match(/^\d{5}\d{4}$/)) {
-            // This is an estimated meta_id, just link to the base video
-            return `https://torrance.granicus.com/player/clip/${meetingId}`;
+      // If we have a real meta_id and it's not estimated, use it for deep linking
+      if (metaId && !timestampEstimated) {
+        return `https://torrance.granicus.com/MediaPlayer.php?view_id=8&clip_id=${meetingId}&meta_id=${metaId}`;
         }
 
-        if (metaId && !timestampEstimated) {
-            // Real meta_id from scraping
-            return `https://torrance.granicus.com/player/clip/${meetingId}?view_id=8&meta_id=${metaId}&redirect=true`;
-        } else {
-            // No meta_id or estimated meta_id
-            return `https://torrance.granicus.com/player/clip/${meetingId}`;
-        }
+      // If we have a video timestamp, try to create a time-based deep link
+      if (videoTimestamp !== undefined && videoTimestamp !== null) {
+        const minutes = Math.floor(videoTimestamp / 60);
+        const seconds = videoTimestamp % 60;
+        return `https://torrance.granicus.com/player/clip/${meetingId}?t=${minutes}m${seconds}s`;
+      }
+
+      // Fallback to base video link
+      return `https://torrance.granicus.com/player/clip/${meetingId}`;
     }
 
     // Generate agenda deep link
@@ -192,17 +193,8 @@ class VoteViewerUtils {
         const meetingId = vote.meeting_id;
         if (!meetingId) return null;
 
-        const viewIdMap = {
-            '14510': '8',
-            '14490': '8',
-            '14538': '8',
-            '14524': '8',
-            '14530': '8',
-            '14536': '8'
-        };
-
-        const viewId = viewIdMap[meetingId] || '8';
-        return `https://torrance.granicus.com/GeneratedAgendaViewer.php?view_id=${viewId}&clip_id=${meetingId}`;
+      // All meetings use view_id=8 for agenda
+      return `https://torrance.granicus.com/GeneratedAgendaViewer.php?view_id=8&clip_id=${meetingId}`;
     }
 
     // Councilmember name mapping
@@ -246,12 +238,13 @@ class VoteViewerUtils {
         let timestamp;
         let timestampSource;
 
-        if (vote.video_timestamp !== undefined) {
+      if (vote.video_timestamp !== undefined && vote.video_timestamp !== null) {
             timestamp = this.formatTimestamp(vote.video_timestamp);
             timestampSource = vote.timestamp_estimated ? 'estimated' : 'actual';
         } else {
             const frameNumber = parseInt(vote.frame_number) || 0;
-            const estimatedSeconds = Math.floor(frameNumber / 30);
+          // Use a more reasonable frame rate estimate (1 frame per 2 seconds for meeting videos)
+          const estimatedSeconds = Math.max(1, Math.floor(frameNumber * 2));
             timestamp = this.formatTimestamp(estimatedSeconds);
             timestampSource = 'estimated';
         }

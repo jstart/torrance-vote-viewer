@@ -975,11 +975,31 @@
 
             renderVotesList(votes) {
                 return votes.map(vote => {
-                    // Calculate approximate timestamp (assuming 30 seconds per vote)
-                    const voteIndex = votes.indexOf(vote);
-                    const minutes = Math.floor(voteIndex * 0.5);
-                    const seconds = (voteIndex * 30) % 60;
-                    const timestamp = `${minutes}:${seconds.toString().padStart(2, '0')}`;
+                    // Calculate timestamp using the same logic as utils.js
+                    let timestamp;
+                    let timestampSource;
+
+                    if (vote.video_timestamp !== undefined && vote.video_timestamp !== null) {
+                        const totalSeconds = Math.floor(vote.video_timestamp);
+                        const hours = Math.floor(totalSeconds / 3600);
+                        const minutes = Math.floor((totalSeconds % 3600) / 60);
+                        const remainingSeconds = totalSeconds % 60;
+
+                        if (hours > 0) {
+                            timestamp = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
+                        } else {
+                            timestamp = `${minutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
+                        }
+                        timestampSource = vote.timestamp_estimated ? 'estimated' : 'actual';
+                    } else {
+                        const frameNumber = parseInt(vote.frame_number) || 0;
+                        // Use a more reasonable frame rate estimate (1 frame per 2 seconds for meeting videos)
+                        const estimatedSeconds = Math.max(1, Math.floor(frameNumber * 2));
+                        const minutes = Math.floor(estimatedSeconds / 60);
+                        const seconds = estimatedSeconds % 60;
+                        timestamp = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+                        timestampSource = 'estimated';
+                    }
 
                     // Generate deep links
                     const videoDeepLink = this.generateVideoDeepLink(vote);
@@ -1014,14 +1034,15 @@
                                     </div>
                                 </div>
                             ` : ''}
-                            <div style="margin-top: 0.5rem; color: #666; font-size: 0.9rem;">
-                                Vote occurred at approximately ${timestamp} in meeting video
-                            </div>
                             ${vote.motion_text ? `<div style="margin-top: 0.5rem; font-style: italic;">${vote.motion_text}</div>` : ''}
                             <div style="margin-top: 0.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
                                 ${videoDeepLink ? `<a href="${videoDeepLink}" target="_blank" class="meeting-link">📹 Watch at ${timestamp}</a>` : ''}
                                 ${agendaDeepLink ? `<a href="${agendaDeepLink}" target="_blank" class="meeting-link">📋 View Agenda Item</a>` : ''}
                                 ${vote.video_url ? `<a href="${vote.video_url}" target="_blank" class="meeting-link">📺 Full Video</a>` : ''}
+                            </div>
+                            <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">
+                                Vote occurred at ${timestampSource === 'actual' ? '' : 'approximately '}${timestamp} in meeting video
+                                ${timestampSource === 'estimated' ? ' (estimated from frame data)' : ''}
                             </div>
                         </div>
                     `;
@@ -1029,30 +1050,27 @@
             }
 
             generateVideoDeepLink(vote) {
-                // Generate deep link to video chapter based on Granicus pattern
-                // Pattern: https://torrance.granicus.com/MediaPlayer.php?view_id=8&clip_id=14538&meta_id=409687
                 const meetingId = vote.meeting_id;
-                const frameNumber = vote.frame_number;
+                const metaId = vote.meta_id;
+                const timestampEstimated = vote.timestamp_estimated;
+                const videoTimestamp = vote.video_timestamp;
 
-                if (!meetingId || !frameNumber) return null;
+                if (!meetingId) return null;
 
-                // Map meeting IDs to view_ids (this would need to be updated based on actual data)
-                const viewIdMap = {
-                    '14510': '8',
-                    '14490': '8',
-                    '14538': '8',
-                    '14524': '8',
-                    '14530': '8',
-                    '14536': '8'
-                };
+                // If we have a real meta_id and it's not estimated, use it for deep linking
+                if (metaId && !timestampEstimated) {
+                    return `https://torrance.granicus.com/MediaPlayer.php?view_id=8&clip_id=${meetingId}&meta_id=${metaId}`;
+                }
 
-                const viewId = viewIdMap[meetingId] || '8';
+                // If we have a video timestamp, try to create a time-based deep link
+                if (videoTimestamp !== undefined && videoTimestamp !== null) {
+                    const minutes = Math.floor(videoTimestamp / 60);
+                    const seconds = videoTimestamp % 60;
+                    return `https://torrance.granicus.com/player/clip/${meetingId}?t=${minutes}m${seconds}s`;
+                }
 
-                // Generate meta_id based on frame number (this is approximate)
-                // In reality, meta_id would need to be mapped from agenda items
-                const metaId = 409680 + (parseInt(frameNumber) % 1000);
-
-                return `https://torrance.granicus.com/MediaPlayer.php?view_id=${viewId}&clip_id=${meetingId}&meta_id=${metaId}`;
+                // Fallback to base video link
+                return `https://torrance.granicus.com/player/clip/${meetingId}`;
             }
 
             generateAgendaDeepLink(vote) {
