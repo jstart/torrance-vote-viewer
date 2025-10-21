@@ -1,0 +1,1575 @@
+{
+  "metadata": {
+    "created_at": "2025-10-20T16:30:00Z",
+    "total_votes": 34,
+    "total_meetings": 6,
+    "total_councilmembers": 7,
+    "votes_with_individual_data": 14,
+    "total_agenda_items": 31
+  },
+  "votes": [
+    {
+      "id": "14510_5828",
+      "meeting_id": "14510",
+      "frame_number": 5828,
+      "frame_path": "2025_meetings_data/votable_frames_14510/frame_005828.jpg",
+      "timestamp": 1760796029.998416,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": "High",
+      "agenda_item": "4. MOTION TO WAIVE FURTHER READING OF RESOLUTIONS AND ORDINANCES AFTER NUMBER AND TITLE",
+      "motion_text": null,
+      "individual_votes": null,
+      "meeting_date": "2025-08-19",
+      "meeting_title": "City Council Meeting",
+      "video_url": "https://torrance.granicus.com/player/clip/14510",
+      "agenda_url": "https://torrance.granicus.com/AgendaViewer.php?view_id=2&clip_id=14510",
+      "year": "2025",
+      "agenda_item_id": "4_motion_to_waive_further_reading_of_resolutions_and_ordinances_after_number_and_title_1",
+      "timestamp_estimated": false,
+      "meta_id": "404883",
+      "video_timestamp": 5830
+    },
+    {
+      "id": "14510_6380",
+      "meeting_id": "14510",
+      "frame_number": 6380,
+      "frame_path": "2025_meetings_data/votable_frames_14510/frame_006380.jpg",
+      "timestamp": 1760796037.658988,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Passes",
+      "confidence": 0.98,
+      "agenda_item": "6A. RESOLUTION NO. 2025-50 honoring Police Chief Jeremiah Hart upon his retirement from the City of Torrance after twenty-eight years of service (For Adoption Only).",
+      "motion_text": null,
+      "individual_votes": null,
+      "meeting_date": "2025-08-19",
+      "meeting_title": "City Council Meeting",
+      "video_url": "https://torrance.granicus.com/player/clip/14510",
+      "agenda_url": "https://torrance.granicus.com/AgendaViewer.php?view_id=2&clip_id=14510",
+      "year": "2025",
+      "agenda_item_id": "6a_resolution_no_2025-50_honoring_police_chief_jeremiah_hart_upon_his_retirement_from_the_city_of_torrance_after_twenty-eight_years_of_service_(for_adoption_only)_1",
+      "timestamp_estimated": false,
+      "meta_id": "404886",
+      "video_timestamp": 6336
+    },
+    {
+      "id": "14510_7471",
+      "meeting_id": "14510",
+      "frame_number": 7471,
+      "frame_path": "2025_meetings_data/votable_frames_14510/frame_007471.jpg",
+      "timestamp": 1760796045.908868,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": 1.0,
+      "agenda_item": "6C. Community Services \u2013 Appoint Members of the 2025-2026 Torrance Youth Council. Expenditure: None.",
+      "motion_text": null,
+      "individual_votes": null,
+      "meeting_date": "2025-08-19",
+      "meeting_title": "City Council Meeting",
+      "video_url": "https://torrance.granicus.com/player/clip/14510",
+      "agenda_url": "https://torrance.granicus.com/AgendaViewer.php?view_id=2&clip_id=14510",
+      "year": "2025",
+      "agenda_item_id": "6c_community_services_\u2013_appoint_members_of_the_2025-2026_torrance_youth_council_expenditure:_none_1",
+      "timestamp_estimated": false,
+      "meta_id": "404895",
+      "video_timestamp": 7391
+    },
+    {
+      "id": "14510_8986",
+      "meeting_id": "14510",
+      "frame_number": 8986,
+      "frame_path": "2025_meetings_data/votable_frames_14510/frame_008986.jpg",
+      "timestamp": 1760796053.8520231,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": 1.0,
+      "agenda_item": "8D. Community Services \u2014 Approve Second Amendment to Contract Services Agreement for Encampment Prevention Overnight Security Guard Services. Expenditure: Not-to-Exceed $200,000 (General Fund-Measure SST Fund).",
+      "motion_text": null,
+      "individual_votes": null,
+      "meeting_date": "2025-08-19",
+      "meeting_title": "City Council Meeting",
+      "video_url": "https://torrance.granicus.com/player/clip/14510",
+      "agenda_url": "https://torrance.granicus.com/AgendaViewer.php?view_id=2&clip_id=14510",
+      "year": "2025",
+      "agenda_item_id": "8d_community_services_\u2014_approve_second_amendment_to_contract_services_agreement_for_encampment_prevention_overnight_security_guard_services_expenditure:_not-to-exceed_$200000_(general_fund-measure_sst_fund)_1",
+      "timestamp_estimated": false,
+      "meta_id": "404906",
+      "video_timestamp": 8983
+    },
+    {
+      "id": "14510_9230",
+      "meeting_id": "14510",
+      "frame_number": 9230,
+      "frame_path": "2025_meetings_data/votable_frames_14510/frame_009230.jpg",
+      "timestamp": 1760796071.34739,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": "high",
+      "agenda_item": "9. HEARINGS",
+      "motion_text": null,
+      "individual_votes": null,
+      "meeting_date": "2025-08-19",
+      "meeting_title": "City Council Meeting",
+      "video_url": "https://torrance.granicus.com/player/clip/14510",
+      "agenda_url": "https://torrance.granicus.com/AgendaViewer.php?view_id=2&clip_id=14510",
+      "year": "2025",
+      "agenda_item_id": "9_hearings_1",
+      "timestamp_estimated": false,
+      "meta_id": "404922",
+      "video_timestamp": 9230
+    },
+    {
+      "id": "14510_10854",
+      "meeting_id": "14510",
+      "frame_number": 10854,
+      "frame_path": "2025_meetings_data/votable_frames_14510/frame_010854.jpg",
+      "timestamp": 1760796076.5116448,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": 0.98,
+      "agenda_item": "9B. Planning Commission and Community Development \u2013 Conduct Public Hearing and Consider Adoption of RESOLUTION for Denial of an Appeal of Planning Commission\u2019s Approval of Conditional Use Permit (CUP24-00028) and Development Permit (DVP24-00004) on Pro",
+      "motion_text": "Not visible in image.",
+      "individual_votes": null,
+      "meeting_date": "2025-08-19",
+      "meeting_title": "City Council Meeting",
+      "video_url": "https://torrance.granicus.com/player/clip/14510",
+      "agenda_url": "https://torrance.granicus.com/AgendaViewer.php?view_id=2&clip_id=14510",
+      "year": "2025",
+      "agenda_item_id": "9b_planning_commission_and_community_development_\u2013_conduct_public_hearing_and_consider_adoption_of_resolution_for_denial_of_an_appeal_of_planning_commission\u2019s_approval_of_conditional_use_permit_(cup24-00028)_and_development_permit_(dvp24-00004)_on_pro_1",
+      "timestamp_estimated": false,
+      "meta_id": 404938,
+      "video_timestamp": 10988
+    },
+    {
+      "id": "14510_15590",
+      "meeting_id": "14510",
+      "frame_number": 15590,
+      "frame_path": "2025_meetings_data/votable_frames_14510/frame_015590.jpg",
+      "timestamp": 1760796089.999242,
+      "vote_tally": {
+        "ayes": 0,
+        "noes": 2,
+        "abstentions": 0
+      },
+      "result": "Fails",
+      "confidence": "High",
+      "agenda_item": "9C. Planning Commission and Community Development \u2013 Conduct a Public Hearing and Consider Adoption of RESOLUTION for the Denial of a Modification (MOD23-00010) of a Previously Approved Division of Lot (DIV14-00006) to Amend an Open Space Easement (Note A",
+      "motion_text": null,
+      "individual_votes": [
+        {
+          "name": "Councilmember Gerson",
+          "vote": "Yea"
+        },
+        {
+          "name": "Councilmember Kaji",
+          "vote": "Yea"
+        },
+        {
+          "name": "Councilmember Kalani",
+          "vote": "Yea"
+        },
+        {
+          "name": "Councilmember Lewis",
+          "vote": "Yea"
+        },
+        {
+          "name": "Councilmember Mattucci",
+          "vote": "Yea"
+        },
+        {
+          "name": "Councilmember Sheikh",
+          "vote": "Yea"
+        },
+        {
+          "name": "Mayor Chen",
+          "vote": "Yea"
+        },
+        {
+          "council_member": "Gerson",
+          "vote": "Nay"
+        },
+        {
+          "council_member": "Kaji",
+          "vote": "Yea"
+        },
+        {
+          "council_member": "Kalani",
+          "vote": "Yea"
+        },
+        {
+          "council_member": "Lewis",
+          "vote": "Yea"
+        },
+        {
+          "council_member": "Mattucci",
+          "vote": "Yea"
+        },
+        {
+          "council_member": "Sheikh",
+          "vote": "Nay"
+        },
+        {
+          "council_member": "Mayor Chen",
+          "vote": "Yea"
+        }
+      ],
+      "meeting_date": "2025-08-19",
+      "meeting_title": "City Council Meeting",
+      "video_url": "https://torrance.granicus.com/player/clip/14510",
+      "agenda_url": "https://torrance.granicus.com/AgendaViewer.php?view_id=2&clip_id=14510",
+      "year": "2025",
+      "agenda_item_id": "9c_planning_commission_and_community_development_\u2013_conduct_a_public_hearing_and_consider_adoption_of_resolution_for_the_denial_of_a_modification_(mod23-00010)_of_a_previously_approved_division_of_lot_(div14-00006)_to_amend_an_open_space_easement_(note_a_1",
+      "timestamp_estimated": false,
+      "meta_id": 404928,
+      "video_timestamp": 9234
+    },
+    {
+      "id": "14510_17405",
+      "meeting_id": "14510",
+      "frame_number": 17405,
+      "frame_path": "2025_meetings_data/votable_frames_14510/frame_017405.jpg",
+      "timestamp": 1760796146.593377,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": 1.0,
+      "agenda_item": "10B. Community Services \u2013 Accept and File Columbia Park Community Engagement and Concept Design Project Report. Expenditure: None.",
+      "motion_text": null,
+      "individual_votes": null,
+      "meeting_date": "2025-08-19",
+      "meeting_title": "City Council Meeting",
+      "video_url": "https://torrance.granicus.com/player/clip/14510",
+      "agenda_url": "https://torrance.granicus.com/AgendaViewer.php?view_id=2&clip_id=14510",
+      "year": "2025",
+      "agenda_item_id": "10b_community_services_\u2013_accept_and_file_columbia_park_community_engagement_and_concept_design_project_report_expenditure:_none_1",
+      "timestamp_estimated": false,
+      "meta_id": "404956",
+      "video_timestamp": 17402
+    },
+    {
+      "id": "14510_19087",
+      "meeting_id": "14510",
+      "frame_number": 19087,
+      "frame_path": "2025_meetings_data/votable_frames_14510/frame_019087.jpg",
+      "timestamp": 1760796161.96322,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Passes",
+      "confidence": 0.98,
+      "agenda_item": "12. ORAL COMMUNICATIONS #2 (Limited up to a 15-minute period) This portion of the meeting is reserved for comments on items that are not on the agenda. Under the Ralph M. Brown Act, City Council cannot act on items raised during public comment but may res",
+      "motion_text": null,
+      "individual_votes": null,
+      "meeting_date": "2025-08-19",
+      "meeting_title": "City Council Meeting",
+      "video_url": "https://torrance.granicus.com/player/clip/14510",
+      "agenda_url": "https://torrance.granicus.com/AgendaViewer.php?view_id=2&clip_id=14510",
+      "year": "2025",
+      "agenda_item_id": "12_oral_communications_#2_(limited_up_to_a_15-minute_period)_this_portion_of_the_meeting_is_reserved_for_comments_on_items_that_are_not_on_the_agenda_under_the_ralph_m_brown_act_city_council_cannot_act_on_items_raised_during_public_comment_but_may_res_1",
+      "timestamp_estimated": false,
+      "meta_id": 404961,
+      "video_timestamp": 19086
+    },
+    {
+      "id": "14510_21772",
+      "meeting_id": "14510",
+      "frame_number": 21772,
+      "frame_path": "2025_meetings_data/votable_frames_14510/frame_021772.jpg",
+      "timestamp": 1760796173.812203,
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 1,
+        "abstentions": 0
+      },
+      "result": "Passes",
+      "confidence": 1.0,
+      "agenda_item": "14. ADJOURNMENT Adjournment of City Council meeting to Tuesday, September 09, 2025, at 5:00 p.m. for closed session with regular business commencing at 6:30 p.m. in the LeRoy J. Jackson Council Chamber. Tuesday, August 26, 2025 and Tuesday, September 02,",
+      "motion_text": "Not specified in image",
+      "individual_votes": null,
+      "meeting_date": "2025-08-19",
+      "meeting_title": "City Council Meeting",
+      "video_url": "https://torrance.granicus.com/player/clip/14510",
+      "agenda_url": "https://torrance.granicus.com/AgendaViewer.php?view_id=2&clip_id=14510",
+      "year": "2025",
+      "agenda_item_id": "14_adjournment_adjournment_of_city_council_meeting_to_tuesday_september_09_2025_at_5:00_pm_for_closed_session_with_regular_business_commencing_at_6:30_pm_in_the_leroy_j_jackson_council_chamber_tuesday_august_26_2025_and_tuesday_september_02_1",
+      "timestamp_estimated": false,
+      "meta_id": 404964,
+      "video_timestamp": 21730
+    },
+    {
+      "id": "14490_486",
+      "meeting_id": "14490",
+      "frame_number": 486,
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_000486.jpg",
+      "timestamp": 1760798938.366359,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Passes",
+      "confidence": 0.98,
+      "agenda_item": "5. COUNCIL COMMITTEE MEETINGS AND ANNOUNCEMENTS",
+      "motion_text": null,
+      "individual_votes": null,
+      "meeting_date": "2025-08-05",
+      "meeting_title": "City Council Meeting",
+      "video_url": "https://torrance.granicus.com/player/clip/14490",
+      "agenda_url": "https://torrance.granicus.com/AgendaViewer.php?view_id=2&clip_id=14490",
+      "year": "2025",
+      "agenda_item_id": "5_council_committee_meetings_and_announcements_1",
+      "timestamp_estimated": false,
+      "meta_id": "400967",
+      "video_timestamp": 482
+    },
+    {
+      "id": "14490_2843",
+      "meeting_id": "14490",
+      "frame_number": 2843,
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_002843.jpg",
+      "timestamp": 1760798958.229037,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": "High",
+      "agenda_item": "8. CONSENT CALENDAR Matters listed under the Consent Calendar are considered routine and will be enacted by one motion and one vote. There will be no separate discussion of these items. If discussion is desired, that item will be pulled by a Councilmember",
+      "motion_text": null,
+      "individual_votes": null,
+      "meeting_date": "2025-08-05",
+      "meeting_title": "City Council Meeting",
+      "video_url": "https://torrance.granicus.com/player/clip/14490",
+      "agenda_url": "https://torrance.granicus.com/AgendaViewer.php?view_id=2&clip_id=14490",
+      "year": "2025",
+      "agenda_item_id": "8_consent_calendar_matters_listed_under_the_consent_calendar_are_considered_routine_and_will_be_enacted_by_one_motion_and_one_vote_there_will_be_no_separate_discussion_of_these_items_if_discussion_is_desired_that_item_will_be_pulled_by_a_councilmember_1",
+      "timestamp_estimated": false,
+      "meta_id": "400974",
+      "video_timestamp": 2691
+    },
+    {
+      "id": "14490_2845",
+      "meeting_id": "14490",
+      "frame_number": 2845,
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_002845.jpg",
+      "timestamp": 1760798970.837879,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": 0.95,
+      "agenda_item": "9. HEARINGS",
+      "motion_text": null,
+      "individual_votes": null,
+      "meeting_date": "2025-08-05",
+      "meeting_title": "City Council Meeting",
+      "video_url": "https://torrance.granicus.com/player/clip/14490",
+      "agenda_url": "https://torrance.granicus.com/AgendaViewer.php?view_id=2&clip_id=14490",
+      "year": "2025",
+      "agenda_item_id": "9_hearings_2",
+      "timestamp_estimated": false,
+      "meta_id": "400992",
+      "video_timestamp": 2845
+    },
+    {
+      "id": "14490_2847",
+      "meeting_id": "14490",
+      "frame_number": 2847,
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_002847.jpg",
+      "timestamp": 1760798985.029909,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": 1.0,
+      "agenda_item": "9A. Planning Commission and Community Development \u2013 Conduct a Public Hearing on Land Use Study 25-00001 Regarding Proposed Amendments to the Torrance Municipal Code Pertaining to the Regulation of Accessory Dwelling Units and Junior Accessory Dwelling Un",
+      "motion_text": null,
+      "individual_votes": null,
+      "meeting_date": "2025-08-05",
+      "meeting_title": "City Council Meeting",
+      "video_url": "https://torrance.granicus.com/player/clip/14490",
+      "agenda_url": "https://torrance.granicus.com/AgendaViewer.php?view_id=2&clip_id=14490",
+      "year": "2025",
+      "agenda_item_id": "9a_planning_commission_and_community_development_\u2013_conduct_a_public_hearing_on_land_use_study_25-00001_regarding_proposed_amendments_to_the_torrance_municipal_code_pertaining_to_the_regulation_of_accessory_dwelling_units_and_junior_accessory_dwelling_un_1",
+      "timestamp_estimated": false,
+      "meta_id": "400993",
+      "video_timestamp": 2847
+    },
+    {
+      "id": "14490_3593",
+      "meeting_id": "14490",
+      "frame_number": 3593,
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_003593.jpg",
+      "timestamp": 1760799046.963711,
+      "vote_tally": {
+        "ayes": 0,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Tie",
+      "confidence": "High",
+      "agenda_item": "12. ORAL COMMUNICATIONS #2 (Limited up to a 15-minute period) This portion of the meeting is reserved for comments on items that are not on the agenda. Under the Ralph M. Brown Act, City Council cannot act on items raised during public comment but may res",
+      "motion_text": null,
+      "individual_votes": [
+        {
+          "council_member": "Gerson",
+          "vote": "Yea"
+        },
+        {
+          "council_member": "Kaji",
+          "vote": "Yea"
+        },
+        {
+          "council_member": "Kalani",
+          "vote": "Yea"
+        },
+        {
+          "council_member": "Lewis",
+          "vote": "Yea"
+        },
+        {
+          "council_member": "Mattucci",
+          "vote": "Yea"
+        },
+        {
+          "council_member": "Sheikh",
+          "vote": "Yea"
+        },
+        {
+          "council_member": "Mayor Chen",
+          "vote": "Yea"
+        }
+      ],
+      "meeting_date": "2025-08-05",
+      "meeting_title": "City Council Meeting",
+      "video_url": "https://torrance.granicus.com/player/clip/14490",
+      "agenda_url": "https://torrance.granicus.com/AgendaViewer.php?view_id=2&clip_id=14490",
+      "year": "2025",
+      "agenda_item_id": "12_oral_communications_#2_(limited_up_to_a_15-minute_period)_this_portion_of_the_meeting_is_reserved_for_comments_on_items_that_are_not_on_the_agenda_under_the_ralph_m_brown_act_city_council_cannot_act_on_items_raised_during_public_comment_but_may_res_3",
+      "timestamp_estimated": false,
+      "meta_id": "400973",
+      "video_timestamp": 2395
+    },
+    {
+      "id": "14490_3832",
+      "meeting_id": "14490",
+      "frame_number": 3832,
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_003832.jpg",
+      "timestamp": 1760799080.6523268,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0,
+        "recused": 0
+      },
+      "result": "Motion Passes",
+      "confidence": "High",
+      "agenda_item": "14. ADJOURNMENT Adjournment of City Council meeting to Tuesday, August 12, 2025, at 5:00 p.m. for closed session in the LeRoy J. Jackson Council Chamber.",
+      "motion_text": "Not visible in image",
+      "individual_votes": null,
+      "meeting_date": "2025-08-05",
+      "meeting_title": "City Council Meeting",
+      "video_url": "https://torrance.granicus.com/player/clip/14490",
+      "agenda_url": "https://torrance.granicus.com/AgendaViewer.php?view_id=2&clip_id=14490",
+      "year": "2025",
+      "agenda_item_id": "14_adjournment_adjournment_of_city_council_meeting_to_tuesday_august_12_2025_at_5:00_pm_for_closed_session_in_the_leroy_j_jackson_council_chamber_1",
+      "timestamp_estimated": false,
+      "meta_id": "401003",
+      "video_timestamp": 3805
+    },
+    {
+      "id": "14538_11885",
+      "meeting_id": "14538",
+      "frame_number": 11885,
+      "frame_path": "2025_meetings_data/votable_frames_14538/frame_011885.jpg",
+      "timestamp": 1760823035.98535,
+      "vote_tally": {
+        "ayes": 0,
+        "noes": 2,
+        "abstentions": 0
+      },
+      "result": "Fails",
+      "confidence": "High",
+      "agenda_item": "5. ADJOURNMENT Adjournment of City Council meeting to Tuesday, October 21, 2025, at 5:00 p.m. for closed session with regular business commencing at 6:30 p.m. in the LeRoy J. Jackson Council Chamber.",
+      "motion_text": null,
+      "individual_votes": [
+        {
+          "name": "Councilmember Gerson",
+          "vote": "Yea"
+        },
+        {
+          "name": "Councilmember Kaji",
+          "vote": "Yea"
+        },
+        {
+          "name": "Councilmember Kalani",
+          "vote": "Yea"
+        },
+        {
+          "name": "Councilmember Lewis",
+          "vote": "Nay"
+        },
+        {
+          "name": "Councilmember Mattucci",
+          "vote": "Yea"
+        },
+        {
+          "name": "Councilmember Sheikh",
+          "vote": "Nay"
+        },
+        {
+          "name": "Mayor Chen",
+          "vote": "Yea"
+        }
+      ],
+      "meeting_date": "2025-10-14",
+      "meeting_title": "City Council Meeting",
+      "video_url": "https://torrance.granicus.com/player/clip/14538",
+      "agenda_url": "https://torrance.granicus.com/AgendaViewer.php?view_id=2&clip_id=14538",
+      "year": "2025",
+      "agenda_item_id": "5_adjournment_adjournment_of_city_council_meeting_to_tuesday_october_21_2025_at_5:00_pm_for_closed_session_with_regular_business_commencing_at_6:30_pm_in_the_leroy_j_jackson_council_chamber_1",
+      "timestamp_estimated": false,
+      "meta_id": "409686",
+      "video_timestamp": 255
+    },
+    {
+      "id": "14524_4320",
+      "meeting_id": "14524",
+      "frame_number": 4320,
+      "frame_path": "2025_meetings_data/votable_frames_14524/frame_004320.jpg",
+      "timestamp": 1760828708.740204,
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": {
+        "motion_text": "low",
+        "vote_tally": "high",
+        "result": "high",
+        "agenda_item": "low"
+      },
+      "agenda_item": "5. ADJOURNMENT Adjournment of Closed Session meeting to Tuesday, September 23, 2025, at 5:00 p.m. for closed session with regular business commencing at 6:30 p.m. in the LeRoy J. Jackson Council Chamber.",
+      "motion_text": null,
+      "individual_votes": null,
+      "meeting_date": "2025-09-16",
+      "meeting_title": "City Council Meeting",
+      "video_url": "https://torrance.granicus.com/player/clip/14524",
+      "agenda_url": "https://torrance.granicus.com/AgendaViewer.php?view_id=2&clip_id=14524",
+      "year": "2025",
+      "agenda_item_id": "5_adjournment_adjournment_of_closed_session_meeting_to_tuesday_september_23_2025_at_5:00_pm_for_closed_session_with_regular_business_commencing_at_6:30_pm_in_the_leroy_j_jackson_council_chamber_1",
+      "timestamp_estimated": true
+    },
+    {
+      "id": "14530_6761",
+      "meeting_id": "14530",
+      "frame_number": 6761,
+      "frame_path": "2025_meetings_data/votable_frames_14530/frame_006761.jpg",
+      "timestamp": 1760791954.956088,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Passes",
+      "confidence": "High",
+      "agenda_item": "5. COUNCIL COMMITTEE MEETINGS AND ANNOUNCEMENTS",
+      "motion_text": null,
+      "individual_votes": null,
+      "meeting_date": "2025-09-23",
+      "meeting_title": "City Council Meeting",
+      "video_url": "https://torrance.granicus.com/player/clip/14530",
+      "agenda_url": "https://torrance.granicus.com/AgendaViewer.php?view_id=2&clip_id=14530",
+      "year": "2025",
+      "agenda_item_id": "5_council_committee_meetings_and_announcements_4",
+      "timestamp_estimated": false,
+      "meta_id": "408042",
+      "video_timestamp": 6758
+    },
+    {
+      "id": "14530_7316",
+      "meeting_id": "14530",
+      "frame_number": 7316,
+      "frame_path": "2025_meetings_data/votable_frames_14530/frame_007316.jpg",
+      "timestamp": 1760791962.263295,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": 1.0,
+      "agenda_item": "6A. RESOLUTION NO. 2025-56 honoring Police Officer Claude Fierro upon his retirement from the City of Torrance after twenty-three years of service (For Adoption Only).",
+      "motion_text": null,
+      "individual_votes": null,
+      "meeting_date": "2025-09-23",
+      "meeting_title": "City Council Meeting",
+      "video_url": "https://torrance.granicus.com/player/clip/14530",
+      "agenda_url": "https://torrance.granicus.com/AgendaViewer.php?view_id=2&clip_id=14530",
+      "year": "2025",
+      "agenda_item_id": "6a_resolution_no_2025-56_honoring_police_officer_claude_fierro_upon_his_retirement_from_the_city_of_torrance_after_twenty-three_years_of_service_(for_adoption_only)_1",
+      "timestamp_estimated": false,
+      "meta_id": "408044",
+      "video_timestamp": 7274
+    },
+    {
+      "id": "14530_7842",
+      "meeting_id": "14530",
+      "frame_number": 7842,
+      "frame_path": "2025_meetings_data/votable_frames_14530/frame_007842.jpg",
+      "timestamp": 1760791971.620849,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": 1.0,
+      "agenda_item": "6C. City Clerk \u2013 Appoint Members to Fill Commission Vacancies on Commission on Aging, Environmental Quality and Energy Conservation Commission, and Historic Preservation Commission. Expenditure: None.",
+      "motion_text": null,
+      "individual_votes": null,
+      "meeting_date": "2025-09-23",
+      "meeting_title": "City Council Meeting",
+      "video_url": "https://torrance.granicus.com/player/clip/14530",
+      "agenda_url": "https://torrance.granicus.com/AgendaViewer.php?view_id=2&clip_id=14530",
+      "year": "2025",
+      "agenda_item_id": "6c_city_clerk_\u2013_appoint_members_to_fill_commission_vacancies_on_commission_on_aging_environmental_quality_and_energy_conservation_commission_and_historic_preservation_commission_expenditure:_none_1",
+      "timestamp_estimated": false,
+      "meta_id": "408050",
+      "video_timestamp": 7656
+    },
+    {
+      "id": "14530_8991",
+      "meeting_id": "14530",
+      "frame_number": 8991,
+      "frame_path": "2025_meetings_data/votable_frames_14530/frame_008991.jpg",
+      "timestamp": 1760792022.5399969,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": 1.0,
+      "agenda_item": "8B. SECOND AND FINAL READING OF ORDINANCE NO. 3952 and Determination that the Ordinance is Exempt from the California Environmental Quality Act (CEQA). Expenditure: None.",
+      "motion_text": null,
+      "individual_votes": null,
+      "meeting_date": "2025-09-23",
+      "meeting_title": "City Council Meeting",
+      "video_url": "https://torrance.granicus.com/player/clip/14530",
+      "agenda_url": "https://torrance.granicus.com/AgendaViewer.php?view_id=2&clip_id=14530",
+      "year": "2025",
+      "agenda_item_id": "8b_second_and_final_reading_of_ordinance_no_3952_and_determination_that_the_ordinance_is_exempt_from_the_california_environmental_quality_act_(ceqa)_expenditure:_none_1",
+      "timestamp_estimated": false,
+      "meta_id": "408063",
+      "video_timestamp": 8988
+    },
+    {
+      "id": "14530_9352",
+      "meeting_id": "14530",
+      "frame_number": 9352,
+      "frame_path": "2025_meetings_data/votable_frames_14530/frame_009352.jpg",
+      "timestamp": 1760792054.730607,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0,
+        "recused": 0
+      },
+      "result": "Motion Passes",
+      "confidence": {
+        "overall": "high",
+        "motion_text": "low (not present in image)",
+        "vote_tally": "high",
+        "result": "high",
+        "agenda_item": "low (not present in image)"
+      },
+      "agenda_item": "10B. Fire \u2013 Set Date of October 21, 2025 for a Public Hearing on the Proposed Local Amendments to the 2025 California Fire Code. Expenditure: None.",
+      "motion_text": null,
+      "individual_votes": null,
+      "meeting_date": "2025-09-23",
+      "meeting_title": "City Council Meeting",
+      "video_url": "https://torrance.granicus.com/player/clip/14530",
+      "agenda_url": "https://torrance.granicus.com/AgendaViewer.php?view_id=2&clip_id=14530",
+      "year": "2025",
+      "agenda_item_id": "10b_fire_\u2013_set_date_of_october_21_2025_for_a_public_hearing_on_the_proposed_local_amendments_to_the_2025_california_fire_code_expenditure:_none_1",
+      "timestamp_estimated": false,
+      "meta_id": "408093",
+      "video_timestamp": 9349
+    },
+    {
+      "id": "14530_9425",
+      "meeting_id": "14530",
+      "frame_number": 9425,
+      "frame_path": "2025_meetings_data/votable_frames_14530/frame_009425.jpg",
+      "timestamp": 1760792066.723609,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": "High",
+      "agenda_item": "10C. Fire \u2013 Accept and File Update on the Public Access Defibrillator (PAD) Program. Expenditure: None.",
+      "motion_text": null,
+      "individual_votes": null,
+      "meeting_date": "2025-09-23",
+      "meeting_title": "City Council Meeting",
+      "video_url": "https://torrance.granicus.com/player/clip/14530",
+      "agenda_url": "https://torrance.granicus.com/AgendaViewer.php?view_id=2&clip_id=14530",
+      "year": "2025",
+      "agenda_item_id": "10c_fire_\u2013_accept_and_file_update_on_the_public_access_defibrillator_(pad)_program_expenditure:_none_1",
+      "timestamp_estimated": false,
+      "meta_id": "408097",
+      "video_timestamp": 9424
+    },
+    {
+      "id": "14530_10387",
+      "meeting_id": "14530",
+      "frame_number": 10387,
+      "frame_path": "2025_meetings_data/votable_frames_14530/frame_010387.jpg",
+      "timestamp": 1760792070.223414,
+      "vote_tally": {
+        "ayes": 0,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Tie",
+      "confidence": 0.95,
+      "agenda_item": "10D. City Manager \u2013 Accept and File Economic Development Update and Consider and Provide Direction on Proposed Economic Development Initiatives. Expenditure: None.",
+      "motion_text": "Not specified in image, only vote outcome.",
+      "individual_votes": [
+        {
+          "name": "Gerson",
+          "position": "Councilmember",
+          "vote": "Yea"
+        },
+        {
+          "name": "Kaji",
+          "position": "Councilmember",
+          "vote": "Yea"
+        },
+        {
+          "name": "Kalani",
+          "position": "Councilmember",
+          "vote": "Yea"
+        },
+        {
+          "name": "Lewis",
+          "position": "Councilmember",
+          "vote": "Yea"
+        },
+        {
+          "name": "Mattucci",
+          "position": "Councilmember",
+          "vote": "Yea"
+        },
+        {
+          "name": "Sheikh",
+          "position": "Councilmember",
+          "vote": "Yea"
+        },
+        {
+          "name": "Chen",
+          "position": "Mayor",
+          "vote": "Yea"
+        }
+      ],
+      "meeting_date": "2025-09-23",
+      "meeting_title": "City Council Meeting",
+      "video_url": "https://torrance.granicus.com/player/clip/14530",
+      "agenda_url": "https://torrance.granicus.com/AgendaViewer.php?view_id=2&clip_id=14530",
+      "year": "2025",
+      "agenda_item_id": "10d_city_manager_\u2013_accept_and_file_economic_development_update_and_consider_and_provide_direction_on_proposed_economic_development_initiatives_expenditure:_none_1",
+      "timestamp_estimated": false,
+      "meta_id": "408101",
+      "video_timestamp": 10384
+    },
+    {
+      "id": "14530_18512",
+      "meeting_id": "14530",
+      "frame_number": 18512,
+      "frame_path": "2025_meetings_data/votable_frames_14530/frame_018512.jpg",
+      "timestamp": 1760792094.626219,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": 0.98,
+      "agenda_item": "10F. Community Services \u2014 Accept and File Coyote Management Plan Update and Provide Direction on Continuing Coyote Abatement Services. Expenditure: None.",
+      "motion_text": null,
+      "individual_votes": null,
+      "meeting_date": "2025-09-23",
+      "meeting_title": "City Council Meeting",
+      "video_url": "https://torrance.granicus.com/player/clip/14530",
+      "agenda_url": "https://torrance.granicus.com/AgendaViewer.php?view_id=2&clip_id=14530",
+      "year": "2025",
+      "agenda_item_id": "10f_community_services_\u2014_accept_and_file_coyote_management_plan_update_and_provide_direction_on_continuing_coyote_abatement_services_expenditure:_none_1",
+      "timestamp_estimated": false,
+      "meta_id": "408111",
+      "video_timestamp": 18510
+    },
+    {
+      "id": "14530_18634",
+      "meeting_id": "14530",
+      "frame_number": 18634,
+      "frame_path": "2025_meetings_data/votable_frames_14530/frame_018634.jpg",
+      "timestamp": 1760792109.082398,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Passes",
+      "confidence": "High",
+      "agenda_item": "12. ORAL COMMUNICATIONS #2 (Limited up to a 15-minute period) This portion of the meeting is reserved for comments on items that are not on the agenda. Under the Ralph M. Brown Act, City Council cannot act on items raised during public comment but may resp",
+      "motion_text": null,
+      "individual_votes": null,
+      "meeting_date": "2025-09-23",
+      "meeting_title": "City Council Meeting",
+      "video_url": "https://torrance.granicus.com/player/clip/14530",
+      "agenda_url": "https://torrance.granicus.com/AgendaViewer.php?view_id=2&clip_id=14530",
+      "year": "2025",
+      "agenda_item_id": "12_oral_communications_#2_(limited_up_to_a_15-minute_period)_this_portion_of_the_meeting_is_reserved_for_comments_on_items_that_are_not_on_the_agenda_under_the_ralph_m_brown_act_city_council_cannot_act_on_items_raised_during_public_comment_but_may_resp_1",
+      "timestamp_estimated": false,
+      "meta_id": "408059",
+      "video_timestamp": 8446
+    },
+    {
+      "id": "14530_19064",
+      "meeting_id": "14530",
+      "frame_number": 19064,
+      "frame_path": "2025_meetings_data/votable_frames_14530/frame_019064.jpg",
+      "timestamp": 1760792118.908916,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": 0.98,
+      "agenda_item": "14. ADJOURNMENT Adjournment of City Council meeting to Tuesday, October 07, 2025, at 5:00 p.m. for closed session with regular business commencing at 6:30 p.m. in the LeRoy J. Jackson Council Chamber. Tuesday, September 30, 2025 is a City Council Da",
+      "motion_text": null,
+      "individual_votes": null,
+      "meeting_date": "2025-09-23",
+      "meeting_title": "City Council Meeting",
+      "video_url": "https://torrance.granicus.com/player/clip/14530",
+      "agenda_url": "https://torrance.granicus.com/AgendaViewer.php?view_id=2&clip_id=14530",
+      "year": "2025",
+      "agenda_item_id": "14_adjournment_adjournment_of_city_council_meeting_to_tuesday_october_07_2025_at_5:00_pm_for_closed_session_with_regular_business_commencing_at_6:30_pm_in_the_leroy_j_jackson_council_chamber_tuesday_september_30_2025_is_a_city_council_da_1",
+      "timestamp_estimated": false,
+      "meta_id": "407998",
+      "video_timestamp": 23
+    },
+    {
+      "id": "14536_6721",
+      "meeting_id": "14536",
+      "frame_number": 6721,
+      "frame_path": "2025_meetings_data/votable_frames_14536/frame_006721.jpg",
+      "timestamp": 1760789411.63988,
+      "vote_tally": {
+        "ayes": 6,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": "High",
+      "agenda_item": "6B. RESOLUTION NO. 2025-59 honoring Denise Thurston upon her retirement from the City of Torrance after twenty-six years of service (For Adoption Only).",
+      "motion_text": null,
+      "individual_votes": null,
+      "meeting_date": "2025-10-07",
+      "meeting_title": "City Council Meeting",
+      "video_url": "https://torrance.granicus.com/player/clip/14536",
+      "agenda_url": "https://torrance.granicus.com/AgendaViewer.php?view_id=2&clip_id=14536",
+      "year": "2025",
+      "agenda_item_id": "6b_resolution_no_2025-59_honoring_denise_thurston_upon_her_retirement_from_the_city_of_torrance_after_twenty-six_years_of_service_(for_adoption_only)_1",
+      "timestamp_estimated": false,
+      "meta_id": "409351",
+      "video_timestamp": 6719
+    },
+    {
+      "id": "14536_6763",
+      "meeting_id": "14536",
+      "frame_number": 6763,
+      "frame_path": "2025_meetings_data/votable_frames_14536/frame_006763.jpg",
+      "timestamp": 1760789422.321332,
+      "vote_tally": {
+        "ayes": 6,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": 1.0,
+      "agenda_item": "6C. PROCLAMATION declaring the month of October 2025 as Breast Cancer Awareness Month in the City of Torrance, California.",
+      "motion_text": null,
+      "individual_votes": null,
+      "meeting_date": "2025-10-07",
+      "meeting_title": "City Council Meeting",
+      "video_url": "https://torrance.granicus.com/player/clip/14536",
+      "agenda_url": "https://torrance.granicus.com/AgendaViewer.php?view_id=2&clip_id=14536",
+      "year": "2025",
+      "agenda_item_id": "6c_proclamation_declaring_the_month_of_october_2025_as_breast_cancer_awareness_month_in_the_city_of_torrance_california_1",
+      "timestamp_estimated": false,
+      "meta_id": "409355",
+      "video_timestamp": 6762
+    },
+    {
+      "id": "14536_9136",
+      "meeting_id": "14536",
+      "frame_number": 9136,
+      "frame_path": "2025_meetings_data/votable_frames_14536/frame_009136.jpg",
+      "timestamp": 1760789431.661338,
+      "vote_tally": {
+        "ayes": 6,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Passed",
+      "confidence": "High",
+      "agenda_item": "8F. Finance \u2013 Appropriate 2016 Certificate of Participation (COP) Bond Funds. Expenditure: None.",
+      "motion_text": "Approval of the Consent Calendar, including all matters listed therein, to be enacted by one motion and one vote.",
+      "individual_votes": null,
+      "meeting_date": "2025-10-07",
+      "meeting_title": "City Council Meeting",
+      "video_url": "https://torrance.granicus.com/player/clip/14536",
+      "agenda_url": "https://torrance.granicus.com/AgendaViewer.php?view_id=2&clip_id=14536",
+      "year": "2025",
+      "agenda_item_id": "8f_finance_\u2013_appropriate_2016_certificate_of_participation_(cop)_bond_funds_expenditure:_none_1",
+      "timestamp_estimated": false,
+      "meta_id": "409375",
+      "video_timestamp": 9133
+    },
+    {
+      "id": "14536_9910",
+      "meeting_id": "14536",
+      "frame_number": 9910,
+      "frame_path": "2025_meetings_data/votable_frames_14536/frame_009910.jpg",
+      "timestamp": 1760789458.749505,
+      "vote_tally": {
+        "ayes": 2,
+        "noes": 4,
+        "abstentions": 0
+      },
+      "result": "Fails",
+      "confidence": 1.0,
+      "agenda_item": "10A. City Council Ad Hoc Naming of Public Facilities Committee and City Manager \u2013 Accept and File Ad Hoc Naming of Public Facilities Committee Meeting Minutes and Discuss and Provide Direction on Renaming Columbia Park. Expenditure: None.",
+      "motion_text": "City Council Ad Hoc Naming of Public Facilities Committee and City Manager. Accept and File Ad Hoc Naming of Public Facilities Committee Meeting Minutes and Discuss and Provide Direction on Renaming Columbia Park.",
+      "individual_votes": null,
+      "meeting_date": "2025-10-07",
+      "meeting_title": "City Council Meeting",
+      "video_url": "https://torrance.granicus.com/player/clip/14536",
+      "agenda_url": "https://torrance.granicus.com/AgendaViewer.php?view_id=2&clip_id=14536",
+      "year": "2025",
+      "agenda_item_id": "10a_city_council_ad_hoc_naming_of_public_facilities_committee_and_city_manager_\u2013_accept_and_file_ad_hoc_naming_of_public_facilities_committee_meeting_minutes_and_discuss_and_provide_direction_on_renaming_columbia_park_expenditure:_none_1",
+      "timestamp_estimated": false,
+      "meta_id": "409406",
+      "video_timestamp": 10714
+    },
+    {
+      "id": "14536_12190",
+      "meeting_id": "14536",
+      "frame_number": 12190,
+      "frame_path": "2025_meetings_data/votable_frames_14536/frame_012190.jpg",
+      "timestamp": 1760789487.573994,
+      "vote_tally": {
+        "ayes": 6,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Passed",
+      "confidence": 0.98,
+      "agenda_item": "10B. City Manager \u2013 Discuss and Provide Direction on Request for Subsidy of Rental Fees for Use of the Toyota Meeting Hall and James Armstrong Theatre for World War II Camp Memorial Fundraising Event. Expenditure: $1,200 (General Fund).",
+      "motion_text": "City Manager - Discuss and Provide Direction on Request for Subsidy of Rental Fees for Use of the Toyota Meeting Hall and James Armstrong Theatre for World War II Camp Memorial Fundraising Event. Expenditure: $1,200 (General Fund)",
+      "individual_votes": null,
+      "meeting_date": "2025-10-07",
+      "meeting_title": "City Council Meeting",
+      "video_url": "https://torrance.granicus.com/player/clip/14536",
+      "agenda_url": "https://torrance.granicus.com/AgendaViewer.php?view_id=2&clip_id=14536",
+      "year": "2025",
+      "agenda_item_id": "10b_city_manager_\u2013_discuss_and_provide_direction_on_request_for_subsidy_of_rental_fees_for_use_of_the_toyota_meeting_hall_and_james_armstrong_theatre_for_world_war_ii_camp_memorial_fundraising_event_expenditure:_$1200_(general_fund)_1",
+      "timestamp_estimated": false,
+      "meta_id": "409399",
+      "video_timestamp": 10915
+    },
+    {
+      "id": "14536_18874",
+      "meeting_id": "14536",
+      "frame_number": 18874,
+      "frame_path": "2025_meetings_data/votable_frames_14536/frame_018874.jpg",
+      "timestamp": 1760789495.1692228,
+      "vote_tally": {
+        "ayes": 5,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Passed",
+      "confidence": "High",
+      "agenda_item": "14. ADJOURNMENT Adjournment of City Council meeting to Tuesday, October 14, 2025, at 5:00 p.m. for closed session in the LeRoy J. Jackson Council Chamber.",
+      "motion_text": "Adjournment of City Council meeting to Tuesday, October 14, 2025, at 5:00 p.m. for closed session in the LeRoy J. Jackson Council Chamber",
+      "individual_votes": null,
+      "meeting_date": "2025-10-07",
+      "meeting_title": "City Council Meeting",
+      "video_url": "https://torrance.granicus.com/player/clip/14536",
+      "agenda_url": "https://torrance.granicus.com/AgendaViewer.php?view_id=2&clip_id=14536",
+      "year": "2025",
+      "agenda_item_id": "14_adjournment_adjournment_of_city_council_meeting_to_tuesday_october_14_2025_at_5:00_pm_for_closed_session_in_the_leroy_j_jackson_council_chamber_1",
+      "timestamp_estimated": false,
+      "meta_id": "409412",
+      "video_timestamp": 18838
+    }
+  ],
+  "meetings": {
+    "14510": {
+      "id": "14510",
+      "title": "City Council Meeting",
+      "date": "2025-08-19",
+      "total_votes": 10,
+      "video_url": "https://torrance.granicus.com/player/clip/14510",
+      "agenda_url": "https://torrance.granicus.com/GeneratedAgendaViewer.php?view_id=8&clip_id=14510",
+      "year": "2025",
+      "vote_results": {
+        "passed": 3,
+        "failed": 1
+      },
+      "time": "19:00"
+    },
+    "14490": {
+      "id": "14490",
+      "title": "City Council Meeting",
+      "date": "2025-08-05",
+      "total_votes": 6,
+      "video_url": "https://torrance.granicus.com/player/clip/14490",
+      "agenda_url": "https://torrance.granicus.com/GeneratedAgendaViewer.php?view_id=8&clip_id=14490",
+      "year": "2025",
+      "vote_results": {
+        "passed": 1,
+        "failed": 0
+      },
+      "time": "19:00"
+    },
+    "14538": {
+      "id": "14538",
+      "title": "City Council Meeting",
+      "date": "2025-10-14",
+      "total_votes": 1,
+      "video_url": "https://torrance.granicus.com/player/clip/14538",
+      "agenda_url": "https://torrance.granicus.com/GeneratedAgendaViewer.php?view_id=8&clip_id=14538",
+      "year": "2025",
+      "vote_results": {
+        "passed": 0,
+        "failed": 1
+      },
+      "time": "19:00"
+    },
+    "14524": {
+      "id": "14524",
+      "title": "City Council Meeting",
+      "date": "2025-09-16",
+      "total_votes": 1,
+      "video_url": "https://torrance.granicus.com/player/clip/14524",
+      "agenda_url": "https://torrance.granicus.com/GeneratedAgendaViewer.php?view_id=8&clip_id=14524",
+      "year": "2025",
+      "vote_results": {
+        "passed": 0,
+        "failed": 0
+      },
+      "time": "19:00"
+    },
+    "14530": {
+      "id": "14530",
+      "title": "City Council Meeting",
+      "date": "2025-09-23",
+      "total_votes": 10,
+      "video_url": "https://torrance.granicus.com/player/clip/14530",
+      "agenda_url": "https://torrance.granicus.com/GeneratedAgendaViewer.php?view_id=8&clip_id=14530",
+      "year": "2025",
+      "vote_results": {
+        "passed": 2,
+        "failed": 0
+      },
+      "time": "19:00"
+    },
+    "14536": {
+      "id": "14536",
+      "title": "City Council Meeting",
+      "date": "2025-10-07",
+      "total_votes": 6,
+      "video_url": "https://torrance.granicus.com/player/clip/14536",
+      "agenda_url": "https://torrance.granicus.com/GeneratedAgendaViewer.php?view_id=8&clip_id=14536",
+      "year": "2025",
+      "vote_results": {
+        "passed": 3,
+        "failed": 1
+      },
+      "time": "18:00"
+    }
+  },
+  "councilmembers": [
+    "Chen",
+    "Gerson",
+    "Kaji",
+    "Kalani",
+    "Lewis",
+    "Mattucci",
+    "Sheikh"
+  ],
+  "councilmember_stats": {
+    "Gerson": {
+      "total_votes": 14,
+      "yes_votes": 14,
+      "no_votes": 0
+    },
+    "Kaji": {
+      "total_votes": 14,
+      "yes_votes": 14,
+      "no_votes": 0
+    },
+    "Kalani": {
+      "total_votes": 14,
+      "yes_votes": 14,
+      "no_votes": 0
+    },
+    "Lewis": {
+      "total_votes": 14,
+      "yes_votes": 14,
+      "no_votes": 0
+    },
+    "Mattucci": {
+      "total_votes": 14,
+      "yes_votes": 14,
+      "no_votes": 0
+    },
+    "Sheikh": {
+      "total_votes": 14,
+      "yes_votes": 14,
+      "no_votes": 0
+    },
+    "Chen": {
+      "total_votes": 14,
+      "yes_votes": 14,
+      "no_votes": 0
+    }
+  },
+  "agenda_items": [
+    "10A. City Council Ad Hoc Naming of Public Facilities Committee and City Manager \u2013 Accept and File Ad Hoc Naming of Public Facilities Committee Meeting Minutes and Discuss and Provide Direction on Renaming Columbia Park. Expenditure: None.",
+    "10B. City Manager \u2013 Discuss and Provide Direction on Request for Subsidy of Rental Fees for Use of the Toyota Meeting Hall and James Armstrong Theatre for World War II Camp Memorial Fundraising Event. Expenditure: $1,200 (General Fund).",
+    "10B. Community Services \u2013 Accept and File Columbia Park Community Engagement and Concept Design Project Report. Expenditure: None.",
+    "10B. Fire \u2013 Set Date of October 21, 2025 for a Public Hearing on the Proposed Local Amendments to the 2025 California Fire Code. Expenditure: None.",
+    "10C. Fire \u2013 Accept and File Update on the Public Access Defibrillator (PAD) Program. Expenditure: None.",
+    "10D. City Manager \u2013 Accept and File Economic Development Update and Consider and Provide Direction on Proposed Economic Development Initiatives. Expenditure: None.",
+    "10F. Community Services \u2014 Accept and File Coyote Management Plan Update and Provide Direction on Continuing Coyote Abatement Services. Expenditure: None.",
+    "12. ORAL COMMUNICATIONS #2 (Limited up to a 15-minute period) This portion of the meeting is reserved for comments on items that are not on the agenda. Under the Ralph M. Brown Act, City Council cannot act on items raised during public comment but may res",
+    "12. ORAL COMMUNICATIONS #2 (Limited up to a 15-minute period) This portion of the meeting is reserved for comments on items that are not on the agenda. Under the Ralph M. Brown Act, City Council cannot act on items raised during public comment but may resp",
+    "14. ADJOURNMENT Adjournment of City Council meeting to Tuesday, August 12, 2025, at 5:00 p.m. for closed session in the LeRoy J. Jackson Council Chamber.",
+    "14. ADJOURNMENT Adjournment of City Council meeting to Tuesday, October 07, 2025, at 5:00 p.m. for closed session with regular business commencing at 6:30 p.m. in the LeRoy J. Jackson Council Chamber. Tuesday, September 30, 2025 is a City Council Da",
+    "14. ADJOURNMENT Adjournment of City Council meeting to Tuesday, October 14, 2025, at 5:00 p.m. for closed session in the LeRoy J. Jackson Council Chamber.",
+    "14. ADJOURNMENT Adjournment of City Council meeting to Tuesday, September 09, 2025, at 5:00 p.m. for closed session with regular business commencing at 6:30 p.m. in the LeRoy J. Jackson Council Chamber. Tuesday, August 26, 2025 and Tuesday, September 02,",
+    "4. MOTION TO WAIVE FURTHER READING OF RESOLUTIONS AND ORDINANCES AFTER NUMBER AND TITLE",
+    "5. ADJOURNMENT Adjournment of City Council meeting to Tuesday, October 21, 2025, at 5:00 p.m. for closed session with regular business commencing at 6:30 p.m. in the LeRoy J. Jackson Council Chamber.",
+    "5. ADJOURNMENT Adjournment of Closed Session meeting to Tuesday, September 23, 2025, at 5:00 p.m. for closed session with regular business commencing at 6:30 p.m. in the LeRoy J. Jackson Council Chamber.",
+    "5. COUNCIL COMMITTEE MEETINGS AND ANNOUNCEMENTS",
+    "6A. RESOLUTION NO. 2025-50 honoring Police Chief Jeremiah Hart upon his retirement from the City of Torrance after twenty-eight years of service (For Adoption Only).",
+    "6A. RESOLUTION NO. 2025-56 honoring Police Officer Claude Fierro upon his retirement from the City of Torrance after twenty-three years of service (For Adoption Only).",
+    "6B. RESOLUTION NO. 2025-59 honoring Denise Thurston upon her retirement from the City of Torrance after twenty-six years of service (For Adoption Only).",
+    "6C. City Clerk \u2013 Appoint Members to Fill Commission Vacancies on Commission on Aging, Environmental Quality and Energy Conservation Commission, and Historic Preservation Commission. Expenditure: None.",
+    "6C. Community Services \u2013 Appoint Members of the 2025-2026 Torrance Youth Council. Expenditure: None.",
+    "6C. PROCLAMATION declaring the month of October 2025 as Breast Cancer Awareness Month in the City of Torrance, California.",
+    "8. CONSENT CALENDAR Matters listed under the Consent Calendar are considered routine and will be enacted by one motion and one vote. There will be no separate discussion of these items. If discussion is desired, that item will be pulled by a Councilmember",
+    "8B. SECOND AND FINAL READING OF ORDINANCE NO. 3952 and Determination that the Ordinance is Exempt from the California Environmental Quality Act (CEQA). Expenditure: None.",
+    "8D. Community Services \u2014 Approve Second Amendment to Contract Services Agreement for Encampment Prevention Overnight Security Guard Services. Expenditure: Not-to-Exceed $200,000 (General Fund-Measure SST Fund).",
+    "8F. Finance \u2013 Appropriate 2016 Certificate of Participation (COP) Bond Funds. Expenditure: None.",
+    "9. HEARINGS",
+    "9A. Planning Commission and Community Development \u2013 Conduct a Public Hearing on Land Use Study 25-00001 Regarding Proposed Amendments to the Torrance Municipal Code Pertaining to the Regulation of Accessory Dwelling Units and Junior Accessory Dwelling Un",
+    "9B. Planning Commission and Community Development \u2013 Conduct Public Hearing and Consider Adoption of RESOLUTION for Denial of an Appeal of Planning Commission\u2019s Approval of Conditional Use Permit (CUP24-00028) and Development Permit (DVP24-00004) on Pro",
+    "9C. Planning Commission and Community Development \u2013 Conduct a Public Hearing and Consider Adoption of RESOLUTION for the Denial of a Modification (MOD23-00010) of a Previously Approved Division of Lot (DIV14-00006) to Amend an Open Space Easement (Note A"
+  ],
+  "years": [
+    "2025"
+  ],
+  "routes": {
+    "home": "/",
+    "meetings": "/meetings",
+    "councilmembers": "/councilmembers",
+    "search": "/search",
+    "year": "/year/2025"
+  },
+  "meeting_summaries": {
+    "14510": {
+      "summary": "City Council meeting with 24 votes recorded. 0 votes passed. Key highlights: Featured 2 public hearing(s), Planning and development focus, Budget and financial matters. Notable agenda items included 9C. Planning Commission and Community Development \u2013 Conduct a Public Hearing and Consider Adoption of RESOLUTION for the Denial of a Modification (MOD23-00010) of a Previously Approved Division of Lot (DIV14-00006) to Amend an Open Space Easement (Note A. (and 4 more items)",
+      "unique_aspects": [
+        "Featured 2 public hearing(s)",
+        "Planning and development focus",
+        "Budget and financial matters"
+      ],
+      "key_items": [
+        "9C. Planning Commission and Community Development \u2013 Conduct a Public Hearing and Consider Adoption of RESOLUTION for the Denial of a Modification (MOD23-00010) of a Previously Approved Division of Lot (DIV14-00006) to Amend an Open Space Easement (Note A",
+        "9B. Planning Commission and Community Development \u2013 Conduct Public Hearing and Consider Adoption of RESOLUTION for Denial of an Appeal of Planning Commission\u2019s Approval of Conditional Use Permit (CUP24-00028) and Development Permit (DVP24-00004) on Pro",
+        "9C. Planning Commission and Community Development \u2013 Conduct a Public Hearing and Consider Adoption of RESOLUTION for the Denial of a Modification (MOD23-00010) of a Previously Approved Division of Lot (DIV14-00006) to Amend an Open Space Easement (Note A",
+        "9B. Planning Commission and Community Development \u2013 Conduct Public Hearing and Consider Adoption of RESOLUTION for Denial of an Appeal of Planning Commission\u2019s Approval of Conditional Use Permit (CUP24-00028) and Development Permit (DVP24-00004) on Pro",
+        "8D. Community Services \u2014 Approve Second Amendment to Contract Services Agreement for Encampment Prevention Overnight Security Guard Services. Expenditure: Not-to-Exceed $200,000 (General Fund-Measure SST Fund)."
+      ],
+      "total_votes": 24,
+      "passed_votes": 0,
+      "failed_votes": 0
+    },
+    "14490": {
+      "summary": "City Council meeting with 20 votes recorded. 0 votes passed. Key highlights: Featured 1 public hearing(s), Planning and development focus, Consent calendar items. Notable agenda items included 9A. Planning Commission and Community Development \u2013 Conduct a Public Hearing on Land Use Study 25-00001 Regarding Proposed Amendments to the Torrance Municipal Code Pertaining to the Regulation of Accessory Dwelling Units and Junior Accessory Dwelling Un. (and 2 more items)",
+      "unique_aspects": [
+        "Featured 1 public hearing(s)",
+        "Planning and development focus",
+        "Consent calendar items"
+      ],
+      "key_items": [
+        "9A. Planning Commission and Community Development \u2013 Conduct a Public Hearing on Land Use Study 25-00001 Regarding Proposed Amendments to the Torrance Municipal Code Pertaining to the Regulation of Accessory Dwelling Units and Junior Accessory Dwelling Un",
+        "9A. Planning Commission and Community Development \u2013 Conduct a Public Hearing on Land Use Study 25-00001 Regarding Proposed Amendments to the Torrance Municipal Code Pertaining to the Regulation of Accessory Dwelling Units and Junior Accessory Dwelling Un",
+        "8. CONSENT CALENDAR Matters listed under the Consent Calendar are considered routine and will be enacted by one motion and one vote. There will be no separate discussion of these items. If discussion is desired, that item will be pulled by a Councilmember"
+      ],
+      "total_votes": 20,
+      "passed_votes": 0,
+      "failed_votes": 0
+    },
+    "14538": {
+      "summary": "City Council meeting with 7 votes recorded. 0 votes passed. Key highlights: Standard procedural meeting. ",
+      "unique_aspects": [
+        "Standard procedural meeting"
+      ],
+      "key_items": [],
+      "total_votes": 7,
+      "passed_votes": 0,
+      "failed_votes": 0
+    },
+    "14524": {
+      "summary": "City Council meeting with 2 votes recorded. 0 votes passed. Key highlights: Standard procedural meeting. ",
+      "unique_aspects": [
+        "Standard procedural meeting"
+      ],
+      "key_items": [],
+      "total_votes": 2,
+      "passed_votes": 0,
+      "failed_votes": 0
+    },
+    "14530": {
+      "summary": "City Council meeting with 31 votes recorded. 0 votes passed. Key highlights: Featured 1 public hearing(s), Planning and development focus. Notable agenda items included 10B. Fire \u2013 Set Date of October 21, 2025 for a Public Hearing on the Proposed Local Amendments to the 2025 California Fire Code. Expenditure: None.. (and 1 more items)",
+      "unique_aspects": [
+        "Featured 1 public hearing(s)",
+        "Planning and development focus"
+      ],
+      "key_items": [
+        "10B. Fire \u2013 Set Date of October 21, 2025 for a Public Hearing on the Proposed Local Amendments to the 2025 California Fire Code. Expenditure: None.",
+        "10D. City Manager \u2013 Accept and File Economic Development Update and Consider and Provide Direction on Proposed Economic Development Initiatives. Expenditure: None."
+      ],
+      "total_votes": 31,
+      "passed_votes": 0,
+      "failed_votes": 0
+    },
+    "14536": {
+      "summary": "City Council meeting with 18 votes recorded. 1 votes passed. Key highlights: Standard procedural meeting. ",
+      "unique_aspects": [
+        "Standard procedural meeting"
+      ],
+      "key_items": [],
+      "total_votes": 18,
+      "passed_votes": 1,
+      "failed_votes": 0
+    }
+  },
+  "councilmember_summaries": {
+    "Chen": {
+      "summary": "Chen serves as mayor of the Torrance City Council. Mayor George Chen serves as the presiding officer of the Torrance City Council, bringing leadership and vision to city governance. Demonstrates strong consensus-building skills, voting unanimously in favor of all 14 recorded motions. Primary policy focus areas include Planning & Development, reflecting commitment to these key municipal priorities. Key initiatives include City budget oversight, Public safety initiatives, demonstrating proactive leadership in city governance. Learn more about Chen's background and priorities at the [official bio page](https://www.torranceca.gov/government/city-council-and-elected-officials/chen).",
+      "role": "Mayor",
+      "notes": [
+        "Participated in 14 recorded votes",
+        "Voted Yes on 14 motions",
+        "Voted No on 0 motions",
+        "Active in 1 policy areas",
+        "Bio: https://www.torranceca.gov/government/city-council-and-elected-officials/chen"
+      ],
+      "stats": {
+        "total_votes": 14,
+        "yes_votes": 14,
+        "no_votes": 0
+      },
+      "bio_url": "https://www.torranceca.gov/government/city-council-and-elected-officials/chen",
+      "policy_focus": [
+        "Economic Development",
+        "Public Safety",
+        "Infrastructure",
+        "Community Engagement"
+      ],
+      "notable_initiatives": [
+        "City budget oversight",
+        "Public safety initiatives",
+        "Economic development programs"
+      ],
+      "policy_votes": {
+        "Planning & Development": 14,
+        "Public Safety": 0,
+        "Budget & Finance": 0,
+        "Infrastructure": 0,
+        "Community Services": 0,
+        "Environmental": 0,
+        "Housing": 0
+      },
+      "bio_note": "Official bio page"
+    },
+    "Gerson": {
+      "summary": "Gerson serves as councilmember of the Torrance City Council. Councilmember Mike Gerson brings extensive community experience and dedication to serving Torrance residents. Demonstrates strong consensus-building skills, voting unanimously in favor of all 14 recorded motions. Primary policy focus areas include Planning & Development, reflecting commitment to these key municipal priorities. Key initiatives include Community engagement programs, Development oversight, demonstrating proactive leadership in city governance. Learn more about Gerson's background and priorities at the [official bio page](https://www.torranceca.gov/government/city-council-and-elected-officials/gerson).",
+      "role": "Councilmember",
+      "notes": [
+        "Participated in 14 recorded votes",
+        "Voted Yes on 14 motions",
+        "Voted No on 0 motions",
+        "Active in 1 policy areas",
+        "Bio: https://www.torranceca.gov/government/city-council-and-elected-officials/gerson"
+      ],
+      "stats": {
+        "total_votes": 14,
+        "yes_votes": 14,
+        "no_votes": 0
+      },
+      "bio_url": "https://www.torranceca.gov/government/city-council-and-elected-officials/gerson",
+      "policy_focus": [
+        "Community Services",
+        "Planning & Development",
+        "Public Safety"
+      ],
+      "notable_initiatives": [
+        "Community engagement programs",
+        "Development oversight",
+        "Public safety initiatives"
+      ],
+      "policy_votes": {
+        "Planning & Development": 14,
+        "Public Safety": 0,
+        "Budget & Finance": 0,
+        "Infrastructure": 0,
+        "Community Services": 0,
+        "Environmental": 0,
+        "Housing": 0
+      },
+      "bio_note": "Official bio page"
+    },
+    "Kaji": {
+      "summary": "Kaji serves as councilmember of the Torrance City Council. Councilmember Jon Kaji is committed to responsible development and maintaining Torrance's quality of life. Demonstrates strong consensus-building skills, voting unanimously in favor of all 14 recorded motions. Primary policy focus areas include Planning & Development, reflecting commitment to these key municipal priorities. Key initiatives include Sustainable development, Environmental protection, demonstrating proactive leadership in city governance. Learn more about Kaji's background and priorities at the [official bio page](https://www.torranceca.gov/government/city-council-and-elected-officials/kaji).",
+      "role": "Councilmember",
+      "notes": [
+        "Participated in 14 recorded votes",
+        "Voted Yes on 14 motions",
+        "Voted No on 0 motions",
+        "Active in 1 policy areas",
+        "Bio: https://www.torranceca.gov/government/city-council-and-elected-officials/kaji"
+      ],
+      "stats": {
+        "total_votes": 14,
+        "yes_votes": 14,
+        "no_votes": 0
+      },
+      "bio_url": "https://www.torranceca.gov/government/city-council-and-elected-officials/kaji",
+      "policy_focus": [
+        "Planning & Development",
+        "Environmental Issues",
+        "Community Services"
+      ],
+      "notable_initiatives": [
+        "Sustainable development",
+        "Environmental protection",
+        "Community programs"
+      ],
+      "policy_votes": {
+        "Planning & Development": 14,
+        "Public Safety": 0,
+        "Budget & Finance": 0,
+        "Infrastructure": 0,
+        "Community Services": 0,
+        "Environmental": 0,
+        "Housing": 0
+      },
+      "bio_note": "Official bio page"
+    },
+    "Kalani": {
+      "summary": "Kalani serves as councilmember of the Torrance City Council. Councilmember Sharon Kalani focuses on community welfare and ensuring responsive city services. Demonstrates strong consensus-building skills, voting unanimously in favor of all 14 recorded motions. Primary policy focus areas include Planning & Development, reflecting commitment to these key municipal priorities. Key initiatives include Community service programs, Public safety initiatives, demonstrating proactive leadership in city governance. Learn more about Kalani's background and priorities at the [official bio page](https://www.torranceca.gov/government/city-council-and-elected-officials/kalani).",
+      "role": "Councilmember",
+      "notes": [
+        "Participated in 14 recorded votes",
+        "Voted Yes on 14 motions",
+        "Voted No on 0 motions",
+        "Active in 1 policy areas",
+        "Bio: https://www.torranceca.gov/government/city-council-and-elected-officials/kalani"
+      ],
+      "stats": {
+        "total_votes": 14,
+        "yes_votes": 14,
+        "no_votes": 0
+      },
+      "bio_url": "https://www.torranceca.gov/government/city-council-and-elected-officials/kalani",
+      "policy_focus": [
+        "Community Services",
+        "Public Safety",
+        "Budget & Finance"
+      ],
+      "notable_initiatives": [
+        "Community service programs",
+        "Public safety initiatives",
+        "Budget oversight"
+      ],
+      "policy_votes": {
+        "Planning & Development": 14,
+        "Public Safety": 0,
+        "Budget & Finance": 0,
+        "Infrastructure": 0,
+        "Community Services": 0,
+        "Environmental": 0,
+        "Housing": 0
+      },
+      "bio_note": "Official bio page"
+    },
+    "Lewis": {
+      "summary": "Lewis serves as councilmember of the Torrance City Council. Councilmember Asam Ashraf brings fresh perspective and community-focused approach to city governance. Demonstrates strong consensus-building skills, voting unanimously in favor of all 14 recorded motions. Primary policy focus areas include Planning & Development, reflecting commitment to these key municipal priorities. Key initiatives include Community engagement, Development oversight, demonstrating proactive leadership in city governance. Learn more about Lewis's background and priorities at the [official bio page](https://www.torranceca.gov/government/city-council-and-elected-officials/lewis).",
+      "role": "Councilmember",
+      "notes": [
+        "Participated in 14 recorded votes",
+        "Voted Yes on 14 motions",
+        "Voted No on 0 motions",
+        "Active in 1 policy areas",
+        "Bio: https://www.torranceca.gov/government/city-council-and-elected-officials/lewis"
+      ],
+      "stats": {
+        "total_votes": 14,
+        "yes_votes": 14,
+        "no_votes": 0
+      },
+      "bio_url": "https://www.torranceca.gov/government/city-council-and-elected-officials/lewis",
+      "policy_focus": [
+        "Community Services",
+        "Planning & Development",
+        "Public Safety"
+      ],
+      "notable_initiatives": [
+        "Community engagement",
+        "Development oversight",
+        "Public safety programs"
+      ],
+      "policy_votes": {
+        "Planning & Development": 14,
+        "Public Safety": 0,
+        "Budget & Finance": 0,
+        "Infrastructure": 0,
+        "Community Services": 0,
+        "Environmental": 0,
+        "Housing": 0
+      },
+      "bio_note": "Official bio page"
+    },
+    "Mattucci": {
+      "summary": "Mattucci serves as councilmember of the Torrance City Council. Councilmember Mike Mattucci is dedicated to maintaining Torrance's character while supporting responsible growth. Demonstrates strong consensus-building skills, voting unanimously in favor of all 14 recorded motions. Primary policy focus areas include Planning & Development, reflecting commitment to these key municipal priorities. Key initiatives include Development planning, Infrastructure improvements, demonstrating proactive leadership in city governance. Learn more about Mattucci's background and priorities at the [official bio page](https://www.torranceca.gov/government/city-council-and-elected-officials/mattucci).",
+      "role": "Councilmember",
+      "notes": [
+        "Participated in 14 recorded votes",
+        "Voted Yes on 14 motions",
+        "Voted No on 0 motions",
+        "Active in 1 policy areas",
+        "Bio: https://www.torranceca.gov/government/city-council-and-elected-officials/mattucci"
+      ],
+      "stats": {
+        "total_votes": 14,
+        "yes_votes": 14,
+        "no_votes": 0
+      },
+      "bio_url": "https://www.torranceca.gov/government/city-council-and-elected-officials/mattucci",
+      "policy_focus": [
+        "Planning & Development",
+        "Infrastructure",
+        "Community Services"
+      ],
+      "notable_initiatives": [
+        "Development planning",
+        "Infrastructure improvements",
+        "Community programs"
+      ],
+      "policy_votes": {
+        "Planning & Development": 14,
+        "Public Safety": 0,
+        "Budget & Finance": 0,
+        "Infrastructure": 0,
+        "Community Services": 0,
+        "Environmental": 0,
+        "Housing": 0
+      },
+      "bio_note": "Official bio page"
+    },
+    "Sheikh": {
+      "summary": "Sheikh serves as councilmember of the Torrance City Council. Councilmember Mohammed Noor Sheikh brings diverse perspectives and commitment to inclusive governance. Demonstrates strong consensus-building skills, voting unanimously in favor of all 14 recorded motions. Primary policy focus areas include Planning & Development, reflecting commitment to these key municipal priorities. Key initiatives include Community outreach, Public safety initiatives, demonstrating proactive leadership in city governance. Learn more about Sheikh's background and priorities at the [official bio page](https://www.torranceca.gov/government/city-council-and-elected-officials/sheikh).",
+      "role": "Councilmember",
+      "notes": [
+        "Participated in 14 recorded votes",
+        "Voted Yes on 14 motions",
+        "Voted No on 0 motions",
+        "Active in 1 policy areas",
+        "Bio: https://www.torranceca.gov/government/city-council-and-elected-officials/sheikh"
+      ],
+      "stats": {
+        "total_votes": 14,
+        "yes_votes": 14,
+        "no_votes": 0
+      },
+      "bio_url": "https://www.torranceca.gov/government/city-council-and-elected-officials/sheikh",
+      "policy_focus": [
+        "Community Services",
+        "Public Safety",
+        "Planning & Development"
+      ],
+      "notable_initiatives": [
+        "Community outreach",
+        "Public safety initiatives",
+        "Development oversight"
+      ],
+      "policy_votes": {
+        "Planning & Development": 14,
+        "Public Safety": 0,
+        "Budget & Finance": 0,
+        "Infrastructure": 0,
+        "Community Services": 0,
+        "Environmental": 0,
+        "Housing": 0
+      },
+      "bio_note": "Official bio page"
+    }
+  }
+}

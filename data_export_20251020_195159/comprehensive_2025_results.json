@@ -1,0 +1,152 @@
+{
+  "processing_summary": {
+    "total_meetings": 21,
+    "completed_meetings": 11,
+    "total_frames_processed": 165509,
+    "total_vote_candidates": 190,
+    "total_votes_extracted": 189,
+    "start_time": 1760905027.414906,
+    "current_meeting": "14357"
+  },
+  "meeting_results": [
+    {
+      "meeting_id": "14536",
+      "status": "completed",
+      "frame_count": 18896,
+      "vote_candidates": 18,
+      "votes_extracted": 18,
+      "processing_time": 2495.773724794388
+    },
+    {
+      "meeting_id": "14530",
+      "status": "completed",
+      "frame_count": 19069,
+      "vote_candidates": 31,
+      "votes_extracted": 31,
+      "processing_time": 2479.614447116852
+    },
+    {
+      "meeting_id": "14519",
+      "status": "completed",
+      "frame_count": 2906,
+      "vote_candidates": 0,
+      "votes_extracted": 0,
+      "processing_time": 426.5622730255127
+    },
+    {
+      "meeting_id": "14510",
+      "status": "completed",
+      "frame_count": 21782,
+      "vote_candidates": 24,
+      "votes_extracted": 24,
+      "processing_time": 2807.18710398674
+    },
+    {
+      "meeting_id": "14490",
+      "status": "completed",
+      "frame_count": 3837,
+      "vote_candidates": 20,
+      "votes_extracted": 20,
+      "processing_time": 538.7226071357727
+    },
+    {
+      "meeting_id": "14482",
+      "status": "completed",
+      "frame_count": 1112,
+      "vote_candidates": 0,
+      "votes_extracted": 0,
+      "processing_time": 151.77906799316406
+    },
+    {
+      "meeting_id": "14471",
+      "status": "completed",
+      "frame_count": 29208,
+      "vote_candidates": 61,
+      "votes_extracted": 61,
+      "processing_time": 4011.5896940231323
+    },
+    {
+      "meeting_id": "14443",
+      "status": "completed",
+      "frame_count": 21326,
+      "vote_candidates": 15,
+      "votes_extracted": 15,
+      "processing_time": 2788.403107881546
+    },
+    {
+      "meeting_id": "14435",
+      "status": "failed",
+      "reason": "no_frames"
+    },
+    {
+      "meeting_id": "14427",
+      "status": "completed",
+      "frame_count": 23365,
+      "vote_candidates": 20,
+      "votes_extracted": 19,
+      "processing_time": 3275.458556175232
+    },
+    {
+      "meeting_id": "14423",
+      "status": "completed",
+      "frame_count": 5485,
+      "vote_candidates": 1,
+      "votes_extracted": 1,
+      "processing_time": 629.6171760559082
+    },
+    {
+      "meeting_id": "14418",
+      "status": "completed",
+      "frame_count": 18523,
+      "vote_candidates": 0,
+      "votes_extracted": 0,
+      "processing_time": 4.122283935546875
+    },
+    {
+      "meeting_id": "14411",
+      "status": "failed",
+      "reason": "no_frames"
+    },
+    {
+      "meeting_id": "14405",
+      "status": "failed",
+      "reason": "no_frames"
+    },
+    {
+      "meeting_id": "14399",
+      "status": "failed",
+      "reason": "no_frames"
+    },
+    {
+      "meeting_id": "14393",
+      "status": "failed",
+      "reason": "no_frames"
+    },
+    {
+      "meeting_id": "14385",
+      "status": "failed",
+      "reason": "no_frames"
+    },
+    {
+      "meeting_id": "14378",
+      "status": "failed",
+      "reason": "no_frames"
+    },
+    {
+      "meeting_id": "14375",
+      "status": "failed",
+      "reason": "no_frames"
+    },
+    {
+      "meeting_id": "14363",
+      "status": "failed",
+      "reason": "no_frames"
+    },
+    {
+      "meeting_id": "14357",
+      "status": "failed",
+      "reason": "no_frames"
+    }
+  ],
+  "completion_timestamp": "2025-10-19T18:44:08.661365"
+}

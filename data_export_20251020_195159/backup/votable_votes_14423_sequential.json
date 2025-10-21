@@ -1,0 +1,20 @@
+[
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 7,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": "high",
+    "agenda_item": null,
+    "meeting_id": "14423",
+    "frame_path": "2025_meetings_data/votable_frames_14423/frame_005356.jpg",
+    "frame_name": "frame_005356.jpg",
+    "frame_number": 5356,
+    "extraction_timestamp": 1760924635.14094,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  }
+]

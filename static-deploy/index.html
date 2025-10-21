@@ -923,7 +923,7 @@
                 // Apply text search
                 if (searchTerm) {
                     votes = votes.filter(vote =>
-                        (vote.agenda_item && vote.agenda_item.toLowerCase().includes(searchTerm.toLowerCase())) ||
+                        (vote.agenda_item && (typeof vote.agenda_item === 'string' ? vote.agenda_item.toLowerCase().includes(searchTerm.toLowerCase()) : (vote.agenda_item.description || '').toLowerCase().includes(searchTerm.toLowerCase()))) ||
                         (vote.motion_text && vote.motion_text.toLowerCase().includes(searchTerm.toLowerCase()))
                     );
                 }
@@ -988,7 +988,7 @@
                     return `
                         <div class="vote-item">
                             <div class="vote-header">
-                                <span class="agenda-item" style="font-weight: bold; font-size: 1.1rem;">${vote.agenda_item || 'No agenda item available'}</span>
+                                <span class="agenda-item" style="font-weight: bold; font-size: 1.1rem;">${typeof vote.agenda_item === 'object' ? (vote.agenda_item.description || vote.agenda_item.number || 'No agenda item available') : (vote.agenda_item || 'No agenda item available')}</span>
                                 <span class="vote-result ${vote.result.toLowerCase().includes('pass') ? 'result-passed' : 'result-failed'}">
                                     ${vote.result.toLowerCase().includes('pass') ? 'PASSED' : 'FAILED'}
                                 </span>

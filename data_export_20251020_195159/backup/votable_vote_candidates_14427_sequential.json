@@ -1,0 +1,202 @@
+[
+  {
+    "frame_path": "2025_meetings_data/votable_frames_14427/frame_006034.jpg",
+    "frame_name": "frame_006034.jpg",
+    "frame_number": 6034,
+    "confidence": 0.9,
+    "detection_method": "voting_results_only",
+    "raw_text": "voting results\nyea [5] nay| 0] abstain [9 | recuse { 0\ncouncilmember kaji ey]\ncouncilmember kalani a\ncouncilmember lewis aian\ncouncilmember mattucci aia\nmayor chen ze\nmotion passes\n",
+    "has_votable_indicators": true,
+    "meeting_id": "14427"
+  },
+  {
+    "frame_path": "2025_meetings_data/votable_frames_14427/frame_006035.jpg",
+    "frame_name": "frame_006035.jpg",
+    "frame_number": 6035,
+    "confidence": 0.9,
+    "detection_method": "voting_results_only",
+    "raw_text": "voting results\nyea | 5| nay! | abstain || recuse | 0\ncouncilmember kaji me\ncouncilmember kalani aa\ncouncilmember lewis an\ncouncilmember mattucci  n/all\nmayor chen =e\nmotion passes\n",
+    "has_votable_indicators": true,
+    "meeting_id": "14427"
+  },
+  {
+    "frame_path": "2025_meetings_data/votable_frames_14427/frame_006036.jpg",
+    "frame_name": "frame_006036.jpg",
+    "frame_number": 6036,
+    "confidence": 0.9,
+    "detection_method": "voting_results_only",
+    "raw_text": "voting results\nyea | 5| nay! 0| abstain || recuse | 0\ncouncilmember kaji ne\ncouncilmember kalani aa\ncouncilmember lewis al\ncouncilmember mattucci all\nmayor chen =e\nmotion passes\n",
+    "has_votable_indicators": true,
+    "meeting_id": "14427"
+  },
+  {
+    "frame_path": "2025_meetings_data/votable_frames_14427/frame_007667.jpg",
+    "frame_name": "frame_007667.jpg",
+    "frame_number": 7667,
+    "confidence": 0.9,
+    "detection_method": "voting_results_only",
+    "raw_text": "voting results\n\nyea | 5| nay! 0| abstain | 9 | recuse | 0\ncouncilmember kaji am\ncouncilmember kalani al\ncouncilmember lewis an\ncouncilmember mattucci all\nmayor chen =e\n\nconsenticalendar\n",
+    "has_votable_indicators": true,
+    "meeting_id": "14427"
+  },
+  {
+    "frame_path": "2025_meetings_data/votable_frames_14427/frame_008055.jpg",
+    "frame_name": "frame_008055.jpg",
+    "frame_number": 8055,
+    "confidence": 0.9,
+    "detection_method": "voting_results_only",
+    "raw_text": "voting results\n\nyea | 5| nay! | abstain || recuse | 0\ncouncilmember kaji wa\ncouncilmember kalani na\ncouncilmember lewis al\ncouncilmember mattucci ill\nmayor chen na\n\nhearings,\n",
+    "has_votable_indicators": true,
+    "meeting_id": "14427"
+  },
+  {
+    "frame_path": "2025_meetings_data/votable_frames_14427/frame_008056.jpg",
+    "frame_name": "frame_008056.jpg",
+    "frame_number": 8056,
+    "confidence": 0.9,
+    "detection_method": "voting_results_only",
+    "raw_text": "voting results\n\nyea | 5| nay! | abstain | 0 | recuse | 0\ncouncilmember kaji we\ncouncilmember kalani na\ncouncilmember lewis nl\ncouncilmember mattucci mill\nmayor chen na\n\nhearings,\n",
+    "has_votable_indicators": true,
+    "meeting_id": "14427"
+  },
+  {
+    "frame_path": "2025_meetings_data/votable_frames_14427/frame_008112.jpg",
+    "frame_name": "frame_008112.jpg",
+    "frame_number": 8112,
+    "confidence": 0.9,
+    "detection_method": "voting_results_only",
+    "raw_text": "voting results\n\nyea | 5 | nay! | abstain || recuse | 0\ncouncilmember kaji me\ncouncilmember kalani nn\ncouncilmember lewis nn\ncouncilmember mattucci ill\nmayor chen aa\n\nhearings\n",
+    "has_votable_indicators": true,
+    "meeting_id": "14427"
+  },
+  {
+    "frame_path": "2025_meetings_data/votable_frames_14427/frame_008113.jpg",
+    "frame_name": "frame_008113.jpg",
+    "frame_number": 8113,
+    "confidence": 0.9,
+    "detection_method": "voting_results_only",
+    "raw_text": "voting results\n\nyea | 5| nay! | abstain || recuse | 0\ncouncilmember kaji asi\ncouncilmember kalani na\ncouncilmember lewis ae\ncouncilmember mattucci nil\nmayor chen ae\n\nhearings\n",
+    "has_votable_indicators": true,
+    "meeting_id": "14427"
+  },
+  {
+    "frame_path": "2025_meetings_data/votable_frames_14427/frame_008767.jpg",
+    "frame_name": "frame_008767.jpg",
+    "frame_number": 8767,
+    "confidence": 0.9,
+    "detection_method": "voting_results_only",
+    "raw_text": "voting results\nyea {6 | nay| 0] abstain | | recuse | 0\ncouncilmember gerson\ncouncilmember kaji nm\ncouncilmember kalani na\ncouncilmember lewis ay\ncouncilmember mattucci al\nmayor chen ma\nhearings\n",
+    "has_votable_indicators": true,
+    "meeting_id": "14427"
+  },
+  {
+    "frame_path": "2025_meetings_data/votable_frames_14427/frame_008768.jpg",
+    "frame_name": "frame_008768.jpg",
+    "frame_number": 8768,
+    "confidence": 0.9,
+    "detection_method": "voting_results_only",
+    "raw_text": "voting results\n\nyea | 6| nay! 0| abstain | 0 | recuse | 0\ncouncilmember gerson al\ncouncilmember kaji wal\ncouncilmember kalani ne\ncouncilmember lewis a\ncouncilmember mattucci [nil\nmayor chen a\n\nhearing",
+    "has_votable_indicators": true,
+    "meeting_id": "14427"
+  },
+  {
+    "frame_path": "2025_meetings_data/votable_frames_14427/frame_008769.jpg",
+    "frame_name": "frame_008769.jpg",
+    "frame_number": 8769,
+    "confidence": 0.9,
+    "detection_method": "voting_results_only",
+    "raw_text": "voting results\nyea | 6| nay! 0| abstain | | recuse | 0\ncouncilmember gerson nia\ncouncilmember kaji al\ncouncilmember kalani aa\ncouncilmember lewis mal\ncouncilmember mattucci mall\nmayor chen \u2122a\nhearings",
+    "has_votable_indicators": true,
+    "meeting_id": "14427"
+  },
+  {
+    "frame_path": "2025_meetings_data/votable_frames_14427/frame_008919.jpg",
+    "frame_name": "frame_008919.jpg",
+    "frame_number": 8919,
+    "confidence": 0.9,
+    "detection_method": "voting_results_only",
+    "raw_text": "voting results\n\nyea | 6 | nay! 0| abstain | 0 | recuse | 0\ncouncilmember gerson\ncouncilmember kaji ma\ncouncilmember kalani ab\ncouncilmember lewis an\ncouncilmember mattucci ll\nmayor chen ey\n\nhearings:\n",
+    "has_votable_indicators": true,
+    "meeting_id": "14427"
+  },
+  {
+    "frame_path": "2025_meetings_data/votable_frames_14427/frame_008920.jpg",
+    "frame_name": "frame_008920.jpg",
+    "frame_number": 8920,
+    "confidence": 0.9,
+    "detection_method": "voting_results_only",
+    "raw_text": "voting results\nyea | 6| nay! 0| abstain | 0 | recuse | 0\ncouncilmember gerson aia\ncouncilmember kaji na\ncouncilmember kalani aa\ncouncilmember lewis mal\ncouncilmember mattucci nall\nmayor chen ma\nhearin",
+    "has_votable_indicators": true,
+    "meeting_id": "14427"
+  },
+  {
+    "frame_path": "2025_meetings_data/votable_frames_14427/frame_009269.jpg",
+    "frame_name": "frame_009269.jpg",
+    "frame_number": 9269,
+    "confidence": 0.9,
+    "detection_method": "voting_results_only",
+    "raw_text": "voting results\nyea | 6| nay! | abstain || recuse | 0\ncouncilmember gerson ni\ncouncilmember kaji wal\ncouncilmember kalani aia\ncouncilmember lewis wal\ncouncilmember mattucci maal\nmayor chen na\nadministr",
+    "has_votable_indicators": true,
+    "meeting_id": "14427"
+  },
+  {
+    "frame_path": "2025_meetings_data/votable_frames_14427/frame_009270.jpg",
+    "frame_name": "frame_009270.jpg",
+    "frame_number": 9270,
+    "confidence": 0.9,
+    "detection_method": "voting_results_only",
+    "raw_text": "voting results\nyea | 6| nay! 0| abstain | 0 | recuse | 0\ncouncilmember gerson ni\ncouncilmember kaji mal\ncouncilmember kalani aia\ncouncilmember lewis mal\ncouncilmember mattucci mal\nmayor chen \u2122al\nadmin",
+    "has_votable_indicators": true,
+    "meeting_id": "14427"
+  },
+  {
+    "frame_path": "2025_meetings_data/votable_frames_14427/frame_009422.jpg",
+    "frame_name": "frame_009422.jpg",
+    "frame_number": 9422,
+    "confidence": 0.9,
+    "detection_method": "voting_results_only",
+    "raw_text": "voting results\nyea | 6 | nay| q| abstain | q | recuse | o\ncouncilmember gerson al\ncouncilmember kaji ha\ncouncilmember kalani nam\ncouncilmember lewis na\ncouncilmember mattucci mall\nmayor chen na\nadmini",
+    "has_votable_indicators": true,
+    "meeting_id": "14427"
+  },
+  {
+    "frame_path": "2025_meetings_data/votable_frames_14427/frame_009423.jpg",
+    "frame_name": "frame_009423.jpg",
+    "frame_number": 9423,
+    "confidence": 0.9,
+    "detection_method": "voting_results_only",
+    "raw_text": "voting results\nyea | 6| nay! | abstain | 0 | recuse | 0\ncouncilmember gerson a\ncouncilmember kaji mal\ncouncilmember kalani a\ncouncilmember lewis mal\ncouncilmember mattucci mall\nmayor chen 7a\nadministr",
+    "has_votable_indicators": true,
+    "meeting_id": "14427"
+  },
+  {
+    "frame_path": "2025_meetings_data/votable_frames_14427/frame_009769.jpg",
+    "frame_name": "frame_009769.jpg",
+    "frame_number": 9769,
+    "confidence": 0.9,
+    "detection_method": "voting_results_only",
+    "raw_text": "voting results\nyea | 6| nay! | abstain || recuse | 0\ncouncilmember gerson a\ncouncilmember kaji mal\ncouncilmember kalani aia\ncouncilmember lewis cy\ncouncilmember mattucci mall\nmayor chen \u2122a\nadministrat",
+    "has_votable_indicators": true,
+    "meeting_id": "14427"
+  },
+  {
+    "frame_path": "2025_meetings_data/votable_frames_14427/frame_009770.jpg",
+    "frame_name": "frame_009770.jpg",
+    "frame_number": 9770,
+    "confidence": 0.9,
+    "detection_method": "voting_results_only",
+    "raw_text": "voting results\nyea | 6| nay! 0| abstain | 9 | recuse | 0\ncouncilmember gerson a\ncouncilmember kaji aa\ncouncilmember kalani bane\ncouncilmember lewis na\ncouncilmember mattucci nil\nmayor chen ey]\nadminis",
+    "has_votable_indicators": true,
+    "meeting_id": "14427"
+  },
+  {
+    "frame_path": "2025_meetings_data/votable_frames_14427/frame_023360.jpg",
+    "frame_name": "frame_023360.jpg",
+    "frame_number": 23360,
+    "confidence": 0.9,
+    "detection_method": "voting_results_only",
+    "raw_text": "voting results\nyea | 6| nay! 0| abstain | 0 | recuse | 0\ncouncilmember gerson aia\ncouncilmember kaji na\ncouncilmember kalani aia\ncouncilmember lewis 2a\ncouncilmember mattucci mall\nmayor chen mal\nadjou",
+    "has_votable_indicators": true,
+    "meeting_id": "14427"
+  }
+]

@@ -1,0 +1,97 @@
+[
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 5,
+      "noes": 2,
+      "abstentions": 0
+    },
+    "result": "Passes",
+    "confidence": "High",
+    "agenda_item": "5. ADJOURNMENT Adjournment of City Council meeting to Tuesday, October 21, 2025, at 5:00 p.m. for closed session with regular business commencing at 6:30 p.m. in the LeRoy J. Jackson Council Chamber.",
+    "meeting_id": "14538",
+    "frame_path": "2025_meetings_data/votable_frames_14538/frame_011885.jpg",
+    "frame_name": "frame_011885.jpg",
+    "frame_number": 11885,
+    "extraction_timestamp": 1760823035.98535,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 11885
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 5,
+      "noes": 2,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": "High",
+    "agenda_item": "5. ADJOURNMENT Adjournment of City Council meeting to Tuesday, October 21, 2025, at 5:00 p.m. for closed session with regular business commencing at 6:30 p.m. in the LeRoy J. Jackson Council Chamber.",
+    "meeting_id": "14538",
+    "frame_path": "2025_meetings_data/votable_frames_14538/frame_011886.jpg",
+    "frame_name": "frame_011886.jpg",
+    "frame_number": 11886,
+    "extraction_timestamp": 1760823044.280837,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 11886
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 5,
+      "noes": 2,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": "High",
+    "agenda_item": "5. ADJOURNMENT Adjournment of City Council meeting to Tuesday, October 21, 2025, at 5:00 p.m. for closed session with regular business commencing at 6:30 p.m. in the LeRoy J. Jackson Council Chamber.",
+    "meeting_id": "14538",
+    "frame_path": "2025_meetings_data/votable_frames_14538/frame_011887.jpg",
+    "frame_name": "frame_011887.jpg",
+    "frame_number": 11887,
+    "extraction_timestamp": 1760823050.635412,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 11887
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 5,
+      "noes": 2,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": "high",
+    "agenda_item": "5. ADJOURNMENT Adjournment of City Council meeting to Tuesday, October 21, 2025, at 5:00 p.m. for closed session with regular business commencing at 6:30 p.m. in the LeRoy J. Jackson Council Chamber.",
+    "meeting_id": "14538",
+    "frame_path": "2025_meetings_data/votable_frames_14538/frame_011888.jpg",
+    "frame_name": "frame_011888.jpg",
+    "frame_number": 11888,
+    "extraction_timestamp": 1760823054.8567271,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 11888
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 5,
+      "noes": 2,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": "High",
+    "agenda_item": "5. ADJOURNMENT Adjournment of City Council meeting to Tuesday, October 21, 2025, at 5:00 p.m. for closed session with regular business commencing at 6:30 p.m. in the LeRoy J. Jackson Council Chamber.",
+    "meeting_id": "14538",
+    "frame_path": "2025_meetings_data/votable_frames_14538/frame_011889.jpg",
+    "frame_name": "frame_011889.jpg",
+    "frame_number": 11889,
+    "extraction_timestamp": 1760823060.649358,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 11889
+  }
+]

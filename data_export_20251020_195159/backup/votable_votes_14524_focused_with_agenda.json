@@ -1,0 +1,40 @@
+[
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 5,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": "High",
+    "agenda_item": "5. ADJOURNMENT Adjournment of Closed Session meeting to Tuesday, September 23, 2025, at 5:00 p.m. for closed session with regular business commencing at 6:30 p.m. in the LeRoy J. Jackson Council Chamber.",
+    "meeting_id": "14524",
+    "frame_path": "2025_meetings_data/votable_frames_14524/frame_004320.jpg",
+    "frame_name": "frame_004320.jpg",
+    "frame_number": 4320,
+    "extraction_timestamp": 1760792792.021636,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 4320
+  },
+  {
+    "motion_text": "Motion text is not visible in the provided image. The image only displays the voting results for a motion.",
+    "vote_tally": {
+      "ayes": 5,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": "High",
+    "agenda_item": "5. ADJOURNMENT Adjournment of Closed Session meeting to Tuesday, September 23, 2025, at 5:00 p.m. for closed session with regular business commencing at 6:30 p.m. in the LeRoy J. Jackson Council Chamber.",
+    "meeting_id": "14524",
+    "frame_path": "2025_meetings_data/votable_frames_14524/frame_004321.jpg",
+    "frame_name": "frame_004321.jpg",
+    "frame_number": 4321,
+    "extraction_timestamp": 1760792796.833819,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 4321
+  }
+]

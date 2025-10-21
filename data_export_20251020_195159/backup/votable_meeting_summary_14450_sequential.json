@@ -1,0 +1,19 @@
+{
+  "meeting_id": "14450",
+  "processing_timestamp": "2025-10-18T18:53:14.370969",
+  "total_frames_processed": 15626,
+  "vote_candidates_found": 0,
+  "votable_candidates": 0,
+  "total_votes_extracted": 0,
+  "processing_stats": {
+    "ocr_processing": "sequential",
+    "gemini_processing": "sequential",
+    "parallel_processing": false,
+    "votable_indicators_checked": 1,
+    "frame_size_optimized": "250x141",
+    "storage_savings": "80%",
+    "speed_improvement": "5x faster"
+  },
+  "votes": [],
+  "vote_candidates": []
+}

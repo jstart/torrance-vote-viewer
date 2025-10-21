@@ -269,6 +269,65 @@ body {
     border-left-color: #ffc107;
 }
 
+.vote-frame {
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid #e0e0e0;
+}
+
+.vote-frame h4 {
+    margin: 0 0 0.5rem 0;
+    font-size: 0.9rem;
+    color: #333;
+    font-weight: 600;
+}
+
+.frame-container {
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+}
+
+.vote-frame-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.vote-frame-image:hover {
+    transform: scale(1.02);
+}
+
+.frame-placeholder {
+    padding: 2rem;
+    text-align: center;
+    color: #666;
+    background: #f8f9fa;
+    border: 2px dashed #ddd;
+    border-radius: 6px;
+}
+
+.placeholder-content i {
+    font-size: 2rem;
+    color: #ccc;
+    margin-bottom: 0.5rem;
+}
+
+.placeholder-content p {
+    margin: 0.5rem 0;
+    font-weight: 500;
+}
+
+.placeholder-content small {
+    color: #999;
+    font-size: 0.8rem;
+}
+
 .search-section {
     margin-bottom: 2rem;
 }
@@ -1174,6 +1233,35 @@ details[open] summary::marker {
     .vote-choice {
         font-size: 0.75rem;
         padding: 0.2rem 0.4rem;
+    }
+
+    .vote-frame {
+        margin-top: 0.5rem;
+        padding-top: 0.5rem;
+    }
+
+    .vote-frame h4 {
+        font-size: 0.85rem;
+    }
+
+    .vote-frame-image {
+        max-width: 100%;
+    }
+
+    .frame-placeholder {
+        padding: 1.5rem 1rem;
+    }
+
+    .placeholder-content i {
+        font-size: 1.5rem;
+    }
+
+    .placeholder-content p {
+        font-size: 0.9rem;
+    }
+
+    .placeholder-content small {
+        font-size: 0.75rem;
     }
 
     .vote-timestamp {

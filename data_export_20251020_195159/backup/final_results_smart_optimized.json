@@ -1,0 +1,56 @@
+{
+  "processing_completed": "2025-10-18T18:28:04.971898",
+  "total_processing_time_hours": 2.7053885989718966e-07,
+  "meetings_processed": 6,
+  "successful_meetings": 0,
+  "skipped_meetings": 6,
+  "failed_meetings": 0,
+  "total_frames_processed": 0,
+  "total_vote_candidates": 0,
+  "total_votes_extracted": 0,
+  "optimizations": {
+    "frame_size": "250x141",
+    "storage_savings": "80%",
+    "speed_improvement": "5x faster",
+    "detection_method": "voting_results_only",
+    "smart_processing": true
+  },
+  "results": [
+    {
+      "meeting_id": "14536",
+      "status": "skipped",
+      "reason": "existing_candidates",
+      "message": "Already has vote candidates"
+    },
+    {
+      "meeting_id": "14530",
+      "status": "skipped",
+      "reason": "existing_candidates",
+      "message": "Already has vote candidates"
+    },
+    {
+      "meeting_id": "14524",
+      "status": "skipped",
+      "reason": "existing_candidates",
+      "message": "Already has vote candidates"
+    },
+    {
+      "meeting_id": "14538",
+      "status": "skipped",
+      "reason": "existing_candidates",
+      "message": "Already has vote candidates"
+    },
+    {
+      "meeting_id": "14510",
+      "status": "skipped",
+      "reason": "existing_candidates",
+      "message": "Already has vote candidates"
+    },
+    {
+      "meeting_id": "14490",
+      "status": "skipped",
+      "reason": "existing_candidates",
+      "message": "Already has vote candidates"
+    }
+  ]
+}

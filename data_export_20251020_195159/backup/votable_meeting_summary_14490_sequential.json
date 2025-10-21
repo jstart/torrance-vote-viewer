@@ -1,0 +1,659 @@
+{
+  "meeting_id": "14490",
+  "processing_timestamp": "2025-10-19T21:39:52.968183",
+  "total_frames_processed": 3837,
+  "vote_candidates_found": 20,
+  "votable_candidates": 20,
+  "total_votes_extracted": 20,
+  "processing_stats": {
+    "ocr_processing": "sequential",
+    "gemini_processing": "sequential",
+    "parallel_processing": false,
+    "votable_indicators_checked": 1,
+    "frame_size_optimized": "250x141",
+    "storage_savings": "80%",
+    "speed_improvement": "5x faster"
+  },
+  "votes": [
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Passes",
+      "confidence": {
+        "vote_tally": "High",
+        "result": "High",
+        "motion_text": "Not Available",
+        "agenda_item": "Not Available"
+      },
+      "agenda_item": null,
+      "meeting_id": "14490",
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_000486.jpg",
+      "frame_name": "frame_000486.jpg",
+      "frame_number": 486,
+      "extraction_timestamp": 1760935088.120991,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true
+    },
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Passes",
+      "confidence": "High",
+      "agenda_item": null,
+      "meeting_id": "14490",
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_000487.jpg",
+      "frame_name": "frame_000487.jpg",
+      "frame_number": 487,
+      "extraction_timestamp": 1760935094.210402,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true
+    },
+    {
+      "motion_text": "Not available in image",
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": "High",
+      "agenda_item": "Not available in image",
+      "meeting_id": "14490",
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_000488.jpg",
+      "frame_name": "frame_000488.jpg",
+      "frame_number": 488,
+      "extraction_timestamp": 1760935099.121086,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true
+    },
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Passes",
+      "confidence": "High",
+      "agenda_item": null,
+      "meeting_id": "14490",
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_002843.jpg",
+      "frame_name": "frame_002843.jpg",
+      "frame_number": 2843,
+      "extraction_timestamp": 1760935104.347465,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true
+    },
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": 1.0,
+      "agenda_item": null,
+      "meeting_id": "14490",
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_002844.jpg",
+      "frame_name": "frame_002844.jpg",
+      "frame_number": 2844,
+      "extraction_timestamp": 1760935108.206719,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true
+    },
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": "High (for extracted data; motion_text and agenda_item are not present in the image)",
+      "agenda_item": null,
+      "meeting_id": "14490",
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_002845.jpg",
+      "frame_name": "frame_002845.jpg",
+      "frame_number": 2845,
+      "extraction_timestamp": 1760935112.43279,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true
+    },
+    {
+      "motion_text": "Not visible in image",
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": "High",
+      "agenda_item": "Not visible in image",
+      "meeting_id": "14490",
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_002846.jpg",
+      "frame_name": "frame_002846.jpg",
+      "frame_number": 2846,
+      "extraction_timestamp": 1760935119.669148,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true
+    },
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": 0.95,
+      "agenda_item": null,
+      "meeting_id": "14490",
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_002847.jpg",
+      "frame_name": "frame_002847.jpg",
+      "frame_number": 2847,
+      "extraction_timestamp": 1760935125.9102778,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true
+    },
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": "High",
+      "agenda_item": null,
+      "meeting_id": "14490",
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_003480.jpg",
+      "frame_name": "frame_003480.jpg",
+      "frame_number": 3480,
+      "extraction_timestamp": 1760935134.248775,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true
+    },
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": 0.98,
+      "agenda_item": null,
+      "meeting_id": "14490",
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_003481.jpg",
+      "frame_name": "frame_003481.jpg",
+      "frame_number": 3481,
+      "extraction_timestamp": 1760935141.600193,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true
+    },
+    {
+      "motion_text": "Not discernible from the image.",
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": "High",
+      "agenda_item": "Not discernible from the image.",
+      "meeting_id": "14490",
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_003482.jpg",
+      "frame_name": "frame_003482.jpg",
+      "frame_number": 3482,
+      "extraction_timestamp": 1760935147.471788,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true
+    },
+    {
+      "motion_text": "Not available in image",
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": {
+        "motion_text": "low",
+        "vote_tally": "high",
+        "result": "high",
+        "agenda_item": "low"
+      },
+      "agenda_item": "Not available in image",
+      "council_members_votes": [
+        {
+          "name": "Gerson",
+          "title": "Councilmember",
+          "vote": "Yea"
+        },
+        {
+          "name": "Kaji",
+          "title": "Councilmember",
+          "vote": "Yea"
+        },
+        {
+          "name": "Kalani",
+          "title": "Councilmember",
+          "vote": "Yea"
+        },
+        {
+          "name": "Lewis",
+          "title": "Councilmember",
+          "vote": "Yea"
+        },
+        {
+          "name": "Mattucci",
+          "title": "Councilmember",
+          "vote": "Yea"
+        },
+        {
+          "name": "Sheikh",
+          "title": "Councilmember",
+          "vote": "Yea"
+        },
+        {
+          "name": "Chen",
+          "title": "Mayor",
+          "vote": "Yea"
+        }
+      ],
+      "meeting_id": "14490",
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_003483.jpg",
+      "frame_name": "frame_003483.jpg",
+      "frame_number": 3483,
+      "extraction_timestamp": 1760935151.796397,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true
+    },
+    {
+      "motion_text": "Not explicitly stated in the image.",
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": 1.0,
+      "agenda_item": "Not specified in the image.",
+      "meeting_id": "14490",
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_003592.jpg",
+      "frame_name": "frame_003592.jpg",
+      "frame_number": 3592,
+      "extraction_timestamp": 1760935157.027422,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true
+    },
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": 0.95,
+      "agenda_item": null,
+      "meeting_id": "14490",
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_003593.jpg",
+      "frame_name": "frame_003593.jpg",
+      "frame_number": 3593,
+      "extraction_timestamp": 1760935162.77614,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true
+    },
+    {
+      "motion_text": "Not available in image. The image displays the voting results, not the motion text itself.",
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": "High",
+      "agenda_item": "Not available in image. The image displays the voting results, not the agenda item number or description.",
+      "meeting_id": "14490",
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_003594.jpg",
+      "frame_name": "frame_003594.jpg",
+      "frame_number": 3594,
+      "extraction_timestamp": 1760935166.404518,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true
+    },
+    {
+      "motion_text": "Not available on this screen",
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": 1.0,
+      "agenda_item": "Not available on this screen",
+      "meeting_id": "14490",
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_003595.jpg",
+      "frame_name": "frame_003595.jpg",
+      "frame_number": 3595,
+      "extraction_timestamp": 1760935171.365984,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true
+    },
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": "High",
+      "agenda_item": null,
+      "ordinance_number": null,
+      "council_member_votes": [
+        {
+          "name": "Gerson",
+          "vote": "Yea"
+        },
+        {
+          "name": "Kaji",
+          "vote": "Yea"
+        },
+        {
+          "name": "Kalani",
+          "vote": "Yea"
+        },
+        {
+          "name": "Lewis",
+          "vote": "Yea"
+        },
+        {
+          "name": "Mattucci",
+          "vote": "Yea"
+        },
+        {
+          "name": "Sheikh",
+          "vote": "Yea"
+        },
+        {
+          "name": "Mayor Chen",
+          "vote": "Yea"
+        }
+      ],
+      "meeting_id": "14490",
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_003596.jpg",
+      "frame_name": "frame_003596.jpg",
+      "frame_number": 3596,
+      "extraction_timestamp": 1760935176.46462,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true
+    },
+    {
+      "motion_text": "Not available from image",
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Passes",
+      "confidence": "High",
+      "agenda_item": "Not available from image",
+      "meeting_id": "14490",
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_003832.jpg",
+      "frame_name": "frame_003832.jpg",
+      "frame_number": 3832,
+      "extraction_timestamp": 1760935180.992311,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true
+    },
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Motion Passes",
+      "confidence": 1.0,
+      "agenda_item": null,
+      "meeting_id": "14490",
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_003833.jpg",
+      "frame_name": "frame_003833.jpg",
+      "frame_number": 3833,
+      "extraction_timestamp": 1760935185.849599,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true
+    },
+    {
+      "motion_text": null,
+      "vote_tally": {
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0
+      },
+      "result": "Passes",
+      "confidence": "High",
+      "agenda_item": null,
+      "meeting_id": "14490",
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_003834.jpg",
+      "frame_name": "frame_003834.jpg",
+      "frame_number": 3834,
+      "extraction_timestamp": 1760935192.9681659,
+      "ocr_confidence": 0.9,
+      "has_votable_indicators": true
+    }
+  ],
+  "vote_candidates": [
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_000486.jpg",
+      "frame_name": "frame_000486.jpg",
+      "frame_number": 486,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\nyea [7] nay[o] abstain [0 | recuse [0\ncouncilmember gerson ria\ncouncilmember kaji \u2018a\ncouncilmember kalani =a\ncouncilmember lewis =\ncouncilmember mattucci ra\ncouncilmember sheikh nam\nmay",
+      "has_votable_indicators": true,
+      "meeting_id": "14490"
+    },
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_000487.jpg",
+      "frame_name": "frame_000487.jpg",
+      "frame_number": 487,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\nyeo [7] nay[ 0] abstain [0] recuse [0\ncouncilmember gerson nia\ncouncilmember kaji ey\ncouncilmember kalani ey\ncouncilmember lewis be\ncouncilmember mattucci ina\ncouncilmember sheikh nar\nm",
+      "has_votable_indicators": true,
+      "meeting_id": "14490"
+    },
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_000488.jpg",
+      "frame_name": "frame_000488.jpg",
+      "frame_number": 488,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\nyeo [7] nay[ 0] abstain [0] recuse [0\ncouncilmember gerson nia\ncouncilmember kaji ey\ncouncilmember kalani ey)\ncouncilmember lewis za\ncouncilmember mattucci nal\ncouncilmember sheikh nar\n",
+      "has_votable_indicators": true,
+      "meeting_id": "14490"
+    },
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_002843.jpg",
+      "frame_name": "frame_002843.jpg",
+      "frame_number": 2843,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\nveo [7] nay[ 0] abstain [0 | recuse [0\ncouncilmember gerson na\ncouncilmember kaji a\ncouncilmember kalani ae\ncouncilmember lewis =e\ncouncilmember mattucci ria\ncouncilmember sheikh rae\nma",
+      "has_votable_indicators": true,
+      "meeting_id": "14490"
+    },
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_002844.jpg",
+      "frame_name": "frame_002844.jpg",
+      "frame_number": 2844,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\nyea [7] nay[ 0] abstain [0 | recuse [0\ncouncilmember gerson na\ncouncilmember kaji ey\ncouncilmember kalani ae\ncouncilmember lewis ae\ncouncilmember mattucci lana\ncouncilmember sheikh ae\nm",
+      "has_votable_indicators": true,
+      "meeting_id": "14490"
+    },
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_002845.jpg",
+      "frame_name": "frame_002845.jpg",
+      "frame_number": 2845,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\ncouncilmember gerson be\ncouncilmember kaji oa\ncouncilmember kalani ts\ncouncilmember lewis ys\ncouncilmember mattucci iaa\ncouncilmember sheikh aai\nmayor chen a=\n\nmotion passes\n",
+      "has_votable_indicators": true,
+      "meeting_id": "14490"
+    },
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_002846.jpg",
+      "frame_name": "frame_002846.jpg",
+      "frame_number": 2846,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\nyea [7 | nay[ 0] abstain [0 | recuse [0\ncouncilmember gerson na\ncouncilmember kaji =\ncouncilmember kalani ae\ncouncilmember lewis ae\ncouncilmember mattucci ria\ncouncilmember sheikh =e\nma",
+      "has_votable_indicators": true,
+      "meeting_id": "14490"
+    },
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_002847.jpg",
+      "frame_name": "frame_002847.jpg",
+      "frame_number": 2847,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\nyeo [7] nay[ 0] abstain [0] recuse [0\ncouncilmember gerson nia\ncouncilmember kaji n=\ncouncilmember kalani ==\ncouncilmember lewis ae\ncouncilmember mattucci rar\ncouncilmember sheikh nar\nm",
+      "has_votable_indicators": true,
+      "meeting_id": "14490"
+    },
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_003480.jpg",
+      "frame_name": "frame_003480.jpg",
+      "frame_number": 3480,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\nyeo [7] nay[ 0] abstain [0] recuse [0\ncouncilmember gerson nia\ncouncilmember kaji a\ncouncilmember kalani ==\ncouncilmember lewis ~e\ncouncilmember mattucci ria\ncouncilmember sheikh na\nmay",
+      "has_votable_indicators": true,
+      "meeting_id": "14490"
+    },
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_003481.jpg",
+      "frame_name": "frame_003481.jpg",
+      "frame_number": 3481,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\nyea [7] nay[ 0] abstain [0] recuse [0\ncouncilmember gerson nia\ncouncilmember kaji ma\ncouncilmember kalani i\ncouncilmember lewis me\ncouncilmember mattucci ram\ncouncilmember sheikh na\nmay",
+      "has_votable_indicators": true,
+      "meeting_id": "14490"
+    },
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_003482.jpg",
+      "frame_name": "frame_003482.jpg",
+      "frame_number": 3482,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\nyeo [7] nay[ 0] abstain [0] recuse [0\ncouncilmember gerson rar\ncouncilmember kaji ma\ncouncilmember kalani \u2014~\ncouncilmember lewis me\ncouncilmember mattucci ral\ncouncilmember sheikh na\nma",
+      "has_votable_indicators": true,
+      "meeting_id": "14490"
+    },
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_003483.jpg",
+      "frame_name": "frame_003483.jpg",
+      "frame_number": 3483,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\ncouncilmember kaji a\ncouncilmember kalani az\ncouncilmember lewis ae\nmayor chen naa\n\nmotion passes\n",
+      "has_votable_indicators": true,
+      "meeting_id": "14490"
+    },
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_003592.jpg",
+      "frame_name": "frame_003592.jpg",
+      "frame_number": 3592,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\nyeo [7] nay[ 0] abstain [0] recuse [0\ncouncilmember gerson nia\ncouncilmember kaji ey\ncouncilmember kalani ne\ncouncilmember lewis na\ncouncilmember mattucci ral\ncouncilmember sheikh na\nma",
+      "has_votable_indicators": true,
+      "meeting_id": "14490"
+    },
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_003593.jpg",
+      "frame_name": "frame_003593.jpg",
+      "frame_number": 3593,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\ncouncilmember kaji ae\ncouncilmember kalani as\ncouncilmember lewis as\nmayor chen ne\n\nmotion passes\n",
+      "has_votable_indicators": true,
+      "meeting_id": "14490"
+    },
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_003594.jpg",
+      "frame_name": "frame_003594.jpg",
+      "frame_number": 3594,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\nveo [7] nay[ 0] abstain [0] recuse [0\ncouncilmember gerson nar\ncouncilmember kaji ey)\ncouncilmember kalani i\ncouncilmember lewis ev\ncouncilmember mattucci ral\ncouncilmember sheikh nam\nm",
+      "has_votable_indicators": true,
+      "meeting_id": "14490"
+    },
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_003595.jpg",
+      "frame_name": "frame_003595.jpg",
+      "frame_number": 3595,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\nyeo [7] nay[ 0] abstain [0] recuse [0\ncouncilmember gerson ra\ncouncilmember kaji ova\ncouncilmember kalani i\ncouncilmember lewis ev\ncouncilmember mattucci inia\ncouncilmember sheikh nar\nm",
+      "has_votable_indicators": true,
+      "meeting_id": "14490"
+    },
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_003596.jpg",
+      "frame_name": "frame_003596.jpg",
+      "frame_number": 3596,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\nyea [7 | nay[ 0] abstain [0 | recuse [0\ncouncilmember gerson nan\ncouncilmember kaji ze\ncouncilmember kalani aa\ncouncilmember lewis me\ncouncilmember mattucci inia\ncouncilmember sheikh 22",
+      "has_votable_indicators": true,
+      "meeting_id": "14490"
+    },
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_003832.jpg",
+      "frame_name": "frame_003832.jpg",
+      "frame_number": 3832,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\nyea [7] nay[ 0] abstain [0 | recuse [0\ncouncilmember gerson ni\ncouncilmember kaji iy)\ncouncilmember kalani ae\ncouncilmember lewis a\ncouncilmember mattucci nia\ncouncilmember sheikh rar\nm",
+      "has_votable_indicators": true,
+      "meeting_id": "14490"
+    },
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_003833.jpg",
+      "frame_name": "frame_003833.jpg",
+      "frame_number": 3833,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\nyea [7 | nay[ 0] abstain [0 | recuse [0\ncouncilmember gerson na\ncouncilmember kaji sya\ncouncilmember kalani ne\ncouncilmember lewis se\ncouncilmember mattucci mma\ncouncilmember sheikh ae\n",
+      "has_votable_indicators": true,
+      "meeting_id": "14490"
+    },
+    {
+      "frame_path": "2025_meetings_data/votable_frames_14490/frame_003834.jpg",
+      "frame_name": "frame_003834.jpg",
+      "frame_number": 3834,
+      "confidence": 0.9,
+      "detection_method": "voting_results_only",
+      "raw_text": "voting results\nyeo [7] nay[ 0] abstain [0] recuse [0\ncouncilmember gerson nia\ncouncilmember kaji \u2018a a\ncouncilmember kalani ze\ncouncilmember lewis ey\ncouncilmember mattucci rar\ncouncilmember sheikh nar",
+      "has_votable_indicators": true,
+      "meeting_id": "14490"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "frame_path": "2025_meetings_data/votable_frames_14538/frame_011885.jpg",
+    "frame_name": "frame_011885.jpg",
+    "frame_number": 11885,
+    "confidence": 0.9,
+    "detection_method": "voting_results_only",
+    "raw_text": "voting results\nyea | 5 | nay| 2| abstain |q| recuse | o\ncouncilmember gerson a\ncouncilmember kaji aa\ncouncilmember kalani a\ncouncilmember lewis ln\ncouncilmember mattucci aia\ncouncilmember sheikh ini\nm",
+    "has_votable_indicators": true,
+    "meeting_id": "14538"
+  },
+  {
+    "frame_path": "2025_meetings_data/votable_frames_14538/frame_011886.jpg",
+    "frame_name": "frame_011886.jpg",
+    "frame_number": 11886,
+    "confidence": 0.9,
+    "detection_method": "voting_results_only",
+    "raw_text": "voting results\nyea | 5 | nay| 2| abstain || recuse |\ncouncilmember gerson a\ncouncilmember kaji ba\ncouncilmember kalani a\ncouncilmember lewis on\ncouncilmember mattucci aian\ncouncilmember sheikh ini\nmay",
+    "has_votable_indicators": true,
+    "meeting_id": "14538"
+  },
+  {
+    "frame_path": "2025_meetings_data/votable_frames_14538/frame_011887.jpg",
+    "frame_name": "frame_011887.jpg",
+    "frame_number": 11887,
+    "confidence": 0.9,
+    "detection_method": "voting_results_only",
+    "raw_text": "voting results\nyea | 5 | nay| 2| abstain || recuse | o\ncouncilmember gerson a\ncouncilmember kaji na\ncouncilmember kalani aa\ncouncilmember lewis ln\ncouncilmember mattucci mall\ncouncilmember sheikh ini\n",
+    "has_votable_indicators": true,
+    "meeting_id": "14538"
+  },
+  {
+    "frame_path": "2025_meetings_data/votable_frames_14538/frame_011888.jpg",
+    "frame_name": "frame_011888.jpg",
+    "frame_number": 11888,
+    "confidence": 0.9,
+    "detection_method": "voting_results_only",
+    "raw_text": "voting results\nyea | 5 | nay| 2| abstain || recuse | 0\ncouncilmember gerson\ncouncilmember kaji na\ncouncilmember kalani aa\ncouncilmember lewis ln\ncouncilmember mattucci all\ncouncilmember sheikh ini\nmay",
+    "has_votable_indicators": true,
+    "meeting_id": "14538"
+  },
+  {
+    "frame_path": "2025_meetings_data/votable_frames_14538/frame_011889.jpg",
+    "frame_name": "frame_011889.jpg",
+    "frame_number": 11889,
+    "confidence": 0.9,
+    "detection_method": "voting_results_only",
+    "raw_text": "voting results\nyea | 5 | nay| 2| abstain || recuse | o\ncouncilmember gerson nl\ncouncilmember kaji nal\ncouncilmember kalani na\ncouncilmember lewis un\ncouncilmember mattucci na\ncouncilmember sheikh xin\n",
+    "has_votable_indicators": true,
+    "meeting_id": "14538"
+  }
+]

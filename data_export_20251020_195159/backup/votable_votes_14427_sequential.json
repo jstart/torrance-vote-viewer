@@ -1,0 +1,374 @@
+[
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 5,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": "High",
+    "agenda_item": null,
+    "meeting_id": "14427",
+    "frame_path": "2025_meetings_data/votable_frames_14427/frame_006034.jpg",
+    "frame_name": "frame_006034.jpg",
+    "frame_number": 6034,
+    "extraction_timestamp": 1760923895.047352,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 5,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": "High",
+    "agenda_item": null,
+    "meeting_id": "14427",
+    "frame_path": "2025_meetings_data/votable_frames_14427/frame_006035.jpg",
+    "frame_name": "frame_006035.jpg",
+    "frame_number": 6035,
+    "extraction_timestamp": 1760923899.363575,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 5,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": 0.98,
+    "agenda_item": null,
+    "meeting_id": "14427",
+    "frame_path": "2025_meetings_data/votable_frames_14427/frame_006036.jpg",
+    "frame_name": "frame_006036.jpg",
+    "frame_number": 6036,
+    "extraction_timestamp": 1760923904.14077,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": "Approval of Consent Calendar",
+    "vote_tally": {
+      "ayes": 5,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Passed",
+    "confidence": "High",
+    "agenda_item": "8 (Consent Calendar)",
+    "meeting_id": "14427",
+    "frame_path": "2025_meetings_data/votable_frames_14427/frame_007667.jpg",
+    "frame_name": "frame_007667.jpg",
+    "frame_number": 7667,
+    "extraction_timestamp": 1760923912.934667,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": "Public Works - Conduct Public Hearing and Adopt RESOLUTION Confirming a Diagram and Assessment for Fiscal Year (FY) 2025-26 in Connection with City of Torrance Lighting District No. 99-1. Expenditure: $1,912,828 (General Fund and Non-General Funds)",
+    "vote_tally": {
+      "ayes": 5,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Passed",
+    "confidence": 0.99,
+    "agenda_item": "9A",
+    "meeting_id": "14427",
+    "frame_path": "2025_meetings_data/votable_frames_14427/frame_008055.jpg",
+    "frame_name": "frame_008055.jpg",
+    "frame_number": 8055,
+    "extraction_timestamp": 1760923917.268658,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": "Public Works - Conduct Public Hearing and Adopt RESOLUTION Confirming a Diagram and Assessment for Fiscal Year (FY) 2025-26 in Connection with City of Torrance Lighting District No. 99-1. Expenditure: $1,912,828 (General Fund and Non-General Funds)",
+    "vote_tally": {
+      "ayes": 5,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Passed",
+    "confidence": "High",
+    "agenda_item": "9A",
+    "meeting_id": "14427",
+    "frame_path": "2025_meetings_data/votable_frames_14427/frame_008056.jpg",
+    "frame_name": "frame_008056.jpg",
+    "frame_number": 8056,
+    "extraction_timestamp": 1760923924.0073678,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": "Public Works - Conduct Public Hearing and Adopt RESOLUTION Confirming a Diagram and Assessment for Fiscal Year (FY) 2025-26 in Connection with City of Torrance Lighting District No. 99-1. Expenditure: $1,912,828 (General Fund and Non General Funds)",
+    "vote_tally": {
+      "ayes": 5,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Passed",
+    "confidence": "High",
+    "agenda_item": "9A",
+    "meeting_id": "14427",
+    "frame_path": "2025_meetings_data/votable_frames_14427/frame_008112.jpg",
+    "frame_name": "frame_008112.jpg",
+    "frame_number": 8112,
+    "extraction_timestamp": 1760923929.2198331,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": "Public Works - Conduct Public Hearing and Adopt RESOLUTION Confirming a Diagram and Assessment for Fiscal Year (FY) 2025-26 in Connection with City of Torrance Lighting District No. 99-1. Expenditure: $1,912,828 (General Fund and Non General Funds)",
+    "vote_tally": {
+      "ayes": 5,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Passed",
+    "confidence": 1.0,
+    "agenda_item": "9A",
+    "meeting_id": "14427",
+    "frame_path": "2025_meetings_data/votable_frames_14427/frame_008113.jpg",
+    "frame_name": "frame_008113.jpg",
+    "frame_number": 8113,
+    "extraction_timestamp": 1760923934.535433,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": "Conduct Third Public Hearing on Proposed Fiscal Year 2025-27 Operating Budget and Capital Improvement Plan and Adopt RESOLUTIONS Establishing the City's Annual Operating Budget Appropriations, Capital Budget Appropriations, and Appropriations Limit and Selection of Annual Adjustment Factors for Fiscal Year 2025-26",
+    "vote_tally": {
+      "ayes": 6,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Passed",
+    "confidence": "High",
+    "agenda_item": "9B",
+    "ordinance_number": null,
+    "meeting_id": "14427",
+    "frame_path": "2025_meetings_data/votable_frames_14427/frame_008767.jpg",
+    "frame_name": "frame_008767.jpg",
+    "frame_number": 8767,
+    "extraction_timestamp": 1760923940.221823,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": "City Manager and Finance - Conduct Third Public Hearing on Proposed Fiscal Year 2025-27 Operating Budget and Capital Improvement Plan and Adopt RESOLUTIONS Establishing the City's Annual Operating Budget Appropriations, Capital Budget Appropriations, and Appropriations Limit and Selection of Annual Adjustment Factors for Fiscal Year 2025-26",
+    "vote_tally": {
+      "ayes": 6,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Passed",
+    "confidence": "High",
+    "agenda_item": "9B",
+    "meeting_id": "14427",
+    "frame_path": "2025_meetings_data/votable_frames_14427/frame_008768.jpg",
+    "frame_name": "frame_008768.jpg",
+    "frame_number": 8768,
+    "extraction_timestamp": 1760923946.822505,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": "City Manager and Finance - Conduct Third Public Hearing on Proposed Fiscal Year 2025-27 Operating Budget and Capital Improvement Plan and Adopt RESOLUTIONS Establishing the City's Annual Operating Budget Appropriations, Capital Budget Appropriations, and Appropriations Limit and Selection of Annual Adjustment Factors for Fiscal Year 2025-26",
+    "vote_tally": {
+      "ayes": 6,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Passed",
+    "confidence": 1.0,
+    "agenda_item": "9B",
+    "ordinance_numbers": null,
+    "meeting_id": "14427",
+    "frame_path": "2025_meetings_data/votable_frames_14427/frame_008769.jpg",
+    "frame_name": "frame_008769.jpg",
+    "frame_number": 8769,
+    "extraction_timestamp": 1760923953.020447,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": "Conduct Third Public Hearing on Proposed Fiscal Year 2025-27 Operating Budget and Capital Improvement Plan and Adopt RESOLUTIONS Establishing the City's Annual Operating Budget Appropriations, Capital Budget Appropriations, and Appropriations Limit and Selection of Annual Adjustment Factors for Fiscal Year 2025-26",
+    "vote_tally": {
+      "ayes": 6,
+      "noes": 0,
+      "abstentions": 0,
+      "recused": 0
+    },
+    "result": "Passed",
+    "confidence": 0.98,
+    "agenda_item": "9B",
+    "council_member_votes": [
+      {
+        "name": "Gerson",
+        "vote": "Yea"
+      },
+      {
+        "name": "Kaji",
+        "vote": "Yea"
+      },
+      {
+        "name": "Kalani",
+        "vote": "Yea"
+      },
+      {
+        "name": "Lewis",
+        "vote": "Yea"
+      },
+      {
+        "name": "Mattucci",
+        "vote": "Yea"
+      },
+      {
+        "name": "Mayor Chen",
+        "vote": "Yea"
+      }
+    ],
+    "ordinance_number": null,
+    "meeting_id": "14427",
+    "frame_path": "2025_meetings_data/votable_frames_14427/frame_008919.jpg",
+    "frame_name": "frame_008919.jpg",
+    "frame_number": 8919,
+    "extraction_timestamp": 1760923960.2562292,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": "Conduct Third Public Hearing on Proposed Fiscal Year 2025-27 Operating Budget and Capital Improvement Plan and Adopt RESOLUTIONS Establishing the City's Annual Operating Budget Appropriations, Capital Budget Appropriations, and Appropriations Limit and Selection of Annual Adjustment Factors for Fiscal Year 2025-26",
+    "vote_tally": {
+      "ayes": 6,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Passed",
+    "confidence": 1.0,
+    "agenda_item": "9B",
+    "meeting_id": "14427",
+    "frame_path": "2025_meetings_data/votable_frames_14427/frame_008920.jpg",
+    "frame_name": "frame_008920.jpg",
+    "frame_number": 8920,
+    "extraction_timestamp": 1760923964.6770601,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": "City Manager - Approve Shelter Operations Facility Use Agreement (FUA) with American National Red Cross (Red Cross) and Authorize City Manager as City's Signatory",
+    "vote_tally": {
+      "ayes": 6,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Passed",
+    "confidence": 100,
+    "agenda_item": "10A",
+    "meeting_id": "14427",
+    "frame_path": "2025_meetings_data/votable_frames_14427/frame_009269.jpg",
+    "frame_name": "frame_009269.jpg",
+    "frame_number": 9269,
+    "extraction_timestamp": 1760923971.098146,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": "Approve Shelter Operations Facility Use Agreement (FUA) with American National Red Cross (Red Cross) and Authorize City Manager as City's Signatory",
+    "vote_tally": {
+      "ayes": 6,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Passed",
+    "confidence": "High",
+    "agenda_item": "10A",
+    "meeting_id": "14427",
+    "frame_path": "2025_meetings_data/votable_frames_14427/frame_009270.jpg",
+    "frame_name": "frame_009270.jpg",
+    "frame_number": 9270,
+    "extraction_timestamp": 1760923977.961271,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": "Police and City Manager - Approve the Memorandum of Agreement Between the Pasadena Police Department and the City of Torrance (Torrance Police Department) Pertaining to Assistance under the Law Enforcement Mutual Aid Plan (LEMA) and Authorize the City Manager to Execute and Administer Agreement and Related Documents.",
+    "vote_tally": {
+      "ayes": 6,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Passed",
+    "confidence": 0.98,
+    "agenda_item": "10B",
+    "meeting_id": "14427",
+    "frame_path": "2025_meetings_data/votable_frames_14427/frame_009422.jpg",
+    "frame_name": "frame_009422.jpg",
+    "frame_number": 9422,
+    "extraction_timestamp": 1760923982.15502,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": "Approve the Memorandum of Agreement Between the Pasadena Police Department and the City of Torrance (Torrance Police Department) Pertaining to Assistance under the Law Enforcement Mutual Aid Plan (LEMA) and Authorize the City Manager to Execute and Administer Agreement and Related Documents.",
+    "vote_tally": {
+      "ayes": 6,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Passed",
+    "confidence": 0.98,
+    "agenda_item": "10B",
+    "meeting_id": "14427",
+    "frame_path": "2025_meetings_data/votable_frames_14427/frame_009423.jpg",
+    "frame_name": "frame_009423.jpg",
+    "frame_number": 9423,
+    "extraction_timestamp": 1760923987.617324,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": "Fire - Discuss and Consider Amending the Torrance Municipal Code; Determine California Environmental Quality Act (CEQA) Exemption; and Adopt ORDINANCE Adding Article 4, 'Fire Hazard Severity Zones' to Chapter 5 of Division 8 of the Torrance Municipal Code Designating Moderate, High and Very High Fire Hazard Severity Zones Consistent with State Law",
+    "vote_tally": {
+      "ayes": 6,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Pass",
+    "confidence": "High",
+    "agenda_item": "10C",
+    "meeting_id": "14427",
+    "frame_path": "2025_meetings_data/votable_frames_14427/frame_009769.jpg",
+    "frame_name": "frame_009769.jpg",
+    "frame_number": 9769,
+    "extraction_timestamp": 1760923993.3320398,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  },
+  {
+    "motion_text": "Fire - Discuss and Consider Amending the Torrance Municipal Code, Determine California Environmental Quality Act (CEQA) Exemption, and Adopt ORDINANCE Adding Article 4, 'Fire Hazard Severity Zones' to Chapter 5 of Division 8 of the Torrance Municipal Code Designating Moderate, High and Very High Fire Hazard Severity Zones Consistent with State Law",
+    "vote_tally": {
+      "ayes": 6,
+      "noes": 0,
+      "abstentions": 0
+    },
+    "result": "Passed",
+    "confidence": "High",
+    "agenda_item": "10C",
+    "meeting_id": "14427",
+    "frame_path": "2025_meetings_data/votable_frames_14427/frame_009770.jpg",
+    "frame_name": "frame_009770.jpg",
+    "frame_number": 9770,
+    "extraction_timestamp": 1760924000.0446248,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true
+  }
+]

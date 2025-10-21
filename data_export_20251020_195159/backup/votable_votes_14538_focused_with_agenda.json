@@ -1,0 +1,134 @@
+[
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 5,
+      "noes": 2,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": "High",
+    "agenda_item": "5. ADJOURNMENT Adjournment of City Council meeting to Tuesday, October 21, 2025, at 5:00 p.m. for closed session with regular business commencing at 6:30 p.m. in the LeRoy J. Jackson Council Chamber.",
+    "meeting_id": "14538",
+    "frame_path": "2025_meetings_data/votable_frames_14538/frame_011885.jpg",
+    "frame_name": "frame_011885.jpg",
+    "frame_number": 11885,
+    "extraction_timestamp": 1760786699.3724859,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 11885
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 5,
+      "noes": 2,
+      "abstentions": 0,
+      "recusals": 0
+    },
+    "result": "Motion Passes",
+    "confidence": "High",
+    "agenda_item": "5. ADJOURNMENT Adjournment of City Council meeting to Tuesday, October 21, 2025, at 5:00 p.m. for closed session with regular business commencing at 6:30 p.m. in the LeRoy J. Jackson Council Chamber.",
+    "vote_details": [
+      {
+        "name": "Councilmember Gerson",
+        "vote": "Yea"
+      },
+      {
+        "name": "Councilmember Kaji",
+        "vote": "Yea"
+      },
+      {
+        "name": "Councilmember Kalani",
+        "vote": "Yea"
+      },
+      {
+        "name": "Councilmember Lewis",
+        "vote": "Nay"
+      },
+      {
+        "name": "Councilmember Mattucci",
+        "vote": "Yea"
+      },
+      {
+        "name": "Councilmember Sheikh",
+        "vote": "Nay"
+      },
+      {
+        "name": "Mayor Chen",
+        "vote": "Yea"
+      }
+    ],
+    "meeting_id": "14538",
+    "frame_path": "2025_meetings_data/votable_frames_14538/frame_011886.jpg",
+    "frame_name": "frame_011886.jpg",
+    "frame_number": 11886,
+    "extraction_timestamp": 1760786708.835404,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 11886
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 5,
+      "noes": 2,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": 0.98,
+    "agenda_item": "5. ADJOURNMENT Adjournment of City Council meeting to Tuesday, October 21, 2025, at 5:00 p.m. for closed session with regular business commencing at 6:30 p.m. in the LeRoy J. Jackson Council Chamber.",
+    "meeting_id": "14538",
+    "frame_path": "2025_meetings_data/votable_frames_14538/frame_011887.jpg",
+    "frame_name": "frame_011887.jpg",
+    "frame_number": 11887,
+    "extraction_timestamp": 1760786713.0325708,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 11887
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 5,
+      "noes": 2,
+      "abstentions": 0
+    },
+    "result": "Motion Passes",
+    "confidence": 1.0,
+    "agenda_item": "5. ADJOURNMENT Adjournment of City Council meeting to Tuesday, October 21, 2025, at 5:00 p.m. for closed session with regular business commencing at 6:30 p.m. in the LeRoy J. Jackson Council Chamber.",
+    "meeting_id": "14538",
+    "frame_path": "2025_meetings_data/votable_frames_14538/frame_011888.jpg",
+    "frame_name": "frame_011888.jpg",
+    "frame_number": 11888,
+    "extraction_timestamp": 1760786725.4902651,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 11888
+  },
+  {
+    "motion_text": null,
+    "vote_tally": {
+      "ayes": 5,
+      "noes": 2,
+      "abstentions": 0
+    },
+    "result": "Passes",
+    "confidence": {
+      "overall": 0.95,
+      "motion_text": 0.0,
+      "vote_tally": 1.0,
+      "result": 1.0,
+      "agenda_item": 0.0
+    },
+    "agenda_item": "5. ADJOURNMENT Adjournment of City Council meeting to Tuesday, October 21, 2025, at 5:00 p.m. for closed session with regular business commencing at 6:30 p.m. in the LeRoy J. Jackson Council Chamber.",
+    "meeting_id": "14538",
+    "frame_path": "2025_meetings_data/votable_frames_14538/frame_011889.jpg",
+    "frame_name": "frame_011889.jpg",
+    "frame_number": 11889,
+    "extraction_timestamp": 1760786735.6754189,
+    "ocr_confidence": 0.9,
+    "has_votable_indicators": true,
+    "agenda_timestamp": 11889
+  }
+]
