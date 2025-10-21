@@ -1,41 +1,55 @@
 #!/usr/bin/env python3
 """
-Fix councilmember data structure issues:
-1. Update councilmembers array to match councilmember_stats keys
-2. Ensure proper name mapping for frontend display
+Fix councilmember data by removing Mattucci who has no vote data
+and ensuring correct name formatting
 """
 
 import json
-import sys
-from typing import Dict, List, Any
 
-def fix_councilmember_data(data_file: str):
-    """Fix councilmember data structure"""
-    print(f"🔧 Fixing councilmember data in {data_file}...")
-
+def fix_councilmember_data():
     # Load the data
-    with open(data_file, 'r', encoding='utf-8') as f:
+    with open('data/torrance_votes_smart_consolidated.json', 'r') as f:
         data = json.load(f)
-
-    # Get the actual councilmember names from stats
-    councilmember_stats = data.get('councilmember_stats', {})
-    actual_councilmembers = list(councilmember_stats.keys())
-
-    print(f"📊 Found {len(actual_councilmembers)} councilmembers in stats:")
-    for cm in actual_councilmembers:
-        stats = councilmember_stats[cm]
-        print(f"  - {cm}: {stats['total_votes']} votes ({stats['yes_votes']} yes, {stats['no_votes']} no)")
-
-    # Update the councilmembers array to match the stats keys
-    data['councilmembers'] = actual_councilmembers
-
-    # Save the fixed data
-    with open(data_file, 'w', encoding='utf-8') as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-
-    print(f"🎉 Updated councilmembers array to match stats keys")
-    print(f"📄 Updated file: {data_file}")
+    
+    print("Current councilmembers:", data['councilmembers'])
+    print("Current councilmember_stats keys:", list(data['councilmember_stats'].keys()))
+    
+    # Remove MATTUCCI from councilmembers array since there's no vote data
+    if "MATTUCCI" in data['councilmembers']:
+        data['councilmembers'] = [cm for cm in data['councilmembers'] if cm != "MATTUCCI"]
+        print("Removed MATTUCCI from councilmembers array")
+    
+    # Remove MATTUCCI from councilmember_stats
+    if "MATTUCCI" in data['councilmember_stats']:
+        del data['councilmember_stats']["MATTUCCI"]
+        print("Removed MATTUCCI from councilmember_stats")
+    
+    # Remove MATTUCCI from councilmember_summaries
+    if "MATTUCCI" in data['councilmember_summaries']:
+        del data['councilmember_summaries']["MATTUCCI"]
+        print("Removed MATTUCCI from councilmember_summaries")
+    
+    # Fix ASAM SHEIKH name (should be ASAM SHAIKH based on vote data)
+    if "ASAM SHEIKH" in data['councilmembers']:
+        data['councilmembers'] = [cm if cm != "ASAM SHEIKH" else "ASAM SHAIKH" for cm in data['councilmembers']]
+        print("Fixed ASAM SHEIKH → ASAM SHAIKH in councilmembers")
+    
+    if "ASAM SHEIKH" in data['councilmember_stats']:
+        data['councilmember_stats']["ASAM SHAIKH"] = data['councilmember_stats'].pop("ASAM SHEIKH")
+        print("Fixed ASAM SHEIKH → ASAM SHAIKH in councilmember_stats")
+    
+    if "ASAM SHEIKH" in data['councilmember_summaries']:
+        data['councilmember_summaries']["ASAM SHAIKH"] = data['councilmember_summaries'].pop("ASAM SHEIKH")
+        print("Fixed ASAM SHEIKH → ASAM SHAIKH in councilmember_summaries")
+    
+    print("\nUpdated councilmembers:", data['councilmembers'])
+    print("Updated councilmember_stats keys:", list(data['councilmember_stats'].keys()))
+    
+    # Save the corrected data
+    with open('data/torrance_votes_smart_consolidated.json', 'w') as f:
+        json.dump(data, f, indent=2)
+    
+    print("\n✅ Councilmember data fixed!")
 
 if __name__ == "__main__":
-    data_file = "data/torrance_votes_smart_consolidated.json"
-    fix_councilmember_data(data_file)
+    fix_councilmember_data()
