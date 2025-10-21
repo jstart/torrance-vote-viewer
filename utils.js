@@ -212,7 +212,7 @@ class VoteViewerUtils {
           'mike_gerson': 'MIKE GERSON',
           'jon_kaji': 'JON KAJI',
           'sharon_kalani': 'SHARON KALANI',
-          'asam_shaikh': 'ASAM SHAIKH',
+          'asam_shaikh': 'ASAM SHEIKH',
           'mattucci': 'MATTUCCI'
         };
     }

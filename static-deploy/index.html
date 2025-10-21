@@ -174,6 +174,18 @@
             background: white;
         }
 
+        .vote-yes {
+            color: #28a745;
+        }
+
+        .vote-no {
+            color: #dc3545;
+        }
+
+        .vote-abstain {
+            color: #6c757d;
+        }
+
         .vote-header {
             display: flex;
             justify-content: space-between;
@@ -643,7 +655,7 @@
                     'mike_gerson': 'Mike Gerson',
                     'jon_kaji': 'Jon Kaji',
                     'sharon_kalani': 'Sharon Kalani',
-                    'asam_shaikh': 'Asam Shaikh',
+                    'asam_sheikh': 'Asam Sheikh',
                     'bridget_lewis': 'Bridget Lewis',
                     'aurelio_mattucci': 'Aurelio Mattucci'
                 };
@@ -755,7 +767,7 @@
 
                 // Filter votes for this councilmember
                 const votes = this.data.votes.filter(vote =>
-                    vote.individual_votes[councilmember] !== undefined
+                    vote.individual_votes && vote.individual_votes[councilmember] !== undefined
                 );
 
                 // Get councilmember summary if available
@@ -767,7 +779,7 @@
                     'mike_gerson': 'Mike Gerson',
                     'jon_kaji': 'Jon Kaji',
                     'sharon_kalani': 'Sharon Kalani',
-                    'asam_shaikh': 'Asam Shaikh',
+                    'asam_shaikh': 'ASAM SHEIKH',
                     'bridget_lewis': 'Bridget Lewis',
                     'aurelio_mattucci': 'Aurelio Mattucci'
                 };
@@ -889,8 +901,8 @@
                 if (councilmember) {
                     votes = votes.filter(vote =>
                         vote.individual_votes &&
-                        vote.individual_votes.some(vote_detail =>
-                            (vote_detail.name || '').toLowerCase().includes(councilmember.toLowerCase())
+                        Object.keys(vote.individual_votes).some(name =>
+                            name.toLowerCase().includes(councilmember.toLowerCase())
                         )
                     );
                 }
@@ -986,6 +998,22 @@
                                 Noes: ${vote.vote_tally.noes} |
                                 Abstentions: ${vote.vote_tally.abstentions}
                             </div>
+                            ${vote.individual_votes ? `
+                                <div class="individual-votes" style="margin-top: 0.5rem; padding: 0.5rem; background: #f8f9fa; border-radius: 4px;">
+                                    <div style="font-weight: bold; margin-bottom: 0.25rem; color: #333;">Individual Votes:</div>
+                                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0.25rem; font-size: 0.9rem;">
+                                        ${Object.entries(vote.individual_votes).map(([councilmember, vote_result]) => {
+                                            const voteClass = vote_result === 'YES' ? 'vote-yes' : vote_result === 'NO' ? 'vote-no' : 'vote-abstain';
+                                            const voteIcon = vote_result === 'YES' ? '✅' : vote_result === 'NO' ? '❌' : '⚪';
+                                            return `<div class="${voteClass}" style="display: flex; align-items: center; gap: 0.25rem;">
+                                                <span>${voteIcon}</span>
+                                                <span style="font-weight: 500;">${councilmember.replace(/_/g, ' ')}</span>
+                                                <span style="color: #666;">${vote_result}</span>
+                                            </div>`;
+                                        }).join('')}
+                                    </div>
+                                </div>
+                            ` : ''}
                             <div style="margin-top: 0.5rem; color: #666; font-size: 0.9rem;">
                                 Vote occurred at approximately ${timestamp} in meeting video
                             </div>

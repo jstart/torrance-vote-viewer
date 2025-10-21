@@ -370,7 +370,7 @@ class TorranceVoteViewer {
           'jon_kaji': 'Jon Kaji',
             'sharon_kalani': 'Sharon Kalani',
           'asam_sheikh': 'Asam Sheikh',
-          'mattucci': 'Mattucci'
+          'mattucci': 'Aurelio Mattucci'
         };
 
       // Separate mayors (George Chen is the mayor)

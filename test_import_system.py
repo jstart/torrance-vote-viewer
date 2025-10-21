@@ -26,7 +26,7 @@ def create_test_data():
                     "MIKE GERSON": "YES",
                     "JON KAJI": "YES",
                     "SHARON KALANI": "YES",
-                    "ASAM SHAIKH": "YES"
+                    "ASAM SHEIKH": "YES"
                 }
             },
             # Test case 2: Duplicate vote (should be consolidated)
@@ -40,7 +40,7 @@ def create_test_data():
                     "MIKE GERSON": "YES",
                     "JON KAJI": "YES",
                     "SHARON KALANI": "YES",
-                    "ASAM SHAIKH": "YES"
+                    "ASAM SHEIKH": "YES"
                 }
             },
             # Test case 3: Vote with existing meta_id
@@ -54,7 +54,7 @@ def create_test_data():
                     "MIKE GERSON": "YES",
                     "JON KAJI": "YES",
                     "SHARON KALANI": "YES",
-                    "ASAM SHAIKH": "YES"
+                    "ASAM SHEIKH": "YES"
                 },
                 "meta_id": "12345",
                 "video_timestamp": 120,
@@ -71,7 +71,7 @@ def create_test_data():
                     "MIKE GERSON": "NO",
                     "JON KAJI": "YES",
                     "SHARON KALANI": "YES",
-                    "ASAM SHAIKH": "NO"
+                    "ASAM SHEIKH": "NO"
                 }
             },
             # Test case 5: Vote with abstentions
@@ -85,7 +85,7 @@ def create_test_data():
                     "MIKE GERSON": "ABSTAIN",
                     "JON KAJI": "YES",
                     "SHARON KALANI": "ABSTAIN",
-                    "ASAM SHAIKH": "YES"
+                    "ASAM SHEIKH": "YES"
                 }
             }
         ],

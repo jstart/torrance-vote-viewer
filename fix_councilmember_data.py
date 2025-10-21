@@ -29,18 +29,18 @@ def fix_councilmember_data():
         del data['councilmember_summaries']["MATTUCCI"]
         print("Removed MATTUCCI from councilmember_summaries")
 
-    # Fix ASAM SHEIKH name (should be ASAM SHAIKH based on vote data)
+    # Fix ASAM SHEIKH name (should be ASAM SHEIKH based on vote data)
     if "ASAM SHEIKH" in data['councilmembers']:
-        data['councilmembers'] = [cm if cm != "ASAM SHEIKH" else "ASAM SHAIKH" for cm in data['councilmembers']]
-        print("Fixed ASAM SHEIKH → ASAM SHAIKH in councilmembers")
+        data['councilmembers'] = [cm if cm != "ASAM SHEIKH" else "ASAM SHEIKH" for cm in data['councilmembers']]
+        print("Fixed ASAM SHEIKH → ASAM SHEIKH in councilmembers")
 
     if "ASAM SHEIKH" in data['councilmember_stats']:
-        data['councilmember_stats']["ASAM SHAIKH"] = data['councilmember_stats'].pop("ASAM SHEIKH")
-        print("Fixed ASAM SHEIKH → ASAM SHAIKH in councilmember_stats")
+        data['councilmember_stats']["ASAM SHEIKH"] = data['councilmember_stats'].pop("ASAM SHEIKH")
+        print("Fixed ASAM SHEIKH → ASAM SHEIKH in councilmember_stats")
 
     if "ASAM SHEIKH" in data['councilmember_summaries']:
-        data['councilmember_summaries']["ASAM SHAIKH"] = data['councilmember_summaries'].pop("ASAM SHEIKH")
-        print("Fixed ASAM SHEIKH → ASAM SHAIKH in councilmember_summaries")
+        data['councilmember_summaries']["ASAM SHEIKH"] = data['councilmember_summaries'].pop("ASAM SHEIKH")
+        print("Fixed ASAM SHEIKH → ASAM SHEIKH in councilmember_summaries")
 
     print("\nUpdated councilmembers:", data['councilmembers'])
     print("Updated councilmember_stats keys:", list(data['councilmember_stats'].keys()))

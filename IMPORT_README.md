@@ -118,7 +118,7 @@ importer.run_import()
         "MIKE GERSON": "YES",
         "JON KAJI": "YES",
         "SHARON KALANI": "YES",
-        "ASAM SHAIKH": "YES"
+        "ASAM SHEIKH": "YES"
       }
     }
   ],

@@ -20,7 +20,7 @@ def infer_individual_votes(vote_data: Dict) -> Dict[str, str]:
         "MIKE GERSON",
         "JON KAJI",
         "SHARON KALANI",
-        "ASAM SHAIKH"
+        "ASAM SHEIKH"
     ]
 
     individual_votes = {}

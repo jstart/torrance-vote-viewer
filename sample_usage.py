@@ -24,7 +24,7 @@ def create_sample_data():
                     "MIKE GERSON": "YES",
                     "JON KAJI": "YES",
                     "SHARON KALANI": "YES",
-                    "ASAM SHAIKH": "YES"
+                    "ASAM SHEIKH": "YES"
                 }
             },
             {
@@ -37,7 +37,7 @@ def create_sample_data():
                     "MIKE GERSON": "YES",
                     "JON KAJI": "YES",
                     "SHARON KALANI": "YES",
-                    "ASAM SHAIKH": "YES"
+                    "ASAM SHEIKH": "YES"
                 }
             },
             {
@@ -50,7 +50,7 @@ def create_sample_data():
                     "MIKE GERSON": "YES",
                     "JON KAJI": "YES",
                     "SHARON KALANI": "YES",
-                    "ASAM SHAIKH": "YES"
+                    "ASAM SHEIKH": "YES"
                 }
             }
         ],

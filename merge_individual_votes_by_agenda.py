@@ -92,7 +92,7 @@ def extract_individual_votes_from_2025_data():
                     elif 'Mattucci' in councilmember_name:
                         normalized_name = 'AURELIO MATTUCCI'
                     elif 'Sheikh' in councilmember_name:
-                        normalized_name = 'ASAM SHAIKH'
+                        normalized_name = 'ASAM SHEIKH'
                     else:
                         normalized_name = councilmember_name.upper()
 

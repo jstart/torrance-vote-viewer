@@ -24,7 +24,7 @@ def parse_votes_with_gemini(raw_text):
     {raw_text}
 
     Please return ONLY a JSON object with the councilmember names as keys and their votes as values.
-    Use these exact councilmember names: MIKE GERSON, JON KAJI, SHARON KALANI, BRIDGET LEWIS, AURELIO MATTUCCI, ASAM SHAIKH
+    Use these exact councilmember names: MIKE GERSON, JON KAJI, SHARON KALANI, BRIDGET LEWIS, AURELIO MATTUCCI, ASAM SHEIKH
     Use these exact vote values: YES, NO, ABSTAIN
 
     If a councilmember is not present in the text, do not include them in the result.
@@ -60,7 +60,7 @@ def parse_votes_with_gemini(raw_text):
         # Validate and normalize the votes
         valid_votes = {}
         for name, vote in votes.items():
-            if name.upper() in ['MIKE GERSON', 'JON KAJI', 'SHARON KALANI', 'BRIDGET LEWIS', 'AURELIO MATTUCCI', 'ASAM SHAIKH']:
+            if name.upper() in ['MIKE GERSON', 'JON KAJI', 'SHARON KALANI', 'BRIDGET LEWIS', 'AURELIO MATTUCCI', 'ASAM SHEIKH']:
                 vote_upper = vote.upper()
                 if vote_upper in ['YES', 'NO', 'ABSTAIN']:
                     valid_votes[name.upper()] = vote_upper
