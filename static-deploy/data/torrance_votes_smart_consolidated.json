@@ -8,22 +8,16 @@
       "frame_path": "2025_meetings_data/votable_frames_14510/frame_005828.jpg",
       "timestamp": 1760796029.998416,
       "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
+        "ayes": 0,
+        "noes": 1,
         "abstentions": 0,
         "recused": 0
       },
-      "result": "Motion Passes",
+      "result": "Motion Fails",
       "confidence": "High",
       "motion_text": null,
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES",
-        "AURELIO MATTUCCI": "YES",
-        "BRIDGET LEWIS": "YES"
+        "MIKE GERSON": "NO"
       },
       "year": 2025,
       "meta_id": "404883",
@@ -39,22 +33,16 @@
       "frame_path": "2025_meetings_data/votable_frames_14510/frame_006380.jpg",
       "timestamp": 1760796037.658988,
       "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
+        "ayes": 0,
+        "noes": 1,
         "abstentions": 0,
         "recused": 0
       },
-      "result": "Motion Passes",
+      "result": "Motion Fails",
       "confidence": 0.98,
       "motion_text": null,
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES",
-        "AURELIO MATTUCCI": "YES"
+        "MIKE GERSON": "NO"
       },
       "year": 2025,
       "meta_id": "404886",
@@ -70,22 +58,18 @@
       "frame_path": "2025_meetings_data/votable_frames_14510/frame_007471.jpg",
       "timestamp": 1760796045.908868,
       "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
+        "ayes": 0,
+        "noes": 3,
         "abstentions": 0,
         "recused": 0
       },
-      "result": "Motion Passes",
+      "result": "Motion Fails",
       "confidence": 1.0,
       "motion_text": null,
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES",
-        "AURELIO MATTUCCI": "YES"
+        "MIKE GERSON": "NO",
+        "BRIDGET LEWIS": "NO",
+        "ASAM SHAIKH": "NO"
       },
       "year": 2025,
       "meta_id": "404895",
@@ -101,22 +85,17 @@
       "frame_path": "2025_meetings_data/votable_frames_14510/frame_008986.jpg",
       "timestamp": 1760796053.8520231,
       "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
+        "ayes": 0,
+        "noes": 2,
         "abstentions": 0,
         "recused": 0
       },
-      "result": "Motion Passes",
+      "result": "Motion Fails",
       "confidence": 1.0,
       "motion_text": null,
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES",
-        "AURELIO MATTUCCI": "YES"
+        "SHARON KALANI": "NO",
+        "AURELIO MATTUCCI": "NO"
       },
       "year": 2025,
       "meta_id": "404906",
@@ -132,22 +111,17 @@
       "frame_path": "2025_meetings_data/votable_frames_14510/frame_009230.jpg",
       "timestamp": 1760796071.34739,
       "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
+        "ayes": 0,
+        "noes": 2,
         "abstentions": 0,
         "recused": 0
       },
-      "result": "Motion Passes",
+      "result": "Motion Fails",
       "confidence": "high",
       "motion_text": null,
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES",
-        "AURELIO MATTUCCI": "YES"
+        "MIKE GERSON": "NO",
+        "ASAM SHAIKH": "NO"
       },
       "year": 2025,
       "meta_id": "404922",
@@ -163,22 +137,18 @@
       "frame_path": "2025_meetings_data/votable_frames_14510/frame_010854.jpg",
       "timestamp": 1760796076.5116448,
       "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
+        "ayes": 0,
+        "noes": 3,
         "abstentions": 0,
         "recused": 0
       },
-      "result": "Motion Passes",
+      "result": "Motion Fails",
       "confidence": 0.98,
       "motion_text": "Not visible in image.",
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES",
-        "AURELIO MATTUCCI": "YES"
+        "MIKE GERSON": "NO",
+        "SHARON KALANI": "NO",
+        "ASAM SHAIKH": "NO"
       },
       "year": 2025,
       "meta_id": 404938,
@@ -194,17 +164,22 @@
       "frame_path": "2025_meetings_data/votable_frames_14510/frame_015590.jpg",
       "timestamp": 1760796089.999242,
       "vote_tally": {
-        "ayes": 0,
-        "noes": 1,
-        "abstentions": 1,
+        "ayes": 7,
+        "noes": 0,
+        "abstentions": 0,
         "recused": 0
       },
-      "result": "Motion Fails",
+      "result": "Motion Passes",
       "confidence": "High",
       "motion_text": null,
       "individual_votes": {
-        "BRIDGET LEWIS": "NO",
-        "AURELIO MATTUCCI": "ABSTAIN"
+        "GEORGE CHEN": "YES",
+        "MIKE GERSON": "YES",
+        "JON KAJI": "YES",
+        "SHARON KALANI": "YES",
+        "ASAM SHEIKH": "YES",
+        "AURELIO MATTUCCI": "YES",
+        "BRIDGET LEWIS": "YES"
       },
       "year": 2025,
       "meta_id": 404928,
@@ -220,22 +195,17 @@
       "frame_path": "2025_meetings_data/votable_frames_14510/frame_017405.jpg",
       "timestamp": 1760796146.593377,
       "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
+        "ayes": 0,
+        "noes": 2,
         "abstentions": 0,
         "recused": 0
       },
-      "result": "Motion Passes",
+      "result": "Motion Fails",
       "confidence": 1.0,
       "motion_text": null,
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES",
-        "AURELIO MATTUCCI": "YES"
+        "SHARON KALANI": "NO",
+        "AURELIO MATTUCCI": "NO"
       },
       "year": 2025,
       "meta_id": "404956",
@@ -251,22 +221,16 @@
       "frame_path": "2025_meetings_data/votable_frames_14490/frame_002843.jpg",
       "timestamp": 1760798958.229037,
       "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
+        "ayes": 0,
+        "noes": 1,
         "abstentions": 0,
         "recused": 0
       },
-      "result": "Motion Passes",
+      "result": "Motion Fails",
       "confidence": "High",
       "motion_text": null,
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES",
-        "AURELIO MATTUCCI": "YES"
+        "MIKE GERSON": "NO"
       },
       "year": 2025,
       "meta_id": "400974",
@@ -313,22 +277,18 @@
       "frame_path": "2025_meetings_data/votable_frames_14490/frame_002847.jpg",
       "timestamp": 1760798985.029909,
       "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
+        "ayes": 0,
+        "noes": 3,
         "abstentions": 0,
         "recused": 0
       },
-      "result": "Motion Passes",
+      "result": "Motion Fails",
       "confidence": 1.0,
       "motion_text": null,
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES",
-        "AURELIO MATTUCCI": "YES"
+        "MIKE GERSON": "NO",
+        "JON KAJI": "NO",
+        "ASAM SHAIKH": "NO"
       },
       "year": 2025,
       "meta_id": "400993",
@@ -344,22 +304,17 @@
       "frame_path": "2025_meetings_data/votable_frames_14530/frame_007316.jpg",
       "timestamp": 1760791962.263295,
       "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
+        "ayes": 0,
+        "noes": 2,
         "abstentions": 0,
         "recused": 0
       },
-      "result": "Motion Passes",
+      "result": "Motion Fails",
       "confidence": 1.0,
       "motion_text": null,
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES",
-        "AURELIO MATTUCCI": "YES"
+        "MIKE GERSON": "NO",
+        "JON KAJI": "NO"
       },
       "year": 2025,
       "meta_id": "408044",
@@ -375,22 +330,17 @@
       "frame_path": "2025_meetings_data/votable_frames_14530/frame_007842.jpg",
       "timestamp": 1760791971.620849,
       "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
+        "ayes": 0,
+        "noes": 2,
         "abstentions": 0,
         "recused": 0
       },
-      "result": "Motion Passes",
+      "result": "Motion Fails",
       "confidence": 1.0,
       "motion_text": null,
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES",
-        "AURELIO MATTUCCI": "YES"
+        "MIKE GERSON": "NO",
+        "ASAM SHAIKH": "NO"
       },
       "year": 2025,
       "meta_id": "408050",
@@ -406,22 +356,18 @@
       "frame_path": "2025_meetings_data/votable_frames_14530/frame_008991.jpg",
       "timestamp": 1760792022.5399969,
       "vote_tally": {
-        "ayes": 6,
-        "noes": 0,
-        "abstentions": 1,
+        "ayes": 0,
+        "noes": 3,
+        "abstentions": 0,
         "recused": 0
       },
-      "result": "Motion Passes",
+      "result": "Motion Fails",
       "confidence": 1.0,
       "motion_text": null,
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES",
-        "AURELIO MATTUCCI": "ABSTAIN"
+        "MIKE GERSON": "NO",
+        "SHARON KALANI": "NO",
+        "AURELIO MATTUCCI": "NO"
       },
       "year": 2025,
       "meta_id": "408063",
@@ -437,12 +383,12 @@
       "frame_path": "2025_meetings_data/votable_frames_14530/frame_009352.jpg",
       "timestamp": 1760792054.730607,
       "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
+        "ayes": 0,
+        "noes": 3,
         "abstentions": 0,
         "recused": 0
       },
-      "result": "Motion Passes",
+      "result": "Motion Fails",
       "confidence": {
         "overall": "high",
         "motion_text": "low (not present in image)",
@@ -452,13 +398,9 @@
       },
       "motion_text": null,
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES",
-        "AURELIO MATTUCCI": "YES"
+        "MIKE GERSON": "NO",
+        "JON KAJI": "NO",
+        "BRIDGET LEWIS": "NO"
       },
       "year": 2025,
       "meta_id": "408093",
@@ -474,22 +416,19 @@
       "frame_path": "2025_meetings_data/votable_frames_14530/frame_009425.jpg",
       "timestamp": 1760792066.723609,
       "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
+        "ayes": 0,
+        "noes": 4,
         "abstentions": 0,
         "recused": 0
       },
-      "result": "Motion Passes",
+      "result": "Motion Fails",
       "confidence": "High",
       "motion_text": null,
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES",
-        "AURELIO MATTUCCI": "YES"
+        "MIKE GERSON": "NO",
+        "JON KAJI": "NO",
+        "BRIDGET LEWIS": "NO",
+        "AURELIO MATTUCCI": "NO"
       },
       "year": 2025,
       "meta_id": "408097",
@@ -505,17 +444,17 @@
       "frame_path": "2025_meetings_data/votable_frames_14530/frame_010387.jpg",
       "timestamp": 1760792070.223414,
       "vote_tally": {
-        "ayes": 1,
-        "noes": 0,
-        "abstentions": 1,
+        "ayes": 0,
+        "noes": 2,
+        "abstentions": 0,
         "recused": 0
       },
-      "result": "Motion Passes",
+      "result": "Motion Fails",
       "confidence": 0.95,
       "motion_text": "Not specified in image, only vote outcome.",
       "individual_votes": {
-        "BRIDGET LEWIS": "YES",
-        "AURELIO MATTUCCI": "ABSTAIN"
+        "JON KAJI": "NO",
+        "BRIDGET LEWIS": "NO"
       },
       "year": 2025,
       "meta_id": "408101",
@@ -531,22 +470,17 @@
       "frame_path": "2025_meetings_data/votable_frames_14530/frame_018512.jpg",
       "timestamp": 1760792094.626219,
       "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
+        "ayes": 0,
+        "noes": 2,
         "abstentions": 0,
         "recused": 0
       },
-      "result": "Motion Passes",
+      "result": "Motion Fails",
       "confidence": 0.98,
       "motion_text": null,
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES",
-        "AURELIO MATTUCCI": "YES"
+        "MIKE GERSON": "NO",
+        "AURELIO MATTUCCI": "NO"
       },
       "year": 2025,
       "meta_id": "408111",
@@ -593,22 +527,17 @@
       "frame_path": "2025_meetings_data/votable_frames_14536/frame_006763.jpg",
       "timestamp": 1760789422.321332,
       "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
+        "ayes": 0,
+        "noes": 2,
         "abstentions": 0,
         "recused": 0
       },
-      "result": "Motion Passes",
+      "result": "Motion Fails",
       "confidence": 1.0,
       "motion_text": null,
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES",
-        "AURELIO MATTUCCI": "YES"
+        "MIKE GERSON": "NO",
+        "SHARON KALANI": "NO"
       },
       "year": 2025,
       "meta_id": "409355",
@@ -624,22 +553,16 @@
       "frame_path": "2025_meetings_data/votable_frames_14536/frame_009136.jpg",
       "timestamp": 1760789431.661338,
       "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
+        "ayes": 0,
+        "noes": 1,
         "abstentions": 0,
         "recused": 0
       },
-      "result": "Motion Passes",
+      "result": "Motion Fails",
       "confidence": "High",
       "motion_text": "Approval of the Consent Calendar, including all matters listed therein, to be enacted by one motion and one vote.",
       "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "SHARON KALANI": "YES",
-        "JON KAJI": "YES",
-        "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES",
-        "AURELIO MATTUCCI": "YES"
+        "MIKE GERSON": "NO"
       },
       "year": 2025,
       "meta_id": "409375",
@@ -655,9 +578,9 @@
       "frame_path": "2025_meetings_data/votable_frames_14536/frame_009910.jpg",
       "timestamp": 1760789458.749505,
       "vote_tally": {
-        "ayes": 2,
+        "ayes": 3,
         "noes": 4,
-        "abstentions": 1,
+        "abstentions": 0,
         "recused": 0
       },
       "result": "Motion Fails",
@@ -670,7 +593,7 @@
         "JON KAJI": "NO",
         "ASAM SHEIKH": "NO",
         "BRIDGET LEWIS": "NO",
-        "AURELIO MATTUCCI": "ABSTAIN"
+        "AURELIO MATTUCCI": "YES"
       },
       "year": 2025,
       "meta_id": "409406",
@@ -736,7 +659,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 1,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -772,7 +695,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 4259,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -808,7 +731,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 50,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -839,7 +762,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 1367,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -870,7 +793,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 1368,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -901,7 +824,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 244,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -932,38 +855,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 245,
-      "timestamp_estimated": true,
-      "frame_available": false
-    },
-    {
-      "id": "",
-      "meeting_id": "14262",
-      "agenda_item": "9D",
-      "frame_number": 6,
-      "frame_path": "2024_meetings_data/votable_frames_14262/chapter_06_frames_000246.jpg",
-      "timestamp": 0,
-      "vote_tally": {
-        "ayes": 7,
-        "noes": 0,
-        "abstentions": 0,
-        "recused": 0
-      },
-      "result": "Motion Passes",
-      "confidence": "High",
-      "motion_text": "Accept and File Report of 2024 Meeting Schedule Expenditure: None",
-      "individual_votes": {
-        "GEORGE CHEN": "YES",
-        "MIKE GERSON": "YES",
-        "JON KAJI": "YES",
-        "SHARON KALANI": "YES",
-        "ASAM SHEIKH": "YES",
-        "BRIDGET LEWIS": "YES",
-        "AURELIO MATTUCCI": "YES"
-      },
-      "year": 2024,
-      "meta_id": null,
-      "video_timestamp": 246,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -994,7 +886,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 1,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -1025,7 +917,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 406,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -1056,7 +948,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 407,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -1087,7 +979,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 264,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -1118,7 +1010,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 265,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -1149,7 +1041,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 267,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -1180,7 +1072,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 4,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -1211,7 +1103,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 5,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -1242,7 +1134,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 7,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -1273,7 +1165,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 187,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -1304,7 +1196,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 189,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -1335,7 +1227,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 3,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -1366,7 +1258,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 1306,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -1397,7 +1289,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 1307,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -1428,7 +1320,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 1308,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -1459,7 +1351,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 143,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -1490,7 +1382,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 145,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -1521,7 +1413,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 3,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -1552,7 +1444,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 264,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -1583,7 +1475,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 265,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -1614,7 +1506,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 256,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -1645,7 +1537,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 3576,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -1676,7 +1568,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 3577,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -1707,7 +1599,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 3924,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -1738,7 +1630,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 3925,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -1769,7 +1661,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 4248,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -1800,7 +1692,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 4249,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -1831,7 +1723,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 436,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -1862,7 +1754,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 437,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -1893,7 +1785,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 127,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -1924,7 +1816,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 50,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -1955,7 +1847,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 2,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -1986,7 +1878,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 340,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -2017,7 +1909,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 4,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -2048,7 +1940,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 106,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -2079,7 +1971,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 107,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -2115,7 +2007,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 38,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -2146,7 +2038,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 23,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -2177,7 +2069,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 59,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -2208,7 +2100,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 1,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -2239,7 +2131,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 2,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -2270,7 +2162,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 1897,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -2301,7 +2193,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 1898,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -2332,7 +2224,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 1899,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -2363,7 +2255,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 1900,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -2394,7 +2286,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 2240,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -2425,7 +2317,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 2241,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -2456,7 +2348,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 2242,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -2487,7 +2379,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 2243,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -2518,7 +2410,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 2244,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -2549,7 +2441,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 2357,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -2580,7 +2472,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 2359,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -2611,7 +2503,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 2361,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -2642,7 +2534,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 704,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -2673,7 +2565,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 3505,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -2704,7 +2596,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 3506,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -2735,7 +2627,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 3507,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -2766,7 +2658,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 3508,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -2797,7 +2689,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 3585,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -2828,7 +2720,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 3586,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -2859,7 +2751,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 3588,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -2890,7 +2782,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 384,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -2921,7 +2813,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 385,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -2952,7 +2844,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 386,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -2983,7 +2875,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 387,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -3014,7 +2906,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 447,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -3045,7 +2937,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 449,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -3076,7 +2968,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 450,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -3107,7 +2999,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 451,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -3138,7 +3030,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 503,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -3169,7 +3061,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 504,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -3205,7 +3097,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 534,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -3236,7 +3128,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 535,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -3267,7 +3159,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 536,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -3298,7 +3190,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 400,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -3329,7 +3221,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 401,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -3360,7 +3252,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 439,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -3391,7 +3283,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 441,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -3422,7 +3314,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 2919,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -3453,7 +3345,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 2920,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -3484,7 +3376,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 934,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -3515,7 +3407,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 142,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -3546,7 +3438,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 143,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -3577,7 +3469,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 48,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -3608,7 +3500,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 49,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -3639,7 +3531,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 6,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -3670,7 +3562,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 1347,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -3700,7 +3592,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 5683,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -3731,7 +3623,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 5717,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -3762,7 +3654,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 5718,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -3793,7 +3685,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 5719,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -3824,7 +3716,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 419,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -3860,7 +3752,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 420,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -3891,7 +3783,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 425,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     },
@@ -3927,7 +3819,7 @@
       },
       "year": 2024,
       "meta_id": null,
-      "video_timestamp": 235,
+      "video_timestamp": null,
       "timestamp_estimated": true,
       "frame_available": false
     }
@@ -4024,9 +3916,9 @@
       "time": "19:00",
       "video_url": "https://torrance.granicus.com/player/clip/14262",
       "agenda_url": "https://torrance.granicus.com/ViewPublisher.php?view_id=2&clip_id=14262",
-      "total_votes": 36,
-      "passed_votes": 35,
-      "failed_votes": 2,
+      "total_votes": 35,
+      "passed_votes": 33,
+      "failed_votes": 0,
       "summary": "The Torrance City Council convened on 2024-01-28 for a regular meeting. The council conducted 37 votes, with 35 motions passing and 2 motions failing. Key agenda topics included: Other Business (13 items), Administrative Matters (11 items), Transportation (6 items), Planning & Development (5 items), Recognition & Proclamations (2 items). Notable actions included: Approved Transit - Approve Contract Services Agreement with Rubber Wh...; Approved ADMINISTRATIVE MATTERS - TRANSIT - Approve Funding Agreement...; Rejected Community Development - Conduct Public Hearing for Land Use .... All councilmembers participated actively, with GEORGE CHEN voting on 37 items. The meeting concluded with standard adjournment procedures."
     },
     "14273": {
@@ -4114,8 +4006,66 @@
       "summary": "The Torrance City Council convened on 2024-01-28 for a regular meeting. The council conducted 14 votes, with 14 motions passing and 0 motions failing. Key agenda topics included: Other Business (9 items), Consent Calendar (2 items), Public Hearings (2 items), Budget & Finance (1 items). Notable actions included: Approved Amending the Torrance Municipal Code by Establishing a Mobil...; Approved Finance - Conduct Public Hearing and Adopt Resolution Author...; Approved HEARINGS: WC-Alliance for Contract Public Works Obligations .... All councilmembers participated actively, with GEORGE CHEN voting on 13 items. The meeting concluded with standard adjournment procedures."
     }
   },
-  "councilmembers": [],
-  "councilmember_stats": {},
+  "councilmembers": [
+    "ASAM SHAIKH",
+    "ASAM SHEIKH",
+    "AURELIO MATTUCCI",
+    "BRIDGET LEWIS",
+    "GEORGE CHEN",
+    "JON KAJI",
+    "MIKE GERSON",
+    "SHARON KALANI"
+  ],
+  "councilmember_stats": {
+    "MIKE GERSON": {
+      "total_votes": 121,
+      "yes_votes": 106,
+      "no_votes": 15,
+      "abstentions": 0
+    },
+    "BRIDGET LEWIS": {
+      "total_votes": 111,
+      "yes_votes": 104,
+      "no_votes": 7,
+      "abstentions": 0
+    },
+    "ASAM SHAIKH": {
+      "total_votes": 5,
+      "yes_votes": 0,
+      "no_votes": 5,
+      "abstentions": 0
+    },
+    "SHARON KALANI": {
+      "total_votes": 111,
+      "yes_votes": 103,
+      "no_votes": 8,
+      "abstentions": 0
+    },
+    "AURELIO MATTUCCI": {
+      "total_votes": 112,
+      "yes_votes": 105,
+      "no_votes": 5,
+      "abstentions": 2
+    },
+    "GEORGE CHEN": {
+      "total_votes": 106,
+      "yes_votes": 106,
+      "no_votes": 0,
+      "abstentions": 0
+    },
+    "JON KAJI": {
+      "total_votes": 111,
+      "yes_votes": 105,
+      "no_votes": 6,
+      "abstentions": 0
+    },
+    "ASAM SHEIKH": {
+      "total_votes": 106,
+      "yes_votes": 103,
+      "no_votes": 3,
+      "abstentions": 0
+    }
+  },
   "councilmember_summaries": {
     "GEORGE CHEN": {
       "summary": "Chen serves as mayor of the Torrance City Council. Mayor George Chen serves as the presiding officer of the Torrance City Council, bringing leadership and vision to city governance. Demonstrates strong consensus-building skills, voting unanimously in favor of all 14 recorded motions. Primary policy focus areas include Planning & Development, reflecting commitment to these key municipal priorities. Key initiatives include City budget oversight, Public safety initiatives, demonstrating proactive leadership in city governance. Learn more about Chen's background and priorities at the [official bio page](https://www.torranceca.gov/government/city-council-and-elected-officials/chen).",
