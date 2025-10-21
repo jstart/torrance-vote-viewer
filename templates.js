@@ -127,7 +127,7 @@ class VoteViewerTemplates {
         return `
             <div class="vote-item">
                 <div class="vote-header">
-                    <span class="vote-agenda-item">${typeof vote.agenda_item === 'object' ? (vote.agenda_item.description || vote.agenda_item.number || 'No agenda item available') : (vote.agenda_item || 'No agenda item available')}</span>
+                    <span class="vote-agenda-item">${typeof vote.agenda_item === 'object' && vote.agenda_item !== null ? (vote.agenda_item.description || vote.agenda_item.number || 'No agenda item available') : (vote.agenda_item || 'No agenda item available')}</span>
                     <span class="vote-result ${vote.result.toLowerCase().includes('pass') ? 'result-passed' : 'result-failed'}">
                         ${vote.result.toLowerCase().includes('pass') ? 'PASSED' : 'FAILED'}
                     </span>

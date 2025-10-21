@@ -774,7 +774,7 @@ class TorranceVoteViewer {
         // Apply text search
         if (searchTerm) {
             votes = votes.filter(vote =>
-              (vote.agenda_item && (typeof vote.agenda_item === 'string' ? vote.agenda_item.toLowerCase().includes(searchTerm.toLowerCase()) : (vote.agenda_item.description || '').toLowerCase().includes(searchTerm.toLowerCase()))) ||
+              (vote.agenda_item && (typeof vote.agenda_item === 'string' ? vote.agenda_item.toLowerCase().includes(searchTerm.toLowerCase()) : (vote.agenda_item && typeof vote.agenda_item === 'object' ? (vote.agenda_item.description || '').toLowerCase().includes(searchTerm.toLowerCase()) : false))) ||
               (vote.motion_text && typeof vote.motion_text === 'string' && vote.motion_text.toLowerCase().includes(searchTerm.toLowerCase()))
             );
         }
