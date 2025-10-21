@@ -144,7 +144,7 @@ class VoteViewerTemplates {
                 ${vote.motion_text ? `<div class="vote-motion-text">${vote.motion_text}</div>` : ''}
                 <div class="vote-links">
                     ${videoDeepLink ? `
-                        ${timestampSource === 'actual' ? 
+                        ${timestampSource === 'actual' ?
                             `<a href="${videoDeepLink}" target="_blank" class="meeting-link">📹 Watch at ${timestamp}</a>` :
                             `<a href="${videoDeepLink}" target="_blank" class="meeting-link">📹 Watch Video</a>`
                         }
